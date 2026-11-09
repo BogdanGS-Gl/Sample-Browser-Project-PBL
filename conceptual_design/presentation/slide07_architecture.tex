@@ -1,0 +1,41 @@
+\begin{frame}[t]
+  \slideheader{05. SYSTEM ARCHITECTURE}{Interaction Pipeline \& Technical Scope}
+
+  \begin{columns}[onlytextwidth, T]
+    % Left Column: Architecture Diagram
+    \begin{column}{0.54\textwidth}
+      \begin{tcolorbox}[standardcard, top=3pt, bottom=3pt]
+        \centering
+        \includegraphics[width=\linewidth, height=3.4cm, keepaspectratio]{images/our_system_architecture.jpg}\par\vspace{0.8mm}
+        {\tiny\textcolor{textdim}{\textbf{System Architecture:} Client UI, YouTube IFrame player, and PostgreSQL metadata backend.}}
+      \end{tcolorbox}
+    \end{column}
+
+    % Right Column: Compact Pipeline & Technical Caveats
+    \begin{column}{0.44\textwidth}
+      % Interaction Pipeline
+      \begin{tcolorbox}[standardcard, top=3.5pt, bottom=3.5pt]
+        {\scriptsize\bfseries\textcolor{textwhite}{Interaction Pipeline}}\par\vspace{1.2mm}
+        \centering
+        {\tiny\textbf{\textcolor{textwhite}{Web UI}} \textcolor{textdim}{$\longrightarrow$} \textbf{\textcolor{textmuted}{Metadata}} \textcolor{textdim}{$\longrightarrow$} \textbf{\textcolor{textmuted}{Timestamp}} \textcolor{textdim}{$\longrightarrow$} \textbf{\textcolor{accentemerald}{YouTube Player}}}
+      \end{tcolorbox}
+
+      \vspace{1.5mm}
+
+      % Implementation Scope
+      \begin{tcolorbox}[standardcard, top=3.5pt, bottom=3.5pt]
+        {\scriptsize\bfseries\textcolor{textwhite}{Implementation Status}}\par\vspace{1mm}
+        {\tiny\textbf{\textcolor{textwhite}{Current:}} Curated acoustic tagging and timestamp metadata.}\\[0.8mm]
+        {\tiny\textbf{\textcolor{accentemerald}{Planned (M2):}} Automated MIR indexing (Essentia classifiers).}\\[0.6mm]
+        {\tiny\textcolor{textdim}{*Note: MIR indexing is planned for evaluation, not implemented.}}
+      \end{tcolorbox}
+
+      \vspace{1.5mm}
+
+      % Honest Disclosure Caveat
+      \begin{tcolorbox}[innercard, top=3pt, bottom=3pt]
+        {\tiny\textcolor{textmuted}{\textbf{Technical Caveat:} Compliant audio ingestion for server-side MIR remains unresolved. No original audio hosting; user clears sampling rights.}}
+      \end{tcolorbox}
+    \end{column}
+  \end{columns}
+\end{frame}

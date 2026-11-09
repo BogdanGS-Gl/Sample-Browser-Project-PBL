@@ -1,0 +1,3522 @@
+
+BETTER SPOTIFY
+7 September 2026
+Мудретс joined group by link from Group
+Никита joined group by link from Group
+18:56
+Andrei Simon
+Photo
+Not included, change data exporting settings to download.
+1280×721, 86.4 KB
+21:38
+Bogdan Glavan
+Hey Andrei, Leonid and Nikita, Im glad we made the team. At least we know one way to contact all of us finally and thats a big win for now.
+I have my own propositions for what the final project should contain but I'll keep it private for the time being, until we have a discussion on what we should do. For now we're just working towards *a* version, not a big finished product. There's also the ELSE course that will be important and in general there's just a lot to keep track of for now.
+I think the right call is to leave this incoming week as a free for all. We all have our own homeworks and we'll keep receiving more and more, so for now we'll take care of our own individual stuff before we settle on a plan. In 2 weeks i'll have more concrete news to share
+
+Thank you all for joining. Let's make this project worth all our time and learn something new from this
+
+I made a github organization where we'll be posting information and stuff in different repositories, please message me your email so i can add you and it'll be easier to collaborate together
+
+Alright good night, im gonna finish DM homework
+21:40
+Tl;Dr please dm me your email and make sure you have a github account
+8 September 2026
+14:49
+Bogdan Glavan
+Ok so from what I understood, we have no DM homework for this following week, I thought I'd suggest this:
+At some point we'll need to get in a meeting and talk about algorithms and how they work. Until then, it would be useful to make a new account on a social media app you use often(not just music related but it can be like Instagram or Youtube) and try to watch some content on that app for a bit every so often.
+14:49
+I think this way we can practically study how some algorithms vaguely work and how they learn from our activity
+10 September 2026
+21:20
+Bogdan Glavan
+Update: I began writing the answers to the PCAS Project Proposal earlier today, but i ended up taking a lot of time writing and re-editing the first 2 questions. Im going to answer the last 2 tomorrow and then share them with all of you guys before sending it in
+❤
+👍
+21:22
+Mihai
+👍
+11 September 2026
+16:29
+Bogdan Glavan
+Idea Background - explain why your research is important for you / domain (education, medicine, economics).
+The first half of the research needed to realize this project helps us understand how sorting and searching algorithms generally work and how to use AI technology to provide accurate, relevant data when given user input. We're interested in pursuing this because it is strongly linked to Software Engineering and, given our curricular program, we believe these studies may increase our chances of survival in the later years.
+The second half of the research involves building website models and UI elements, such as classified lists, search results and product descriptions, which are needed for turning algorithms into practical tools, as well as creating user-friendly experiences. For those of us interested in back-end technology, this is just necessary to study in order to properly plan and test program functionality. For the few of us with experience in designing websites, it helps us understand how to make appealing and informative graphical interfaces.
+Research Question / Problem Statement - describe your problem statement and the question your research aims to answer.
+Many ordinary people use music platforms as a way to quickly find pleasant-sounding music through automatically generated playlists and auto-played suggestions, because manually searching for new music involves research about artists and genres that usually takes long amounts of time and experience of listening to various records. People can miss out on art that they would otherwise remember for years to come, just because it's too time-consuming to find information online that would explain their appeal in a way they could understand.
+The question we aim to answer is this - Can we make a system that makes it quick and easy for casual listeners to find good music that fits their preferences the closest?
+Existing Solutions
+Among the sources and platforms which serve the purpose of finding music include:
+general music platforms for searching songs and browsing curated playlists(Spotify, Soundcloud, Bandcamp), AI playlist generators(ChatGPT's AI Playlist Maker, Spotify's AI Playlist Tool, Chosic AI), review magazines(The Rolling Stone, Billboard, Pitchfork), user-written reviewing and rating sites(AlbumOfTheYear, RateYourMusic) and independent reviewers(The Needle Drop).
+
+** Project Purpose / Objectives -  The practical value your findings will provide. The problems your work can potentially help to fix. **
+Our work consists of creating a website that helps people find favorite songs and albums faster. It does so through an algorithm that recommends the user a list of records matching their written prompt and creates a dedicated page for each respective record, displaying every relevant review, comment, rating or description found online that relates to the original prompt, all in a compact, easy-to-read space. This process makes it simple for music listeners looking to expand their palette, find music fitting of specific events and discover inspirational records they could remember fondly.
+❤
+16:29
+image.png
+Not included, change data exporting settings to download.
+107.2 KB
+16:29
+UPDATE: Ok I wrote everything. Here's the responses I gave on each question. If you want to correct me somewhere you can edit them yourself or just tell me what you don't agree with, im absolutely okay with that and i dont want to say something thats too ambitious or something that sounds weird.
+
+If nobody has anything to comment on the answers, I'll upload the project proposal later today.
+16:35
+For whoever is okay with the project proposal please like this message
+❤
+👍
+20:19
+Bogdan Glavan
+Photo
+Not included, change data exporting settings to download.
+591×1280, 60.6 KB
+20:19
+Ii postat!
+14 September 2026
+17:29
+Bogdan Glavan
+cn6cca @prscr @newgopro
+17:55
+Bogdan Glavan
+EVERYONE OCME BACK
+18:54
+Bogdan Glavan
+@everyone Homework for Wednesday: Read Project Guideline up until Midterm 2 section
+16 September 2026
+11:33
+Andrei Simon
+Guys, if you don't have a team already for the Ethics project, what do you say we use this group for that as well?
+11:34
+We already are a team of 5 and itd save the hassle
+❤
+22:30
+Mihai
++
+❤
+22:31
+Bogdan Glavan
+ce + brat
+22:32
+Никита
++
+❤
+22:32
+In reply to this message
+"de acord"
+22:32
+Bogdan Glavan
+inteleg dar ii funny
+17 September 2026
+21:43
+Bogdan Glavan
+Research Statement
+Spotify's playlists optimize for specificity of mood,
+not meaning. They tell you what a song sounds like, but not why it might matter to you.
+
+what do you guys think of this problem statement for the proposal
+22:01
+Никита
+optimizes only tune of the music but we're gonna place more visual, informative and listening info
+22:02
+i think it's better according to our topic
+22:02
+Bogdan Glavan
+so like focus on making better UI?
+22:04
+Никита
+Just add it to statement
+❤
+22:04
+Somehow
+22:08
+Bogdan Glavan
+Spotify's playlists optimize for the energy and feel of a track but not for how meaningful a track is. As a result, their designs are often plain and uninteresting to click on.
+❤
+22:09
+In reply to this message
+i think the statement has to only be the problem, how we'll fix it is separate
+22:10
+i remember i said something similar to our mentor and maybe thats why she got confused
+22:24
+i went back and forth with claude on patching holes into this idea, but heres what i thought could work
+
+Solution
+Add a "Discover Treasured" Tab with playlists of songs that people marked as their personal favorites. Adding a song to your personal "Treasured" Playlist requires
+attaching a small, private note, guided by a pre-written prompt like "Why is this song good?" / "which place does this remind you of?" to a song of your choosing, after which it saves your
+mark to a song's "treasured" count, which will recommend it to more people
+on "Discover Treasured", where, along with many other people's personal favorites, it is sorted into playlists categorized by genres and listen-count tiers, so niche songs can surface alongside mainstream hits.
+You can both remember which songs meant something to you, and discover songs that became meaningful to other people.
+22:26
+basically, something like a like button, that works as a personal note to keep track of favorite songs, that boosts those songs to a discover tab so you can find other people's favorites and share your own favorites without any complex ranking systems
+22:28
+btw treasured just means favorites, thats how i initially thought of the word in case it sounds silly on paper
+22:31
+and also i know this doesn't address the design part of playlists, but i think it works because a playlist of other people's favorites sounds like a cool idea that i would check out if it was shown to me
+22:31
+im open to criticism tho i just thought we should start somewhere
+22:35
+Mihai
+🥀
+🥰
+22:36
+blea daca tati stim romina hule bazarim pe english?
+22:36
+Bogdan Glavan
+asta te deranja?
+22:36
+Mihai
+prosta intreb
+22:37
+Bogdan Glavan
+blen nush credeam ca daca ii in engleza toti inteleg
+22:37
+Mihai
+hz
+22:37
+Bogdan Glavan
+tradu cu google lens pohui
+22:38
+Mihai
+team inteles
+22:39
+blea apu si fasim nam inteles pina la urma
+22:39
+Bogdan Glavan
+nou project proposal
+22:39
+Mihai
+zini in 2 cuvinte daca poti si fasim
+22:39
+Bogdan Glavan
+In reply to this message
+pana ce asta
+22:40
+o problema buna si o idee rezonabila
+22:40
+Mihai
+apu mai facem huetaua cu AI sau nu?
+22:40
+Bogdan Glavan
+nu
+22:40
+Mihai
+paniatna
+22:40
+tre sa skimb UI sa inteleg
+22:40
+Bogdan Glavan
+1. "poti folosi chatgpt"
+2. cum au zis toti nimeni nare chef sa caute muzica manual
+22:41
+In reply to this message
+homepage care miai aratat la ore ii bun, salveaza-l
+22:41
+dar in termen de design, ma gandesc doar sa adaugam un feature la Spotify, deci UI ii basically spotify
+22:42
+Mihai
+paniatna tipa spotify cu un mic redesign
+22:42
+Bogdan Glavan
+da]
+22:43
+Mihai
+🥀
+❤
+Bogdan Glavan pinned this message
+19 September 2026
+17:54
+Bogdan Glavan
+Ok ne trebuie pana luni o idee de proiect, va rog sa cautati probleme pe care putem sa le rezolvam in platforme de muzica sau in cautarea noilor cantece
+17:54
+Mihai
+Parca ai gasit problema
+17:54
+Bogdan Glavan
+Incerc sa gasesc informatii legate de problema care am mentionato dar ii mult
+17:54
+In reply to this message
+tu crezi in ea?
+17:55
+Mihai
+Blea liubaia sa avem nota prosta
+17:55
+Bogdan Glavan
+chestia ii ca primim nota daca ii bine argumentat
+17:56
+daca ii o problema mai directa ar ajuta mult
+17:56
+ceea ce am scris e bazat pe un fenomen cu putine statistici, nu stiu daca e asa de important in moldova in genere
+20 September 2026
+21:06
+Bogdan Glavan
+Am scris aproape 3 project proposals diferite, 1 cu ideea lui Mihai, 2 cu ideile mele. Maine dimineata il termin pe al treilea. Daca niciunul nu e bun, o sa rog profesorul sa schimbam tematica si lucram la un site de pregatire practica pt examene auto. Seara buna
+21:07
+In reply to this message
+o sa discutam la pauza mare despre fiecare, si inca alte idei care le aveti
+21 September 2026
+14:03
+Bogdan Glavan
+Which idea sounds cool?
+Final results
+- Discovery Playlist rework(with visible likes) 1 vote
+- Play a different version of the current song without changing playlist 1 vote
+- Make default shuffle more random 1 vote
+- Other?
+1 vote
+i wrote project proposals for 3 ideas, we'll discuss them next lesson
+15:18
+Bogdan Glavan
+@everyone eu cu Andrei suntem la etaju 5, veniti sa vorbim despre ce prezentam
+15:30
+In reply to this message
+veniti la etaju 1 la intrare
+15:46
+Bogdan Glavan
+Discover rework.pdf
+Not included, change data exporting settings to download.
+41.8 KB
+15:47
+Random Shuffle.pdf
+Not included, change data exporting settings to download.
+38.1 KB
+15:49
+Version_Menu.pdf
+Not included, change data exporting settings to download.
+39.7 KB
+16:01
+Никита
+pp.md
+Not included, change data exporting settings to download.
+2.8 KB
+17:19
+Bogdan Glavan
+Photo
+Not included, change data exporting settings to download.
+1280×591, 58.9 KB
+17:51
+Bogdan Glavan
+o sa vada mentoru ca toti au plecat, in curand termina de vorbit cu cealalta echipa
+17:52
+cand va scriu sa veniti
+17:56
+vorbim mai intai despre version menu
+22 September 2026
+22:02
+Bogdan Glavan
+https://www.youtube.com/watch?v=7Zsx3rvx-MQ
+28 September 2026
+13:55
+Bogdan Glavan
+Project Proposal 2.pdf
+Not included, change data exporting settings to download.
+63.8 KB
+new project new proposal. This is basically a way to discover new songs through a dual shorts feed, horizontal one for similar songs, vertical one for different songs(from same genre or entirely different) and more
+❤
+13:57
+problem fixed is discovery playlists mainly being unattractive to use and autoplay lacking much user control. Spotify DJ needs words to describe music, and thats actually pretty hard in practice and ruins the flow of playlists
+13:58
+Concept_Art_Slideshow(1)(2).pptx
+Not included, change data exporting settings to download.
+820.3 KB
+and also rough concept art for how it would work, though theres definitely room for more options to be added
+14:12
+Sa discutam la lectia urmatoare ce schimbari adaugam inainte de trimis, cine sa trimita proposal. Acelasi loc ca saptamana trecuta la etajul 1
+15:11
+Bogdan Glavan
+Ok veniti va rog la etajul 1 undes canapelele
+15:11
+100% etaju 1
+15:23
+10 min acus ma intorc
+15:34
+Мудретс
+Photo
+Not included, change data exporting settings to download.
+1280×964, 218.5 KB
+I think here will be better to meet
+❤
+15:34
+Bogdan Glavan
+ok
+15:34
+Мудретс
+It is near Zipshop
+15:34
+Bogdan Glavan
+coming in 10mins
+15:42
+Mihai
+Photo
+Not included, change data exporting settings to download.
+720×1280, 90.6 KB
+16:33
+Bogdan Glavan
+clar
+17:55
+Bogdan Glavan
+Verdict: We're going forward with this idea. later this week I'll rewrite the project proposal to be shorter
+17:56
+Now we just do more research basically
+29 September 2026
+00:46
+Bogdan Glavan
+i think this defines the concept well enough
+00:49
+Photo
+Not included, change data exporting settings to download.
+1080×363, 24.2 KB
+00:52
+Photo
+Not included, change data exporting settings to download.
+1080×409, 28.2 KB
+00:52
+or this
+00:55
+Photo
+Not included, change data exporting settings to download.
+1080×419, 34.0 KB
+23:31
+Bogdan Glavan
+so far, I have this:
+Problem: On music platforms, listening sessions are frustrating to diversify: autoplay is unreliable to redirect, prompts only pay off with thoughtful input, and browsing playlists for something new is hit-or-miss, taking way more time than it’s worth. 
+
+Solution: An app that makes listening sessions more diverse and easy to control by using phone-screen gestures to play similar tracks, switch genres, explore the current song's genre by era and popularity, and sample tracks before committing to a full listen. 
+23:31
+Tomorrow I'll rewrite Idea Background to be shorter but more on-topic, and check Existing Solutions again for errors
+2 October 2026
+22:28
+Bogdan Glavan
+https://docs.google.com/document/d/199JI9AwfeNhI4LdOv3o9pCYw4SXerSI7fhxkuPpigbU/edit?usp=sharing
+Va rog uitati-va la project proposal, am editat multe detalii si vreau sa stiu parerea voastra. Daca aceasta versiune e buna, putem incepe sa facem restul proiectului pentru Midterm 1 impreuna
+❤
+3 October 2026
+16:07
+Bogdan Glavan
+Guys did you read the proposal
+❤
+5 October 2026
+12:19
+Bogdan Glavan
+Proposal asked for benefits not how the app works
+what i wrote instead:
+Our song player helps listeners who feel stuck with auto-play find new music by giving them precise and easy control over their recommendations. Unlike prompt-based tools or discovery menus on music apps.
+But the solution is still the same, just changed for proposal.
+15:15
+Bogdan Glavan
+Pana la urmatoarea lectie va rog cititi din nou project guideline la midterm 1
+15:15
+Acolo spune cum trebuie de scris Solution, Problem Statement, Competitors etc.
+15:15
+poate intrebam mentorii ceva util
+15:39
+Bogdan Glavan
+information needed:
+- What people have this problem
+-Stakeholders involved
+-Why the problem is relevant
+-Why investigate the problem
+-Analyze domain
+-Effects of the problem on the domain
+
+-How our solution works and what problem scenarios it solves
+-Value Proposition(1 sentence formula that explains the solution)
+
+-User personas
+-Hypotheses and questions for potential users
+
+-Comparative analysis(basically done in Existing solutions)
+-Strengths Weaknesses Opportunities Threats table
+17:36
+Andrei Simon
+Bogdan Glavan 28.09.2026 13:58:31
+Concept_Art_Slideshow(1)(2).pptx
+Not included, change data exporting settings to download.
+820.3 KB
+and also rough concept art for how it would work, though theres definitely room for more options to be added
+❤
+17:54
+Bogdan Glavan
+mersi
+18:17
+Bogdan Glavan
+Ok so through this week and next we're researching
+18:17
+First we need to find data for domain analysis
+18:17
+tomorrow I'll make a document with everything i got and summaries on them and we'll discuss
+7 October 2026
+17:21
+Bogdan Glavan
+Photo
+Not included, change data exporting settings to download.
+1280×715, 58.4 KB
+https://www.milanote.com/refer/rcGYyafXb9A7o6CtTU
+17:21
+am creat whiteboard unde sa putem scrie intrebari si sa organizam research
+17:37
+Bogdan Glavan
+Pana pe 12 trebuie sa gasim macar 5-7 surse pentru problem description.
+Pentru asta, va rog adaugati intrebari in whiteboard care sunt legate de costuri de intretinere, profituri, UI features, problemele la utilizatori, dorintele utilizatorilor
+17:37
+Sau generale despre proiect(adica concret sectii din PBL Guideline. Daca cineva vrea sa prezinte un mockup ar fi foarte mult ajutor)
+17:38
+modul de lucru e urmatorul:
+Intrebare la una din teme -> Surse legate de intrebare -> Raspuns
+Si repetam pana gasim 5-7 raspunsuri pentru problem description
+17:39
+dupa problem description restul vom termina mai repede
+8 October 2026
+11:23
+Bogdan Glavan
+https://app.milanote.com/1Xes331arsk85R?p=BLEdrE3Pm9h
+12:15
+Mihai
+In reply to this message
+ba
+12:15
+nui unde stam?
+12:38
+Bogdan Glavan
+suntem afara in spatele cladirii
+12:38
+unde sunt banci
+12:38
+Mihai
+Blea lasa
+12:46
+Bogdan Glavan
+hai vina
+13:47
+Bogdan Glavan
+Photo
+Not included, change data exporting settings to download.
+435×571, 40.3 KB
+am pus niste intrebari care cred ca merita de raspuns cel mai mult, in unsorted la moodboard.
+13:47
+Photo
+Not included, change data exporting settings to download.
+439×854, 74.7 KB
+Bogdan Glavan pinned this message
+13:48
+Bogdan Glavan
+nu inseamna ca trebu de raspuns anume la acestea. Vreau totusi sa le cititi si sa-mi dati pareri. Vrem intrebari bune pentru gasit informatii, nu anume intrebarile mele. Daca aveti idei adaugati in moodboard sau spuneti aici in chat
+20:25
+Bogdan Glavan
+Photo
+Not included, change data exporting settings to download.
+335×280, 22.3 KB
+worth adding or not? It would fix problem of discovery playlists being uninteresting, i think
+20:42
+Мудретс
+In reply to this message
+In any case, we’ll have to tag each track with a large number of labels, so I don’t think it would hurt to include this feature (we can always opt out later). However, many services—including Spotify and VK Music—already have this system in place, and it works very well.
+👍
+20:45
+Bogdan Glavan
+In reply to this message
+i didnt check out vk music, but does it let you add tags on top of the current queue to change recommendations?
+20:46
+i onow on spotify it doesn't work that way, you have to specify what you wanna listen to before you form a queue. And inside the queue you can't influence it with tags
+20:51
+Мудретс
+In reply to this message
+In VK, music tags are implemented via "vibes". You can apply new vibe characteristics to a configuration you’ve already selected, combining them and observing how the results change, and so on.
+20:52
+In reply to this message
+Spotify has tags too, but they operate under the hood of the recommendation system. You can't manage them directly, but they are almost certainly highly complex.
+❤
+21:04
+Bogdan Glavan
+In reply to this message
+i wanna see that but vk doesnt let me add phone number outside of russia for some reason
+21:09
+i need to pay 500 ruble to join vk music bro
+21:11
+Мудретс
+In reply to this message
+I have an account without a Russian phone number.
+21:11
+In reply to this message
+It must be free
+21:12
+Are you creating an account directly in VK Music?
+21:12
+Bogdan Glavan
+Photo
+Not included, change data exporting settings to download.
+591×1280, 58.1 KB
+21:12
+i logged in with my old account and it sends me here anyway so i dont know
+21:13
+Мудретс
+It’s just an offer to sign up for a subscription I think; there should be a way to decline it somewhere.
+21:13
+Bogdan Glavan
+maybe you could show me tomorrow how it works if you have the app
+21:14
+In reply to this message
+it shows it in home tab and if i try to access in google play it doesnt open
+21:20
+Мудретс
+That's strange; I downloaded it and everything's fine. Where did you download VK Music from?
+21:23
+Bogdan Glavan
+i tried in google play and it gives an error so im trying rustore
+21:27
+Мудретс
+Then I don't know why
+❤
+21:58
+Мудретс
+I have an idea to include in out project an AI - it is on everyone's lips, so it would likely be a plus if we described its use.
+
+Automated track generation based on music theory and inspired by the Guangzhou fragrance museum: preferred musical elements—such as chords, progressions, tempos, rhythms, keys, and other characteristics—are identified from the user's favorite music, and generative AI is used to create the most suitable tracks for this person.
+
+I’m no expert on the subject, but based on what I’ve read, music theory has already done the heavy lifting for us. It turns out that creating music—without aspiring to genius—is a trivial task. There are already off-the-shelf, highly customizable local models available (using specific parameters like chords, progressions, tempos, rhythms, keys, and the like)—for instance, musiclang-chord-v2-4k (https://huggingface.co/musiclang/musiclang-chord-v2-4k) or others.
+
+The challenge lies in breaking down a specific piece of music into these characteristics and devising an algorithm that—based on the tracks listened to and their attributes—identifies the optimal characteristics for an "ideal" track. Since we have to solve the first part of the problem anyway (we certainly wouldn't want to manually tag thousands or tens of thousands of tracks), we can address both issues simultaneously; as for the second part, the choice of algorithm is limited only by our imagination—we could simply calculate the average across all attributes, find the mode, or even employ an LLM.
+
+In any case, we’ll need to discuss this, and perhaps ask the mentor on Monday.
+22:14
+Мудретс
+I’ve also gathered a large number of Spotify reviews from Google Play (https://drive.google.com/drive/folders/10UWoo67ZqeqkpcXbPOyWjgjDLScRzjVp); tomorrow I’ll tag them and compile statistics on what bothers people the most.
+❤
+22:16
+To create a superior version of Spotify, we need, I think, to focus on niche yet high-quality music—there is a vast amount of it out there to suit every taste, yet it is missing from Spotify. In this regard, VK Music is miles ahead: there is absolutely no censorship, and the range of music is limited only by copyright restrictions (people even upload lectures by Dugin there).
+
+Furthermore, our project must be completely free for the user (otherwise, we wouldn't be able to give a solid answer to the question of how we intend to lure users away from Spotify and similar services). It could include ads—after all, the project needs a way to sustain itself, and I suspect this will be a topic the mentors raise during the midterm review, given that a viable project cannot exist without revenue.
+
+The project’s key selling point—the unique feature that sets it apart from competitors—should be a music recommendation and search system that is customizable (offering either deep or superficial control, depending on user preference), efficient, user-friendly, and free from excessive micromanagement. It should help users find music they will enjoy without requiring specialized knowledge of genres or even a clear idea of ​​exactly what they are looking for. Bogdan has already addressed this in the proposal and on the project board and we talked about it a lot.
+❤
+22:33
+Bogdan Glavan
+Photo
+Not included, change data exporting settings to download.
+591×1280, 54.5 KB
+is this the feature
+22:38
+In reply to this message
+its an idea that is controversial but at the same time could work for different kinds of people
+
+using attributes liked from previous songs to create an ideal new track is a good way of optimizing ai music creators, so if the solution cant be covered by any song the user finds, technically it can help
+We'll ask the mentor about it, if it has potential its worth considering
+❤
+22:40
+Right now im only thinking about optimizing how users discover artist made music because the problem can be directed at the artists themselves. Like due to this flaw in design, many underground artists that could resurface simply dont, and people need to hear about them first to know them, even if they might like their kind of music already
+22:42
+As for listeners, they generally have less to lose. There's plenty of people who can't find new music effectively and they don't see a problem with it. However if the system favored niches and made them easily accessible, it could help artists in the long run. Thats my theory right now
+22:45
+In reply to this message
+For 2nd paragraph - we can suggest it as an improved design layout that apps could implement, but we'd only test for how users interact with it and test results. If instead we take it as an app, then the ads are a good idea. I was thinking maybe limits on how long to use the app for discovery, but ads is easier to implement and overall decent
+❤
+Bogdan Glavan pinned this message
+22:46
+Мудретс
+In reply to this message
+At the very least, we need to use AI to preprocess every track—much like Spotify and VK Music do. A neural network would analyze the audio, extract key characteristics, and apply appropriate tags based on our recommendation and search algorithms.
+❤
+22:47
+Bogdan Glavan
+yeah especially because of API restrictions and Spotify basically locking everyone else out of using their service
+❤
+22:51
+Мудретс
+Yes. And besides, Spotify music labeling is based on Spotify own needs and it probably will not suit us.
+❤
+11 October 2026
+00:17
+Bogdan Glavan
+Photo
+Not included, change data exporting settings to download.
+832×417, 24.8 KB
+Update:
+I remade the solution design altogether. It serves the same purpose, but its more revolved around the graph recommendations mechanic and it works smoother, i think.
+Also a document containing research that will help us the most with given reasons as to why.
+I tried writing Problem Description, for the most part it works, but I need to research and make adjustments, so it won't be ready by Monday, but probably Tuesday.
+00:17
+you can check both out on the whiteboard. Link pinned above
+00:20
+The reason why i changed the solution is because you can already explore genre tag recommendations on Spotify, and the new things added dont make it original enough to fix the initial problem. Instead, i thought it'd be better to make song tags influence algorithm recommendations if you select them, and have them be visible from the song itself if you scroll down for info.
+00:20
+(This time i promise the redesign isnt already on another app)
+09:49
+Мудретс
+@bogdan8064 We shouldn't aim to create the opposite of Spotify—where none of Spotify's features exist on our platform and vice versa (no one would use such an app)—but rather a *better* Spotify. A tag-based search system (covering genres, artists, eras, etc.) is a standard feature among major players in the audio hosting industry for good reason. There is no need to strive for originality in every single aspect—that usually ends badly; it is enough to introduce just one or two unique features on top of the functionality users are already accustomed to.
+❤
+10:49
+Bogdan Glavan
+In reply to this message
+if its a new platform then yes but what if we suggest it as just a new feature?
+10:55
+Мудретс
+Our topic is the BETTER SPOTIFY, not a Spotify extension. Besides, we need tagging anyway—I’ve already written about this—so why deliberately cut out functionality? People don’t listen to music in two apps at the same time. To get a user to switch away from Spotify, our product has to handle 100% of their routine daily tasks while also offering that unique, original functionality. No one is going to move their library to an app that only does the things Spotify refuses to do.
+11:03
+Bogdan Glavan
+In reply to this message
+i also think we need tagging, the new idea is how we can use it to change recommendations
+good point on the topic of the project, i think if we advertise it as just an extension on a music platform it would cause problems with which platform, how to introduce the extension, etc., and if it's just a design, they might criticize us on the practical uses
+If we decided to go on making a new app, then it would include standard functionality found on other platforms like Spotify(homepage, search engine, the ability to queue music, a big library of music etc.), but also improvements on how some functions work on other apps
+What those improvements are is up to us to decide, i think it would be a good idea if we made a tag-based recommendation controller because it would be a direct upgrade to how tag feeds work on Spotify(you can only browse one tag at a time, you can't save multiple tags to make your own song mixes for faster searches)
+11:06
+If we ignore originality and accept the last design, it would also be a direct upgrade due to a simpler UI that does the same things but without exiting song playback and switching to different menus(In spotify you have to do that to explore new songs)
+17:59
+Bogdan Glavan
+https://accelareader.com/ if anyone is reading research i recommend this
+20:39
+Bogdan Glavan
+https://docs.google.com/document/d/17A9L-hWC15CHJ9slnpeIjbksYQP_rsd1DVS2-BJ0aTA/edit?usp=sharing i made a project report document, some points on what to include in Domain Analysis, everyone can edit
+Bogdan Glavan pinned this message
+12 October 2026
+02:30
+Мудретс
+proposal.md
+Not included, change data exporting settings to download.
+47.6 KB
+❤
+02:30
+proposal_full_en.md
+Not included, change data exporting settings to download.
+269.2 KB
+02:30
+team_proposal_en.md
+Not included, change data exporting settings to download.
+49.1 KB
+02:30
+cross_platform_benchmark.json
+Not included, change data exporting settings to download.
+8.6 KB
+02:30
+cross_platform_benchmark.md
+Not included, change data exporting settings to download.
+6.9 KB
+02:39
+short_proposal.txt
+Not included, change data exporting settings to download.
+7.8 KB
+❤
+Bogdan Glavan pinned this message
+09:06
+Bogdan Glavan
+@Misha192 Andrei @prscr cititi va rog short proposal
+10:50
+Мудретс
+All I did was take everything we had come up with, feed it into Gemini, and ask it to identify vulnerabilities, predict potential questions from the mentors, and draft answers to them.
+10:51
+Bogdan Glavan
+its still way better than what we had before
+10:51
+theres still inconsistencies but now we can criticize and fix them with sources rather than having a blank page
+11:07
+Bogdan Glavan
+I chatted with Claude on the artist economy aspect of Spotify and found a argument we could use. I understood the one in the report as suggesting a new economy model to replace how Spotify's works, but i think the way artists are paid through revenue pools is good enough and problems come from which artists get the most streams for revenue, since the algorithm is responsible for 1/3 of song placement in user listening queues
+11:09
+its like, yeah, the artists who get most streams in a certain pool do deserve increased payouts, but if thats because the algorithm recommended them to users more often than users wanting to listen to them, then the users' favorite artists lose revenue because they're pushed less often in the algorithm
+11:10
+so then there's our solution, which makes recommendations more controllable by users, so the artists getting recommended are those the users like more, rather than the ones the algorithm already favors
+11:11
+what do you guys think
+11:42
+Bogdan Glavan
+Streaming payouts are distributed pro-rata: a fixed share of revenue divided by each rightsholder's share of total streams (Spotify for Artists). A substantial share of listening is recommendation-guided, so a comparable share of that pool is allocated by placement rather than by deliberate choice. Spotify's own research finds that organic listening is almost always more diverse than algorithmic listening, and that users who grow more generalist move away from algorithmic listening (Anderson et al., WWW '20) — though the authors caution the relationship may not be causal. Placement is decided by interaction history rather than by any description of the music, and because collaborative filtering operates on a matrix in which over 95% of user–item associations are empty, only items that already have listening data can be effectively recommended (Carnovalini et al., 2025). On Radio and Autoplay specifically, Spotify's Discovery Mode lets artists accept a reduced royalty rate for increased likelihood of placement, an arrangement US legislators compared to radio payola in 2021. The effect is not simple homogenisation: a randomised experiment on 853,000 Spotify users found personalised recommendation raised engagement by 28.90% while reducing individual diversity by 11.51% and increasing diversity across listeners by 5.96% (Holtz et al.). What the evidence does establish is that the surfaces allocating the largest share of unchosen listening operate on a representation the listener cannot see, name, or steer
+11:58
+Мудретс
+That’s essentially what was in the proposal I sent. The key difference is that our app foregoes micro-royalty payouts—which involve negligible earnings from very few streams—in favor of offering creators closer audience engagement. We provide features like direct, unadulterated links, a donation system, and a content monetization platform where fans can subscribe to a creator for exclusive content, similar to Boosty.
+11:59
+Otherwise, you seem to have restated my proposal.
+❤
+12:01
+In reply to this message
+This is the most complete version; I don't recommend reading it (3,000+ lines)—it's intended more for AI.
+❤
+12:02
+In reply to this message
+This is the version for our team.
+❤
+12:04
+In reply to this message
+Our final version will look something like this. I got the idea from another team.
+12:06
+In reply to this message
+The last two files contain the results of an analysis of reviews for five apps: Spotify (500,000 reviews analyzed), SoundCloud (500,000 reviews analyzed), YTM (100,000 reviews analyzed), Apple Music (100,000 reviews analyzed), and Deezer (100,000 reviews analyzed).
+12:07
+The analysis of reviews has not yet been completed (it is not entirely accurate yet, I will improve the quality), but it already gives approximate answers to our questions
+❤
+12:11
+In reply to this message
+And this is the short version for filling out the proposal form from the else.
+12:12
+But now I think it should be shortened a bit more.
+12:13
+Bogdan Glavan
+In reply to this message
+we need to ask if we have to match the proposal to the current report, cause from last time they said to just gather research and stop focusing on it. Regardless thank you so much for the work
+❤
+12:20
+Мудретс
+Also, I tried manually generating a track based on four Summoning songs (which ties into my idea about generating personalized audio; you can read about the conclusion Gemini and I reached regarding this in the proposal_full)—meaning it wasn't fully automated, even though generation scripts already exist. I have to say, you hardly even need AI for it; the process is very fast (generating a minute of audio takes just a second), and the result is actually pretty good. Although there are some issues—like the same progression looping over and over, and the final track not sounding exactly like Summoning—I only started trying this yesterday, and I was pleased with the results right out of the gate.
+12:20
+stage3_final_master.wav
+Not included, change data exporting settings to download.
+103.5 MB
+15:58
+Bogdan Glavan
+What if during the presentation we start with the flaws of algorithm recommendation related to Spotify's revenue sharing and transition into describing how stuff like Deezer Flow and Spotify DJ changed that dynamic and what they fall short of?
+15:58
+Like directly going into competitors from the initial problem
+15:59
+and afterwards we present the rest of the parameters, like people's complaints about recommendation and how they tend to ask for control from recommenders
+16:00
+and then our solution, SWOT
+16:27
+Мудретс
+That may be, but I don't think the order in which we arrange the information is particularly important at this stage; what matters more is the information itself. We can discuss the layout and transitions when we put together the final presentation.
+❤
+16:28
+Bogdan Glavan
+fair point, i guess i mean more like, what information do we prioritize first before filling out the rest, because we'll present only a limited amount of aspects of our project
+16:32
+Мудретс
+It is better to present a bit of everything—covering all bases—so that if mentors ask follow-up questions, we will have answers ready. It would be a mistake to focus heavily on certain aspects while glossing over or omitting others—for instance, by detailing the flaws of Spotify and other apps with extensive evidence, only to skim over the mechanics of our own solution, or by going into great technical detail while barely touching upon the design.
+❤
+17:09
+Bogdan Glavan
+https://docs.google.com/document/d/159Vt-nfBEJeVpTc123WI-NsTqEQxF5yv2Ty6M1iQBqs/edit?tab=t.0 forgot to attach document with research. Heres some important things to read
+17:23
+Mihai
+Sticker
+Not included, change data exporting settings to download.
+💩, 13.1 KB
+17:24
+Никита
+Sticker
+Not included, change data exporting settings to download.
+🖥, 22.5 KB
+❤
+17:26
+Mihai
+Sticker
+Not included, change data exporting settings to download.
+🧰, 16.2 KB
+17:29
+Мудретс
+report_en.md
+Not included, change data exporting settings to download.
+15.6 KB
+17:45
+Мудретс
+https://cargo-busybody-amino.ngrok-free.dev
+17:52
+Никита
+Sticker
+Not included, change data exporting settings to download.
+👓, 19.1 KB
+❤
+17:54
+Mihai
+Sticker
+Not included, change data exporting settings to download.
+😟, 18.5 KB
+19:36
+Bogdan Glavan
+This whole problem started when I looked at this homepage and thought "nobody is going to click on anything on there"
+19:36
+Photo
+Not included, change data exporting settings to download.
+591×1280, 99.9 KB
+19:36
+im gonna try to check if this is a problem
+21:14
+Bogdan Glavan
+Problem Statement: Homepage playlists don't help you find out what music you're in the mood for. If you're looking for new music to listen to, you have to click on various vaguely-labelled songs, and any good find is isolated, it doesn't come with a queued list of music that fits the same vibe.
+22:34
+Bogdan Glavan
+When you’re in the mood for new music, homepage playlists don’t help you work out what you’re actually after and finding something good means starting the search over to get more like it.
+22:35
+This is the one the AI said is refined, but its not a common problem, its something that affects people on occasion, and it doesn't include those who just use Spotify for playing back music. For personal cataloguing, Spotify is already pretty good at it, but when it comes to finding new music, things should improve, and we have many new features appearing in 2025-2026 to show that, but we also need proof that people want the issue to be fixed
+22:36
+If anyone could find evidence that supports the problem directly, or to show tests on Spotify which prove how much recommendations can vary compared to initial tracks, it would help
+22:37
+otherwise, the biggest most-asked-for problem on Spotify is related to lack of features for free version, and thats just not something we could fix. If we're going after direct features, that would make for a good problem
+13 October 2026
+13:10
+Bogdan Glavan
+When you like a song, there's no way to point at what you liked about it. To ask for more, you'd need to already know what it's called.
+13:11
+We can make not an app that recommends similar music, but a tool that shows you every musical aspect about a song, what its called, and recommends similar music to it online based on specific qualities, without playing the songs themselves.
+13:12
+This way we avoid labelling problems, but we make it fully about matching audio input to tags
+13:12
+thats just an idea i have but i know its controversial
+17:05
+Bogdan Glavan
+Ok so one thing i found
+PBL projects aren't supposed to be original, they can be about something with existing solutions. When they ask us "Why cant you just use X for this" we have to counter with what X fails at and why. Not pivot
+17:06
+so if we make a problem statement, it can be something already solved by Spotify. But if we can point at what the solution falls short on(eg. its too slow, people rarely use it etc.) we can argue it
+17:06
+Andrei Simon
+Thats pretty much the point of the existing solutions section
+17:06
+Bogdan Glavan
+it is
+17:07
+so we can say recommendations suck most of the time only if we can prove that, or we can say discovering new music is uninteresting due to the UI and how rarely you find good songs on there.
+17:09
+so we need to find sources to prove they dont work well, and also give our own accounts. I'll sample recommendations from Discover Weekly and Song Radios and take note of how many out of 100 match the initial track, or how varied in quality each suggestion is
+17:10
+https://arxiv.org/html/2408.06201v1
+17:11
+iconf2024-if-you-like-blank.pdf
+Not included, change data exporting settings to download.
+1.2 MB
+17:11
+some sources that can help. The first is about r/ifilikeblank which is relevant
+14 October 2026
+19:50
+Bogdan Glavan
+Music Discovery by Moments — PBL Project Report.md
+Not included, change data exporting settings to download.
+53.5 KB
+Problem: When you like a part of a song, but you don't know how to describe it, you rarely find more songs that match the exact same vibe.
+
+Solution: A website where people can label the connection between 2 similar parts of 2 different songs with tags, so that people who look for recommendations can specify what they want more of.
+
+I was trying to find what could realistically be done with a spotify/discovery themed idea, and i think we can make a website for it, and we don't have to worry about licensing.
+19:52
+It's a site like Genius where people leave descriptions and others find them based on what songs theyre interested in, and every result just plays back a link of the song from a music platform like youtube or apple music.
+19:53
+The kinds of people who would tag song connections are hardcore music fans, while those who look for the connections are people who want good recommendations
+20:04
+Mihai
+Photo
+Not included, change data exporting settings to download.
+720×1280, 117.0 KB
+20:04
+Stai ca scot macu si fac research
+❤
+20:05
+Bogdan Glavan
+cica nu se duce la concerte
+❤
+20:54
+Bogdan Glavan
+Music Discovery by Moments — PBL Project Report(1).md
+Not included, change data exporting settings to download.
+53.7 KB
+*updated
+15 October 2026
+12:30
+Bogdan Glavan
+Problem: When one part of a song catches your interest, music apps can’t find more songs like that part. They only give you more of the same general sound.
+Supports the problem
+- Afchar et al. 2022, Explainability in Music Recommender Systems: users show “a substantial demand… to receive explanations for why certain items have been recommended to them,” and black-box systems make bad recommendations hard to understand.
+- Last.fm API: track.getSimilar: similar tracks are “based on listening data,” with no reason given.
+- Palumbo et al. 2025, Text2Tracks (Spotify): Spotify’s research on typed requests worked best when songs were identified from listening data rather than sound.
+- YouTube Blog: Samples (2023): a feed of short clips with no explanation of why a clip is shown.
+- Cao & Bogers 2024:
+- 70% of music requests point at example songs, and 3.4% name a genre.
+- Explanations were rare even in human answers.
+- Human and Spotify recommendations for the same songs barely overlapped (0.000281).
+- r/ifyoulikeblank had 944,629 subscribers in April 2023.
+- Bhuiyan et al. 2024: “Not sure if there is a name for this style,” a poster pointing at “0:32 second,” and “Spotify is no longer capable of helping finding similar songs.”
+- Lee et al. 2020: music similarity “depends on multiple simultaneous notions of similarity (i.e. genre, mood, instrument, tempo).”
+- Flexer 2014: human judges’ similarity ratings correlated at only 0.37 to 0.43.
+- Spotify Newsroom: DJ voice requests (2025): DJ handles “genre, mood, artist, or activity-related requests,” and none of Spotify’s examples describe a part of a song.
+
+Narrows the claim
+- Music Discovery Dialogue Generation (2024 preprint): people asked by artist (43%) and genre (17%), and by instruments, vocals or tempo about 1% each.
+- MBW: SongDNA (2026) and Wikipedia: WhoSampled: Spotify already labels some connections between songs (samples, covers). The claim has to be about how songs sound alike.
+- Cyanite: Similar song finder and Epidemic Sound: business tools already point at matching parts of songs. The claim has to be about listener-facing apps.
+- Harris Poll 2021: about four in five US listeners favour music they’ve heard before, so the problem is occasional.
+- Ithaca College and Cornell study: no popularity bias was found in Spotify, Amazon Music or YouTube Music recommendations.
+Mixed: use with a caveat
+- Millecamp et al. 2019: explanations of music recommendations raised some listeners’ confidence, lowered others’, and had no significant effect on trust (71 participants).
+- User Experience with LLM-powered Music Recommendation, diary study (2025): explanations helped people put their taste into words, but trust dropped when an explanation didn’t match the song.
+- Herlocker et al. 2000, in Jannach et al. ch. 6: the style of an explanation changed whether people followed a recommendation, and poorly designed explanations reduced it.
+- Bannister & Eerola 2018: strong reactions to music come at specific moments of change, such as new harmonies, dynamic shifts and new instruments entering. This supports the focus on one part of a song, not the labelling itself.
+- Baranes et al. 2026 (preprint): language models “capture explicit descriptors but struggle with context-dependent ones.”
+- TechCrunch: Spotify Prompted Playlists (2025): Spotify now adds “descriptions and context so you know why” to these playlists. That confirms the need, but shows the gap is closing.
+12:30
+dont download the pdf i dont know why its there
+19:12
+Bogdan Glavan
+@everyone we don't need to decide today, but what do we do for PBL? We still need a solid problem to fix, i wanna hear your opinions
+20:10
+Мудретс
+
+    Нам нужно серьезно сократить целевую группу пользователей. Для более чем 90% аудитории Spotify (у которого 777 млн пользователей) он предоставляет все нужные функции: как плеер он хорош, алгоритмы рекомендаций подходят для абсолютного большинства, а реальный процент оттока у него один из самых низких на рынке (~1.5–2% в месяц, тогда как наши 24.3% из отзывов Google Play оказались просто ошибкой выжившего). Для большей части из остальных 10% слушателей, которых не вполне устраивает его функционал, уже существует море альтернатив: глубокий контроль за алгоритмами рекомендаций нужен совсем узкой прослойке ($\ll 1\%$), а большинство из тех, кому он нужен, вполне удовлетворяют свои потребности за счет настройки потока по вайбам и тегам в VK Музыке, Яндекс Музыке («Моя волна») и Deezer Flow Tuner, либо ищут инди бесплатно через SoundCloud First Fans и Bandcamp.При этом мы не можем сделать плеер с просто улучшенными алгоритмами поверх Spotify, потому что в ноябре 2024 года он навсегда закрыл доступ к API Audio Features и Recommendations (а в феврале 2026 урезал тестовый режим до 5 юзеров), поэтому из легальной облачной музыки у нас будут только бесплатные открытые базы вроде Jamendo и FMA с ~750 тысячами не самых востребованных треков (тогда как на стримингах их 253 миллиона). Наша тема заведомо предполагает, что какую бы нишу мы ни взяли, у нас будет либо куча состоявшихся огромных конкурентов, либо совсем немного слушателей на большие расходы серверов — ведь если поддерживать тяжелые БД, крутить вычисления на бэкенде и гонять трафик при маленькой базе юзеров, это никогда не окупится, и придется кое-как держаться на пожертвованиях, рекламе или завышенных ценах (ровно поэтому в 2022 году закрылся AcousticBrainz, а у Roon подписка стоит $14.99/мес).
+
+20:10
+
+    We need to significantly narrow down our target user group. For over 90% of Spotify’s audience (which totals 777 million users), the platform already provides everything they need: it functions well as a player, its recommendation algorithms suit the vast majority of users, and its actual churn rate is among the lowest in the market—roughly 1.5–2% per month (our previously cited 24.3% figure, derived from Google Play reviews, turned out to be a classic case of survivorship bias). As for the remaining 10% of listeners who aren’t entirely satisfied with Spotify’s features, there is already a wealth of alternatives available. A need for granular control over recommendation algorithms exists only within a very small niche (well under 1%); most people who desire such control can already satisfy their needs by curating streams based on "vibes" or tags—using tools like VK Music, Yandex Music’s "My Wave," or Deezer’s "Flow Tuner"—or by discovering independent music for free via platforms like SoundCloud’s "First Fans" or Bandcamp. Furthermore, we cannot simply build a player with "improved" algorithms on top of Spotify; in November 2024, Spotify permanently closed access to its Audio Features and Recommendations APIs (and by February 2026, it had restricted the test mode to just five users). Consequently, the only legal, cloud-based music sources available to us would be free, open-access databases like Jamendo or FMA, which contain only about 750,000 tracks—most of which are relatively obscure—compared to the 253 million tracks found on major streaming services. The nature of our subject matter inherently implies that, regardless of the niche we choose, we will either face a multitude of well-established, massive competitors or encounter a situation where the audience is too small to justify the high costs of server infrastructure—after all, maintaining complex databases, running backend computations, and handling data traffic for a limited user base is simply not economically viable. In such cases, one is forced to scrape by on donations, advertising, or inflated pricing (which is precisely why AcousticBrainz shut down in 2022, and why a subscription to Roon costs $14.99 per month).
+
+❤
+20:21
+Bogdan Glavan
+In reply to this message
+so either we lay down and die or we make something for the 1% ig
+20:22
+Мудретс
+We’re ruling out the first option, I think)
+❤
+20:24
+Bogdan Glavan
+well i think ill do research on sources i found after alga test and hopefully get some conclusions, and if all else fails at least we have a backup problem and solution
+20:27
+Мудретс
+The industry underwent major changes after Spotify shut down its API. A great many research projects—such as "Every Noise at Once" and others—were forced to close; these projects had helped improve search algorithms and enabled various other impressive features. There’s an opportunity to capitalize on this—Spotify effectively wiped out an entire niche.
+❤
+20:27
+Bogdan Glavan
+That means theres relevancy
+20:41
+Мудретс
+In reply to this message
+
+    "1 percent" is a significant exaggeration. In reality, the number of users who find existing search and recommendation algorithms inadequate is far, far smaller. We face a dilemma: in-depth manual curation of recommendations and support for non-commercial music appeal only to a very narrow niche (well under 1–2% of the market). If we were to build a traditional cloud-based streaming service—complete with our own servers, databases, and a heavy backend—for this handful of users, we would inevitably go bust due to the costs (this is precisely why the AcousticBrainz project shut down in 2022). Here is what we should actually do (this is not just a concept or a proposal):
+    1) Honestly acknowledge the niche nature of the project (~1% "power users"): We must be clear with our mentor that we are not competing with Spotify for the mass market; rather, we are addressing the fragmentation problem faced by a specific, narrow group. This group might include, for instance, users who maintain personal offline music archives (FLAC files, Bandcamp downloads, soundtracks) or those who search for obscure indie music using acoustic tags—a niche that has been almost entirely hollowed out (especially following the split between Plexamp and TIDAL in October 2024; leaving aside the "vibe-based" search features found on platforms like VK, Yandex, or Deezer, this space is now largely empty). Even so, it is not certain that this group is small enough.
+    2) Cut server costs to near zero (by adopting a "local-first" or client-side architecture): To ensure the project remains economically viable with a small user base—much like Poweramp or Symfonium—we should shift all resource-intensive computation from the servers to the user's own device. Furthermore, we can provide access to the Jamendo/FMA database as an open, legal sandbox for music discovery, without incurring the costs of hosting the music files ourselves. 3) Frame potential weaknesses as testable hypotheses (I’ve seen this done in another team’s proposal—they openly acknowledged that their intended approach had been tried before and failed, while also noting that many similar, successful projects already exist). Instead of promising an "industry killer," be transparent about risks—such as a limited music catalog or questions regarding monetization (subscriptions vs. one-time purchases/donations)—by including them in your validation and risk assessment sections.
+    4) We either need to host the music ourselves or integrate with an API—though that carries the risk that the provider could cut off access (a trend that seems to be emerging). Alternatively, we could pursue a hybrid approach—doing both.
+
+20:42
+
+    1 процент - сильное преувеличение. В действительности пользователей, которым не вполне хватает существующих алгоритмов поиска и рекомендаций намного и намного меньше. Вилка, в которую мы попали: Глубокий ручной контроль рекомендаций и работа с некоммерческой музыкой нужны узкой нише ($\ll 1\text{–}2\%$ рынка). Если мы будем строить для этой горстки людей классический облачный стриминг со своими серверами, БД и тяжелым бэкендом — мы гарантированно прогорим на расходах (именно так в 2022 году умер проект AcousticBrainz). Вот что точно стоит сделать(это не концепция и не пропосал):
+    1) Честно признать нишевость ($\sim 1\%$ Power Users): Сразу сказать ментору, что мы не конкурируем со Spotify за масс-маркет, а решаем проблему фрагментации у узкой группы. Этой группой, например, могут быть те, кто совмещает личные офлайн-архивы (FLAC, Bandcamp, OST), поиск редкого инди по акустическим тегам (особенно после разрыва Plexamp и TIDAL в октябре 2024; эта ниша, если не учитывать поиск по вайбам в ВК, яндексе и дизере, почти полностью вычищена). Но не факт, что даже эта группа достаточно маленькая.
+    2) Срезать расходы на серверы почти до нуля (Local-First / Client-Side архитектура): Чтобы проект сходился по экономике на малой аудитории (как выживают Poweramp или Symfonium), мы переносим все тяжелые вычисления с серверов прямо на устройство пользователя, а базу Jamendo/FMA подаем честно как открытый легальный полигон для поиска без затрат на собственный хостинг музыки.
+    3) Подать слабые места как проверяемые гипотезы (я видел такое в пропозале другой команды - они открыто признали, что то что они хотят сделать уже было и закончилось крахом, а похожих проектов много и они состоялись): Не обещать «убийцу индустрии», а честно вынести риск маленькой базы треков и вопросы монетизации (подписка vs. разовая покупка/донаты) в разделы валидации и рисков.
+    4) Нам надо либо держать музыку у себя, либо подключиться к какому-нибудть АПИ и надеяться, что предоставляющая доступ компания не отключит его как спотифай(тенденция как будто бы есть). Или делать и то, и то.
+
+17 October 2026
+14:42
+Bogdan Glavan
+Problem Statement: Finding songs that share what you like about a song isn't as fast or easy as it should be, because recommendations need your listening history and search needs musical words you may not know.
+14:54
+1. Spotify: Understanding recommendations: what Spotify says its recommendations use. Audio analysis isn't listed, paid boosts are, and every search, skip and save updates your taste profile.
+2. Spotify: DJ takes requests (May 2025) and TechCrunch: Taste Profile (Sept 2026): in-the-moment steering exists, but only by broad categories.
+3. Cunningham, Bainbridge & McKay (2007): passive versus active discovery, split by whether the listener was looking.
+4. Bhuiyan et al. (2024) and Cao & Bogers (2024): why people ask humans, how they describe songs, and how well r/ifyoulikeblank answers.
+5. Kim & Belkin (2002): how non-experts describe music.
+6. Kandpal et al. (2023) and Epure et al. (2025): why language models struggle with obscure songs.
+7. Chmiel & Schubert (2017): why people tire of their favourites.
+15:25
+Мудретс
+In reply to this message
+
+    The vast majority of people do not seek out music themselves. They rely on recommendation algorithms or stumble upon new tracks while using TikTok (according to the 2025 TikTok & Luminate Report, 84% of chart-topping tracks first go viral on TikTok). Spotify and other major platforms fully satisfy their needs.
+    Those who curate their playlists more carefully are generally content with the tools provided by Spotify, VK, Deezer (whose "Flow Tuner" feature allows users to toggle genres and moods in real-time), and SoundCloud, or they rely on recommendations from friends and large language models (LLMs).
+    Then there are the more demanding(or perhaps simply old-fashioned) music enthusiasts who invest significant time in actively searching for new music outside of mainstream platforms and LLMs, guided by their own specific tastes and extensive personal playlists (though I suspect even most of them rarely seek out anything truly new). Consequently, the way this problem is framed is inherently misleading: true music enthusiasts have no need for a discovery tool designed for the casual listener.
+
+15:27
+
+    Подавляющее большинство людей не ищет песни сами. Они доверяют алгоритмам рекомендации или случайно находят новые треки смотря тикток(TikTok & Luminate Report 2025 - 84% треков из чарта сначала вирусятся в ТикТок). Spotify и другие крупные платформы полностью закрывают их потребности.
+    Другие люди, которые более тщательно отбирают плейлист, по большей части представлены теми, кто доволен имеющимися в Spotify, VK, Deezer(Deezer flow Tuner позволяет прямо в потоке включать и отключать жанры и настроения) и SoundCloud, а также советы знакомых и LLM.
+    Остаются люди, которые наиболее требовательны к музыке(или просто старомодны) и тратят много времени на осознанный поиск новой музыки вне Spotify и других платформ, вне LLM, на основе своих предпочтений и гигантских плейлистов(хотя, я думаю, даже большинство из них ищут что-то новое крайне редко). Так что эта постановка проблемы уже создаёт подлог: экспертам не нужен поиск, ориентированный на профанов.
+
+15:55
+Bogdan Glavan
+In reply to this message
+i guess i can say from experience that review sites are only as good as you trust ratings, and the next best thing is friend recommendations or AI recommendations, but again verifying whether they're good for what you're looking for means listening to what tracks get recommended yourself, and its just a hit-or-miss experience, sometimes you don't get how the songs correlate with what you want. I don't agree with the argument that viral music means good recommendations though. Chart-topping tracks relate to newer music only and they cover a limited number of songs, I don't think its fair to claim that level of exposure makes it as easy to find music which may be released earlier, or is usually longer than 2-3 minutes, or is part of a more specific sound that just isn't as used on TikTok
+With Flow Tuner, its true that you can toggle genres and moods in real time, but it only gets as specific as how you decide which genre and mood you're looking for, but the default options just cover general moods and genres you already like. You can get more specific with the genre listings, but not with the moods, you can't attach vibe tags to narrow down the feeling of the song, its just a fixed number.
+Its not that music enthusiasts rarely seek out anything new because they don't want to, its because, like you said, it takes a lot of time investment, which i think could be solved so that active searching takes less time.
+I do think its hard to count which kinds of music enjoyers are conservative about their music vs those who want more music like the sort they already like. Some sources(i can't remember which but it was in one article) say that music discovery tendencies show up for most people during their early 20s and fades away in their 30s or 40s, and theres these online forums and communities dedicated to recommending new releases and underrated albums and songs.
+I do think this is a niche topic at the end of the day and the best framing you could make around it is that its something people may occassionally want, but it doesn't hurt them if they can't do it, and theres a minority of people who would probably be interested in it. That's my perspective
+15:55
+sorry for the long response
+15:56
+i appreciate the counter arguments its just i went in detail on each
+16:00
+also i fully agree that people dont seek out music themselves and instead rely on recommendation, my question is would they search more music like the songs they like if they were given easy tools that would instantly give them the best picks, because recommendations are just easier for finding new music than searching manually
+16:09
+Мудретс
+My only issue was with the phrasing "search needs musical words you may not know." The specific group you’re referring to is already well-versed in the terminology.
+"I don't agree with the argument that viral music means good recommendations, though." — People enjoy viral music, so when it appears in their recommendations, they listen to it and find it enjoyable. That’s perfectly normal; recommendation algorithms are designed solely to ensure the user has an enjoyable experience—that is their only goal.
+16:13
+In reply to this message
+I agree that we should create a highly specialized tool. But I believe that a simple tool for finding the music best suited to an individual is just as impossible as a simple Large Hadron Collider.
+16:22
+Bogdan Glavan
+In reply to this message
+thats true, i think an enjoyable experience isn't enough for a recommender, like there's more work to be done to match music more accurately than what is already available, also viral music can be mixed in how well people respond to it, it depends on the artist a lot. I think if chart hits and popular music was all people ever wanted, we wouldn't have our own independent music tastes and music would just be a background activity rather than something that can be enjoyed on its own, like movies, or paintings or videos online
+16:23
+In reply to this message
+i need to look up what a large hadron collider is
+16:24
+In reply to this message
+lol yeah
+16:24
+Мудретс
+Photo
+Not included, change data exporting settings to download.
+1280×960, 418.5 KB
+16:27
+In reply to this message
+Some people develop their own independent tastes and an intolerance for ubiquitous pop music—not because pop isn’t "real" music, but because different individuals require different things to derive pleasure from music. If you were to forbid a true music lover from listening to anything other than viral hits, they would simply give up on music altogether.
+16:28
+Bogdan Glavan
+but sites like genius and rym exist and they have ways to find the meaning behind lyrics or like niche music scenes which would probably sound unnecessary to an average person but they have large userbases, and what simple means comes down to how quickly you can narrow down what music suggestions to receive based on a vague preference(which i think is doable if tags are directly accessed from a song with reference segments for context) and how good the recommendations are(the ones that match the tags are recommended first, and you can listen to the parts that relate to the tags instantly)
+16:28
+In reply to this message
+yeah
+16:29
+In reply to this message
+all of that for a particle accelerator
+16:30
+Мудретс
+It’s the same with books. There are plenty of profound works, as well as scholarly articles and research, but most people—at least those who read at all—tend to devour the kind of light, easy reading that some authors churn out by the ton.
+❤
+16:31
+Bogdan Glavan
+In reply to this message
+the difference between books and music is that books are usually very long, music isn't, but the way you find it entirely depends on what sources you use, and you also need to listen to a lot of different stuff before something sounds good to you
+16:32
+Мудретс
+In reply to this message
+There is a big difference between books and music—that was just an analogy.
+16:32
+Bogdan Glavan
+its a good analogy i just wanted to mention that
+👍
+16:33
+Мудретс
+In reply to this message
+It may be large in absolute terms, but it is very small relative to the number of people who listen to music.
+16:36
+Bogdan Glavan
+In reply to this message
+i dont know if the problem needs to scale with percentage or just with how many people actually have it, i even asked our mentor on teams how a niche problem is defined and she didnt respond yet lol
+Bogdan Glavan pinned this message
+19 October 2026
+13:41
+Bogdan Glavan
+Finding Songs by What You Like.pptx
+Not included, change data exporting settings to download.
+96.0 KB
+13:41
+So this is just an ai generated thing i tried to make with claude
+13:41
+most of it sucks but maybe we can recycle some slides or check the research which backs some statements
+13:42
+Photo
+Not included, change data exporting settings to download.
+591×1280, 93.6 KB
+13:44
+Who has the problem? Artists who frame their music around personal subjects, whose songs struggle to reach the listeners who would be interested in them, due to how recommenders value listening data and genre over what a song is about. And listeners without musical training who have particular things they like about their music and want more songs that have them.
+Why is it a problem for them? Because recommenders are built for background listening, not precise searching, so listeners spend a lot of time looking and still don't always find what they're after, and artists miss the people who would care about their songs. Listeners work around it by looking at music magazines and review sites or asking people, which takes even more time and doesn't always get an answer
+13:56
+1. Lee, Cho & Kim, JASIST 2016 covers who has the problem and what they do about it. In one survey, 82.8% ask friends or family, 54.2% seek reviews or ratings, and 66.4% would search by similar music if they could.
+2. Bhuiyan et al., CSCW 2024 shows the workaround and what it costs. People post requests on r/ifyoulikeblank, some because they don’t know the right genre name, and many posts get no reply.
+3. Laplante & Downie, ISMIR 2006 is the time cost. Every young adult interviewed said they spend “a lot of” or “too much” time looking for music.
+4. Kim & Belkin, ISMIR 2002 shows the vocabulary barrier: only 4% of non-experts’ words for music were musical terms.
+5. Cao & Bogers, iConference 2024 shows people ask by example, not by genre (3.4% named one). It also found Spotify’s picks barely overlapped with what humans suggested.
+6. Demetriou et al., ISMIR 2018 shows what people actually like: emotion, voice, lyrics and beat. Genre and tempo, the things recommenders lean on, did no better than chance.
+7. Spotify, Understanding recommendations is your “why it happens,” in Spotify’s own words. Recommendations come from listening behaviour plus metadata like genre.
+8. Bannister & Eerola, Frontiers in Psychology 2018 backs starting from a part of a song. Cutting the specific passages that gave listeners chills made the chills much rarer.
+Claude said these are the most important sources, whoever learns which sources we'll discuss later, we need to split into who presents each slide first, and before that decide which slide says what, and even how many slides to begin with(though 5-6 will definitely be more than enough)
+Besides we still need to send a version of the report by friday so we somehow need to do that too
+14:07
+Мудретс
+I’ve also prepared some material: I identified our previous methodological errors—such as survivorship bias when analyzing app store reviews, the mistake of projecting a niche pain point onto the mass market, and the unviability of a direct streaming service clone (due to closed APIs and prohibitive licensing costs)—and completely restructured the research. *From this point on, "I" refers to Gemini.* I gathered and organized current industry analytics—drawing from reports by the IFPI, MIDiA, Luminate, and studies from PLOS ONE and ISMIR—and compared the features, monetization models, and technical constraints of seven key platforms: Spotify, Apple Music, YouTube Music, Yandex Music, VK Music, SoundCloud, and Deezer. I then segmented the audience into eight profiles (five listener categories, ranging from the "passive majority" to "audio geeks," and three artist tiers, from unknowns to superstars) and mapped them across 20 real-life scenarios. By estimating the actual time required for each, I filtered out tasks that are already handled in seconds by built-in player functions, Google, or LLMs. By cross-referencing the remaining, unaddressed pain points with the scope of the "Better Spotify" theme, previous feedback from my mentor, and the official project guidelines for the Midterm 1 and Midterm 2 validation stages, I formulated six specific, economically viable (hopefully) product problems—complete with a competitive analysis—to help finalize the project’s direction.
+❤
+14:12
+ps.md
+Not included, change data exporting settings to download.
+6.5 KB
+15:28
+Bogdan Glavan
+i think the strongest are first 2
+15:29
+2nd is a better explanation of what i wanted us to do and its much clearer, 1st is equally good and it fits tag solution
+15:36
+Andrei Simon
+Whered you go
+15:36
+Мудретс
+In reply to this message
+We'll ask her about what we can to do
+❤
+15:37
+Bogdan Glavan
+come in faf cafe
+15:37
+3rd floor
+15:37
+theres puzzle here
+20:47
+Никита
+@bogdan8064 she said we have to send the problems today up to 11pm right?
+20:53
+Mihai
+Sho za dvij?
+20:54
+Bogdan Glavan
+In reply to this message
+yeah
+20:54
+in teams
+20:55
+Никита
+have you done it yet?
+20:55
+Bogdan Glavan
+In reply to this message
+pana la ora 11 sa-i scrii un problem statement
+20:56
+Никита
+mb we should just send the problems to you so you can send them all in once
+20:56
+Bogdan Glavan
+In reply to this message
+honestly all the evidence i have is related to music discovery so in terms of anything not related to that, no
+20:56
+you can do that but you can also just send it directly in the teams chat
+20:57
+it would be easier to work out what to send if we can discuss here
+20:57
+like at least show what problem you think we could solve in this chat so we all know
+20:59
+Mihai
+Eu tot tre sa trimit ceva?
+20:59
+Bogdan Glavan
+da bre
+20:59
+Mihai
+Si tre sa trimit?
+20:59
+Bogdan Glavan
+problem statement
+20:59
+Mihai
+Si noi il avem?
+20:59
+Bogdan Glavan
+Nu
+20:59
+Mihai
+Huiova
+21:00
+Bogdan Glavan
+nu i-o placut problema care am vrut sa-i explic, deci fiecare venim cu propuneri ca un fel de ultimatum
+21:00
+Mihai
+Blea eu zic poh de opinia ei
+21:00
+Bogdan Glavan
+daca nu reusim asta probabil tre sa reluam clasa. Nush sincer
+21:00
+Mihai
+In reply to this message
+Nu
+21:00
+Precis nu
+21:00
+Bogdan Glavan
+?
+21:00
+Mihai
+Na sa ne lase clasa bro
+21:01
+Tot o sa fie ciki puki
+21:01
+Никита
+In reply to this message
+problem.md
+Not included, change data exporting settings to download.
+7.5 KB
+read up to #2 after it are the things you don't need right now
+21:01
+Mihai
+Putem si nou vro problem statement care lam pus amu, de exemplu care nu io placut( ca sincer ii pinan pula de opinia ei) si gata
+21:02
+In reply to this message
+Это что?
+21:03
+Никита
+там много чего, но самое нужное сейчас это problem statement
+21:03
+Mihai
+👍
+21:05
+Si discurs faci ca asa mult scrii?
+21:05
+Никита
+ahahhah
+21:06
+a adornit pe claviatura
+❤
+21:06
+Mihai
++
+21:06
+Blea, el inca scrie
+21:06
+Bogdan Glavan
+In reply to this message
+this is similar to what I was thinking
+Artists would definitely benefit more from precise song search than regular listeners
+Usually it takes a lot of time to find songs that fit the same niche and also match the song style
+I think its pretty good
+21:06
+Никита
+no no no mister fish
+❤
+21:06
+it's not for listeners
+21:07
+Mihai
+In reply to this message
+Brat zii golden fish
+21:07
+Bogdan Glavan
+pestisor de bronz
+21:07
+Никита
+its a soft for guys who make music
+21:07
+Mihai
+In reply to this message
+Astai problem statement?
+21:07
+Bogdan Glavan
+cred ca
+21:08
+Никита
+In reply to this message
+Absence of Descriptive Metadata: Millions of legacy and third-party sample files lack ID3 metadata, key tags, and BPM stamps, often named arbitrarily (e.g., Snare_02_processed_v3.wav).
+Semantic Disconnect: Producers conceptualize sounds using timbral and emotional descriptors ("warm saturated 808 with mid-range bite", "dusty vintage vinyl snare with spring reverb"), while conventional desktop search engines rely strictly on exact string matching on filenames.
+Cloud Latency & Privacy Concerns: Uploading 500 GB to 3 TB of uncompressed 24-bit/32-bit float WAV/AIFF libraries to cloud infrastructure incurs high recurring SaaS costs, bandwidth bottlenecks, and copyright/privacy risks.
+Performance Degradation at Scale: Traditional catalogers and Electron-based tools suffer memory bloat and UI freezes when scaling to libraries exceeding 150,000 files.
+21:09
+it's a soft for producers
+21:10
+Bogdan Glavan
+Photo
+Not included, change data exporting settings to download.
+890×385, 85.4 KB
+21:10
+yeah
+21:14
+Mihai
+Apai carei problem statement
+21:14
+Apridilitiva
+21:15
+Bogdan Glavan
+poti sa te apridilesti si tu, deschide ai si vorbeste cu dansu
+21:15
+Mihai
+Si sa deschid?
+21:15
+Cu sine sa graesc?
+21:27
+Никита
+Cu artificial intelligence
+21:28
+Caută probleme în lumea muzicei care noi putem sa le rezolvam
+21:28
+Mihai
+Nu tre sa fie unu la toti?
+21:28
+Никита
+Nu
+21:28
+Cate unu de la om
+21:28
+Mihai
+Huiova
+21:28
+In reply to this message
+Dapai u nas odno problemo amigo
+21:29
+Никита
+Ne ponel
+21:29
+Mihai
+Noi parca avem o problem brat
+21:30
+Bogdan Glavan
+Ideea ii like throw enough shit at the wall until something sticks
+21:30
+Independent hip-hop, electronic and experimental producers find it time-consuming to search for samples in existing records online, as most songs can only be searched by details of the whole record, like genre, style and artist, so they need to listen through them one by one until they find a part they can use.
+21:37
+Sticker
+Not included, change data exporting settings to download.
+🙂, 12.6 KB
+21:53
+Mihai
+Si tre sa punem azi huetaua asta?
+21:53
+Bogdan Glavan
+ca o cerut
+21:53
+Mihai
+Sio ziz brat
+21:54
+Bogdan Glavan
+sai trimitem azi pana la 11 problem statements fiecare din noi
+21:54
+Mihai
+Azi tre sa puten huineaua adta
+21:54
+In reply to this message
+Huiova
+21:54
+Bogdan Glavan
+ce problema vrem sa rezolvam
+21:54
+Mihai
+Apu neam apridilit ce problema sau nu?
+22:47
+Mihai
+si se aude
+22:47
+ati pus ceva la statementul cela?
+22:48
+wa cineva
+22:52
+Мудретс
+unde?
+22:52
+Mihai
+la problem statement
+22:54
+hai ca mai am 7 min daca am inteles corect
+22:54
+si inca o intrebare un de tre so pun?
+22:54
+Bogdan Glavan
+teams
+22:54
+Mihai
+bun
+22:54
+s tu ai pus acolo ceva?
+22:56
+unt ein teams?
+22:56
+unde in teams?
+22:56
+Мудретс
+in pcas
+22:56
+Mihai
+blea stai clar
+22:57
+unde in enterfata ceia iobanaia
+22:57
+Bogdan Glavan
+Photo
+Not included, change data exporting settings to download.
+1002×602, 54.4 KB
+22:57
+Mihai
+apu unde
+22:57
+Bogdan Glavan
+posts
+22:57
+Mihai
+am si eu asta
+22:58
+bun unde la posts
+22:58
+si si sai pun ?
+22:58
+Bogdan Glavan
+in posts ba cum unde
+22:58
+Mihai
+Photo
+Not included, change data exporting settings to download.
+1280×632, 50.4 KB
+22:58
+unde nahui
+22:58
+Bogdan Glavan
+nu acolo ba in team16
+22:59
+Mihai
+bun
+22:59
+Photo
+Not included, change data exporting settings to download.
+330×90, 2.8 KB
+apu unde acolo
+22:59
+asta?
+23:00
+Bogdan Glavan
+da
+23:00
+Mihai
+voi ati postat?
+23:50
+Мудретс
+Problem statement nr. 1(Nikita)
+
+    Problem: Over 80% of time on the start of making song producer spends on searching in libraries with more than 150 000 files of sounds.
+    Modern music producers typically store between 500 GB and 3 TB of audio samples across multiple drives. Over 80% of these files lack accurate metadata or have nondescript filenames (such as Snare_02_processed_v3.wav). Existing desktop catalogers rely on manual tags, freeze when indexing libraries over 150,000 files, or require subscription-based cloud uploads.
+
+
+
+Problem Statement nr. 2(Andrei)
+
+    The algorithms of music streaming services (i.e Spotify) are repetitive and predictable, promoting familiarity over discoverability by often recommending the same known songs. This hurts both the users, who get fatigued from frequent listening repetition, as well as the small artists who have an extremely difficult time reaching an audience due to the algorithm promoting only the top performing artists.
+
+
+
+Problem statement nr. 3(Bogdan)
+
+    Finding samples in music takes too much time for independent producers. Independent hip-hop, electronic and experimental producers find it time-consuming to search for samples in existing records online, as most songs can only be searched by details of the whole record, like genre, style and artist, so they need to listen through them one by one until they find a part they can use.
+    Context: Sources like Tracklib, Samplette and Splice exist for this purpose, with only Tracklib and Samplette offering categorization on published records. Tracklib only covers a limited library of licensed music, whereas Samplette's search tool is a random-suggestion button, but they don't provide information about individual sections of a song.
+
+
+
+Problem Statement nr. 4(me)
+
+    Active listeners who have used streaming services for more than 2–3 years (about 10–15% of the user base) find it easy to discover new music, but as a result, they end up with thousands—sometimes even tens of thousands—of tracks in a single, flat "Liked Songs" list, along with dozens of albums set aside for later. Consequently, 80–90% of their personal collection remains "buried." Platforms like Spotify, YouTube Music, and Yandex Music lack multidimensional filtering for one’s own library—Spotify, for instance, offers only basic, non-combinable genre "chips" at the top of the "Liked Songs" list, which disappear as soon as you start a search. Furthermore, hitting "shuffle" on a list of 10,000+ tracks causes the app to lag, often defaulting to playing only the most recent 50–100 songs. Albums saved for later are easily forgotten, as there is no system for tracking their status (e.g., "to listen to," "currently exploring," or "archived"). It is also impossible to quickly generate a dynamic selection from one’s own curated collection—such as instrumental, mid-tempo tracks perfect for coding or studying—without spending hours manually organizing everything into folders. Neither Google nor ChatGPT has access to a user’s personal library, meaning they cannot filter or play its contents; meanwhile, the once-popular third-party tool SmarterPlaylists ceased to function properly following changes to the Spotify API.
+
+❤
+23:51
+Bogdan Glavan
+we should've just done this like 3 weeks ago but hindsight is the best teacher so fuck it we ball
+20 October 2026
+00:12
+Bogdan Glavan
+Photo
+Not included, change data exporting settings to download.
+1072×979, 113.4 KB
+00:13
+10:00 i assume is 23:00
+00:13
+Мудретс
+In reply to this message
+I believe you are right
+00:13
+Bogdan Glavan
+i hope
+13:29
+Bogdan Glavan
+Ok lets discuss about pros and cons of problem we picked later today at 18:00
+13:31
+I think the best option until then would be to study for AM, after AM find pros and cons for problem, like why it could work and what it wins points on(ex. buildable, percentage of people suffer from it, what are current workarounds but also more to justify it), but also the cons of attempting to solve it(ex. my past ideas had the cons of high competition and little demand)
+18:11
+Bogdan Glavan
+Im almost done with my list but please share what you have so far if you're done with pros and cons
+18:16
+Мудретс
+In reply to this message
+I am not at home, but arguments are ready and I will send them as I reach my PC(in 30 minutes - 1 hour)
+👍
+18:17
+Bogdan Glavan
+I said 6 pm would be good because we currently have like 4 hours left until we choose the problem so just to have time to discuss, its not urgent rn
+19:36
+Bogdan Glavan
+we have 2 and a half hours late to submit a problem statement
+19:36
+lets figure out which one to use
+19:49
+Photo
+Not included, change data exporting settings to download.
+718×323, 45.8 KB
+19:50
+Мудретс
+Problem:
+
+    Active listeners (2–3+ years on streaming) accumulate 2,000–10,000+ tracks in a flat Liked Songs list and dozens of saved albums. As a result, 80–90% of their library gets buried: platforms lack multidimensional filtering, Shuffle on 10k+ tracks lags and loops the top 50–100 recent songs, and saved albums have no backlog tracking (To Listen / Exploring / Archived).
+
+
+
+Target Audience & Sub-groups (10–15% of market = ~80–120M paid users globally per IFPI 2026):
+
+    • Flat-List Hoarders (~45% of TG): dump all genres into Liked Songs, suffer from broken Shuffle and mood whiplash.
+    • Focused Workers / Coders (~25% of TG): need dynamic slices of their own library (e.g., instrumental + mid-tempo for coding) because editorial playlists like "Deep Focus" are filled with generic Ghost Artist / PFC stock music.
+    • Album Backloggers (~15% of TG): save 100–300 albums and forget 85% of them due to zero status tracking or notes.
+    • Cross-Platform Listeners (~10–20% in our region): collection split across Spotify, YouTube Music, and SoundCloud.
+    • Rule-Based Curators (~5% of TG): power users needing boolean logic (AND/OR/NOT, BPM, last played date).
+
+
+
+Current Workarounds & Why They Fail:
+
+    • Streaming Apps: Spotify genre chips can't be combined, ignore filters on shuffle, and aren't even available in Moldova; desktop BPM/Key columns can't be sorted or filtered. Apple Music still lacks Smart Playlists on iOS. YouTube Music has no genre filters for libraries. Only Yandex Music partially solves the worker case ("My Wave: Favorites + No Words"), but acts as a black-box radio and lacks Western major releases.
+    • Google & LLMs (ChatGPT, Gemini): only do external discovery; they have zero access to a user's personal library, can't control playback, and hallucinate BPM/vocal status on 80% of non-mainstream tracks.
+    • Specialized AI & Generators: Cyanite.ai is B2B-only, Sonoteller.ai caps free users at 10 tracks/month, and Endel/Mubert generate synthetic audio instead of filtering your own library.
+    • 3rd-Party Organizers: SmarterPlaylists and Organize Your Music broke when Spotify deprecated Audio Features in Nov 2024. Chosic caps free analysis at 1,000 songs, while Skiley and Playlistation require paid subs and spam your sidebar with static playlists based on coarse artist genres. Marvis Pro (~$10) is iOS + Apple Music only. Record Club requires manual album logging.
+    • Manual Sorting (Folders / Notion): sorting 3,600 tracks at 10 sec/track takes 10 hours of manual desktop drag-and-drop + 30 min/week maintenance.
+
+
+
+PROS (Why it works & wins points):
+
+    Operational, not informational problem: cannot be solved by Googling or prompting ChatGPT (directly passes our mentor's filter).
+    Low direct competition in 2026: Spotify's API changes killed legacy free tools (SmarterPlaylists), leaving a clear market gap.
+    Strong local angle: Spotify's basic Liked Songs genre filters aren't even rolled out in Moldova.
+    Easy Midterm 2 validation: finding 15–20 university students with 2,000+ liked songs for video interviews is super easy.
+    Buildable Core: DB schema, album backlog kanban, boolean query engine, true stratified shuffle, and LLM Text-to-Filter over tagged metadata are straightforward to build.
+
+
+CONS (Risks & Challenges of solving it):
+
+    "Vitamin vs. Painkiller" (Passive tolerance): 75–85% of listeners are passive, and even among the 10–15% hoarders, many just accept looping their top 50 tracks if onboarding takes too much effort.
+    Hostile Platform APIs (Main Technical Hurdle): since Feb 2026, Spotify Dev Mode limits apps to 5 test users and blocks Audio Features. We'd need a client-side extension / export architecture and enrich audio tags (BPM, instrumental/vocal) via ISRC matching with MusicBrainz/Discogs, lyric checks via Genius API, and 30-sec preview analysis with Essentia.js.
+    Partial platform patching: giants occasionally add minor features (e.g., Spotify saving single chip filters in Tier-1 markets).
+
+❤
+19:50
+Bogdan Glavan
+Hunting down samples on the internet for music production is difficult as an independent producer.
+Pros of problem:
+1. Sometimes you just want an instrument that sounds like the one you like in a track, but is mixed differently. You can hear an instrument you’d like to sample, and finding more songs that have it can be hard if you just don’t know what that one instrument is called. Especially common in electronic music with modulated synthesizers and lots of effects.
+2. You need time to thoroughly listen for the sections of a song that mean something to you production wise. Throughout interviews, producers mention browsing through huge sample libraries isn’t always efficient. Most of the time, they’re not well organized. Scrolling through lists of samples without any success ruins the flow of producing.
+3. Many producers treat their activity as a side-hustle or a hobby. According to a survey of 1100 producers in 2024 by Tracklib, 58% were producers aiming to make production a career, while 32% were hobbyists and beginners. UK Musicians’ Census 2023 reported out of 6000 musicians, 53% need income from outside music, suggesting limited time spent towards it compared to professionals.
+What diminishes it:
+1. Some people feel the slowness of finding sample records is integral to making music as an art, while others complain it is disorganised and slow. Precise search comes with fewer detours. Part of what makes making music fun is stumbling upon new songs you never knew about, so it becomes more vague on who would benefit from this.
+2. There’s free websites like samplette where you can find random music with very few views on youtube spanning multiple genres and tempos, its a pretty good source to experiment with or to get out of a creative block
+3. Splice had nearly 350 million downloads in 2024, so many people use it already. AI search tools exist on Splice. this is mine i wanted to make it shorter but we're kinda running low on time
+19:53
+Andrei @prscr @Misha192 what do we do
+19:56
+Никита
+I'd pick the one which is easiest to do with Ai with a good mark
+19:56
+But anyway 90% of job is doing ai so I don't really care which one to do
+🔥
+19:57
+Work is work
+20:07
+Bogdan Glavan
+In reply to this message
+I like this problem because its easy to ask people about and its straightforward, also OrganizeYourMusic lets you sort saved liked songs by their genres and other tags directly on Spotify, but from 700+ songs it saved almost 200 as non-classified by genre, and it doesn't let you filter by multiple categories. I think its good
+20:08
+Andrei Simon
+Pros
+High Academic Grounding: Backed by established research on popularity bias, filter bubbles, the cold-start problem, and beyond-accuracy objectives (novelty, serendipity, coverage).
+Clear Two-Sided Stakeholder Model: Provides concrete value propositions for both consumers (reducing playlist fatigue) and creators (fair exposure for independent artists).
+Flexible Implementation Scope: Scales easily to fit technical targets, from low-level data benchmarks (evaluating Gini coefficients on public datasets) to full-stack prototypes (a "novelty slider" web tool via Spotify/MusicBrainz APIs).
+Rich, Accessible Open Data: Supported by massive, well-documented open datasets like Last.fm (LFM-1b), the Million Song Dataset, MusicBrainz, and Free Music Archive.
+Measurable Quantitative Metrics: Success is straightforward to validate through mathematical metrics (NDCG@k, Gini index, intra-list diversity, catalog coverage) rather than subjective grading.
+Cons
+API Bottlenecks: Major commercial APIs (notably Spotify) heavily restrict recommendation and audio-feature endpoints for standard developer tiers, forcing reliance on external, open-source MIR datasets.
+The "Exploration Penalty" Evaluation Challenge: Difficult to conduct real-world A/B testing or measure live skip rates without a captive user base, often limiting testing to synthetic or offline evaluations.
+Subjective Ground Truth: Unlike functional software bugs, measuring whether an obscure recommendation is "pleasantly serendipitous" or simply "bad music" is fundamentally subjective.
+Commercial vs. Academic Misalignment: Industrial platforms prioritize retention and skip-avoidance over artist fairness; designing a model that balances both without degrading platform business metrics is non-trivial.
+👍
+20:08
+this is for mine
+❤
+20:10
+Bogdan Glavan
+I'll read it right now but check out what Leonid sent too, from what i understood its also related to the general public so theres probably something in common there too
+20:17
+Andrei Simon
+In reply to this message
+i like this one too
+20:25
+Мудретс
+@bogdan8064 Your problem is also an interesting one. There aren’t any major competitors in this space (with the possible exception of Slice), and the risks aren’t all that high.
+20:50
+Bogdan Glavan
+In reply to this message
+Main competitors are big names though and they have dedicated users. We can leverage pricing as an argument because most music producers don't work professionally on it so they're probably less inclined to buy those subscriptions, we have 2 days left to make the report so additional research would be like.. really hard to do on time
+20:51
+Rn im looking how to combine the other 2 problems into one somehow
+21:06
+Мудретс
+We can add a feature for searching for new samples within the local library to my problem statement. Although, I don’t think it’s a good idea to mix different issues together—it wouldn’t look very professional.
+21:08
+Bogdan Glavan
+High Academic Grounding: Backed by established research on popularity bias, filter bubbles, the cold-start problem, and beyond-accuracy objectives (novelty, serendipity, coverage).
+Subjective Ground Truth: Unlike functional software bugs, measuring whether an obscure recommendation is "pleasantly serendipitous" or simply "bad music" is fundamentally subjective.
+Commercial vs. Academic Misalignment: Industrial platforms prioritize retention and skip-avoidance over artist fairness; designing a model that balances both without degrading platform business metrics is non-trivial.
+
+These can be useful for Domain Analysis subjects, like the previous (dead) projects were basically aimed at getting small artists better discoverability and cold-start problem, problems related to describing music into words etc.
+
+The problem itself though is hard for me to justify, because its hard to fight back against recommendation accuracy or how listener fatigue appears, unfortunately there's not a lot of great information that backs up these kinds of arguments even if I agree with them
+21:08
+In reply to this message
+agreed its kind of convoluted that way
+21:08
+thats also most likely why mentor told us to start from problem, and what i did wrong on previous proposals, just like trying to one-up existing things to make them better
+21:11
+Мудретс
+Yes, we just need to choose one problem, and then we can think about ideas and a solution.
+21:16
+Bogdan Glavan
+the best problems we could attack are:
+
+For: Small creators/individual music makers
+About: Finding full songs for sampling takes too much time for producers who don't work full time
+(With potential solution of website where you get recommended music based on which parts of a track you want them to sound like)
+For: casual listeners with large libraries of saved music
+About: People lose track of what they saved so shuffling huge unsorted music playlists rarely resurfaces forgotten music
+(With potential solution of easier and flexible sorting for saved music)
+21:18
+Which problem?
+Anonymous poll
+- the first problem from above message 3 votes
+- the second one 1 vote, chosen vote
+4 votes
+21:18
+@prscr Andrei @Misha192
+21:35
+Мудретс
+@bogdan8064 While everyone else is making up their minds, start preparing a report(for our mentor) on the issue you proposed. I’ll do the same for mine. Otherwise, we’ll end up taking 55 minutes and won’t have enough time left in the final 5 minutes.
+👍
+21:40
+Bogdan Glavan
+Ok but in teams i'll suggest problem 1 which was linked to artists
+21:41
+Мудретс
+OK
+21:43
+So, send to our mentor report on your problem, say that we chose it. After it I and Andrei will send to Teams our reports(she said that every problem should be described)
+👍
+21:43
+@bogdan8064
+21:44
+Andrei Simon
+In reply to this message
+Was it not just for the one that we decided upon?
+21:44
+Мудретс
+In reply to this message
+I think yes
+21:44
+one minute
+21:45
+We need pros and cons on each problem
+21:46
+So yes, it is what you sent
+21:47
+Bogdan Glavan
+Pros and cons on each, final decision only one.
+21:47
+im writing right now
+21:49
+Никита
+Do i have to do smth?
+21:51
+Мудретс
+In reply to this message
+The same as me and Andrei (pros and cons of your problem statement9
+21:53
+Andrei Simon
+do we post them individually?
+21:53
+Мудретс
+Yes
+22:02
+Bogdan Glavan
+Photo
+Not included, change data exporting settings to download.
+1181×749, 154.7 KB
+i changed basically most of pros and cons to shorter points, but i tried to include real threats and wins
+❤
+22:02
+Мудретс
+We sent our reports too(under our problem statements)
+🔥
+22:03
+Andrei Simon
++
+22:16
+Bogdan Glavan
+Ok so with 2 days remaining, we need to elaborate on the points described, point 1 and 2 on pros can be used for domain analysis
+We can tie this into the previous research on Spotify, like cold-start problem and recommendation bias, and how researching recommendation algorithms and search functions helped us differentiate how strongly different people respond to what is available, like people and artists not understanding the algorithm, the recommendations being biased towards big artists and independent musicians changing their marketing strategies to accommodate the environment. Also including the interviews i found with how people discover new music, concluding with some people have occassional problems with it, but the vast majority instead having complaints related to other parts of the platforms, overwhelmingly their subscription plan limitations
+so that is like the general listener perspective, and then we can hone in on the artist perspective, how independent musicians deal with it, how recommendations available are not enough for their search goals, that they listen to music as if to train their music production skills.
+Many producers think that spending a lot of time to find samples is important to the process, whereas others, and particularly beginners and amateur artists, feel frustration with how much time it takes them.
+We can also mention what kinds of categories can be placed on music from the artist's perspective, like on Spotify you just have genre tags, on Deezer you also have moods, on Yandex/VKmusic you have song popularity, but in Tracklib and Splice its more complex.
+And finally something to keep the problem relevant
+Probably the closing of Spotify's API data which made it harder for external sites relying on it to get updated song data, making Tracklib probably more important as a byproduct(they have a library of hundreds of thousands of songs for music production help btw)
+Probably the most relevant is the use of AI and how artists are opposed to AI usage(Like 84% of artists are fully against making AI generated music or using AI stem splitters), so there's an ethical balance to it(which means our tagging has to be done by humans, probably.)
+22:16
+big infodump but basically thats what im thinking for domain analysis
+22:18
+Photo
+Not included, change data exporting settings to download.
+575×239, 22.0 KB
+22:18
+Photo
+Not included, change data exporting settings to download.
+607×354, 58.4 KB
+22:21
+do we split work in 2 teams for problem description and domain analysis or do we both work on one and pass information back and forth until it is solid?
+22:22
+^^^
+Anonymous poll
+- 1 team on problem desc 1 on domain analysis
+- everyone on same section, one part fact checks, other part writes
+1 vote
+22:23
+Мудретс
+we should split work in 5 teams
+❤
+22:23
+Bogdan Glavan
+bijective relationship
+23:58
+Bogdan Glavan
+So basically i made a draft with AI and I'll try to rewrite it myself
+We still have other sections to work on so I delegate @Misha192 to get data on Solution Competitors Splice, Tracklib and Samplette and finish the section on those
+For SWOT I delegate Andrei
+@prscr and @newgopro on Problem Description and Statement
+
+if you want to switch section to work on just say what you want to work on its fine
+
+I'll send sources and the AI description tomorrow after lessons peace
+23:58
+sorry for late @ just did this to not forget tomorrow
+21 October 2026
+07:13
+Mihai
+In reply to this message
+Bine boss
+07:14
+Sorry ca nu raspundem, am venit tirziu acasa si mam atrubit in pat
+07:54
+Bogdan Glavan
+ok
+17:10
+Bogdan Glavan
+https://docs.google.com/document/d/1nqarOhc6VdATs0ShpdV4FPVzCBhFjtLl76Q0C340KXk/edit?usp=sharing
+Here there is Problem Description and Problem Statement.
+Below are sources and some images to use for showing competitors.
+
+Take a look at the text, verify if the sources are used correctly and try to reformulate it around the conditions in the PBL Report form. I'll send the report here so you can look for yourself if you don't have the files
+17:11
+Like I said i'll work on Domain Analysis reformatting, but I won't work on the problem paragraphs, so it would be great if anyone can help
+17:12
+PCAIT_Project_Report_Template.zip
+Not included, change data exporting settings to download.
+3.1 MB
+17:13
+im gonna sleep for an hour but please ask if confused on anything or if you want information from domain analysis to understand something
+17:15
+main tasks:
+-Remake Domain Analysis
+-Verify problem description paragraphs and make corrections where needed
+due until end of today
+17:15
+other tasks due until tomorrow:
+-SWOT
+-Competitor Analysis
+17:17
+Andrei @Misha192 @newgopro @prscr here's tasks to do for today, above is document with AI made Domain Analysis and Problem Description, yeah
+👍
+17:29
+Mihai
+@prscr fasik?
+18:41
+Bogdan Glavan
+Is it clear what everyone has to do or not
+❤
+18:48
+In reply to this message
+No like we have to write the report quick so if you're not sure what to write about its ok to ask
+22:39
+Мудретс
+better_spotify_problem_and_domain_analysis(5).md
+Not included, change data exporting settings to download.
+30.9 KB
+22:43
+Никита
+In reply to this message
+Ты решил все сам сделать или там еще есть что делать?
+22:43
+Мудретс
+Это только начало
+
+This is just the beginning
+22:44
+problem and domain analisys
+22:44
+Остались SWOT, Competitor Analysis, потом делать репорт, презентацию и готовиться
+
+All that’s left is the SWOT analysis and competitor analysis; then it’s time to put together a report and a presentation, and get ready.
+22:45
+In reply to this message
+Да и к этому пока еще есть претензии
+
+And there are still some issues with this, too.
+22 October 2026
+00:35
+Bogdan Glavan
+My domain analysis.md
+Not included, change data exporting settings to download.
+13.7 KB
+i sketched the domain analysis and finished rough drafts for first 2 sections, i'll just need to ask ai to make the writing smoother and add citations but im just showing to prove im working
+00:46
+domain analysis remade by AI.md
+Not included, change data exporting settings to download.
+12.1 KB
+08:55
+Никита
+swot-an.md
+Not included, change data exporting settings to download.
+1.7 KB
+08:55
+PD&PS.md
+Not included, change data exporting settings to download.
+5.0 KB
+09:29
+Bogdan Glavan
+im gonna be late to class today please tell gogoi at pbl if she asks
+09:30
+Mihai
+Brat, vsem pohui
+09:31
+Bogdan Glavan
+In reply to this message
+concetreazate asupra cuvantului daca
+09:32
+Mihai
+Asta nu skimba situatia
+10:09
+Bogdan Glavan
+ba totu normal la lectie sefu nostru o scris Гогои заебала
+10:42
+Mihai
+sii facem?
+10:53
+Bogdan Glavan
+documentu
+12:07
+Andrei Simon
+https://docs.google.com/document/d/1S0-kge86_klcZ_W1lVrumyZfElHTHxRtfXtrSE8eVaA/edit?usp=sharing
+12:07
+template
+15:47
+Bogdan Glavan
+Solution statement
+A website where producers can find sample recommendations based on section-specific categories in a full track.
+SHORT VERSION ^^^
+15:47
+Mihai
+Ba
+15:48
+Da noi cind tre sa venim simbata
+15:48
+Bogdan Glavan
+9:00
+15:48
+Mihai
+Huiova
+15:48
+Si si tre sa facem la 9?
+15:48
+Bogdan Glavan
+prezentam
+15:48
+Mihai
+Si ce tre sa prezentam
+15:49
+Bogdan Glavan
+uite mai sus
+15:49
+Mihai
+Astai tot facut sau tre sa mai adaug eu ceva?
+15:49
+Bogdan Glavan
+In reply to this message
+da
+❤
+15:49
+Mihai
+Ce da
+15:50
+Bogdan Glavan
+In reply to this message
+am scris mai sus ce trebuie sa facem
+15:50
+Andrei Simon
+pe sambata trebuie de prezentat slideuri, nu reportul
+👍
+15:51
+gen in 7 minute prezentam informatia cheie din report
+15:58
+Мудретс
+We should send Report today
+15:58
+Bogdan Glavan
+In reply to this message
+yes
+16:06
+Who for? Beginner Producers/ Producers with short free-time
+How does it work?
+The purpose is to find a section of a song which matches your description so that you can sample it in your own mixes.
+How do descriptions match?
+You select a song. Some sections of it will be highlighted. These sections contain description tags that correlate with what happens in the section. After you select the tags that describe what you liked in the section, you can receive song recommendations. In those songs, you can directly go to the section that has the same(or at least one) of the descriptors you chose. When you click on the song, you get redirected to the exact section that matches.
+Now you have found a sample that is relevant to what you asked for from a completely different song. Instead of spending time browsing multiple songs until you find a sample you can use, you just find the part that matches your request
+more details to follow stay tuned im busy rn
+16:10
+Try to work on Value Proposition from what i wrote and Competitor Analysis. On competitors write what kind of samples you can find with them, what they're missing relative to the solution, how specific you can search with given categories
+16:21
+SWOT needs to be corrected after solution is done, in the meantime try to work on refining Problem Description, remove any obvious signs of AI use and make sure information in paragraphs is valid with sources. There's also Introduction and Abstract part of report, try to write some sentences based on what's available
+Bogdan Glavan pinned this message
+16:22
+Bogdan Glavan
+this document is the template Andrei sent. Either repost documents here or include them in there if anyone needs anything
+16:46
+Bogdan Glavan
+solution-description.md
+Not included, change data exporting settings to download.
+3.6 KB
+16:47
+If anything else is needed for solution please tell me
+17:30
+Andrei Simon
+Solution Proposal
+
+A web-based discovery platform that interfaces with embedded streaming audio (via the YouTube IFrame API) to highlight, describe, and recommend specific sub-track intervals rather than full compositions.
+
+The core user flow is as follows: The user loads a track (via curated recommendation, search, or random discovery). Through a Segmented Waveform Visualizer, the track timeline is broken into distinct, highlighted passages (typically 4–30 seconds in length). Clicking an active passage displays its descriptive tags (e.g., [Open Drum Break], [Rhodes Chords], [Dusty / Vinyl Texture], [Solo / Sparse]). The user selects the specific elements they want to explore. The platform returns a ranked feed of related musical passages across diverse catalog tracks that match those specific descriptors. Clicking a recommended result immediately jumps the built-in player to that exact timestamp and activates an automatic loop over the passage window.
+
+This system eliminates the tedious, manual playback scrubbing and directly targets the creative moments producers actually want to manipulate, thus significantly accelerating the sampling workflow.
+17:31
+I notice that the template mentions that "The concept is just an initial vector for the rest of the project. It should be simple and on point,
+giving an overview on what you intend to design.". So i dont think we need to get too into detail
+❤
+17:35
+Bogdan Glavan
+ok so i hope you can work with what i wrote
+17:41
+im gonna be inactive for 1h30m and then ill finish the domain analysis. What i wrote so far only relates to general listener habits and music platform categorization, artist side is unfinished as of now.
+
+Main thing to note from domain is that artists search samples online for production reasons. They don't just look for general tags on music they make use of tags for short snippets as well. They use full song sources, sample libraries(downloaded instruments and loops and stuff) and apps like splice for instant search(splice is integrated in music making software).
+The reason why it takes a long time to sample is due to having to listen to tracks in full, due to limits in variation in saved libraries, and the limited musical vocabulary of beginner musicians, and limited categories for samples. Try to fact check info about this with AI if you have to.
+Artists are not limited to any one source of finding samples, they use multiples, and experienced producers are adapted to spending hours searching music and "cratedigging".
+However most producers do music on the side, they do not work full time. Furthermore, many work alone, so they can't always bounce back ideas with others unlike band members.
+Hopefully it is enough to help you fill your sections for now
+17:42
+Мудретс
+In reply to this message
+There are some problems with it
+❤
+17:42
+Bogdan Glavan
+if anyone needs help ask Leonid
+17:42
+Andrei Simon
+In reply to this message
+what exactly
+18:12
+Мудретс
+In reply to this message
+1) There is no legal way to download a video from YouTube without the creator's permission. The YouTube IFrame API is simply a JavaScript library that allows you to embed YouTube videos on a website and provides basic functionality (such as seeking, playing, and pausing the video).
+2) Splice already offers features such as searching for pre-made sounds via tags, searching by audio reference, and receiving recommendations for acoustically similar samples. Cyanite, for its part, supports searching for musical similarity, providing scores at the level of individual segments within a composition.
+18:13
+There are other issues, but I haven’t included them, as they mostly stem from the fact that the description is very vague—though, to be fair, this isn’t technical documentation, just a brief outline of the concept.
+18:15
+I wouldn’t say the problems are very big, but as currently formulated, they are significant.
+18:25
+Andrei Simon
+In reply to this message
+We are not downloading or hosting any songs on our site, were simply embeding youtube videos to make discovery (crate digging) much easier, similar to Samplette.io
+18:29
+Bogdan Glavan
+In reply to this message
+Photo
+Not included, change data exporting settings to download.
+1280×593, 54.8 KB
+1) you're not downloading the music its a link. Its just using Youtube's API to play the songs on youtube
+2) which features
+3) Cyanite certainly does have audio tagging utilities, it detects the genre of the song and calculates the mood. Its so good at its job, it told me a disco pop acoustic cover is almost certainly a rock song. It even gave me some very detailed descriptions of the instruments in the song
+My point is, Cyanite is either really broad about what it offers, or it just doesn't do a good job. You can analyze sound but get no meaningful information about it to find more music like it. The only category it does well at is instruments and song energy, but it doesn't specify anything further, like what kinds of instruments for instance
+18:29
+In reply to this message
+Photo
+Not included, change data exporting settings to download.
+1280×697, 62.5 KB
+18:29
+In reply to this message
+Photo
+Not included, change data exporting settings to download.
+1175×174, 17.0 KB
+18:31
+In reply to this message
+if they're significant from how I wrote the solution, then it would be a good idea to specify that tags don't end at instrument matching and get into specific products of instruments, specific effect chains, which producers would be knowledgeable enough to mention on their own. AI is less trained on this aspect, which is why this kind of system needs to be tagged by actual people
+18:31
+Мудретс
+To find similar samples or excerpts, you need a source to search through. This inevitably means downloading a large number of tracks, running an analyzer on them, and potentially deleting them afterward. The main challenge, however, is that analyzing a video provided by a user—who will, in 99% of cases, simply share a link to YouTube or another platform—requires downloading that video and running the analyzer on it. Furthermore, to stay current and continue developing the system, you need to constantly ingest new content (as well as re-process previously ingested material whenever the analyzer itself is updated). YouTube recently took legal action to shut down an application that downloaded videos without authorization, which presents a significant problem.
+18:32
+We can’t just feed a video link into an analyzer while blocking it from accessing the video itself, and then expect some kind of magic to happen.
+18:33
+Bogdan Glavan
+In reply to this message
+you don't analyze the songs with an algorithm, you let people do the job for you
+This means we should restrict users from uploading links without tagging them
+its not downloading videos, thats not whats happening
+18:34
+Мудретс
+What tags should users apply?
+18:34
+Bogdan Glavan
+tags which are already present from a set of given categories, or custom ones
+18:35
+Мудретс
+How do you intend to search for similar samples? If you’re looking to build an app for finding samples—modeled after something like Wikipedia—Nikita has already explained why that’s a bad idea. We don’t have thousands of moderators available to analyze, second by second, whether a user has applied the tags correctly.
+18:36
+The app will be swamped with spam.
+18:38
+Besides, it would be impossible to use. Where do you think people will go—to our app, where you have to select a video, often manually tag it, and then just hope for the best to find similar samples? Or to Samplette, where you can immediately search for samples by tags—and get ones with proper licensing to boot?
+18:38
+Bogdan Glavan
+In reply to this message
+moderation can cover what kinds of tags can be allowed before uploading, and based on user reports, while custom tags that aren't part of any existing category have to be approved before they can be applied to songs. Or alternatively, let users define tags in a custom way and map their input only to existing tags, so that the catalog only includes verified information like on RYM
+18:40
+Мудретс
+I don’t know many moderators who would work for free.
+18:42
+Not simple moderators, but moderators with musical education
+18:42
+In reply to this message
+This is an extremely unwieldy system.
+18:42
+Andrei Simon
+Guys, we have 5 hours to submit the report
+18:43
+We have to decide on something
+18:43
+Bogdan Glavan
+In reply to this message
+you'd need to give an incentive for people to tag music to begin with, which means building some sort of community, adding accounts, letting people comment on things, and adding some sort of way to catalog music so that theres conveniences with downloading huge libraries of found samples within the website. Samplette doesnt give proper licensing, thats just wrong. It also just links to music on youtube.
+Samplette does allow filtering recommendation by tags, but they categorize the entire song, unlike this idea, which categorizes individual sections
+18:43
+In reply to this message
+me neither and why is that the first problem
+18:43
+In reply to this message
+argue why
+18:44
+Мудретс
+People won’t engage in tagging. That’s a really, really bad idea.
+18:44
+Bogdan Glavan
+In reply to this message
+i think of it as like preparing for questions from mentors lol
+18:44
+Мудретс
+In reply to this message
+Okay, we have a set of official tags. A user believes that an uploaded video requires a new tag, but it doesn't fall under any of the existing official ones. What should they do?
+18:45
+Bogdan Glavan
+In reply to this message
+they engage in tagging because through tagging music, they can later save those songs to their personal account on the site and save space on their local memory
+18:46
+Мудретс
+Do you know many musicians who, instead of focusing on their work, leisure, or music-making, would spend their time tagging YouTube videos just to find similar content using clunky, awkward tags? Besides, how would they even know what, specifically, it was that they liked about a given sample?
+18:46
+Bogdan Glavan
+In reply to this message
+they appeal for a category to be added or if its just a custom tag, appeal the tag and wait for moderation to add it
+18:47
+Мудретс
+In reply to this message
+I didn't understand the argument.
+18:54
+Bogdan Glavan
+In reply to this message
+tagging doesn't take a long time to add to a song. Its less about what they liked enough to tag, and its seeing an important part of a song that they want to save for later. We could make it so custom tags can be added only for client side for the sake of saving them, and only adding them to the server side once they are appealed, so that way people can make use of their own custom tags even if they can't post them. Musicians make searching and listening to music their work, so this doesn't take from their time. Its a good question why they should focus time tagging Youtube videos though. I haven't made enough analysis to back that up, only to support the searching side of the argument, so this is a worthy question for midterm 2. Calling tags clunky and awkward is i guess a perspective, and you'd need to see the tags first to judge them, and instead we're just suggesting a system
+18:55
+In reply to this message
+saving music takes memory. Many large sample libraries need to be scanned and individually categorized by individual producers once they install them online. In this case its just music they found and which is already categorized, or they categorized for themselves. Links are saved to their accounts and kept on the server, so its cost-efficient relative to memory
+18:57
+btw this is not to sound offensive or angry i like the questions and i think they would ask something like this
+18:58
+at the same time if theres any obvious errors in the solution we need to fix them immediately
+19:02
+Мудретс
+The shift toward AI-driven automated tagging is not merely a whim of the developers at Cyanite; it is a solution to major challenges in the music industry—tasks that humans simply cannot handle effectively. Creators often evaluate their own tracks based on personal emotion, which rarely aligns with how potential buyers—such as music editors, directors, or content creators—actually search for music.
+Furthermore, you still haven’t explained how you intend to moderate the tags applied by users. The perception of music is deeply subjective; what one person might label "aggressive rock," another could interpret as "energetic alternative pop." This creates a significant problem: if a user tries to search for samples using a specific combination of tags, they might end up with completely nonsensical results, simply because everyone interprets those tags differently. It’s impossible to find moderators who could meticulously verify whether every tag has been applied correctly—and even if you could, it wouldn’t solve the issue, as moderators are, after all, only human, and their own perceptions would vary just as much.
+19:05
+If a given piece of music has too few tags, finding similar content becomes problematic (for instance, a single "heavy metal" tag reveals almost nothing about a specific segment—there are countless subgenres, styles, and so on). Conversely, if there are too many tags, the user will be overwhelmed by the need for micromanagement: why exactly did they like this particular segment—was it because of the combination of the first ten tags, or perhaps every tag except for the fifteenth?
+20:31
+Bogdan Glavan
+In reply to this message
+1) Cyanite gives no way to translate those emotions into better search results. Stating it handles tasks humans cant handle effectively is just an insult towards existing, more successful API and song catalogues. I literally just proved its inconsistencies
+2)You can't list pop and rock as 2 sides of the same style. If a song has its tags applied to multiple genres, it would be more difficult to prove the exclusion of some compared to others, since genre is focused not on song audio but on creative decisions and marketing choices. Speaking of which, Samplette has its own way of detecting genres, and genre detection is not what we're solving, so it could be implemented in the future.
+3) Impossible and "even if you could" in the same sentence is a poor formulation because it implies moderating subjective content is impossible. This is said as if moderators can just be anyone selected, and as if site demand is massive on day one, when websites that rely on user input to categorize data, such as review sites, build up over long periods of time. Music is deeply subjective, but a system like this can be refined over time with updates and increases in funds. I have explained already how to moderate tags applied by users. If you want real world examples, check out last.fm's tagging and AOTY vibe tags. The only issue regarding tags is the categories which will cover each sub-section, and the ones already mentioned aren't complete in describing them, which will require further research
+3) It does, thats why there are multiple tag categories. Its up to users to decide when to add context on top of sections, and it doesn't mean they can't get any uses out of just one tag, since it skips to a highlight of the song which adds context to what is described
+4) Thats why categories exist. RYM applies definitions to certain tags, but even then we could implement even more specific sub-categories, this is not a dealbreaker
+20:32
+Ok im taking a break i think
+20:32
+i asked AI for help with sketching last parts of domain analysis and im tired. I'll be back soon, how is the report going
+20:33
+Andrei Simon
+Ive done solution proposal, competitor and SWOT analysis
+🔥
+20:33
+We dont really have time to shift now
+20:33
+it has to be submitted by 12
+20:33
+Bogdan Glavan
+True
+20:34
+by 10 we should finish up and begin writing like Abstract and Introduction
+20:35
+Andrei Simon
+we also need to fill Target Group and Customer validation
+👍
+20:43
+Мудретс
+In reply to this message
+1) You haven’t proven your point; we’ve already discussed logical fallacies. And Cyanite is successfully handling its tasks—that’s a fact.
+2) I didn't understand what you're talking about
+3) That’s a poor example. On Wikipedia and other platforms where this has been implemented, spam in one article doesn’t affect others. In your proposed solution, if a single track is mislabeled or incorrectly evaluated, the entire system suffers—the algorithms break down, and you end up with rock or heavy metal appearing under a "pop music" tag. That is why tags MUST be assigned by algorithms, not by humans.
+4) Different people interpret each tag in different ways. If someone decides to search using a particular tag, they will expect to find content that they—subconsciously—associate with that tag (based on their own personal understanding of it). However, the results they see will only include clips or tracks that align with how *other* people interpret that same tag.
+5) On RYM, tags are chosen through voting. In our case, that’s not possible. Who would take part in a vote on how a particular person tags a particular sample?
+20:44
+Bogdan Glavan
+In reply to this message
+ok we can go on like this the whole night
+20:44
+Мудретс
+In reply to this message
+This isn’t a reversal. I’m simply saying that tags in an application’s database should be assigned by algorithms.
+20:44
+Bogdan Glavan
+we have the report to focus on, we can talk about this after meetings
+20:46
+Мудретс
+In reply to this message
+The report is no problem. I think 1–2 AI prompts, with all the necessary files attached, and it’ll be ready.
+20:46
+We need a proper description of the problem.
+20:46
+Bogdan Glavan
+just make your own atp bro
+20:50
+Мудретс
+In reply to this message
+I’m not joking, and I’m not trying to sabotage anything—what would be the point of that? I’m just one member of the team; I don’t make the final decisions. If the majority decides that we can successfully defend our work, then fine—I’ll do everything I can to make that happen.
+20:51
+Andrei Simon
+You do make some good points, but we dont really got any other options right now
+20:52
+We can still pivot during midterm 2, the guideline even states that its a normal thing to do at that stage
+20:53
+We have 3 hours to submit
+20:54
+Мудретс
+Alright. It seems we already have everything we need to put together a report based on how the problem is currently framed. Let’s go ahead and create that, then discuss it—and perhaps prepare a follow-up report based on a revised problem definition.
+20:55
+In reply to this message
+I proposed some ideas
+20:55
+Andrei Simon
+In reply to this message
+which exactly?
+20:55
+Мудретс
+I’ve run out of tokens on Gemini; they’ll be replenished at 22:28.
+20:56
+In reply to this message
+I wrote about this earlier. I’ll give you the exact details now.
+20:56
+Andrei Simon
+@bogdan8064 Hows problem statement/domain analysis
+20:56
+Мудретс
+In reply to this message
+.
+20:57
+In reply to this message
+.
+20:59
+Andrei Simon
+Do you think there would be any problems regarding AI tagging
+21:00
+Мудретс
+In reply to this message
+Yes, I think
+21:00
+There will be problems in any case.
+21:02
+Mihai
+mai insetisor panati
+21:02
+ini bizie mobu in truna
+21:26
+Bogdan Glavan
+domain analysis remade by AI(1).md
+Not included, change data exporting settings to download.
+22.4 KB
+here's the domain analysis
+21:29
+Мудретс
+In reply to this message
+What you sent is a new version of "My Domain analysis.md" and "domain analysis remade my AI.md"? @bogdan8064
+21:59
+Bogdan Glavan
+yeah
+22:04
+Мудретс
+I’ve run the Antigravity; it will generate a report, which we can review and then refine further (once our proposed solution becomes clearer). Even setting aside the points I mentioned earlier(let’s forget about it now; let’s focus on your solution so that we can actually get it done in time), you should realize yourself that a solution outline this brief(only 66 lines!) leaves a lot of gaps (they are not necessarily problems, but things that simply need to be described more precisely).
+22:09
+Bogdan Glavan
+i dont care anymore just make the report and lets send it
+22:09
+I added my section to the document
+22:10
+theres still some sections to be filled out like customer validation, introduction and abstract but i think ai can take care of it at this point, also bibliography is missing but i can add it
+22:10
+Мудретс
+Why such pessimism?
+22:11
+In reply to this message
+bibliography is here
+👍
+22:18
+Bogdan Glavan
+Photo
+Not included, change data exporting settings to download.
+1280×711, 65.8 KB
+on the topic of team corrections this is my opinion
+👍
+22:18
+i just saw its for tomorrow though so its chill for now i think
+22:18
+Andrei Simon
+yeah that can wait
+22:24
+Мудретс
+Is anything known about the length of the report? And how does a report differ from a presentation?
+22:25
+Bogdan Glavan
+presentation is like how we did at ethics where we have max 7 minutes to present and we try to summarize each section in ~1-2 mins
+22:25
+i dont know anything about the length of the report though
+22:25
+Мудретс
+In reply to this message
+Yes, I know. But report is in LaTeX, so it compiles into pdf presentation too
+22:26
+Bogdan Glavan
+thanks for mentioning latex i completely forgot we need to send it like that
+22:26
+Andrei Simon
+it must be in latex?
+22:26
+Bogdan Glavan
+yeah
+22:27
+Мудретс
+Anti-gravity handles it perfectly.
+22:27
+Bogdan Glavan
+great
+22:37
+@newgopro sorry if you already started generating the document but i added updated bibliography. Loooots of new sources, probably due to domain analysis, so either we cut a lot and hope they don't detect its ai written or just say fuck it and add them anyway to back up claims
+22:38
+atp i just wanna present a bit of domain analysis for 2 mins, problem too probably and just chill
+22:38
+Мудретс
+You can send whatever you want until 23:59, and Antigravity will incorporate the changes)
+22:39
+Bogdan Glavan
+i think im done though, bibliography was last i wanted to add, please tell antigravity to fill in gaps on unwritten sources
+22:39
+Мудретс
+I specifically crafted the prompt so that the text wouldn’t look 100% like it was generated by AI; we can always rephrase it later if needed.
+22:39
+Bogdan Glavan
+besides i dont know how long it takes so better now than later i think
+22:39
+ok nice
+22:39
+Andrei Simon
+we have an hour to send
+22:39
+Мудретс
+but where is updated bibliography?
+22:40
+Andrei Simon
+the pinned document itself i think
+22:40
+Bogdan Glavan
+https://docs.google.com/document/d/1S0-kge86_klcZ_W1lVrumyZfElHTHxRtfXtrSE8eVaA/edit?usp=sharing
+👍
+22:40
+Мудретс
+In reply to this message
+Just think of all you can get done in an hour
+22:41
+Bogdan Glavan
+im done
+22:41
+Мудретс
+You have already created presentation?
+22:41
+Bogdan Glavan
+no
+22:41
+Andrei Simon
+We havent even started
+22:42
+but thats for saturday
+23:08
+Andrei Simon
+Who will submit the report
+23:10
+Bogdan Glavan
+@newgopro is it still generating
+23:11
+Мудретс
+main.pdf
+Not included, change data exporting settings to download.
+2.3 MB
+23:11
+There are still some issues. If you spot anything else, let us know — Antigravity will fix it.
+23:12
+Bogdan Glavan
+ok looks really good we can send it
+23:12
+Мудретс
+no
+23:12
+there are some issues
+23:12
+Antigravity is fixing
+23:12
+I think it will be ready soon
+23:12
+Bogdan Glavan
+alright
+❤
+23:13
+Andrei Simon
+i think we should change the "Better spotify" name
+23:13
+Because its not really related to spotify anymore
+23:13
+Bogdan Glavan
+thanks for including pictures btw i think including the milanote screenshot is a good decision
+23:13
+Мудретс
+In reply to this message
+I don't know. It is our project's official name
+23:13
+Or not?
+23:14
+Bogdan Glavan
+good point, its like the team name but the product name is like a sample browser, cant they both be present?
+23:14
+Мудретс
+Ok. Like "Better Spotify / Sample Browser"
+23:14
+Bogdan Glavan
+yeah
+23:18
+Andrei Simon
+I guess we can leave it as is for now
+23:33
+Bogdan Glavan
+@newgopro hows the progress now
+23:33
+Мудретс
+main.pdf
+Not included, change data exporting settings to download.
+2.4 MB
+23:34
+I am going to give it to Gemini to make audit and at last time to launch Antigravity
+23:34
+Bogdan Glavan
+Alright
+23:37
+Мудретс
+But just in case, download the latest file, rename it as needed, and open the submission page on Else—who knows, maybe antigravity will kick in and things won't happen in time.
+👍
+23:38
+Bogdan Glavan
+if it isn't done by -5 mins before deadline I'm uploading it
+23:38
+Мудретс
+yes
+23:53
+Do not send
+23:53
+Mihai
+si se intimpla
+23:53
+Мудретс
+FAF.PCAS25.1_Team16_Report.pdf
+Not included, change data exporting settings to download.
+2.4 MB
+23:54
+Bogdan Glavan
+do i not send this?
+23:54
+Мудретс
+This one
+23:54
+Yes
+23:54
+Andrei Simon
+He deleted the other one
+23:54
+Bogdan Glavan
+In reply to this message
+ok so this
+23:54
+Мудретс
+In reply to this message
+This
+23:54
+Bogdan Glavan
+alright
+23:54
+Mihai
+sho za dvij
+23:54
+Andrei Simon
+submitting 0.000001 seconds before deadline
+23:55
+Mihai
+asta tre de spus simbata?
+23:55
+Andrei Simon
+nu
+23:55
+Mihai
+bun
+23:55
+Andrei Simon
+pe sambata trebu alta prezentare
+23:55
+Mihai
+iobanii
+23:55
+Andrei Simon
+gen rezumat de 7 min
+23:55
+Mihai
+si tre fiecare de spus sau numa 1 prezinta
+23:55
+Andrei Simon
+probabil fiecare
+23:56
+Mihai
+si probabil in engleza
+23:56
+Мудретс
+100% in engleza
+23:56
+Mihai
+da hule nu iati trimis in linku la drive
+23:56
+tipa bagati pdf iin drive si ii trimiteti linku
+23:56
+si dupa puteti sal mai skimbati
+23:56
+Bogdan Glavan
+Photo
+Not included, change data exporting settings to download.
+1133×666, 59.6 KB
+🍻
+23:57
+thanks Leonid for coming in clutch
+23:57
+but now i think the solution is changed to an algorithm?
+23:57
+Mihai
+care algorith
+23:57
+Мудретс
+I think no
+23:58
+I told him that your framing of the solution is the foundation.
+23:58
+Bogdan Glavan
+bro this report is like a history lesson lol
+23:58
+Mihai
+adika
+23:58
+Bogdan Glavan
+Photo
+Not included, change data exporting settings to download.
+1172×550, 123.6 KB
+23:59
+the great debate of 2026
+23:59
+Мудретс
+In reply to this message
+The template encouraged describing the history of development.
+23:59
+Mihai
+blea ma pricaleste ca ini dati ignor total
+23:59
+Bogdan Glavan
+no but this is actually smart like its legitimately showing stuff we did and we dont need to waddle in front of them and explain that we did do work before this
+23 October 2026
+00:00
+Bogdan Glavan
+In reply to this message
+daca iti raspund tot nu intelegi deci pohui
+00:00
+Mihai
+sa intelg ca poh de mesagele mele
+00:00
+asta o vrut sa spuna autoru
+00:01
+Bogdan Glavan
+poh de confuzie bai
+00:01
+trebuia mai de mult sa dedic timp sa va explic unde stau updateurile cu proiectul dar deama am inteles prea tarziu
+00:02
+Мудретс
+Antigravity did everything based on all the files (I’ll send them over now).
+00:02
+Mihai
+trebuia sa facem asta mai de mult nu n ultima secunda
+00:02
+Bogdan Glavan
+trebuia
+00:02
+Mihai
+care nahui antigravity
+00:02
+Bogdan Glavan
+acuma mananci crenvusca
+00:02
+Mihai
+astai dam fizica brat nu spotify
+00:02
+Bogdan Glavan
+antispiral
+00:02
+Мудретс
+Photo
+Not included, change data exporting settings to download.
+942×561, 24.7 KB
+00:02
+This
+00:03
+Mihai
+blea , cam pre dahuia am perdut daca dam ii vorba de antigravity
+00:03
+Мудретс
+Google AI agent system
+00:03
+Bogdan Glavan
+In reply to this message
+ai pierdut 5 arcuri brat
+00:03
+Mihai
+bine brat
+00:03
+In reply to this message
+am pierdut blea parca un manual intreg de istorie
+00:04
+Bogdan Glavan
+btw im going to present the domain analysis and introduce the problem in short so ill prepare tomorrow for that
+00:04
+Мудретс
+everything.zip
+Not included, change data exporting settings to download.
+9.5 MB
+00:04
+Bogdan Glavan
+In reply to this message
+asa ii
+00:04
+Andrei Simon
+we should make the presentation itself first
+👍
+00:04
+Bogdan Glavan
+In reply to this message
+1 month of my life in 9.6 MB
+00:04
+In reply to this message
+after midterm exam though
+00:05
+Mihai
+pream 1 month?
+00:05
+Мудретс
+Well, actually, everything.zip is not everything)
+00:05
+Mihai
+ebati
+00:05
+scam
+00:05
+Bogdan Glavan
+is everything like different files or a text summary
+00:05
+Mihai
+ma jalui lu mr proper ca ma scamuiti
+00:05
+Мудретс
+Photo
+Not included, change data exporting settings to download.
+1280×223, 17.3 KB
+00:06
+Bogdan Glavan
+In reply to this message
+Photo
+Not included, change data exporting settings to download.
+310×255, 18.7 KB
+00:06
+Mihai
+blea zii ca nu samana
+00:06
+Мудретс
+Photo
+Not included, change data exporting settings to download.
+839×177, 16.1 KB
+00:06
+Photo
+Not included, change data exporting settings to download.
+1280×210, 17.9 KB
+🔥
+00:08
+Mihai
+sii gata ?
+00:08
+Мудретс
+Da
+00:08
+Mihai
+zaebisi
+00:08
+bine am lucrat patani
+00:08
+Мудретс
+48 files
+00:09
+Mihai
+nihuiasibe
+00:09
+ebati ti masina
+00:09
+Мудретс
+Gemini 4 Argon + Antigravity + GPT is a lethal combination.
+00:10
+Mihai
+argon?
+00:10
+dam dai si metan etan propan brat
+00:10
+Мудретс
+Is the name of newest version of Gemini
+00:11
+Mihai
+gratis?
+00:11
+Мудретс
+I don't know precisely
+00:12
+Bogdan Glavan
+In reply to this message
+Photo
+Not included, change data exporting settings to download.
+1129×255, 35.4 KB
+00:12
+Мудретс
+I have pro subscription
+00:12
+Mihai
+In reply to this message
+?
+00:12
+In reply to this message
+ebati ti crutoi
+00:13
+Мудретс
+In reply to this message
+So that’s where you’ve been going to take a break)
+00:14
+Was only one person supposed to submit a report?
+00:14
+Andrei Simon
+Yes
+🔥
+00:18
+Bogdan Glavan
+aight good luck tomorrow on programming midterm
+00:18
+Mihai
+dam ii today brat
+00:18
+Bogdan Glavan
+stiu brat
+00:18
+ii trist
+00:18
+Mihai
+na
+00:18
+asai in fiecare sara la mine
+00:18
+Bogdan Glavan
+ii ca anu nou da fara brad fara cadouri fara nica
+00:19
+sper sa mearga bine
+00:19
+Мудретс
+good night everyone
+00:34
+Bogdan Glavan
+goodnight
+Bogdan Glavan pinned this message
+14:34
+Bogdan Glavan
+im gonna work on presentation later at 6 pm until then i suggest to re-read the report, pay attention to what you understand the best and choose a section you'll want to talk about during presentation
+14:35
+remember that its 7 minutes max, so while its important to remember details, don't worry if you can't memorize some sources or something
+14:35
+Rn im gathering examples to pick for the solution part and drawing how it could look like based on samplette's interface
+14:51
+Мудретс
+Photo
+Not included, change data exporting settings to download.
+1280×768, 101.1 KB
+14:51
+Photo
+Not included, change data exporting settings to download.
+1280×748, 86.4 KB
+14:51
+In reply to this message
+It is from report - Antigravity generated this
+14:53
+In reply to this message
+I think designing a completely different interface right now would be a mistake. Later on, we could quietly come up with a reason to change it—though, honestly, I quite like this one as it is.
+14:54
+I think so, because if the report and the presentation will show different interfaces, the mentors will have questions.
+14:55
+Bogdan Glavan
+In reply to this message
+yeah its pretty close to what i was thinking
+14:55
+Мудретс
+In reply to this message
+Ok, so we choose this one for tomorrow's presentation
+❤
+14:56
+Bogdan Glavan
+i thought it'd be a good idea to mention some examples of shared sounds between popular music but in practice i dont think theyll let us play audio so maybe ill just say some things if they ask
+14:57
+Andrei Simon
+Even if we dont play any audio i think itd be a good idea to bring an example of a popular song everyone knows
+14:58
+Bogdan Glavan
+In reply to this message
+yeah but even then its probably gonna be awkward
+14:58
+Мудретс
+In reply to this message
+Yes
+14:58
+Andrei Simon
+In reply to this message
+even so i think theyre gonna ask about it
+14:59
+so rather than making up an example on the spot include it in the presentation
+14:59
+Bogdan Glavan
+one time i made a presentation in highschool about sampling and i showed harder better faster stronger by daft punk and most people didnt even know it and those who did didnt really contribute lol
+15:00
+like regardless if they recognize the song or not they'd have to play it back in the middle of the presentation and they'll just like, not care anyway
+15:00
+the more i think about demonstrating the solution the more i regret picking music as the topic
+15:01
+In reply to this message
+a slide of tag names and song associations to hammer it in
+15:02
+but just like, to make the pipeline clear after showing the design
+15:02
+Andrei Simon
+In reply to this message
+that could be good enough
+15:13
+Мудретс
+Before deciding what each person will talk about, you first need to determine what actually needs to be covered. Weren’t you told about this on Thursday? What exactly is supposed to be included?
+15:15
+Bogdan Glavan
+In reply to this message
+not really no
+15:15
+we were told that we shouldve finished the puzzle to get hints on presentation but the only thing we have is the example
+15:17
+The example covers a bit on the domain(why do we write), the tools existing for the activity(what apps are there for writing), the problem(writing in word is annoying) and the solution(latex) and showing difference between solution and other thing where problem happens(latex vs word graph)
+15:24
+our madlibs version of that is like
+domain(why producers sample), tools existing(sample finding apps and music platforms) the problem(tracklib and samplette gives you the general song categories but not the info describing the samples, so gathering samples that can match in the same mix takes a long time) the solution(tags relating to samples within songs and the ability to skip to samples in other songs which share similar information) and difference between solution and existing competitor(tracklib is good for finding songs where you generally find good samples, but with limited variety, this site has a learning curve with understanding descriptions but gives you fast results when you understand them)
+17:15
+Bogdan Glavan
+https://docs.google.com/presentation/d/1-srednbpH9QyU7nb33ljx7JWDPl7oCOBMi4esVwzbRs/edit?usp=sharing
+17:16
+all slides are templates except the one where i wrote the bottlenecks
+17:17
+before bottlenecks should come the problem statement and before that, the explanation of why producers sample and that most don't work full-time and they make their living outside music
+17:17
+after bottlenecks should come the solution and comparison to existing tools
+17:18
+and all that should be enough for 5-6 minutes
+17:19
+@prscr Andrei @Misha192 @newgopro have you decided which part to present?(can be outside of what i mentioned, just to know)
+17:19
+like i said i'll present the intro and introducing the problem up to bottlenecks
+17:33
+Мудретс
+But what are the 5 parts we can choose?
+17:39
+Mihai
+si ramine o so prezint eu
+17:40
+Bogdan Glavan
+1. solution description
+2. comparisons to existing tools
+3. relevancy?(given that Cyanite exists to categorize music based on analyzed audio data, and maybe other things like DJ, Spotify's audio data API closing this year)
+i hate i didnt think of it during report writing yesterday, but I should've mentioned how stem separation AI exists in DAWs and its appeared only recently in 2023
+17:41
+probably not to include more sections but split the solution and comparison into sub sections where possible
+17:44
+Мудретс
+Gemini offers this plan:
+1. Introduction & Context
+2. Domain Analysis & Existing Tools
+3. Problem Analysis, Pivot & Problem Statement
+4. Target Group & User Persona
+5. Solution Description & Value Proposition
+6. Comparative Analysis & SWOT
+7. Customer Validation, Business Model & Roadmap
+17:45
+after guideline analysis
+17:48
+Bogdan Glavan
+This is how i would change it:
+1. Introduction & Domain Analysis(Who samples music, why sampling is a big deal and why music apps aren't specialized for this)
+2. Existing tools (More about how some apps feature short snippets while others focus on full track listening for production)
+3. Problem Statement & Bottlenecks
+4. Solution & short Comparative Analysis to existing tools
+5. Customer Validation questions and what we want to find out(like for example which tag creation system could work as a business model)
+17:53
+i think if i present the introduction and problem statement, then open slots would be 1. existing solution 2. solution description 3. comparative analysis 4. our goals and customer questions
+17:54
+Fistic told us solution and problem are things mentors will pay attention to, rest of stuff isnt as dramatic, but if those 2 sections arent spoken clearly then it sucks for us
+17:54
+Мудретс
+This plan entirely omits the mandatory third stage of the guideline: defining target groups and user personas—without which the committee will not be able to see for whom the system is being designed. Furthermore, the structure lacks key artifacts explicitly required by the manual, namely the Value Proposition Canvas (from the second stage) and the SWOT matrix (from the fourth stage). Combining the description of the solution with a comparative analysis into a single section would overburden one presenter and violate the guideline’s requirement that the presentation must mirror the structure of the report. Finally, placing customer development (custdev) at the very end—disconnected from the target audience—contradicts the validation methodology outlined in the third section of the guideline, which stipulates that hypotheses and questions must be formulated specifically for particular user groups.
+17:55
+And I think we should first outline a plan (it doesn’t necessarily have to be 5 points), and then divide it into 5 parts.
+17:56
+Bogdan Glavan
+its just that the presentation is short and if solution and problem need specific attention, then we can dedicate like 2-3 minutes for that and then everything will be like breezed over
+17:56
+btw im taking inspiration from the presentation gavrilita showed us in class about latex
+🔥
+17:56
+thats why i focused on comparative analysis
+17:57
+Мудретс
+Yes, of course. We’ll focus specifically on the problem and the solution, and just breeze through the rest for the sake of completeness.
+17:58
+In reply to this message
+This plan was created in accordance with requirements of official Guideline
+17:59
+Andrei Simon
+Is the guideline not specifically for the report?
+17:59
+Bogdan Glavan
+so then main parts:
+1. problem
+2. solution
+
+faster sections:
+1. what sampling is
+2. what producers we wanna help
+3. comparative analysis
+4. SWOT
+5. customer validation
+6. pivot history(ig just a short 2 sentences about trying to analyze music discovery on spotify before figuring out listeners dont have severe problems with it)
+18:00
+In reply to this message
+i remember them mentioning stuff like "dont just show report and say nothing" so ig its like the quick version of the report?
+so we do kind of have to follow it, but at the same time not make it confusing. ts pmo
+18:00
+Andrei Simon
+In reply to this message
+pivot history seems unnecessary tbh
+18:01
+Bogdan Glavan
+it is a big part of what we did but yeah lol
+18:12
+Bogdan: What sampling is, Who our target customers are, What the problem is and why it is a problem
+~ 2 mins
+1: The solution described
+2: Analysis by comparing to sources that lead to full songs(Samplette and Tracklib)
+~ 2 mins
+3: Strengths, weaknesses, threats and opportunities
+4: Future research questions for customer validation
+~2 mins
+6 mins total best case scenario
+18:19
+Мудретс
+1. Introduction & Context:
+What sampling is
+2. Domain Analysis & Existing Tools:
+Analysis by comparing to sources that lead to full songs(Samplette and Tracklib)
+3. Problem Analysis, Pivot & Problem Statement:
+What the problem is and why it is a problem
+4. Target Group & User Persona:
+Who our target customers are
+5. Solution Description & Value Proposition:
+The solution described
+6. Comparative Analysis & SWOT:
+Strengths, weaknesses, threats and opportunities
+7. Customer Validation, Business Model & Roadmap:
+Future research questions for customer validation
+👍
+18:20
+To ensure everyone understands what relates to what, I’ve copied your points into the sections outlined in the guideline.
+18:20
+Bogdan Glavan
+nice
+18:21
+@prscr Andrei @Misha192 pick from 4-7
+18:25
+Мудретс
+We should find two smallest and who will select one of them, should select besides that one point in addition
+18:42
+Bogdan Glavan
+In reply to this message
+4 - from page 16-18
+5 - from page 12-16
+6 - from page 18-19
+7 - from page 17-18
+18:49
+Мудретс
+In reply to this message
+This is anchors from report?
+18:50
+Bogdan Glavan
+yes
+18:50
+which page each section to read exists
+18:50
+Andrei Simon
+I could do 6
+18:50
+since thats what i already worked on
+👍
+18:52
+Bogdan Glavan
+btw @newgopro on thursday gavrilita said we should present without relying on slides explaining every detail, like "if the projector goes off you should still continue the presentation and everything should be clear from what you say"
+18:52
+so if we dont have any time left we can just place titles and images
+18:52
+whats more important is read the section to present
+and the rest of project too to understand the context, but yeah
+Bogdan Glavan pinned this message
+Bogdan Glavan pinned this message
+18:53
+Мудретс
+In reply to this message
+OK, but I find this strange. Presentations exist precisely to present information visually.
+18:53
+Bogdan Glavan
+true but ig he means like, everyone will pay attention to you more than the slides
+18:53
+Andrei Simon
+In reply to this message
+the Latex example was like that too
+❤
+18:54
+Bogdan Glavan
+In reply to this message
+ok actually yes images are very important to include, but i meant if we dont have time to design the presentation well we resort to that basically
+👍
+18:56
+@Misha192 @prscr ar fi bine sa incepeti de acum sa repetati daca nu ati inceput, devine tarziu
+18:56
+Мудретс
+I’ve asked Antigravity to put together a LaTeX draft(just a base for the presentation — there won’t be any images) so we can see how it looks and make changes if we don’t like it. Otherwise, we’ll end up sending it off near midnight again today). This doesn’t mean anything for you yet—keep thinking about how to do it, and how to do it better.
+19:03
+Bogdan Glavan
+Photo
+Not included, change data exporting settings to download.
+1062×637, 86.5 KB
+my idea is take these images and use them throughout, and obviously chapter titles
+19:03
+Photo
+Not included, change data exporting settings to download.
+1062×620, 79.1 KB
+19:03
+Photo
+Not included, change data exporting settings to download.
+1095×841, 239.9 KB
+19:03
+Photo
+Not included, change data exporting settings to download.
+1200×533, 84.1 KB
+19:03
+Photo
+Not included, change data exporting settings to download.
+1280×606, 70.8 KB
+19:04
+Мудретс
+Yeah
+19:05
+In reply to this message
+But what is it(I don't remember this photo)?
+19:08
+Mihai
+da cite pagini tre de zis?
+19:08
+Bogdan Glavan
+In reply to this message
+2nd last one is screenshot from samplette, last one is a screenshot from tracklib
+19:09
+Мудретс
+Thanks
+19:12
+Bogdan Glavan
+btw if asked about tracklib, it does have a stem separation filter and it isolates single instruments from the tracks presented
+It is not a filter for finding song sections though, and you still have to listen to the song in full.
+19:12
+In reply to this message
+nicio pagina, 1 minut de prezentat
+19:12
+am trimis paginile ca sa stii din ce informatie sa prezinti
+19:42
+Mihai
+caroce cala etica
+19:42
+Bogdan Glavan
+da
+19:42
+cam fix in fix numai ca aici te provoaca
+19:53
+Photo
+Not included, change data exporting settings to download.
+1084×249, 52.7 KB
+ok so i know it doesnt change much right now, but i found this user persona scenario and i feel like the AI hallucinated here lol
+It got right that producers go back and forth on sections and take time to find what they can use but the pre-condition of "I know there is a 4-bar Rhodes somewhere" just does not happen
+19:53
+like the rest of the text is really well written but it dropped the ball here particularly at the user personas
+19:54
+im going to edit it to fit a real scenario
+19:55
+Никита
+In reply to this message
+7
+19:55
+If it's free
+19:56
+Bogdan Glavan
+i think it is
+20:15
+Bogdan Glavan
+Alex "Kaelo" Miller (22, Bedroom Producer). Alex works full-time in tech support and produces hip-hop beats in his spare time(8-12 hours a week) on Ableton Live and FL Studio.
+Each day, he dedicates 1-1.5 hours to crate-digging through obscure 1970s Japanese jazz-fusion and MPB recordings on YouTube and Samplette.
+”I find this amazing sample from a Masayoshi Takanaka song on YouTube and it's like a background vocal, and I want to accompany it with an acoustic guitar or something mellow.
+After listening to about 5-6 more recommended jazz-fusion tracks that last 4-8 min in length, I still feel like something is missing, like none of what I listened to has guitars
+used in the way I want them. The first sample doesn't work only by itself, and I don't have any saved guitar samples that fit, but I spent almost half an hour on this and I need to start on my homework soon.
+I just don't have the time to finish this idea."
+Alex has a clear goal: he wants to mix a high-quality sample with an ideal instrumental section from an underground track, but he has limited time to search for these samples,
+leaving him feel dissatisfied when he listens to song after song without any useful material found.
+20:29
+Annie Lee (20, Hobbyist SoundCloud Producer). Annie is a FAF student at UTM and uses time during weekends to experiment with sound-design and improve at mixing and mastering.
+Before using the plugins she set up for the Mixer channels in her FL Studio project, she first needs a collection of samples to test it on.
+"I usually look up sounds on Splice to play around with, like instruments or sound effects, but I feel like I explored all the options I could find available, and most of the other ones
+I find are pretty bland. If I look something up online, its hard to find any usable music because most of it just sounds generic and uninspired. Samplette is pretty good for finding niche
+music, but all of it is random and I don't know what I'm looking for when I listen to these. Sometimes I stumble upon something fun to work with, but its quite rare and I don't know how
+to find more stuff like it."
+Annie finds it monotonous to look up full songs on the internet due to the inability of specifying audio-level requests on the websites she uses. Even when given filters, finding samples
+in the same style is difficult to define without more proper information, so useful material comes much more rarely than she would prefer.
+20:30
+for who is working with User Personas and Target Audience you can use these, I'll include them in the slides
+21:02
+Мудретс
+In reply to this message
+Are you creating presentation now?
+21:03
+Bogdan Glavan
+i was reading the report but I'll start now
+21:03
+Мудретс
+main.pdf
+Not included, change data exporting settings to download.
+814.0 KB
+❤
+21:04
+Not perfect, but it’s a starting point
+21:18
+I’m not sure—it looks a lot like it was generated by AI. Plus, you can’t edit it in a standard presentation program (each slide is just a single image, rather than a collection of individual elements and a background). In any case, the content itself seems pretty good, and the way the topic is broken down across the slides works well too. Try putting a presentation together yourself; if you run out of time, we can use this one. I can send you the source material (so you can copy the text). @bogdan8064
+21:20
+Bogdan Glavan
+its alright i got claude to turn it into slides
+🔥
+21:20
+I'll edit it now
+21:31
+Мудретс
+images.zip
+Not included, change data exporting settings to download.
+1.6 MB
+🔥
+21:50
+Мудретс
+I was wrong; this PDF can be edited)
+22:30
+Мудретс
+presentation.pdf
+Not included, change data exporting settings to download.
+2.1 MB
+22:31
+Looks like we’re done with antigravity. Might come in handy.
+22:31
+Bogdan Glavan
+nice
+22:31
+im now working on other sections, i made 1-3 so far
+22:37
+Мудретс
+In reply to this message
+Are you keeping up?
+22:37
+Bogdan Glavan
+rn i told claude to convert the pdf into slides so i can work with them
+22:37
+i'll make it by 23:30
+22:40
+Мудретс
+In reply to this message
+Well, if you don’t manage to get it done in time, we could send this one instead. Everything seems to be fine there there.
+22:40
+I’ll draft the text for us, and I’ll ask GPT and Gemini to predict what questions the mentors might have.
+👍
+22:41
+Bogdan Glavan
+I'll make it in time, but its a good thing you made it thanks
+22:42
+Мудретс
+Several new elements have been added: there is significantly less text, new photographs have been included, along with the backstories of those two characters and avatars—there is a lot that is new compared to the previous version.
+🔥
+22:43
+In reply to this message
+I say about this
+22:43
+Bogdan Glavan
+i saw it, the user personas actually save a lot of (remaining) time
+22:43
+its still generating thats why im active here
+22:43
+it should be done in like 3 mins
+22:44
+Photo
+Not included, change data exporting settings to download.
+991×245, 31.0 KB
+❤
+22:44
+Мудретс
+I can send latex sources, if it will be needed
+22:45
+Bogdan Glavan
+ngl i feel like nobody is even gonna look at the presentation so i wanna make it simple to understand and not too complex
+22:45
+by look at it i mean before we present
+22:45
+or after
+22:46
+like its just there for presentation and thats it afterwards they check the report, its like a sales pitch
+22:48
+Мудретс
+yeah, but we will show presentation during pitch. I think they will look at her too and this will be part of our notes
+22:52
+Mihai
+si se intimpla?
+22:52
+Bogdan Glavan
+claude ii dalbaiob si numi da mai repede slideurile
+22:52
+Mihai
+apu si facem mine?
+22:52
+Bogdan Glavan
+Photo
+Not included, change data exporting settings to download.
+1055×301, 31.7 KB
+22:53
+ba bula invata partea ta din prezentare
+22:53
+ii important
+22:53
+Mihai
+dapai voi ti facut prezentarea?
+22:53
+Bogdan Glavan
+o fac
+22:53
+dar exista deja structura
+22:54
+Mihai
+si carei partea mea?
+22:54
+Bogdan Glavan
+4
+22:54
+Mihai
+bun si carei structura
+22:55
+Bogdan Glavan
+pizda masii uitete in pinned
+22:55
+Mihai
+chill bro
+22:55
+Bogdan Glavan
+eu is incarcat si vreau macar sa inveti o parte te rog
+22:55
+Mihai
+bleati apu textul carei
+22:55
+sau eu tre sal compun?
+22:55
+Bogdan Glavan
+singur
+22:55
+Mihai
+blea
+22:55
+In reply to this message
+apu descarcate
+22:56
+Target Group & User Persona:
+Who our target customers are asta?
+23:03
+Bogdan Glavan
+da
+23:12
+Мудретс
+team_text.md
+Not included, change data exporting settings to download.
+5.6 KB
+23:26
+Bogdan Glavan
+https://docs.google.com/presentation/d/1-srednbpH9QyU7nb33ljx7JWDPl7oCOBMi4esVwzbRs/edit?usp=sharing i think i am done
+23:26
+it is 18 slides but the exact flow of sections as said
+23:32
+Мудретс
+Photo
+Not included, change data exporting settings to download.
+1087×289, 25.6 KB
+23:32
+Photo
+Not included, change data exporting settings to download.
+1280×634, 72.3 KB
+23:32
+Bogdan Glavan
+is it good to go or should I edit something? I excluded the project history to avoid making it too long. Im sorry if the solution section is too bare
+23:33
+Мудретс
+There are some issues, I’d say.
+23:33
+In reply to this message
+The formatting got messed up.
+23:34
+In reply to this message
+Compressing rectangular, horizontal images horizontally—in a non-proportional way—is not a very good idea.
+23:34
+Photo
+Not included, change data exporting settings to download.
+1082×226, 19.0 KB
+23:35
+In reply to this message
+here too
+23:36
+In reply to this message
+It is also a candidate
+23:36
+@Misha192 @prscr Andrei what do you think?
+23:37
+In reply to this message
+this
+23:37
+In reply to this message
+or this
+23:39
+Bogdan Glavan
+i fixed the formatting errors
+23:40
+Мудретс
+Photo
+Not included, change data exporting settings to download.
+1231×620, 85.0 KB
+23:40
+Letters too big
+23:41
+To be honest, I don’t really like it that much.
+23:42
+I don’t know why. I had imagined something else.
+23:44
+Gemini say that we should select pdf
+23:44
+Claude too
+23:45
+Let's send pdf file
+23:47
+@bogdan8064
+23:51
+Bogdan Glavan
+are you sure?
+23:52
+its better to send something readable than something with a lot of accurate information
+23:52
+Мудретс
+If I were sure, I wouldn’t be asking two AIs at once.
+23:52
+But I think it would be better to send a PDF.
+23:52
+In reply to this message
+pdf is readable
+23:52
+Bogdan Glavan
+AI just tells you that because it has more info aligned with your request, it doesnt know what a presentation should look like
+23:53
+In reply to this message
+they can tell its AI
+23:53
+Мудретс
+In reply to this message
+.
+23:53
+She looks bad.
+23:54
+Bogdan Glavan
+I know, but it presents the information, and they'll listen to us talk anyway, and if theres a visual guide, it has images and text, and its not a lot to take in at once
+23:54
+Мудретс
+The visual appearance of the presentation will also be evaluated.
+23:55
+Besides, there are some things that aren't in .pptx either.
+23:55
+Bogdan Glavan
+im sending it in regardless, if they want more info they'll look at the report
+23:55
+or they'll ask us
+23:55
+i think its better to be simple than rigorous
+23:55
+Мудретс
+design matter
+23:55
+pdf is simple
+23:55
+Bogdan Glavan
+it is not
+23:56
+Мудретс
+it is
+23:56
+Why not send what’s better, if there’s a chance to do so?
+23:58
+We have a minute
+23:58
+Bogdan Glavan
+ok i sent yours
+❤
+23:59
+mine was a ppt so it didnt work so that one works
+23:59
+Мудретс
+Did you send corrections?
+23:59
+Bogdan Glavan
+yeah just now
+23:59
+Мудретс
+Well
+23:59
+Bogdan Glavan
+we're safe now yay
+24 October 2026
+00:00
+Мудретс
+yay
+00:01
+Bogdan Glavan
+Photo
+Not included, change data exporting settings to download.
+762×280, 21.5 KB
+00:01
+Photo
+Not included, change data exporting settings to download.
+930×1280, 156.6 KB
+00:01
+Мудретс
+))
+00:02
+Photo
+Not included, change data exporting settings to download.
+346×66, 2.7 KB
+00:02
+It is from PC today
+00:03
+Bogdan Glavan
+wtf is this
+00:03
+Мудретс
+This number haunts me
+🔥
+00:03
+In reply to this message
+time spent
+00:04
+Bogdan Glavan
+btw i do not know how the presentation works can you please work with the slides when we present
+00:04
+Мудретс
+no problem
+❤
+00:05
+team_text.md
+Not included, change data exporting settings to download.
+5.6 KB
+00:05
+presentation.pdf
+Not included, change data exporting settings to download.
+2.1 MB
+Мудретс pinned this message
+00:06
+Bogdan Glavan
+9:00 AM SHOW UP
+00:13
+Мудретс
+There are 9 main slides and 2 additional ones(an appendix):
+1: Title (~15 sec)
+2: Context (~35 sec)
+3: Existing Solutions (~40 sec)
+4: Problem and Pivot (~55 sec)
+5: Target Group and Personas (~70 sec)
+6: The Solution (~35 sec)
+7: Architecture (~40 sec)
+8: Competitors and SWOT (~40 sec)
+9: Roadmap (~45 sec)
+
+10: APPENDIX · Q&A REFERENCE
+11: APPENDIX · Q&A REFERENCE
+00:14
+In reply to this message
+Everyone can change his text, but try to stay within the time limit.
+00:19
+I think we should discuss two potential questions from the jury and how we’ll answer them:
+1) "Did you use AI to create the report and presentation, and if so, to what extent?"
+2) "What did each of you contribute, and what is the rationale behind these corrections?"
+We need to prepare our answers in advance so that we don’t end up contradicting each other on the spot.
+00:37
+Mihai
+mai este online cineva?
+00:38
+Мудретс
+da
+Next messages
+

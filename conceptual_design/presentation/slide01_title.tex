@@ -1,0 +1,66 @@
+\begin{frame}[t]
+  \vspace*{2mm}
+  % Top Header Row
+  \noindent\begin{minipage}{\textwidth}
+    \begin{tikzpicture}[baseline=(pill.base)]
+      \node[fill=cardsurface, draw=cardborder, line width=0.6pt, rounded corners=2.5pt, inner sep=2.5pt] (pill) {
+        \tiny\bfseries\textcolor{textwhite}{TECHNICAL UNIVERSITY OF MOLDOVA · FCIM · FAF.PCAS25.1}
+      };
+    \end{tikzpicture}%
+    \hfill%
+    \begin{tikzpicture}[baseline=(pill2.base)]
+      \node[fill=cardsurface, draw=cardborder, line width=0.6pt, rounded corners=2.5pt, inner sep=2.5pt] (pill2) {
+        \tiny\bfseries\textcolor{accentemerald}{MIDTERM 1 DEFENSE · 7-MIN PITCH}
+      };
+    \end{tikzpicture}
+  \end{minipage}
+
+  \vspace{3mm}
+
+  % Main Title Hero Card
+  \begin{tcolorbox}[standardcard, left=9pt, right=9pt, top=8pt, bottom=8pt]
+    \begin{columns}[onlytextwidth, c]
+      \begin{column}{0.75\textwidth}
+        {\LARGE\bfseries\textcolor{textwhite}{Better Spotify / \textcolor{accentemerald}{Sample Browser}}}\par\vspace{1.5mm}
+        {\normalsize\textcolor{textmuted}{Granular Audio Passage Discovery for Independent Music Producers}}\par\vspace{2mm}
+        {\scriptsize\textcolor{textdim}{Problem-Based Learning Journey: Evolving from a Passive Playback Concept into an Active Creator Workspace}}
+      \end{column}
+      \begin{column}{0.22\textwidth}
+        \centering
+        \begin{tcolorbox}[enhanced, colback=white, colframe=cardborder, arc=3pt, boxrule=0.6pt, left=2mm, right=2mm, top=2mm, bottom=2mm, halign=center]
+          \includegraphics[width=\linewidth, height=1.05cm, keepaspectratio]{images/UTM_Logo.png}
+        \end{tcolorbox}
+      \end{column}
+    \end{columns}
+  \end{tcolorbox}
+
+  \vspace{3mm}
+
+  % Bottom Metadata Row
+  \begin{columns}[onlytextwidth, T]
+    % Students Card
+    \begin{column}{0.485\textwidth}
+      \begin{tcolorbox}[standardcard, top=5pt, bottom=5pt]
+        {\scriptsize\bfseries\textcolor{textwhite}{TEAM 16 (FAF STUDENTS)}}\par\vspace{1.5mm}
+        \begin{tabularx}{\textwidth}{@{}l X l X@{}}
+          \tiny\textcolor{textmuted}{Bogdan Glavan} & \tiny\textcolor{textdim}{FAF-261} &
+          \tiny\textcolor{textmuted}{Leonid Tiscenco} & \tiny\textcolor{textdim}{FAF-263} \\
+          \tiny\textcolor{textmuted}{Andrei Simon} & \tiny\textcolor{textdim}{FAF-261} &
+          \tiny\textcolor{textmuted}{Mihai-Constantin Sîrghii} & \tiny\textcolor{textdim}{FAF-262} \\
+          \tiny\textcolor{textmuted}{Nikita Creciun} & \tiny\textcolor{textdim}{FAF-263} &
+          & \\
+        \end{tabularx}
+      \end{tcolorbox}
+    \end{column}
+
+    % Mentor & Course Card
+    \begin{column}{0.485\textwidth}
+      \begin{tcolorbox}[standardcard, top=5pt, bottom=5pt]
+        {\scriptsize\bfseries\textcolor{textwhite}{PROJECT SUPERVISION}}\par\vspace{1.5mm}
+        {\tiny\textbf{\textcolor{textwhite}{Mentor:}} \textcolor{textmuted}{Elena Graur}}\par\vspace{0.8mm}
+        {\tiny\textcolor{textmuted}{Faculty of Computers, Informatics and Microelectronics (FCIM)}}\par\vspace{0.5mm}
+        {\tiny\textcolor{textdim}{Department of Software Engineering and Automatics · Chişinău, 2026}}
+      \end{tcolorbox}
+    \end{column}
+  \end{columns}
+\end{frame}

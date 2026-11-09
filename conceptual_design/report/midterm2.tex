@@ -1,0 +1,107 @@
+\chapter{Midterm 2 Roadmap: Planned Empirical Validation and Systems Modeling}
+
+The second project milestone will transition \textbf{Sample Browser} from conceptual problem analysis to empirical field validation and rigorous software engineering modeling. This chapter establishes our planned verification methodology, specifies operational system requirements, outlines the behavioral workflows to be modeled using unified modeling language (UML) artifacts, and maps the planned user experience architecture.
+
+% =========================================================================
+% SECTION 1: CUSTOMER VALIDATION AND EMPIRICAL FINDINGS
+% =========================================================================
+\section{Customer Validation and Empirical Findings}
+
+\subsection{Methodology and Participant Demographics}
+Empirical validation will prioritize qualitative depth by conducting recorded video interviews first, targeting a sample size of $N \approx 20$ independent music artists, beatmakers, and producers (~4 interviews conducted per team member). To cross-validate findings and measure the statistical breadth of identified behaviors across a wider community of music makers, these qualitative video interviews will be backed up by a supplementary Google Forms quantitative survey.
+
+Interviews may be conducted in any language (English, Romanian, Russian) provided that the participant is an active music maker, artist, or producer. When interviewing personal acquaintances or university peers, team members will adhere strictly to neutral, non-leading \textit{The Mom Test} questioning principles to prevent confirmation bias. To ensure ecological validity, participants will be recruited across aspiring career beatmakers ($>50\%$), hobbyist creators, and sound designers.
+
+Participant recruitment will be structured across four distinct operational channels:
+\begin{enumerate}
+    \item \textbf{Known Musician Contacts, Local University \& Chișinău Artist Network (5--6 participants):} Fellow student producers at the Technical University of Moldova (UTM/FCIM), local Chișinău musicians, and personal acquaintances who create music (conducted via recorded video call or in person under strict non-biased protocol).
+    \item \textbf{Direct Instagram Outreach (5--6 participants):} Direct outreach ("shot in the dark" DMs) to independent beatmakers, underground music artists, and producers actively posting studio and sampling reels on Instagram.
+    \item \textbf{Dedicated Sampling and Beat-Battle Discord Communities (5--6 participants):} Active producers in Samplette / Crate-Digging Discord channels, Kenny Beats / Beat Battle communities, \texttt{r/makinghiphop} Discord, Lo-Fi Hip-Hop producer servers, and Stones Throw Beat Battles (STBB).
+    \item \textbf{Small YouTube / SoundCloud "Sample Flip" Creators and Regional Telegram Chats (3--4 participants):} Independent producers posting sample-based beatmaking videos ("samplette flip", "youtube sample beat") and active participants in regional Telegram producer communities who list public contact handles.
+\end{enumerate}
+
+Each interview will be executed by two team members (a Lead Interviewer and a Note-Taker/Scribe) following the 10-question protocol ($Q1\text{--}Q10$) grounded in \textit{The Mom Test}. In strict accordance with the course guideline directive (\textit{"Record videos and make photos of these interviews to refer to them when documenting your findings"}), verbal consent will be obtained to record remote sessions (via Google Meet / Zoom with screen shares) and log verbatim quotes. Post-interview responses will be synthesized into standardized 1-page coding cards evaluating hypothesis validation status.
+
+\subsection{Qualitative Interview Insights}
+Transcripts from qualitative customer development sessions will be coded thematically to evaluate hypotheses $H1$ through $H4$:
+\begin{itemize}
+    \item \textbf{H1 (Scrubbing \& Isolation Friction):} Evaluating whether manual scrubbing and the absence of clean intro/break sections represent the primary time sink during crate-digging, and whether modern DAW stem separation tools resolve or merely shift this friction.
+    \item \textbf{H2 (Objective Preset Tags \& Berrypicking):} Verifying whether producers prioritize objective structural/instrument tags over subjective mood labels, and whether browsing naturally follows associative seed-passage chains.
+    \item \textbf{H3 (Curation \& Contribution vs. Gatekeeping):} Assessing how producers organize discovered timestamps, and whether willingness to contribute to a community index is confirmed or triggers our contingency pivot to a \textbf{Personal Crate-Digging Workspace}.
+    \item \textbf{H4 (Unlicensed Digging vs. Curated Libraries):} Confirming whether independent producers actively prefer digging across public full-track catalogs (YouTube, Samplette) due to cost and commercial loop fatigue on platforms like Splice.
+\end{itemize}
+
+\subsection{Task-Completion Evaluation (Wizard-of-Oz Testing)}
+To validate interface ergonomics and task-completion velocity prior to full-scale software implementation, participants will execute identical audio retrieval tasks under two experimental conditions:
+\begin{enumerate}
+    \item \textbf{Baseline Condition:} Unstructured crate-digging across public streaming catalogs (manual scrubbing and external note-taking).
+    \item \textbf{Prototype Condition (Wizard-of-Oz):} Retrieval using pre-indexed acoustic passage cards with direct timestamp seeking and automatic loop boundaries.
+\end{enumerate}
+Metrics recorded will include time-to-first-usable-passage, session abandonment rate, and perceived cognitive friction measured via the NASA-TLX assessment framework. The test will explicitly evaluate interface flow and perceived value without misattributing findings to automated MIR algorithms.
+
+% =========================================================================
+% SECTION 2: SYSTEM REQUIREMENTS SPECIFICATION
+% =========================================================================
+\section{System Requirements Specification}
+
+\subsection{Functional Requirements}
+Based on creator workflows and the pointer-based YouTube IFrame architecture, the functional boundaries of Sample Browser comprise:
+\begin{itemize}
+    \item \textbf{FR-01 (Two-Tier Tag Filtering):} The system shall allow users to filter passage candidates using primary preset objective tags (isolation, instrumentation, and section role) with optional secondary contextual descriptor chips.
+    \item \textbf{FR-02 (Sub-Track Passage Retrieval):} The system shall return localized 4--30 second segment cards with associated timestamps and preset and contextual tags rather than entire compositions.
+    \item \textbf{FR-03 (Embedded Cue Synchronization):} The player shall interface with the client-side YouTube IFrame API to position the playhead directly at the designated passage cue point (\texttt{seekTo}) upon card selection.
+    \item \textbf{FR-04 (Automated Boundary Looping):} The embedded player shall continuously loop playback between the defined segment start and end timestamps until paused or redirected.
+    \item \textbf{FR-05 (Personal Cloud Crates \& Passage Submission):} Authenticated users shall be able to bookmark timestamped passages into private cloud crates and propose tags for community catalog inclusion.
+\end{itemize}
+
+\subsection{Non-Functional Requirements}
+% System performance, security, and compliance constraints (NFR-01 to NFR-03).
+\begin{itemize}
+    \item \textbf{NFR-01 (Platform API Compliance):} The architecture shall strictly adhere to Section III.E of the YouTube Developer Policies by operating purely through embedded client-side playback, with zero raw audio stream downloading, scraping, or server-side media caching.
+    \item \textbf{NFR-02 (Cue Seeking Latency):} Playhead positioning and buffer initialization shall execute within $\le 1.5$ seconds under standard broadband conditions, bounded by third-party iframe keyframe alignment.
+    \item \textbf{NFR-03 (Backend API Response Time):} Metadata query latency for passage filtering and tag intersections shall not exceed $200$ ms for $95\%$ of requests.
+\end{itemize}
+
+% =========================================================================
+% SECTION 3: STRUCTURAL AND BEHAVIORAL UML MODELING
+% =========================================================================
+\section{Structural and Behavioral UML Modeling}
+
+\subsection{UML Activity Diagrams}
+% Activity Diagram 1: Core Passage Discovery and Looped Auditioning Flow.
+% Activity Diagram 2: Community Passage Curation and Tag Moderation Pipeline.
+Activity models will formalize the sequential and concurrent logic of the system:
+\begin{itemize}
+    \item \textbf{Discovery Flow:} Query submission $\rightarrow$ Tag intersection indexing $\rightarrow$ Candidate list rendering $\rightarrow$ User card selection $\rightarrow$ IFrame cue seeking $\rightarrow$ Loop listener loop activation.
+    \item \textbf{Curation Pipeline:} User timestamp marking $\rightarrow$ Tag family assignment $\rightarrow$ Profanity and duplication filter $\rightarrow$ Persistence in PostgreSQL $\rightarrow$ Community appeal threshold verification.
+\end{itemize}
+
+\subsection{UML Use Case Modeling}
+% Use Case Diagram and Formal Specifications (Actors: Music Producer, Community Contributor, System Moderator).
+The operational interactions will model three primary actors:
+\begin{itemize}
+    \item \textbf{Music Producer:} Searches passages by acoustic tags, audits contextual loops, and exports timecode references.
+    \item \textbf{Community Contributor:} Marks candidate intervals, assigns acoustic tags, and manages personal crates.
+    \item \textbf{System Moderator / Admin:} Audits reported erroneous tags, resolves taxonomic collisions, and monitors ingestion health.
+\end{itemize}
+
+\subsection{UML Sequence Diagrams}
+% Sequence Diagram: Client Browser <-> Frontend React UI <-> Backend FastAPI <-> PostgreSQL Metadata Store <-> YouTube IFrame API Sandbox.
+Sequence diagrams will model asynchronous message exchanges across system boundaries, documenting the lifecycle of an acoustic search query, the communication handshake with the embedded player sandbox, and error recovery handling during stream unavailabilities.
+
+% =========================================================================
+% SECTION 4: VISUAL INTERFACE DESIGN AND INTERACTION ARCHITECTURE
+% =========================================================================
+\section{Visual Interface Design and Interaction Architecture}
+
+\subsection{Wireframes and Component Hierarchy}
+% Architectural layout: Navigation header, Interactive Segmented Timeline, Tag Selector Drawer, Ranked Candidate Feed.
+The interface architecture will follow a progressive disclosure layout designed for dark-mode studio environments. The component hierarchy centers the interactive segmented timeline, flanked by persistent acoustic filter drawers and a low-latency passage candidate drawer.
+
+\subsection{High-Fidelity Mockups}
+% Visual styling, color palette (#0F172A slate, #10B981 emerald), typography, and component states.
+High-fidelity designs will reflect production-ready responsive layouts, detailing active playing states, tag selection badges, timeline segment highlights, and mobile companion views.
+
+\subsection{User Flow Diagrams}
+% State transitions across search input, passage auditioning, crate organization, and tag curation.
+User flow networks will document navigational state transitions, delineating paths between initial landing, query refinement, continuous auditioning sessions, and private crate management.

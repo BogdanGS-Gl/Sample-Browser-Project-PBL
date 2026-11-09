@@ -1,0 +1,261 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3900 2340" width="3900" height="2340">
+  <defs>
+    <linearGradient id="bgGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#1E293B"/>
+    </linearGradient>
+    <linearGradient id="boxGrad1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1E293B"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="3900" height="2340" fill="url(#bgGrad2)"/>
+  
+  <g opacity="0.05" stroke="#94A3B8" stroke-width="2">
+    <line x1="0" y1="0" x2="0" y2="2340"/><line x1="150" y1="0" x2="150" y2="2340"/><line x1="300" y1="0" x2="300" y2="2340"/><line x1="450" y1="0" x2="450" y2="2340"/><line x1="600" y1="0" x2="600" y2="2340"/><line x1="750" y1="0" x2="750" y2="2340"/><line x1="900" y1="0" x2="900" y2="2340"/><line x1="1050" y1="0" x2="1050" y2="2340"/><line x1="1200" y1="0" x2="1200" y2="2340"/><line x1="1350" y1="0" x2="1350" y2="2340"/><line x1="1500" y1="0" x2="1500" y2="2340"/><line x1="1650" y1="0" x2="1650" y2="2340"/><line x1="1800" y1="0" x2="1800" y2="2340"/><line x1="1950" y1="0" x2="1950" y2="2340"/><line x1="2100" y1="0" x2="2100" y2="2340"/><line x1="2250" y1="0" x2="2250" y2="2340"/><line x1="2400" y1="0" x2="2400" y2="2340"/><line x1="2550" y1="0" x2="2550" y2="2340"/><line x1="2700" y1="0" x2="2700" y2="2340"/><line x1="2850" y1="0" x2="2850" y2="2340"/><line x1="3000" y1="0" x2="3000" y2="2340"/><line x1="3150" y1="0" x2="3150" y2="2340"/><line x1="3300" y1="0" x2="3300" y2="2340"/><line x1="3450" y1="0" x2="3450" y2="2340"/><line x1="3600" y1="0" x2="3600" y2="2340"/><line x1="3750" y1="0" x2="3750" y2="2340"/>
+    <line x1="0" y1="0" x2="3900" y2="0"/><line x1="0" y1="150" x2="3900" y2="150"/><line x1="0" y1="300" x2="3900" y2="300"/><line x1="0" y1="450" x2="3900" y2="450"/><line x1="0" y1="600" x2="3900" y2="600"/><line x1="0" y1="750" x2="3900" y2="750"/><line x1="0" y1="900" x2="3900" y2="900"/><line x1="0" y1="1050" x2="3900" y2="1050"/><line x1="0" y1="1200" x2="3900" y2="1200"/><line x1="0" y1="1350" x2="3900" y2="1350"/><line x1="0" y1="1500" x2="3900" y2="1500"/><line x1="0" y1="1650" x2="3900" y2="1650"/><line x1="0" y1="1800" x2="3900" y2="1800"/><line x1="0" y1="1950" x2="3900" y2="1950"/><line x1="0" y1="2100" x2="3900" y2="2100"/><line x1="0" y1="2250" x2="3900" y2="2250"/>
+  </g>
+
+  <!-- Header -->
+  <g transform="translate(150, 90)">
+    <rect x="0" y="0" width="760" height="56" rx="28" fill="#334155" stroke="#475569" stroke-width="2"/>
+    <text x="380" y="36" fill="#10B981" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" font-weight="700" text-anchor="middle" letter-spacing="3">SYSTEM ARCHITECTURE • COMPLIANT POINTER MODEL</text>
+    
+    <text x="0" y="140" fill="#F8FAFC" font-family="Inter, DejaVu Sans, sans-serif" font-size="64" font-weight="800">Sample Browser: Zero-Media-Hosting Pointer Architecture</text>
+    <text x="0" y="195" fill="#94A3B8" font-family="Inter, DejaVu Sans, sans-serif" font-size="28">100% YouTube API (ToS Section III.E) Compliant Client-Side Playback &amp; Sub-Track Metadata Indexing Pipeline</text>
+  </g>
+
+  <!-- 4 Main Architectural Columns -->
+  <!-- Block 1: Client Web App (React) -->
+  <g transform="translate(150, 340)">
+    <rect width="840" height="1500" rx="24" fill="url(#boxGrad1)" stroke="#38BDF8" stroke-width="3"/>
+    <rect x="0" y="0" width="840" height="16" rx="8" fill="#38BDF8"/>
+    
+    <rect x="50" y="50" width="300" height="44" rx="10" fill="#0C4A6E"/>
+    <text x="200" y="79" fill="#7DD3FC" font-family="Inter, DejaVu Sans, sans-serif" font-size="20" font-weight="700" text-anchor="middle">CLIENT FRONTEND (SPA)</text>
+    
+    <text x="50" y="150" fill="#F8FAFC" font-family="Inter, DejaVu Sans, sans-serif" font-size="36" font-weight="800">Client Web Application</text>
+    <text x="50" y="190" fill="#94A3B8" font-family="Inter, DejaVu Sans, sans-serif" font-size="22">React 19 + TypeScript + Tailwind CSS</text>
+
+    <!-- Component Modules -->
+    <g transform="translate(50, 240)">
+      <!-- Item 1 -->
+      <rect width="740" height="260" rx="18" fill="#0F172A" stroke="#334155" stroke-width="2"/>
+      <text x="30" y="50" fill="#38BDF8" font-family="Inter, DejaVu Sans, sans-serif" font-size="26" font-weight="700">Interactive Segmented Timeline (4–60s)</text>
+      <text x="30" y="90" fill="#CBD5E1" font-family="Inter, DejaVu Sans, sans-serif" font-size="21">Visual cue markers rendered from PostgreSQL metadata.</text>
+      <text x="30" y="125" fill="#CBD5E1" font-family="Inter, DejaVu Sans, sans-serif" font-size="21">Direct timeline seeking &amp; boundary segment highlights.</text>
+      <rect x="30" y="160" width="680" height="65" rx="10" fill="#1E293B"/>
+      <text x="50" y="200" fill="#10B981" font-family="Inter, DejaVu Sans, sans-serif" font-size="18" font-weight="700">✓ Zero raw PCM audio decoding (sandboxed iframe safety)</text>
+    </g>
+
+    <g transform="translate(50, 530)">
+      <!-- Item 2 -->
+      <rect width="740" height="260" rx="18" fill="#0F172A" stroke="#334155" stroke-width="2"/>
+      <text x="30" y="50" fill="#38BDF8" font-family="Inter, DejaVu Sans, sans-serif" font-size="26" font-weight="700">Two-Tier Tag Filter Matrix</text>
+      <text x="30" y="90" fill="#CBD5E1" font-family="Inter, DejaVu Sans, sans-serif" font-size="21">Tier 1: Mandatory objective preset buttons (Isolation, Inst, Section).</text>
+      <text x="30" y="125" fill="#CBD5E1" font-family="Inter, DejaVu Sans, sans-serif" font-size="21">Tier 2: Collapsible secondary contextual descriptor chips.</text>
+      <rect x="30" y="160" width="680" height="65" rx="10" fill="#1E293B"/>
+      <text x="50" y="200" fill="#38BDF8" font-family="Inter, DejaVu Sans, sans-serif" font-size="18" font-weight="700">✓ Instant 10s segment audio preview removes ambiguity</text>
+    </g>
+
+    <g transform="translate(50, 820)">
+      <!-- Item 3 -->
+      <rect width="740" height="260" rx="18" fill="#0F172A" stroke="#334155" stroke-width="2"/>
+      <text x="30" y="50" fill="#38BDF8" font-family="Inter, DejaVu Sans, sans-serif" font-size="26" font-weight="700">Automated Boundary Audition Player</text>
+      <text x="30" y="90" fill="#CBD5E1" font-family="Inter, DejaVu Sans, sans-serif" font-size="21">Client loop listener returns playhead to start_time at end_time.</text>
+      <text x="30" y="125" fill="#CBD5E1" font-family="Inter, DejaVu Sans, sans-serif" font-size="21">Rough auditioning loop for evaluating musical sampling potential.</text>
+      <rect x="30" y="160" width="680" height="65" rx="10" fill="#1E293B"/>
+      <text x="50" y="200" fill="#F59E0B" font-family="Inter, DejaVu Sans, sans-serif" font-size="18" font-weight="700">⚡ Client buffer turnaround latency: ~100–300 ms</text>
+    </g>
+
+    <g transform="translate(50, 1110)">
+      <!-- Item 4 -->
+      <rect width="740" height="260" rx="18" fill="#0F172A" stroke="#334155" stroke-width="2"/>
+      <text x="30" y="50" fill="#38BDF8" font-family="Inter, DejaVu Sans, sans-serif" font-size="26" font-weight="700">Personal Cloud Crates Manager</text>
+      <text x="30" y="90" fill="#CBD5E1" font-family="Inter, DejaVu Sans, sans-serif" font-size="21">Single-player timestamp bookmarking utility while digging.</text>
+      <text x="30" y="125" fill="#CBD5E1" font-family="Inter, DejaVu Sans, sans-serif" font-size="21">Stores sub-track cue points without consuming local drive storage.</text>
+      <rect x="30" y="160" width="680" height="65" rx="10" fill="#1E293B"/>
+      <text x="50" y="200" fill="#10B981" font-family="Inter, DejaVu Sans, sans-serif" font-size="18" font-weight="700">✓ Preserves "why" a sample was saved for future studio recall</text>
+    </g>
+  </g>
+
+  <!-- Block 2: Audio Streaming Engine (YouTube IFrame API) -->
+  <g transform="translate(1060, 340)">
+    <rect width="840" height="1500" rx="24" fill="url(#boxGrad1)" stroke="#EF4444" stroke-width="3"/>
+    <rect x="0" y="0" width="840" height="16" rx="8" fill="#EF4444"/>
+    
+    <rect x="50" y="50" width="360" height="44" rx="10" fill="#7F1D1D"/>
+    <text x="230" y="79" fill="#FCA5A5" font-family="Inter, DejaVu Sans, sans-serif" font-size="20" font-weight="700" text-anchor="middle">OFFICIAL EXTERNAL STREAMING</text>
+    
+    <text x="50" y="150" fill="#F8FAFC" font-family="Inter, DejaVu Sans, sans-serif" font-size="36" font-weight="800">YouTube IFrame Engine</text>
+    <text x="50" y="190" fill="#94A3B8" font-family="Inter, DejaVu Sans, sans-serif" font-size="22">Sandboxed Cross-Origin Client Playback</text>
+
+    <g transform="translate(50, 240)">
+      <rect width="740" height="340" rx="18" fill="#0F172A" stroke="#334155" stroke-width="2"/>
+      <text x="30" y="50" fill="#EF4444" font-family="Inter, DejaVu Sans, sans-serif" font-size="26" font-weight="700">Strict ToS Section III.E Compliance</text>
+      <text x="30" y="95" fill="#CBD5E1" font-family="Inter, DejaVu Sans, sans-serif" font-size="21">❌ ZERO audio scraping or stream downloading</text>
+      <text x="30" y="135" fill="#CBD5E1" font-family="Inter, DejaVu Sans, sans-serif" font-size="21">❌ ZERO server-side media caching or raw PCM storage</text>
+      <text x="30" y="175" fill="#CBD5E1" font-family="Inter, DejaVu Sans, sans-serif" font-size="21">❌ ZERO bypassing of graphical embedded player UI</text>
+      <rect x="30" y="215" width="680" height="90" rx="10" fill="#450A0A"/>
+      <text x="50" y="255" fill="#FCA5A5" font-family="Inter, DejaVu Sans, sans-serif" font-size="19" font-weight="700">LEGAL COMPLIANCE GUARANTEE:</text>
+      <text x="50" y="285" fill="#FECACA" font-family="Inter, DejaVu Sans, sans-serif" font-size="18">Eliminates copyright infringement risks and bandwidth costs.</text>
+    </g>
+
+    <g transform="translate(50, 610)">
+      <rect width="740" height="370" rx="18" fill="#0F172A" stroke="#334155" stroke-width="2"/>
+      <text x="30" y="50" fill="#EF4444" font-family="Inter, DejaVu Sans, sans-serif" font-size="26" font-weight="700">Client-Side seekTo() Integration</text>
+      <text x="30" y="95" fill="#CBD5E1" font-family="Inter, DejaVu Sans, sans-serif" font-size="21">Dispatched via official PostMessage / IFrame events:</text>
+      <rect x="30" y="120" width="680" height="70" rx="10" fill="#1E293B"/>
+      <text x="50" y="162" fill="#38BDF8" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" font-weight="700">player.seekTo(start_time, true)</text>
+      
+      <text x="30" y="230" fill="#F8FAFC" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" font-weight="700">Keyframe Drift Physical Constraints:</text>
+      <text x="30" y="265" fill="#94A3B8" font-family="Inter, DejaVu Sans, sans-serif" font-size="20">Video GOP keyframe spacing induces 1.0–2.0s seek latency.</text>
+      <text x="30" y="295" fill="#94A3B8" font-family="Inter, DejaVu Sans, sans-serif" font-size="20">Formally specified in Acceptance Criteria 2 &amp; NFR-02.</text>
+      <rect x="30" y="315" width="680" height="35" rx="6" fill="#1E293B"/>
+      <text x="45" y="338" fill="#10B981" font-family="Inter, DejaVu Sans, sans-serif" font-size="16" font-weight="600">✓ Evaluated via Wizard-of-Oz testing in Midterm 2 roadmap</text>
+    </g>
+
+    <g transform="translate(50, 1010)">
+      <rect width="740" height="360" rx="18" fill="#0F172A" stroke="#334155" stroke-width="2"/>
+      <text x="30" y="50" fill="#EF4444" font-family="Inter, DejaVu Sans, sans-serif" font-size="26" font-weight="700">Zero Bandwidth &amp; Hosting Footprint</text>
+      <text x="30" y="95" fill="#CBD5E1" font-family="Inter, DejaVu Sans, sans-serif" font-size="21">Audio and video bits stream directly from Google CDN to user browser.</text>
+      <text x="30" y="130" fill="#CBD5E1" font-family="Inter, DejaVu Sans, sans-serif" font-size="21">Platform operates with zero media egress / ingress server bills.</text>
+      
+      <rect x="30" y="170" width="680" height="150" rx="12" fill="#18181B" stroke="#27272A" stroke-width="2"/>
+      <text x="50" y="210" fill="#E2E8F0" font-family="Inter, DejaVu Sans, sans-serif" font-size="20" font-weight="700">STREAMING SECURITY BOUNDARY:</text>
+      <text x="50" y="245" fill="#94A3B8" font-family="Inter, DejaVu Sans, sans-serif" font-size="18">Sandboxed cross-origin iframe isolates authentication tokens</text>
+      <text x="50" y="275" fill="#94A3B8" font-family="Inter, DejaVu Sans, sans-serif" font-size="18">and prevents unauthorized client-side audio rip injection.</text>
+    </g>
+  </g>
+
+  <!-- Block 3: Backend API & PostgreSQL Store -->
+  <g transform="translate(1970, 340)">
+    <rect width="840" height="1500" rx="24" fill="url(#boxGrad1)" stroke="#10B981" stroke-width="3"/>
+    <rect x="0" y="0" width="840" height="16" rx="8" fill="#10B981"/>
+    
+    <rect x="50" y="50" width="340" height="44" rx="10" fill="#064E3B"/>
+    <text x="220" y="79" fill="#6EE7B7" font-family="Inter, DejaVu Sans, sans-serif" font-size="20" font-weight="700" text-anchor="middle">BACKEND SERVICES &amp; DATA</text>
+    
+    <text x="50" y="150" fill="#F8FAFC" font-family="Inter, DejaVu Sans, sans-serif" font-size="36" font-weight="800">Backend API &amp; Database</text>
+    <text x="50" y="190" fill="#94A3B8" font-family="Inter, DejaVu Sans, sans-serif" font-size="22">FastAPI + Asyncpg + PostgreSQL 16</text>
+
+    <g transform="translate(50, 240)">
+      <rect width="740" height="340" rx="18" fill="#0F172A" stroke="#334155" stroke-width="2"/>
+      <text x="30" y="50" fill="#10B981" font-family="Inter, DejaVu Sans, sans-serif" font-size="26" font-weight="700">Lightweight Pointer Schema</text>
+      <text x="30" y="90" fill="#CBD5E1" font-family="Inter, DejaVu Sans, sans-serif" font-size="20">Zero audio payloads. Stored records consist strictly of pointers:</text>
+      <rect x="30" y="115" width="680" height="180" rx="10" fill="#022C22" stroke="#065F46" stroke-width="2"/>
+      <text x="50" y="155" fill="#A7F3D0" font-family="Inter, DejaVu Sans, sans-serif" font-size="18" font-weight="600">• video_id: VARCHAR(32) (YouTube video reference)</text>
+      <text x="50" y="190" fill="#A7F3D0" font-family="Inter, DejaVu Sans, sans-serif" font-size="18" font-weight="600">• start_time / end_time: NUMERIC(6,2) (4s – 60s)</text>
+      <text x="50" y="225" fill="#A7F3D0" font-family="Inter, DejaVu Sans, sans-serif" font-size="18" font-weight="600">• preset_tags: TEXT[] (Tier 1 Objective Presets)</text>
+      <text x="50" y="260" fill="#A7F3D0" font-family="Inter, DejaVu Sans, sans-serif" font-size="18" font-weight="600">• context_tags: TEXT[] (Tier 2 Descriptors)</text>
+    </g>
+
+    <g transform="translate(50, 610)">
+      <rect width="740" height="370" rx="18" fill="#0F172A" stroke="#334155" stroke-width="2"/>
+      <text x="30" y="50" fill="#10B981" font-family="Inter, DejaVu Sans, sans-serif" font-size="26" font-weight="700">Tier 1 &amp; Tier 2 Taxonomy Store</text>
+      <text x="30" y="90" fill="#CBD5E1" font-family="Inter, DejaVu Sans, sans-serif" font-size="21">Controlled enum validation prevents tag pollution:</text>
+      <text x="30" y="125" fill="#94A3B8" font-family="Inter, DejaVu Sans, sans-serif" font-size="19">• Isolation: [No Vocals], [No Drums], [Solo Instrument]</text>
+      <text x="30" y="155" fill="#94A3B8" font-family="Inter, DejaVu Sans, sans-serif" font-size="19">• Instruments: [Rhodes], [Piano], [Guitar], [Bass], [Brass]</text>
+      <text x="30" y="185" fill="#94A3B8" font-family="Inter, DejaVu Sans, sans-serif" font-size="19">• Sections: [Intro], [Break], [Solo], [Outro], [Chord Loop]</text>
+      
+      <rect x="30" y="215" width="680" height="120" rx="10" fill="#1E293B"/>
+      <text x="50" y="255" fill="#F59E0B" font-family="Inter, DejaVu Sans, sans-serif" font-size="19" font-weight="700">COMMUNITY MODERATION QUEUE:</text>
+      <text x="50" y="285" fill="#CBD5E1" font-family="Inter, DejaVu Sans, sans-serif" font-size="18">Community tag appeals and erroneous timestamp flags</text>
+      <text x="50" y="315" fill="#CBD5E1" font-family="Inter, DejaVu Sans, sans-serif" font-size="18">are audited via admin dashboard (NFR-03: latency &lt; 200ms).</text>
+    </g>
+
+    <g transform="translate(50, 1010)">
+      <rect width="740" height="360" rx="18" fill="#0F172A" stroke="#334155" stroke-width="2"/>
+      <text x="30" y="50" fill="#10B981" font-family="Inter, DejaVu Sans, sans-serif" font-size="26" font-weight="700">Single-Player &amp; Contingency Pivot</text>
+      <text x="30" y="95" fill="#CBD5E1" font-family="Inter, DejaVu Sans, sans-serif" font-size="21">Private crate table isolation per user:</text>
+      <text x="30" y="130" fill="#CBD5E1" font-family="Inter, DejaVu Sans, sans-serif" font-size="21">Producers maintain private smart crates without publishing.</text>
+      
+      <rect x="30" y="170" width="680" height="150" rx="12" fill="#064E3B" stroke="#059669" stroke-width="2"/>
+      <text x="50" y="210" fill="#A7F3D0" font-family="Inter, DejaVu Sans, sans-serif" font-size="20" font-weight="700">CONTINGENCY PIVOT READINESS:</text>
+      <text x="50" y="245" fill="#E2E8F0" font-family="Inter, DejaVu Sans, sans-serif" font-size="18">If H3 fails (gatekeeping), platform smoothly transitions</text>
+      <text x="50" y="275" fill="#E2E8F0" font-family="Inter, DejaVu Sans, sans-serif" font-size="18">to 100% Personal Crate-Digging Workspace with zero code rewrite.</text>
+    </g>
+  </g>
+
+  <!-- Block 4: Passage Match & Ranking Engine -->
+  <g transform="translate(2880, 340)">
+    <rect width="870" height="1500" rx="24" fill="url(#boxGrad1)" stroke="#F59E0B" stroke-width="3"/>
+    <rect x="0" y="0" width="870" height="16" rx="8" fill="#F59E0B"/>
+    
+    <rect x="50" y="50" width="370" height="44" rx="10" fill="#78350F"/>
+    <text x="235" y="79" fill="#FDE68A" font-family="Inter, DejaVu Sans, sans-serif" font-size="20" font-weight="700" text-anchor="middle">DISCOVERY &amp; COLD-START ENGINE</text>
+    
+    <text x="50" y="150" fill="#F8FAFC" font-family="Inter, DejaVu Sans, sans-serif" font-size="36" font-weight="800">Passage Ranking Engine</text>
+    <text x="50" y="190" fill="#94A3B8" font-family="Inter, DejaVu Sans, sans-serif" font-size="22">Preset Intersection &amp; Berrypicking Feeds</text>
+
+    <!-- Component Modules -->
+    <g transform="translate(50, 240)">
+      <rect width="770" height="340" rx="18" fill="#0F172A" stroke="#334155" stroke-width="2"/>
+      <text x="30" y="50" fill="#F59E0B" font-family="Inter, DejaVu Sans, sans-serif" font-size="26" font-weight="700">Tier-1 Preset Overlap Matching</text>
+      <text x="30" y="90" fill="#CBD5E1" font-family="Inter, DejaVu Sans, sans-serif" font-size="21">Replaces opaque black-box AI scores with explainable overlap:</text>
+      <rect x="30" y="115" width="710" height="180" rx="10" fill="#1E293B"/>
+      <text x="50" y="155" fill="#38BDF8" font-family="Inter, DejaVu Sans, sans-serif" font-size="20" font-weight="700">• Overlap Score = |Q_presets ∩ P_presets| / |Q_presets|</text>
+      <text x="50" y="190" fill="#10B981" font-family="Inter, DejaVu Sans, sans-serif" font-size="19" font-weight="600">✓ 4/4 Match: Exact isolation + instrument + section match</text>
+      <text x="50" y="225" fill="#FCD34D" font-family="Inter, DejaVu Sans, sans-serif" font-size="19" font-weight="600">✓ 3/4 Match: Instrument + isolation match across catalog</text>
+      <text x="50" y="260" fill="#94A3B8" font-family="Inter, DejaVu Sans, sans-serif" font-size="17">Zero fake similarity percentages (no '98% AI Match' claims)</text>
+    </g>
+
+    <g transform="translate(50, 610)">
+      <rect width="770" height="370" rx="18" fill="#0F172A" stroke="#334155" stroke-width="2"/>
+      <text x="30" y="50" fill="#F59E0B" font-family="Inter, DejaVu Sans, sans-serif" font-size="26" font-weight="700">Seed-Passage Berrypicking</text>
+      <text x="30" y="95" fill="#CBD5E1" font-family="Inter, DejaVu Sans, sans-serif" font-size="21">Operationalizes Bates' information berrypicking model:</text>
+      <text x="30" y="130" fill="#94A3B8" font-family="Inter, DejaVu Sans, sans-serif" font-size="20">Users listen to a sample segment, click its preset chips,</text>
+      <text x="30" y="160" fill="#94A3B8" font-family="Inter, DejaVu Sans, sans-serif" font-size="20">and immediately receive an associative recommendation feed</text>
+      <text x="30" y="190" fill="#94A3B8" font-family="Inter, DejaVu Sans, sans-serif" font-size="20">of matching sub-track cue points in unfamiliar recordings.</text>
+      
+      <rect x="30" y="225" width="710" height="110" rx="10" fill="#18181B" stroke="#27272A" stroke-width="2"/>
+      <text x="50" y="265" fill="#A7F3D0" font-family="Inter, DejaVu Sans, sans-serif" font-size="19" font-weight="700">FLOW STATE PRESERVATION:</text>
+      <text x="50" y="295" fill="#E2E8F0" font-family="Inter, DejaVu Sans, sans-serif" font-size="18">No typing text queries from scratch; discovery follows active ears.</text>
+    </g>
+
+    <g transform="translate(50, 1010)">
+      <rect width="770" height="360" rx="18" fill="#0F172A" stroke="#334155" stroke-width="2"/>
+      <text x="30" y="50" fill="#F59E0B" font-family="Inter, DejaVu Sans, sans-serif" font-size="26" font-weight="700">Cold-Start Text Seeding Pipeline</text>
+      <text x="30" y="95" fill="#CBD5E1" font-family="Inter, DejaVu Sans, sans-serif" font-size="21">Solves the cold-start catalog challenge with ZERO audio processing:</text>
+      <rect x="30" y="125" width="710" height="190" rx="10" fill="#451A03" stroke="#B45309" stroke-width="2"/>
+      <text x="50" y="165" fill="#FDE68A" font-family="Inter, DejaVu Sans, sans-serif" font-size="19" font-weight="700">1. YouTube Data API v3 Chapter Ingestion:</text>
+      <text x="50" y="195" fill="#FEF3C7" font-family="Inter, DejaVu Sans, sans-serif" font-size="17">Extracts timestamps from video descriptions &amp; chapter markers</text>
+      <text x="50" y="235" fill="#FDE68A" font-family="Inter, DejaVu Sans, sans-serif" font-size="19" font-weight="700">2. Discogs API Instrument Mapping:</text>
+      <text x="50" y="265" fill="#FEF3C7" font-family="Inter, DejaVu Sans, sans-serif" font-size="17">Maps track musician credits (e.g., Rhodes, Saxophone, Bass) to presets</text>
+      <text x="50" y="295" fill="#10B981" font-family="Inter, DejaVu Sans, sans-serif" font-size="16" font-weight="600">✓ Populates initial catalog landmarks prior to community scaling</text>
+    </g>
+  </g>
+
+  <!-- Communication Connectors & Telemetry Banner -->
+  <g transform="translate(150, 1900)">
+    <rect width="3600" height="340" rx="24" fill="#0F172A" stroke="#334155" stroke-width="3"/>
+    
+    <g transform="translate(50, 40)">
+      <rect width="450" height="40" rx="8" fill="#1E293B"/>
+      <text x="225" y="27" fill="#38BDF8" font-family="Inter, DejaVu Sans, sans-serif" font-size="18" font-weight="700" text-anchor="middle">CROSS-BOUNDARY DATA PROTOCOLS</text>
+      
+      <text x="0" y="95" fill="#F8FAFC" font-family="Inter, DejaVu Sans, sans-serif" font-size="32" font-weight="800">Strict Compliance, Latency &amp; Cost Guarantees</text>
+      <text x="0" y="135" fill="#94A3B8" font-family="Inter, DejaVu Sans, sans-serif" font-size="22">System engineering boundaries mapped to Course Guideline Non-Functional Requirements (NFR-01 to NFR-03).</text>
+    </g>
+
+    <!-- Metrics Grid -->
+    <g transform="translate(50, 190)">
+      <rect x="0" y="0" width="840" height="100" rx="14" fill="#1E293B" stroke="#334155" stroke-width="2"/>
+      <text x="30" y="42" fill="#10B981" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" font-weight="800">NFR-01: API Compliance</text>
+      <text x="30" y="75" fill="#E2E8F0" font-family="Inter, DejaVu Sans, sans-serif" font-size="19">100% Embedded Playback • 0% Audio Scraped</text>
+
+      <rect x="880" y="0" width="840" height="100" rx="14" fill="#1E293B" stroke="#334155" stroke-width="2"/>
+      <text x="910" y="42" fill="#38BDF8" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" font-weight="800">NFR-02: Playhead Latency</text>
+      <text x="910" y="75" fill="#E2E8F0" font-family="Inter, DejaVu Sans, sans-serif" font-size="19">seekTo Positioning ≤ 1.5s (Keyframe Bounded)</text>
+
+      <rect x="1760" y="0" width="840" height="100" rx="14" fill="#1E293B" stroke="#334155" stroke-width="2"/>
+      <text x="1790" y="42" fill="#F59E0B" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" font-weight="800">NFR-03: Metadata Latency</text>
+      <text x="1790" y="75" fill="#E2E8F0" font-family="Inter, DejaVu Sans, sans-serif" font-size="19">FastAPI Query Latency &lt; 200ms (p95)</text>
+
+      <rect x="2640" y="0" width="870" height="100" rx="14" fill="#1E293B" stroke="#334155" stroke-width="2"/>
+      <text x="2670" y="42" fill="#34D399" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" font-weight="800">Operational Overhead</text>
+      <text x="2670" y="75" fill="#E2E8F0" font-family="Inter, DejaVu Sans, sans-serif" font-size="19">Zero Media Storage &amp; Bandwidth Egress Costs</text>
+    </g>
+  </g>
+</svg>

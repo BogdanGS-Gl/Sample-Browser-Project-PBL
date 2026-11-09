@@ -1,0 +1,126 @@
+\documentclass[aspectratio=169, 10pt]{beamer}
+
+% Encoding and Typography
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{FiraSans}
+\usepackage{microtype}
+\usepackage{amsmath}
+
+% Graphics and Layout
+\usepackage{graphicx}
+\usepackage{tikz}
+\usetikzlibrary{calc,positioning,shapes,arrows.meta}
+\usepackage{tcolorbox}
+\tcbuselibrary{skins,raster}
+\usepackage{tabularx}
+\usepackage{booktabs}
+\usepackage{xcolor}
+\usepackage{appendixnumberbeamer}
+
+% =========================================================================
+% COLOR PALETTE (Strict Monochrome + Single Muted Emerald Accent)
+% =========================================================================
+\definecolor{bgdark}{HTML}{0F172A}       % Deep Slate (#0F172A)
+\definecolor{cardsurface}{HTML}{1E293B}  % Uniform Elevated Slate (#1E293B)
+\definecolor{cardborder}{HTML}{334155}   % Uniform Subtle Gray (#334155)
+\definecolor{cardinner}{HTML}{141D2E}    % Inner Container
+\definecolor{textwhite}{HTML}{F8FAFC}    % Pure White (#F8FAFC)
+\definecolor{textmuted}{HTML}{CBD5E1}    % Light Gray (#CBD5E1)
+\definecolor{textdim}{HTML}{94A3B8}      % Dim Slate Gray
+
+% Single Accent: Used ONLY for section pill, 2 stat numbers, and highlights
+\definecolor{accentemerald}{HTML}{10B981}% Muted Emerald (#10B981)
+
+% =========================================================================
+% BEAMER SETTINGS
+% =========================================================================
+\setbeamersize{text margin left=12mm, text margin right=12mm}
+\setbeamercolor{background canvas}{bg=bgdark}
+\setbeamercolor{normal text}{fg=textwhite}
+\setbeamertemplate{navigation symbols}{}
+
+% Standard Clean Bullets
+\setbeamertemplate{itemize items}{\scriptsize\textcolor{textdim}{\textbullet}}
+\setbeamertemplate{itemize subitem}{\tiny\textcolor{textdim}{\textbullet}}
+
+\newenvironment{compactlist}{%
+  \begin{itemize}%
+    \setlength{\itemsep}{1.5pt}%
+    \setlength{\topsep}{0pt}%
+    \setlength{\partopsep}{0pt}%
+    \setlength{\parsep}{0pt}%
+    \setlength{\parskip}{0pt}%
+}{\end{itemize}}
+
+% Sleek 1-Line Clean Footer
+\setbeamertemplate{footline}{
+  \begin{beamercolorbox}[wd=\paperwidth,ht=4.5mm,dp=2.5mm,leftskip=12mm,rightskip=12mm]{}
+    \tiny\textcolor{textdim}{\textbf{Sample Browser} \quad \textbar \quad FAF.PCAS25.1 · Midterm 1}
+    \hfill
+    \tiny\textcolor{textdim}{Technical University of Moldova (FCIM)}
+    \hfill
+    \tiny\textcolor{textwhite}{\textbf{\insertframenumber}} \textcolor{textdim}{/} \textcolor{textdim}{\inserttotalframenumber}
+  \end{beamercolorbox}
+}
+
+% =========================================================================
+% TCOLORBOX STYLES (Strict uniform border & padding)
+% =========================================================================
+\tcbset{
+  standardcard/.style={
+    enhanced,
+    colback=cardsurface,
+    colframe=cardborder,
+    coltext=textwhite,
+    boxrule=0.6pt,
+    arc=3pt,
+    left=8pt, right=8pt, top=6pt, bottom=6pt,
+    boxsep=0pt
+  },
+  innercard/.style={
+    enhanced,
+    colback=cardinner,
+    colframe=cardborder,
+    coltext=textwhite,
+    boxrule=0.5pt,
+    arc=2.5pt,
+    left=7pt, right=7pt, top=5pt, bottom=5pt,
+    boxsep=0pt
+  }
+}
+
+% Slide Header Macro: #1: Category Tag, #2: Slide Title
+% Top margin: clear space above section pill
+\newcommand{\slideheader}[2]{%
+  \vspace*{2mm}%
+  \noindent\begin{minipage}{\textwidth}%
+    \begin{tikzpicture}[baseline=(pill.base)]%
+      \node[fill=cardsurface, draw=cardborder, line width=0.6pt, rounded corners=2pt, inner sep=2.5pt] (pill) {%
+        \tiny\bfseries\textcolor{accentemerald}{#1}%
+      };%
+    \end{tikzpicture}\\[1.6mm]%
+    {\large\bfseries\textcolor{textwhite}{#2}}%
+  \end{minipage}\par\vspace{2.5mm}%
+}
+
+% =========================================================================
+% PRESENTATION SLIDES (9 Core Slides + 1 Optional Appendix Slide)
+% =========================================================================
+\begin{document}
+
+\input{slide01_title.tex}
+\input{slide02_context.tex}
+\input{slide03_domain.tex}
+\input{slide04_problem.tex}
+\input{slide05_persona.tex}
+\input{slide06_solution.tex}
+\input{slide07_architecture.tex}
+\input{slide08_comparative_swot.tex}
+\input{slide09_validation_roadmap.tex}
+
+\appendix
+\input{slide10_appendix_swot.tex}
+\input{slide11_appendix_problem_table.tex}
+
+\end{document}

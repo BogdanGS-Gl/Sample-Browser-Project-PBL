@@ -1,0 +1,225 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3900 2520" width="3900" height="2520">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#1E293B"/>
+    </linearGradient>
+    <linearGradient id="cardGrad1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1E293B"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+    <linearGradient id="redGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#EF4444"/>
+      <stop offset="100%" stop-color="#DC2626"/>
+    </linearGradient>
+    <linearGradient id="amberGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#D97706"/>
+    </linearGradient>
+    <linearGradient id="emeraldGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10B981"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="3900" height="2520" fill="url(#bgGrad)"/>
+  
+  <!-- Subtle Grid Overlay -->
+  <g opacity="0.05" stroke="#94A3B8" stroke-width="2">
+    <line x1="0" y1="0" x2="0" y2="2520"/><line x1="150" y1="0" x2="150" y2="2520"/><line x1="300" y1="0" x2="300" y2="2520"/><line x1="450" y1="0" x2="450" y2="2520"/><line x1="600" y1="0" x2="600" y2="2520"/><line x1="750" y1="0" x2="750" y2="2520"/><line x1="900" y1="0" x2="900" y2="2520"/><line x1="1050" y1="0" x2="1050" y2="2520"/><line x1="1200" y1="0" x2="1200" y2="2520"/><line x1="1350" y1="0" x2="1350" y2="2520"/><line x1="1500" y1="0" x2="1500" y2="2520"/><line x1="1650" y1="0" x2="1650" y2="2520"/><line x1="1800" y1="0" x2="1800" y2="2520"/><line x1="1950" y1="0" x2="1950" y2="2520"/><line x1="2100" y1="0" x2="2100" y2="2520"/><line x1="2250" y1="0" x2="2250" y2="2520"/><line x1="2400" y1="0" x2="2400" y2="2520"/><line x1="2550" y1="0" x2="2550" y2="2520"/><line x1="2700" y1="0" x2="2700" y2="2520"/><line x1="2850" y1="0" x2="2850" y2="2520"/><line x1="3000" y1="0" x2="3000" y2="2520"/><line x1="3150" y1="0" x2="3150" y2="2520"/><line x1="3300" y1="0" x2="3300" y2="2520"/><line x1="3450" y1="0" x2="3450" y2="2520"/><line x1="3600" y1="0" x2="3600" y2="2520"/><line x1="3750" y1="0" x2="3750" y2="2520"/>
+    <line x1="0" y1="0" x2="3900" y2="0"/><line x1="0" y1="150" x2="3900" y2="150"/><line x1="0" y1="300" x2="3900" y2="300"/><line x1="0" y1="450" x2="3900" y2="450"/><line x1="0" y1="600" x2="3900" y2="600"/><line x1="0" y1="750" x2="3900" y2="750"/><line x1="0" y1="900" x2="3900" y2="900"/><line x1="0" y1="1050" x2="3900" y2="1050"/><line x1="0" y1="1200" x2="3900" y2="1200"/><line x1="0" y1="1350" x2="3900" y2="1350"/><line x1="0" y1="1500" x2="3900" y2="1500"/><line x1="0" y1="1650" x2="3900" y2="1650"/><line x1="0" y1="1800" x2="3900" y2="1800"/><line x1="0" y1="1950" x2="3900" y2="1950"/><line x1="0" y1="2100" x2="3900" y2="2100"/><line x1="0" y1="2250" x2="3900" y2="2250"/><line x1="0" y1="2400" x2="3900" y2="2400"/>
+  </g>
+
+  <!-- Header Section -->
+  <g transform="translate(150, 100)">
+    <!-- Pill -->
+    <rect x="0" y="0" width="760" height="56" rx="28" fill="#334155" stroke="#475569" stroke-width="2"/>
+    <text x="380" y="36" fill="#38BDF8" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" font-weight="700" text-anchor="middle" letter-spacing="3">STREAMING RETRIEVAL ANALYSIS • PROBLEM SPACE</text>
+    
+    <!-- Title -->
+    <text x="0" y="140" fill="#F8FAFC" font-family="Inter, DejaVu Sans, sans-serif" font-size="64" font-weight="800" letter-spacing="-1">The Dual Bottlenecks of Sample Discovery in Streaming Architectures</text>
+    <text x="0" y="200" fill="#94A3B8" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" font-weight="400">Why Independent Music Producers Waste Significant Time During Manual Crate-Digging Across Full-Track Catalogs</text>
+  </g>
+
+  <!-- Two Main Columns -->
+  <!-- Left Column: Bottleneck 1 -->
+  <g transform="translate(150, 360)">
+    <!-- Card Frame -->
+    <rect width="1740" height="1620" rx="28" fill="url(#cardGrad1)" stroke="#334155" stroke-width="3"/>
+    
+    <!-- Top Accent Bar -->
+    <rect x="0" y="0" width="1740" height="16" rx="8" fill="url(#redGrad)"/>
+
+    <!-- Header Badge & Number -->
+    <rect x="70" y="60" width="460" height="50" rx="12" fill="#7F1D1D" stroke="#EF4444" stroke-width="2"/>
+    <text x="300" y="93" fill="#FCA5A5" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" font-weight="700" text-anchor="middle" letter-spacing="2">STRUCTURAL LIMITATION • BOTTLENECK 01</text>
+    
+    <!-- Title -->
+    <text x="70" y="170" fill="#F8FAFC" font-family="Inter, DejaVu Sans, sans-serif" font-size="44" font-weight="800">Sub-Track Structural Blindness (Whole-Track Indexing)</text>
+    <text x="70" y="220" fill="#94A3B8" font-family="Inter, DejaVu Sans, sans-serif" font-size="26">Streaming platforms treat full recordings as undivided monolithic files, hiding usable passages.</text>
+
+    <!-- Sub-Box 1: What Platforms Index -->
+    <g transform="translate(70, 270)">
+      <rect width="1600" height="340" rx="20" fill="#0F172A" stroke="#334155" stroke-width="2"/>
+      <rect x="40" y="36" width="340" height="40" rx="8" fill="#1E293B"/>
+      <text x="210" y="63" fill="#38BDF8" font-family="Inter, DejaVu Sans, sans-serif" font-size="19" font-weight="700" text-anchor="middle">STREAMING PLATFORM BEHAVIOR</text>
+      
+      <circle cx="60" cy="125" r="8" fill="#EF4444"/>
+      <text x="85" y="132" fill="#E2E8F0" font-family="Inter, DejaVu Sans, sans-serif" font-size="24" font-weight="600">Indexes metadata exclusively at whole-track level:</text>
+      <text x="85" y="165" fill="#94A3B8" font-family="Inter, DejaVu Sans, sans-serif" font-size="22">Title, Artist, Album, Global Genre, Release Year, and Global Track BPM (YouTube, Samplette, Spotify).</text>
+
+      <circle cx="60" cy="225" r="8" fill="#EF4444"/>
+      <text x="85" y="232" fill="#E2E8F0" font-family="Inter, DejaVu Sans, sans-serif" font-size="24" font-weight="600">Monolithic 3-to-6 minute audio containers:</text>
+      <text x="85" y="265" fill="#94A3B8" font-family="Inter, DejaVu Sans, sans-serif" font-size="22">Zero indexing of internal section transitions, solo instruments, or localized rhythm breakdown boundaries.</text>
+    </g>
+
+    <!-- Sub-Box 2: What Producers Actually Need -->
+    <g transform="translate(70, 650)">
+      <rect width="1600" height="340" rx="20" fill="#0F172A" stroke="#334155" stroke-width="2"/>
+      <rect x="40" y="36" width="350" height="40" rx="8" fill="#1E293B"/>
+      <text x="215" y="63" fill="#10B981" font-family="Inter, DejaVu Sans, sans-serif" font-size="19" font-weight="700" text-anchor="middle">PRODUCER DISCOVERY REALITY</text>
+      
+      <circle cx="60" cy="125" r="8" fill="#10B981"/>
+      <text x="85" y="132" fill="#E2E8F0" font-family="Inter, DejaVu Sans, sans-serif" font-size="24" font-weight="600">Producers rarely sample entire songs:</text>
+      <text x="85" y="165" fill="#94A3B8" font-family="Inter, DejaVu Sans, sans-serif" font-size="22">They search for localized 4-to-30 second structural isolates (unlayered 2-to-8 bar intervals).</text>
+
+      <circle cx="60" cy="225" r="8" fill="#10B981"/>
+      <text x="85" y="232" fill="#E2E8F0" font-family="Inter, DejaVu Sans, sans-serif" font-size="24" font-weight="600">High-demand acoustic passage categories:</text>
+      <text x="85" y="265" fill="#94A3B8" font-family="Inter, DejaVu Sans, sans-serif" font-size="22">Isolated drum breaks, solo Rhodes/piano intros without vocals, clean basslines, or unlayered horn riffs.</text>
+    </g>
+
+    <!-- Sub-Box 3: The Induced Friction -->
+    <g transform="translate(70, 1030)">
+      <rect width="1600" height="490" rx="20" fill="#18181B" stroke="#450A0A" stroke-width="2"/>
+      <rect x="40" y="36" width="380" height="40" rx="8" fill="#7F1D1D"/>
+      <text x="230" y="63" fill="#FCA5A5" font-family="Inter, DejaVu Sans, sans-serif" font-size="19" font-weight="700" text-anchor="middle">INDUCED WORKFLOW BOTTLENECK</text>
+      
+      <!-- Visual Timeline Diagram showing scrubbing chaos -->
+      <g transform="translate(40, 105)">
+        <rect width="1520" height="80" rx="14" fill="#0F172A" stroke="#334155" stroke-width="2"/>
+        <text x="30" y="47" fill="#64748B" font-family="Inter, DejaVu Sans, sans-serif" font-size="20">0:00 (Track Start)</text>
+        <text x="1480" y="47" fill="#64748B" font-family="Inter, DejaVu Sans, sans-serif" font-size="20" text-anchor="end">5:12 (Track End)</text>
+        
+        <!-- Scrubbing Arrows -->
+        <path d="M 220 40 Q 380 15 540 40 Q 700 65 860 40 Q 1020 15 1180 40" fill="none" stroke="#EF4444" stroke-width="4" stroke-dasharray="10 8"/>
+        <circle cx="220" cy="40" r="10" fill="#EF4444"/>
+        <circle cx="540" cy="40" r="10" fill="#EF4444"/>
+        <circle cx="860" cy="40" r="10" fill="#EF4444"/>
+        <circle cx="1180" cy="40" r="10" fill="#EF4444"/>
+        
+        <!-- Hidden target -->
+        <rect x="830" y="20" width="160" height="40" rx="8" fill="#10B981" opacity="0.3"/>
+        <text x="910" y="46" fill="#A7F3D0" font-family="Inter, DejaVu Sans, sans-serif" font-size="16" font-weight="700" text-anchor="middle">Target Break (8s)</text>
+      </g>
+
+      <text x="40" y="240" fill="#F8FAFC" font-family="Inter, DejaVu Sans, sans-serif" font-size="26" font-weight="700">Repetitive Playhead Scrubbing &amp; Creative Fatigue:</text>
+      <text x="40" y="280" fill="#CBD5E1" font-family="Inter, DejaVu Sans, sans-serif" font-size="23" font-weight="400">Producers must drag playheads back and forth through 50+ full songs per digging session.</text>
+      <text x="40" y="320" fill="#CBD5E1" font-family="Inter, DejaVu Sans, sans-serif" font-size="23" font-weight="400">Section collisions (vocals or drums bleeding over a riff) ruin promising tracks after minutes of search.</text>
+      
+      <!-- Metrics Pill -->
+      <rect x="40" y="370" width="1520" height="80" rx="16" fill="#27272A" stroke="#3F3F46" stroke-width="2"/>
+      <text x="80" y="420" fill="#EF4444" font-family="Inter, DejaVu Sans, sans-serif" font-size="24" font-weight="800">CONSEQUENCE:</text>
+      <text x="280" y="420" fill="#E2E8F0" font-family="Inter, DejaVu Sans, sans-serif" font-size="23" font-weight="600">15–25 min spent per single usable isolate • High session abandonment rate • Lost creative flow</text>
+    </g>
+  </g>
+
+  <!-- Right Column: Bottleneck 2 -->
+  <g transform="translate(2010, 360)">
+    <!-- Card Frame -->
+    <rect width="1740" height="1620" rx="28" fill="url(#cardGrad1)" stroke="#334155" stroke-width="3"/>
+    
+    <!-- Top Accent Bar -->
+    <rect x="0" y="0" width="1740" height="16" rx="8" fill="url(#amberGrad)"/>
+
+    <!-- Header Badge & Number -->
+    <rect x="70" y="60" width="480" height="50" rx="12" fill="#78350F" stroke="#F59E0B" stroke-width="2"/>
+    <text x="310" y="93" fill="#FDE68A" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" font-weight="700" text-anchor="middle" letter-spacing="2">TAXONOMY &amp; STORAGE • BOTTLENECK 02</text>
+    
+    <!-- Title -->
+    <text x="70" y="170" fill="#F8FAFC" font-family="Inter, DejaVu Sans, sans-serif" font-size="44" font-weight="800">Unconstrained Text Ambiguity &amp; Bookmarking Friction</text>
+    <text x="70" y="220" fill="#94A3B8" font-family="Inter, DejaVu Sans, sans-serif" font-size="26">Subjective keywords fail across listeners, and full-track bookmarks cause timestamp amnesia.</text>
+
+    <!-- Sub-Box 1: Subjective Text Failure -->
+    <g transform="translate(70, 270)">
+      <rect width="1600" height="340" rx="20" fill="#0F172A" stroke="#334155" stroke-width="2"/>
+      <rect x="40" y="36" width="370" height="40" rx="8" fill="#1E293B"/>
+      <text x="225" y="63" fill="#F59E0B" font-family="Inter, DejaVu Sans, sans-serif" font-size="19" font-weight="700" text-anchor="middle">SUBJECTIVE DESCRIPTOR AMBIGUITY</text>
+      
+      <circle cx="60" cy="125" r="8" fill="#F59E0B"/>
+      <text x="85" y="132" fill="#E2E8F0" font-family="Inter, DejaVu Sans, sans-serif" font-size="24" font-weight="600">Musicians rely on subjective metaphors (Andersen &amp; Knees, 2016):</text>
+      <text x="85" y="165" fill="#94A3B8" font-family="Inter, DejaVu Sans, sans-serif" font-size="22">Adjectives like "warm", "dusty", "hollow", "dark", or "vintage" have no agreed acoustic consensus.</text>
+
+      <circle cx="60" cy="225" r="8" fill="#F59E0B"/>
+      <text x="85" y="232" fill="#E2E8F0" font-family="Inter, DejaVu Sans, sans-serif" font-size="24" font-weight="600">Low inter-rater agreement on perceptual music labels (Flexer, 2014):</text>
+      <text x="85" y="265" fill="#94A3B8" font-family="Inter, DejaVu Sans, sans-serif" font-size="22">Unconstrained free-text tags pollute databases and yield high query mismatch without auditory preview.</text>
+    </g>
+
+    <!-- Sub-Box 2: Bookmarking Failure -->
+    <g transform="translate(70, 650)">
+      <rect width="1600" height="340" rx="20" fill="#0F172A" stroke="#334155" stroke-width="2"/>
+      <rect x="40" y="36" width="410" height="40" rx="8" fill="#1E293B"/>
+      <text x="245" y="63" fill="#38BDF8" font-family="Inter, DejaVu Sans, sans-serif" font-size="19" font-weight="700" text-anchor="middle">SUB-TRACK BOOKMARKING AMNESIA</text>
+      
+      <circle cx="60" cy="125" r="8" fill="#38BDF8"/>
+      <text x="85" y="132" fill="#E2E8F0" font-family="Inter, DejaVu Sans, sans-serif" font-size="24" font-weight="600">Standard web bookmarks and YouTube playlists save only full URLs:</text>
+      <text x="85" y="165" fill="#94A3B8" font-family="Inter, DejaVu Sans, sans-serif" font-size="22">Zero native support for capturing start/end timestamps, loop intervals, or instrumental notes.</text>
+
+      <circle cx="60" cy="225" r="8" fill="#38BDF8"/>
+      <text x="85" y="232" fill="#E2E8F0" font-family="Inter, DejaVu Sans, sans-serif" font-size="24" font-weight="600">Returning to saved links requires recurring re-scrubbing overhead:</text>
+      <text x="85" y="265" fill="#94A3B8" font-family="Inter, DejaVu Sans, sans-serif" font-size="22">Producers forget which timestamp contained the sample idea, wasting time re-auditioning whole songs.</text>
+    </g>
+
+    <!-- Sub-Box 3: The Storage & Curation Breakdown -->
+    <g transform="translate(70, 1030)">
+      <rect width="1600" height="490" rx="20" fill="#18181B" stroke="#451A03" stroke-width="2"/>
+      <rect x="40" y="36" width="370" height="40" rx="8" fill="#78350F"/>
+      <text x="225" y="63" fill="#FDE68A" font-family="Inter, DejaVu Sans, sans-serif" font-size="19" font-weight="700" text-anchor="middle">INDUCED WORKFLOW BOTTLENECK</text>
+      
+      <!-- Visual Bookmarking Chaos -->
+      <g transform="translate(40, 105)">
+        <rect width="1520" height="80" rx="14" fill="#0F172A" stroke="#334155" stroke-width="2"/>
+        <text x="30" y="47" fill="#64748B" font-family="Inter, DejaVu Sans, sans-serif" font-size="20">Saved: youtube.com/watch?v=k9X... [Playlist: "Samples to Chop 2026"]</text>
+        <rect x="1100" y="20" width="380" height="40" rx="8" fill="#EF4444" opacity="0.3"/>
+        <text x="1290" y="47" fill="#FCA5A5" font-family="Inter, DejaVu Sans, sans-serif" font-size="18" font-weight="700" text-anchor="middle">⚠️ Timestamp / Notes Lost</text>
+      </g>
+
+      <text x="40" y="240" fill="#F8FAFC" font-family="Inter, DejaVu Sans, sans-serif" font-size="26" font-weight="700">Sub-Track Reference Loss &amp; Curation Friction:</text>
+      <text x="40" y="280" fill="#CBD5E1" font-family="Inter, DejaVu Sans, sans-serif" font-size="23" font-weight="400">Producers maintain chaotic notes in text files or download gigabytes of raw rips to local SSDs.</text>
+      <text x="40" y="320" fill="#CBD5E1" font-family="Inter, DejaVu Sans, sans-serif" font-size="23" font-weight="400">Without structured sub-track tagging, saved catalogs become dark, unsearchable archives.</text>
+      
+      <!-- Metrics Pill -->
+      <rect x="40" y="370" width="1520" height="80" rx="16" fill="#27272A" stroke="#3F3F46" stroke-width="2"/>
+      <text x="80" y="420" fill="#F59E0B" font-family="Inter, DejaVu Sans, sans-serif" font-size="24" font-weight="800">CONSEQUENCE:</text>
+      <text x="280" y="420" fill="#E2E8F0" font-family="Inter, DejaVu Sans, sans-serif" font-size="23" font-weight="600">Disorganized sample archives • Lost creative momentum • Recurring scrubbing overhead</text>
+    </g>
+  </g>
+
+  <!-- Bottom Banner: Sample Browser Solution Intervention -->
+  <g transform="translate(150, 2040)">
+    <rect width="3600" height="380" rx="28" fill="#0F172A" stroke="#10B981" stroke-width="4"/>
+    
+    <g transform="translate(60, 45)">
+      <rect width="660" height="44" rx="10" fill="#064E3B"/>
+      <text x="330" y="30" fill="#6EE7B7" font-family="Inter, DejaVu Sans, sans-serif" font-size="18" font-weight="800" text-anchor="middle" letter-spacing="3">SAMPLE BROWSER ARCHITECTURAL INTERVENTION</text>
+      
+      <text x="0" y="115" fill="#F8FAFC" font-family="Inter, DejaVu Sans, sans-serif" font-size="44" font-weight="800">Sub-Track Timestamp Indexing (4–60s) • Two-Tier Preset Tag Taxonomy • Instant Cue-Seeking &amp; Looping</text>
+      <text x="0" y="170" fill="#94A3B8" font-family="Inter, DejaVu Sans, sans-serif" font-size="26">Shifts the atomic unit of music discovery from 5-minute monolithic songs to localized 4-to-30s musical passages.</text>
+    </g>
+
+    <!-- 3 Key Solution Highlights -->
+    <g transform="translate(60, 245)">
+      <rect x="0" y="0" width="1120" height="90" rx="16" fill="#1E293B" stroke="#334155" stroke-width="2"/>
+      <text x="30" y="38" fill="#34D399" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" font-weight="700">1. Granular Passage Pointers</text>
+      <text x="30" y="68" fill="#94A3B8" font-family="Inter, DejaVu Sans, sans-serif" font-size="20">Jump directly to [start_time, end_time] cue points</text>
+
+      <rect x="1170" y="0" width="1120" height="90" rx="16" fill="#1E293B" stroke="#334155" stroke-width="2"/>
+      <text x="1200" y="38" fill="#34D399" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" font-weight="700">2. Two-Tier Objective Presets</text>
+      <text x="1200" y="68" fill="#94A3B8" font-family="Inter, DejaVu Sans, sans-serif" font-size="20">[No Vocals], [No Drums], [Rhodes] + Instant Audio Preview</text>
+
+      <rect x="2340" y="0" width="1140" height="90" rx="16" fill="#1E293B" stroke="#334155" stroke-width="2"/>
+      <text x="2370" y="38" fill="#34D399" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" font-weight="700">3. Personal Cloud Crates</text>
+      <text x="2370" y="68" fill="#94A3B8" font-family="Inter, DejaVu Sans, sans-serif" font-size="20">Single-player timestamp bookmarking without audio downloads</text>
+    </g>
+  </g>
+</svg>

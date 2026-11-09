@@ -1,0 +1,41 @@
+\documentclass{tum_report}
+
+% Ensure sequential 1, 2, 3 numbering for figures and tables across unnumbered sections
+\counterwithout{figure}{section}
+\counterwithout{table}{section}
+\renewcommand{\thefigure}{\arabic{figure}}
+\renewcommand{\thetable}{\arabic{table}}
+
+% Improve URL breaking in bibliography
+\def\UrlBreaks{\do\/\do-\do\_\do\.\do\?}
+
+\begin{document}
+
+    \input{title_page.tex}
+    \clearpage
+
+    \input{abstract.tex} 
+    \clearpage
+
+    \addtocontents{toc}{\protect \thispagestyle{empty}}
+    \tableofcontents
+    \thispagestyle{empty}
+    \clearpage
+
+    \input{introduction.tex}
+    \clearpage
+
+    \input{midterm1.tex}
+    \clearpage
+
+    \input{midterm2.tex}
+    \clearpage
+
+    \input{conclusion.tex}
+    \clearpage
+    
+    \phantomsection
+    \addcontentsline{toc}{chapter}{Bibliography}
+    \input{bibliography.tex}
+
+\end{document}

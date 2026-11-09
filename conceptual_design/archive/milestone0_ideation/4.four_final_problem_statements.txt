@@ -1,0 +1,76 @@
+Bogdan's problem statement was selected
+
+---
+
+Problem statement nr. 1(Nikita)
+Problem: Over 80% of time on the start of making song producer spends on searching in libraries with more than 150 000 files of sounds.
+    Modern music producers typically store between 500 GB and 3 TB of audio samples across multiple drives. Over 80% of these files lack accurate metadata or have nondescript filenames (such as Snare_02_processed_v3.wav). Existing desktop catalogers rely on manual tags, freeze when indexing libraries over 150,000 files, or require subscription-based cloud uploads.
+
+
+---
+
+Problem Statement nr. 2(Andrei)
+The algorithms of music streaming services (i.e Spotify) are repetitive and predictable, promoting familiarity over discoverability by often recommending the same known songs. This hurts both the users, who get fatigued from frequent listening repetition, as well as the small artists who have an extremely difficult time reaching an audience due to the algorithm promoting only the top performing artists.
+
+Pros
+High Academic Grounding: Backed by established research on popularity bias, filter bubbles, the cold-start problem, and beyond-accuracy objectives (novelty, serendipity, coverage).
+Clear Two-Sided Stakeholder Model: Provides concrete value propositions for both consumers (reducing playlist fatigue) and creators (fair exposure for independent artists).
+Flexible Implementation Scope: Scales easily to fit technical targets, from low-level data benchmarks (evaluating Gini coefficients on public datasets) to full-stack prototypes (a "novelty slider" web tool via Spotify/MusicBrainz APIs).
+Rich, Accessible Open Data: Supported by massive, well-documented open datasets like Last.fm (LFM-1b), the Million Song Dataset, MusicBrainz, and Free Music Archive.
+Measurable Quantitative Metrics: Success is straightforward to validate through mathematical metrics (NDCG@k, Gini index, intra-list diversity, catalog coverage) rather than subjective grading.
+Cons
+API Bottlenecks: Major commercial APIs (notably Spotify) heavily restrict recommendation and audio-feature endpoints for standard developer tiers, forcing reliance on external, open-source MIR datasets.
+The "Exploration Penalty" Evaluation Challenge: Difficult to conduct real-world A/B testing or measure live skip rates without a captive user base, often limiting testing to synthetic or offline evaluations.
+Subjective Ground Truth: Unlike functional software bugs, measuring whether an obscure recommendation is "pleasantly serendipitous" or simply "bad music" is fundamentally subjective.
+Commercial vs. Academic Misalignment: Industrial platforms prioritize retention and skip-avoidance over artist fairness; designing a model that balances both without degrading platform business metrics is non-trivial.
+
+---
+
+Problem statement nr. 3(Bogdan)
+Finding samples in music takes too much time for independent producers. Independent hip-hop, electronic and experimental producers find it time-consuming to search for samples in existing records online, as most songs can only be searched by details of the whole record, like genre, style and artist, so they need to listen through them one by one until they find a part they can use.
+    Context: Sources like Tracklib, Samplette and Splice exist for this purpose, with only Tracklib and Samplette offering categorization on published records. Tracklib only covers a limited library of licensed music, whereas Samplette's search tool is a random-suggestion button, but they don't provide information about individual sections of a song.
+
+Hunting down samples on the internet for music production is difficult as an independent producer.
+Pros of problem:
+1. Sometimes you just want an instrument that sounds like the one you like in a track, but is mixed differently. You can hear an instrument you’d like to sample, and finding more songs that have it can be hard if you just don’t know what that one instrument is called. Especially common in electronic music with modulated synthesizers and lots of effects.
+2. You need time to thoroughly listen for the sections of a song that mean something to you production wise. Throughout interviews, producers mention browsing through huge sample libraries isn’t always efficient. Most of the time, they’re not well organized. Scrolling through lists of samples without any success ruins the flow of producing.
+3. Many producers treat their activity as a side-hustle or a hobby. According to a survey of 1100 producers in 2024 by Tracklib, 58% were producers aiming to make production a career, while 32% were hobbyists and beginners. UK Musicians’ Census 2023 reported out of 6000 musicians, 53% need income from outside music, suggesting limited time spent towards it compared to professionals.
+What diminishes it:
+1. Some people feel the slowness of finding sample records is integral to making music as an art, while others complain it is disorganised and slow. Precise search comes with fewer detours. Part of what makes making music fun is stumbling upon new songs you never knew about, so it becomes more vague on who would benefit from this.
+2. There’s free websites like samplette where you can find random music with very few views on youtube spanning multiple genres and tempos, its a pretty good source to experiment with or to get out of a creative block
+3. Splice had nearly 350 million downloads in 2024, so many people use it already. AI search tools exist on Splice. this is mine i wanted to make it shorter but we're kinda running low on time
+
+---
+
+Problem Statement nr. 4(Leonid)
+Active listeners who have used streaming services for more than 2–3 years (about 10–15% of the user base) find it easy to discover new music, but as a result, they end up with thousands—sometimes even tens of thousands—of tracks in a single, flat "Liked Songs" list, along with dozens of albums set aside for later. Consequently, 80–90% of their personal collection remains "buried." Platforms like Spotify, YouTube Music, and Yandex Music lack multidimensional filtering for one’s own library—Spotify, for instance, offers only basic, non-combinable genre "chips" at the top of the "Liked Songs" list, which disappear as soon as you start a search. Furthermore, hitting "shuffle" on a list of 10,000+ tracks causes the app to lag, often defaulting to playing only the most recent 50–100 songs. Albums saved for later are easily forgotten, as there is no system for tracking their status (e.g., "to listen to," "currently exploring," or "archived"). It is also impossible to quickly generate a dynamic selection from one’s own curated collection—such as instrumental, mid-tempo tracks perfect for coding or studying—without spending hours manually organizing everything into folders. Neither Google nor ChatGPT has access to a user’s personal library, meaning they cannot filter or play its contents; meanwhile, the once-popular third-party tool SmarterPlaylists ceased to function properly following changes to the Spotify API.
+
+Problem: 
+Active listeners (2–3+ years on streaming) accumulate 2,000–10,000+ tracks in a flat Liked Songs list and dozens of saved albums. As a result, 80–90% of their library gets buried: platforms lack multidimensional filtering, Shuffle on 10k+ tracks lags and loops the top 50–100 recent songs (https://www.google.com/search?q=https%3A%2F%2Fwww.reddit.com%2Fr%2Ftruespotify%2Fcomments%2F1t83mes%2Fmy_liked_songs_playlist_is_13k_songs_and_takes_a%2F), and saved albums have no backlog tracking (To Listen / Exploring / Archived).
+
+Target Audience & Sub-groups (10–15% of market = ~80–120M paid users globally per IFPI 2026 (https://www.google.com/search?q=https%3A%2F%2Fwww.ifpi.org%2Fglobal-music-report-2026-global-recorded-music-revenues-grow-6-4-as-record-companies-drive-innovation%2F)):
+• Flat-List Hoarders (~45% of TG): dump all genres into Liked Songs, suffer from broken Shuffle and mood whiplash.
+• Focused Workers / Coders (~25% of TG): need dynamic slices of their own library (e.g., instrumental + mid-tempo for coding) because editorial playlists like "Deep Focus" are filled with generic Ghost Artist / PFC stock music (https://www.google.com/search?q=https%3A%2F%2Fharpers.org%2Farchive%2F2025%2F01%2Fthe-ghosts-in-the-machine-liz-pelly-spotify-musicians%2F).
+• Album Backloggers (~15% of TG): save 100–300 albums and forget 85% of them due to zero status tracking or notes.
+• Cross-Platform Listeners (~10–20% in our region): collection split across Spotify (https://www.google.com/search?q=https%3A%2F%2Fopen.spotify.com%2F), YouTube Music (https://www.google.com/search?q=https%3A%2F%2Fmusic.youtube.com%2F), and SoundCloud (https://www.google.com/search?q=https%3A%2F%2Fsoundcloud.com%2F).
+• Rule-Based Curators (~5% of TG): power users needing boolean logic (AND/OR/NOT, BPM, last played date).
+
+Current Workarounds & Why They Fail:
+• Streaming Apps: Spotify (https://www.google.com/search?q=https%3A%2F%2Fopen.spotify.com%2F) genre chips can't be combined, ignore filters on shuffle (https://www.google.com/search?q=https%3A%2F%2Fcommunity.spotify.com%2Fforum%2Fen%2Fdiscussion%2F7414864%2Fgenre-filters-are-ignored-in-liked-songs), and aren't even available in Moldova (https://www.google.com/search?q=https%3A%2F%2Fcommunity.spotify.com%2Ft5%2FLive-Ideas%2FBring-Liked-Songs-Genre-and-Mood-Filters-to-more-countries%2Fidi-p%2F7296880); desktop BPM/Key columns can't be sorted or filtered (https://www.google.com/search?q=https%3A%2F%2Fwww.reddit.com%2Fr%2FDJs%2Fcomments%2F1nk6e7f%2Fyou_can_check_the_bpm_and_keys_of_tracks_on%2F). Apple Music (https://www.google.com/search?q=https%3A%2F%2Fmusic.apple.com%2F) still lacks Smart Playlists on iOS (https://www.google.com/search?q=https%3A%2F%2Fwww.reddit.com%2Fr%2FAppleMusic%2Fcomments%2F1qm3y9r%2Fthe_fact_that_the_music_app_on_ios_still_doesnt%2F). YouTube Music (https://www.google.com/search?q=https%3A%2F%2Fmusic.youtube.com%2F) has no genre filters for libraries (https://www.google.com/search?q=https%3A%2F%2Fwww.reddit.com%2Fr%2FYoutubeMusic%2Fcomments%2F1mq9w46%2Fis_there_a_way_to_filter_my_liked_songs_by_genre%2F). Only Yandex Music (https://www.google.com/search?q=https%3A%2F%2Fmusic.yandex.com%2F) partially solves the worker case ("My Wave: Favorites + No Words"), but acts as a black-box radio and lacks Western major releases.
+• Google & LLMs (ChatGPT, Gemini): only do external discovery; they have zero access to a user's personal library, can't control playback, and hallucinate BPM/vocal status on 80% of non-mainstream tracks.
+• Specialized AI & Generators: Cyanite.ai (https://www.google.com/search?q=https%3A%2F%2Fcyanite.ai%2F) is B2B-only, Sonoteller.ai (https://www.google.com/search?q=https%3A%2F%2Fsonoteller.ai%2F) caps free users at 10 tracks/month (https://www.google.com/search?q=https%3A%2F%2Fwww.reddit.com%2Fr%2Fmusicmarketing%2Fcomments%2F1fgfn19%2Fis_there_any_free_music_genre_analysis_ai%2F), and Endel (https://www.google.com/search?q=https%3A%2F%2Fendel.io%2F)/Mubert (https://www.google.com/search?q=https%3A%2F%2Fmubert.com%2F) generate synthetic audio instead of filtering your own library.
+• 3rd-Party Organizers: SmarterPlaylists (https://www.google.com/search?q=https%3A%2F%2Fmusicmachinery.com%2F2026%2F03%2F06%2Fsmarterplaylists-by-the-numbers-a-decade-in-review%2F) and Organize Your Music (https://www.google.com/search?q=https%3A%2F%2Forganizeyourmusic.playlistmachinery.com%2F) broke when Spotify deprecated Audio Features in Nov 2024 (https://www.google.com/search?q=https%3A%2F%2Fdeveloper.spotify.com%2Fblog%2F2024-11-27-changes-to-the-web-api). Chosic (https://www.google.com/search?q=https%3A%2F%2Fwww.chosic.com%2Fspotify-playlist-analyzer%2F) caps free analysis at 1,000 songs, while Skiley (https://www.google.com/search?q=https%3A%2F%2Fskiley.net%2F) and Playlistation (https://www.google.com/search?q=https%3A%2F%2Fplaylistation.com%2Fspotify-liked-songs-organizer) require paid subs and spam your sidebar with static playlists based on coarse artist genres. Marvis Pro (https://www.google.com/search?q=https%3A%2F%2Fapps.apple.com%2Fus%2Fapp%2Fmarvis-pro%2Fid1447768809) (~$10) is iOS + Apple Music only. Record Club (https://www.google.com/search?q=https%3A%2F%2Flifehacker.com%2Ftech%2Frecord-club-letterboxd-for-music) requires manual album logging.
+• Manual Sorting (Folders / Notion): sorting 3,600 tracks at 10 sec/track takes 10 hours of manual desktop drag-and-drop + 30 min/week maintenance.
+
+PROS (Why it works & wins points):
+Operational, not informational problem: cannot be solved by Googling or prompting ChatGPT (directly passes our mentor's filter).
+Low direct competition in 2026: Spotify's API changes killed legacy free tools (SmarterPlaylists), leaving a clear market gap.
+Strong local angle: Spotify's basic Liked Songs genre filters aren't even rolled out in Moldova.
+Easy Midterm 2 validation: finding 15–20 university students with 2,000+ liked songs for video interviews is super easy.
+Buildable Core: DB schema, album backlog kanban, boolean query engine, true stratified shuffle, and LLM Text-to-Filter over tagged metadata are straightforward to build.
+CONS (Risks & Challenges of solving it):
+"Vitamin vs. Painkiller" (Passive tolerance): 75–85% of listeners are passive, and even among the 10–15% hoarders, many just accept looping their top 50 tracks if onboarding takes too much effort.
+Hostile Platform APIs (Main Technical Hurdle): since Feb 2026, Spotify Dev Mode limits apps to 5 test users and blocks Audio Features. We'd need a client-side extension / export architecture and enrich audio tags (BPM, instrumental/vocal) via ISRC matching with MusicBrainz/Discogs, lyric checks via Genius API, and 30-sec preview analysis with Essentia.js.
+Partial platform patching: giants occasionally add minor features (e.g., Spotify saving single chip filters in Tier-1 markets).
+
+---
