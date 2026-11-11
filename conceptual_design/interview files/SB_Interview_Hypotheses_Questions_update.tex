@@ -1,0 +1,235 @@
+% Sample Browser - interview hypotheses and questions
+% Compiles with pdfLaTeX (the Overleaf default), XeLaTeX or LuaLaTeX.
+% Keep question_map.png in the same folder as this file.
+\documentclass[12pt,a4paper]{report}
+
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T2A,T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage[russian,english]{babel}
+  \usepackage{mathptmx}
+\else
+  \usepackage{fontspec}
+  \setmainfont{texgyretermes}[Extension=.otf, UprightFont=*-regular, BoldFont=*-bold,
+    ItalicFont=*-italic, BoldItalicFont=*-bolditalic]
+  \usepackage{polyglossia}
+  \setdefaultlanguage{english}
+  \setotherlanguage{russian}
+  \IfFontExistsTF{FreeSerif}{\newfontfamily\cyrillicfont{FreeSerif}}
+    {\IfFontExistsTF{DejaVu Serif}{\newfontfamily\cyrillicfont{DejaVu Serif}}{}}
+\fi
+
+\usepackage[a4paper, margin=2.5cm]{geometry}
+\usepackage{setspace}
+\setstretch{1.15}
+\usepackage{parskip}
+\usepackage[table]{xcolor}
+\usepackage{array, tabularx}
+\usepackage{xltabular}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{xurl}
+\usepackage{hyperref}
+\hypersetup{colorlinks=true, linkcolor=black, urlcolor=[rgb]{0.07,0.33,0.80}, pdftitle={Sample Browser},
+  pdfauthor={Bogdan Glavan, Andrei Simon, Nikita Creciun, Leonid Tiscenco, Mihai-Constantin S\^irghii}}
+
+\definecolor{tablehead}{gray}{0.88}
+\definecolor{condition}{HTML}{980000}
+\setcounter{secnumdepth}{-1}
+\setcounter{tocdepth}{2}
+\titleformat{\chapter}[block]{\normalfont\huge\bfseries\raggedright}{}{0pt}{}
+\titlespacing*{\chapter}{0pt}{0pt}{18pt}
+\titleformat{\section}{\normalfont\Large\bfseries\raggedright}{}{0pt}{}
+\titleformat{\subsection}{\normalfont\large\bfseries\raggedright}{}{0pt}{}
+\urlstyle{same}
+\setlength{\emergencystretch}{2em}
+
+\begin{document}
+
+\section{Changes since the first draft}
+
+\subsection{Hypotheses}
+\begin{itemize}[leftmargin=*, itemsep=2pt]
+\item \textbf{Split:} the four hypotheses became eight, each testing one claim. Two were later dropped, and the remaining six were renumbered H1–H6 (the earlier H8 is now H4, and H7 is now H6).
+\item \textbf{Dropped:} not sampling purely for commercial releases (from original H4), because the problem evidence already covers it, and saving samples in the cloud (from original H3), because Sample Browser saves sections online either way.
+\item \textbf{Moved:} the criteria came out of the hypothesis text and into the table below, with the same 60\% threshold for all of them.
+\item \textbf{Original H1 $\rightarrow$ H1:} “structural goals” became “search goals”, and the part about abandoning tracks was dropped.
+\item \textbf{Original H2 $\rightarrow$ H2 + H6:} objective categories over mood and texture tags (H2), and finding better samples by following what they’ve already heard (H6), which came from the berrypicking part.
+\item \textbf{Original H3 $\rightarrow$ H3 + H5:} keeping track of which part of a saved song they wanted and why (H3), and making tags and timestamps public (H5, which now carries the pivot trigger).
+\item \textbf{Original H4 $\rightarrow$ H4:} preferring unlicensed full songs over paid libraries. “Commercial loop fatigue” became “commercial sample-pack overuse”.
+\end{itemize}
+
+\subsection{Questions}
+\begin{itemize}[leftmargin=*, itemsep=2pt]
+\item \textbf{New:} “Why there?” at the end of Q9.
+\item \textbf{New:} a booking questionnaire (F1–F13) that screens candidates, covers the background questions before the call, and decides which blocks each person gets.
+\item \textbf{Reworded:} Q8 asks about the last time they needed another sample to go with one they had, instead of whether that is easier.
+\item \textbf{Reworded:} 8a asks about the last time they picked a sound because of its label, instead of what they would prefer.
+\item \textbf{Reworded:} 9a asks about the last time they went back to a saved song, instead of assuming they come back to it.
+\item \textbf{Reworded:} 10a asks whether their online saves are public and whether they wanted credit for a find, instead of whether they would share tagged sections in a tool that doesn’t exist yet.
+\item \textbf{Retagged:} Q5 and 5a now also count toward H6, Q7 and Q8 moved from H2 to H6, and Q10, 10a and 10b moved from H3 to H5. Q2 is now background only.
+\item \textbf{Moved:} Q10 and its follow-ups into their own block, Block 6: Sharing.
+\item \textbf{Added:} interviewer notes under 4a, Q7, 9a and 10a, and notes on which blocks each person gets.
+\end{itemize}
+
+\section{Hypotheses}
+Each hypothesis is confirmed when at least 60\% of interviews meet its criteria, so score every interview yes or no against each one.
+
+\begingroup
+\small
+\renewcommand{\arraystretch}{1.25}
+\begin{xltabular}{\textwidth}{|>{\hsize=1.35\hsize\raggedright\arraybackslash}X|>{\hsize=1\hsize\raggedright\arraybackslash}X|>{\hsize=0.65\hsize\raggedright\arraybackslash}X|}
+\hline
+\rowcolor{tablehead} \textbf{Hypothesis} & \textbf{Confirmed if} & \textbf{Refuted if} \\
+\hline
+\endfirsthead
+\hline
+\rowcolor{tablehead} \textbf{Hypothesis} & \textbf{Confirmed if} & \textbf{Refuted if} \\
+\hline
+\endhead
+\textbf{H1 (problem, from original H1):} When hunting for samples in full-length recordings (e.g., on YouTube or Samplette), producers spend substantial time listening to and manually scrubbing through songs whose sections do not match their search goals (such as finding a clean instrumental passage without vocals or heavy drums). & $\geq$60\% of sampling producers describe listening or scrubbing through songs that don’t have the part they need as a recurring reason for slow digging (Q5, Q6, 6a). & Finding the right part takes them little effort, for example because auto-chop tools or stem separation make it quick (6b). \\
+\hline
+\textbf{H2 (solution, from original H2):} Producers rely primarily on objective categories (instruments, section type/breaks, tempo) while distrusting subjective mood/texture tags. & $\geq$60\% name objective categories as the ones they rely on, and describe mood or texture tags as unreliable when they can’t hear the sound (7a, 8a). & They rely on mood or texture tags as much as on objective ones, or use no categories at all. \\
+\hline
+\textbf{H3 (solution, from original H3):} Producers who save songs online to sample later, like in a YouTube or Spotify playlist, struggle to keep track of which part they wanted and why they saved it. & $\geq$60\% of those who save songs to sample later can’t remember the part or the reason without relistening (Q9, 9a). & Most remember the part, or already note the timestamp when they save. \\
+\hline
+\textbf{H4 (problem, from original H4):} Small-scale producers actively prefer searching for unlicensed, full-length music in streaming service catalogs (e.g., YouTube, SoundCloud) over paid pre-curated libraries (Splice, Tracklib) due to cost, catalog variety, and commercial sample-pack overuse. & $\geq$60\% regularly sample from YouTube or other public streams without being put off by clearance, and most name cost, catalog variety or pack overuse when asked why (4a). Partly confirmed if the preference holds but the reasons differ. & Most mainly use royalty-free packs and avoid YouTube recordings because of copyright worries. \\
+\hline
+\textbf{H5 (solution, from original H3):} Producers are willing to publicize their saved tags and timestamps on song sections (rather than keeping all discovered sources strictly private). & $\geq$60\% have shared sample sources before or keep their online saves public (Q10, 10a), and few describe keeping finds secret (10b). & Most keep their saves private and have never shared a find. This triggers the pivot to a personal crate-digging workspace. \\
+\hline
+\textbf{H6 (solution, from original H2):} Producers rarely get a usable sample from their first search; they find better ones by following what they’ve already heard. & $\geq$60\% rarely find a usable sample in their first search or track (Q5, 5a), and describe something they’d heard guiding where they looked next (Q8). & Most find what they need on the first search, or say what they’d heard didn’t change where they looked. \\
+\hline
+\end{xltabular}
+\endgroup
+
+\section{Question map}
+\begin{center}
+\includegraphics[width=\textwidth]{question_map.png}
+
+{\small hypothesis-to-question map · 6 hypotheses, 20 questions\par}
+\end{center}
+
+Hypotheses are ordered to follow the interview; Q1 to Q3 are background only, and Q5 and 5a each count toward two hypotheses.
+
+\section{Booking questionnaire}
+Send this before booking anyone. It takes about three minutes to fill in, screens out people who aren’t the target, and tells you which blocks each person gets.
+
+\begingroup
+\small
+\renewcommand{\arraystretch}{1.25}
+\begin{xltabular}{\textwidth}{|>{\raggedright\arraybackslash}p{0.9cm}|>{\hsize=0.8\hsize\raggedright\arraybackslash}X|>{\hsize=1.2\hsize\raggedright\arraybackslash}X|>{\raggedright\arraybackslash}p{2.1cm}|}
+\hline
+\rowcolor{tablehead} \textbf{\#} & \textbf{Question} & \textbf{Answers} & \textbf{Used for} \\
+\hline
+\endfirsthead
+\hline
+\rowcolor{tablehead} \textbf{\#} & \textbf{Question} & \textbf{Answers} & \textbf{Used for} \\
+\hline
+\endhead
+F1 & What kind of producer would you call yourself? & Short answer & Warm-up \\
+\hline
+F2 & What genres do you make? & Short answer & Warm-up \\
+\hline
+F3 & How long have you been making music? & Less than 6 months · 6 months to 2 years · 2 to 5 years · Over 5 years & Warm-up \\
+\hline
+F4 & Which role fits you best right now? & Making music as a hobby · Practicing sound design/preset patching/sample-pack creation · Working on small-scale projects (beats/singles) · Working on large-scale projects (albums/mixtapes) · Working a full-time job in music production · Working a part-time job in music production & Screening \\
+\hline
+F5 & In the last 6 months, which site/platform did you use for finding samples? Tick all that apply. & Online forums (e.g., Reddit, RateYourMusic) · WhoSampled · Splice · YouTube · Samplette, sampledigging.online or similar · Vinyl/CDs · Spotify, SoundCloud or similar · I didn’t use samples · Other & Screening \\
+\hline
+F6 & How do you usually start looking for a sample? Tick all that apply. & Typing keywords/titles in a search bar · Random or shuffle buttons · Browsing playlists, channels or curated lists · I sample songs I already listen to · Other & Routing \\
+\hline
+F7 & Do you save songs or samples to use later? Tick all that apply. & I save songs in YouTube or Spotify playlists · I save samples in online sampler websites (like Samplette, Chop Stop, or similar) · I save samples in personal folders on my computer · I use samples, but do not save them in personal libraries · I do not use samples & Routing \\
+\hline
+F8 & How long could you talk with us? & 20 min · 30 min · 45 min & Routing \\
+\hline
+F9 & Can we interview you through a video meeting (Google Meet) and record the conversation for taking notes? & Video and recording are fine · Recording is fine, but I’d like to not show my face on camera (audio interview) · Video, but please do not record · Audio only, please do not record & Scheduling \\
+\hline
+F10 & Which days and times work for you, and what’s your time zone? & Short answer & Scheduling \\
+\hline
+F11 & Where should we contact you? & Short answer: Discord, Instagram or email & Scheduling \\
+\hline
+F12 & How should we refer to you in our report? & My first name · My producer alias · Keep me anonymous · Other & Report \\
+\hline
+F13 & In what language would you be comfortable speaking during the interview? & English · Russian · Romanian & Scheduling \\
+\hline
+\end{xltabular}
+\endgroup
+
+\textbf{Who to book}
+\begin{itemize}[leftmargin=*, itemsep=2pt]
+\item Not working a full-time job in music production (F4), and used songs, not only packs, as a sample source in the last 6 months (F5: YouTube, Samplette or sampledigging.online, Vinyl/CDs, Spotify or SoundCloud). Don’t require “mostly songs”: people who mainly use packs keep H4 testable.
+\item Aim for at least half who save songs in YouTube or Spotify playlists (F7), so H3 has enough answers.
+\item Don’t say in the recruiting post which answers get someone booked.
+\end{itemize}
+
+\textbf{How to structure the video call interview:}
+\begin{itemize}[leftmargin=*, itemsep=2pt]
+\item \textbf{Block 1:} use their F1–F5 answers as a quick warm-up instead of asking again.
+\item \textbf{Q7:} only if they type searches (F6).
+\item \textbf{Block 5:} only if they save songs or samples (F7). Only people who save songs count toward H3.
+\item \textbf{Block 6:} everyone. It decides community catalog or personal workspace, so it needs every answer.
+\item \textbf{20 minutes (F8):} Blocks 3 and 6.
+\item \textbf{30 minutes:} skip Q8, and skip Q6 if Q5’s story already showed how they scan.
+\item \textbf{45 minutes:} everything that applies.
+\end{itemize}
+
+\section{Interview questions:}
+The questions run from background to the problem hypotheses, then the solution ones; the tag before each shows which hypothesis its answer counts toward.
+
+\subsection{Block 1: Background and screening}
+\emph{If they filled in the booking questionnaire, use F1–F5 as a quick warm-up instead of asking these again.}
+
+\textbf{1.} [BK] “How would you describe the main genres of music you make, and what inspires your production style?”
+
+\textbf{2.} [BK] “Do you currently release music under an alias, collaborate with artists, or make beats primarily for personal enjoyment, practice, or underground communities?”
+
+\textbf{3.} [Screening] “When making a track, how much do you rely on sampling existing recordings versus composing from scratch with virtual instruments (VSTs) or hardware? Roughly how many samples did you use on your last sampled track, and why did you choose them?”
+
+\subsection{Block 2: Where they get samples (H4)}
+\textbf{4.} [H4] “Do you mostly use curated, royalty-free sample libraries (like Splice or Looperman), or do you prefer sampling directly from original full-length songs (on YouTube, Samplette, Tracklib, vinyl)?”
+\begin{itemize}[itemsep=2pt]
+\item \textbf{4a.} [H4] “What makes you choose one over the other?” \emph{Read the options only if they’re stuck:} “Is it convenience, cost, sound uniqueness/fatigue, or something else?”
+\item \textbf{4b.} [H4] “Which free or paid tools/sites do you use most often to find samples? Has sample licensing/copyright ever been an issue for the music you make, or does it not affect your releases?”
+\end{itemize}
+
+\subsection{Block 3: Searching inside songs (H1)}
+\textbf{5.} [H1, H6] “Think about the last specific time you searched for a sample inside full-length songs online. What kind of sound or musical part were you looking for, and how long did you spend searching before you felt you spent enough time?”
+\begin{itemize}[itemsep=2pt]
+\item \textbf{5a.} [H1, H6] “Roughly how many tracks did you click through and preview before you found one you actually used?”
+\end{itemize}
+
+\textbf{6.} [H1] “When you click on an unfamiliar song on YouTube or Samplette, how do you actually scan through the track to find the exact 4-to-8 bar section you want?”
+\begin{itemize}[itemsep=2pt]
+\item \textbf{6a.} [H1] “Have you recently found a song where you liked the instrumentation in one section, but ended up skipping it because it wasn’t usable as a sample? What ruined that section for you (e.g., vocals/drums overlapping, different time signature, poor quality mastering, etc.)?”
+\item \textbf{6b.} [H1] “Do you specifically hunt for clean, isolated sections in a song (like an intro, break, or solo), or do you use AI stem separation in your DAW on any part of the song? Why one over the other?”
+\end{itemize}
+
+\subsection{Block 4: Describing sounds and tags (H6, H2)}
+\textcolor{condition}{\textbf{IF F6 ANSWERED “TYPING IN SEARCH”}} \textbf{7.} [H6] “What was the last sound you searched for using text keywords or category filters, and how did you describe it? How often do you find a good sample from a single text search query?”
+\begin{itemize}[itemsep=2pt]
+\item \textbf{7a.} [H2] “When browsing platforms that use tags or filters (like Splice, Tracklib, Samplette, or RYM), which categories do you actually trust and rely on (e.g., instruments, BPM, song sections), and which tags do you avoid or find confusing/inaccurate (e.g., mood or texture words)?”
+\end{itemize}
+
+\textbf{8.} [H6] “Think of the last time you needed another sample to go with one you already had. How did you go about finding it? Did anything about the first sample guide where you looked?”
+\begin{itemize}[itemsep=2pt]
+\item \textbf{8a.} [H2] “Think of the last time you picked a sound or a song because of how it was labelled: a mood, a genre, or an instrument. Did it match what you expected once you heard it?”
+\end{itemize}
+
+\subsection{\texorpdfstring{\textcolor{condition}{IF F7 ANSWERED 1-3}}{IF F7 ANSWERED 1-3} Block 5: Saving samples (H3)}
+\textbf{9.} [H3] “Do you keep a personal library, playlist, or folder where you save songs or samples you discovered for future projects? Do you store them locally on your drive or online (e.g., YouTube playlists, bookmarks, sites like chop-stop / sampledigging)? Why there?”
+\begin{itemize}[itemsep=2pt]
+\item \textbf{9a.} [H3] “How do you categorize what you save? The last time you went back to a song you’d saved to sample later, did you remember which part you wanted, and why you saved it? How did you find it?” \emph{If they never go back to saved songs:} What stops you from going back to them?
+\end{itemize}
+
+\subsection{Block 6: Sharing (H5)}
+\emph{Ask everyone.}
+
+\textbf{10.} [H5] “Have you ever shared your sample finds, digging playlists, or song sources with other producers, or do you prefer to keep your found songs private?”
+\begin{itemize}[itemsep=2pt]
+\item \textbf{10a.} [H5] “If you save samples online, like in a YouTube playlist, is it public or private? Why? If you shared a sample with someone, did you want to be credited for finding the sample?” \emph{Skip the first part if everything is on their drive.}
+\item \textbf{10b.} [H5] (Gatekeeping probe) “Has there ever been a time when you found a great, rare sample and deliberately kept the song title secret until your project was finished or released to prevent others from flipping it first?”
+\end{itemize}
+
+\end{document}
