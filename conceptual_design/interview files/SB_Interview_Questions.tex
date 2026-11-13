@@ -1,0 +1,227 @@
+% Sample Browser - interview questions (English and Romanian)
+% Compiles with pdfLaTeX (the Overleaf default), XeLaTeX or LuaLaTeX.
+\documentclass[12pt,a4paper]{report}
+
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage[romanian,english]{babel}
+  \usepackage{mathptmx}
+\else
+  \usepackage{fontspec}
+  \setmainfont{texgyretermes}[Extension=.otf, UprightFont=*-regular, BoldFont=*-bold,
+    ItalicFont=*-italic, BoldItalicFont=*-bolditalic]
+  \usepackage{polyglossia}
+  \setdefaultlanguage{english}
+  \setotherlanguage{romanian}
+\fi
+
+\usepackage[a4paper, margin=2.5cm]{geometry}
+\usepackage{setspace}
+\setstretch{1.15}
+\usepackage{parskip}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\hypersetup{colorlinks=true, linkcolor=black, pdftitle={Sample Browser: interview questions},
+  pdfauthor={Bogdan Glavan, Andrei Simon, Nikita Creciun, Leonid Tiscenco, Mihai-Constantin S\^irghii}}
+
+\definecolor{condition}{HTML}{980000}
+\newcommand{\cond}[1]{\textcolor{condition}{\textbf{#1}}}
+\setcounter{secnumdepth}{-1}
+\titleformat{\chapter}[block]{\normalfont\huge\bfseries\raggedright}{}{0pt}{}
+\titlespacing*{\chapter}{0pt}{0pt}{12pt}
+\titleformat{\section}{\normalfont\Large\bfseries\raggedright}{}{0pt}{}
+\setlist[itemize]{leftmargin=*, itemsep=2pt, topsep=2pt}
+\setlength{\emergencystretch}{2em}
+\uchyph=0 % don't hyphenate capitalised words, so the protocol lines stay whole
+
+\begin{document}
+\frenchspacing
+
+\chapter{Sample Browser: interview questions}
+
+13 November 2026 · Bogdan Glavan
+
+Please check the form questions answered, and select options below ahead of time for interviewee. Make a document for questions to ask during the interview, and edit information below for each:
+
+\medskip
+
+Interview length: 15-20 min
+
+Interview time \& date: XX:XX, YY/YY
+
+Interviewee name:
+
+Contact Information:
+
+Interviewee age:
+
+Audio/Video:
+
+Recorded/Non-recorded:
+
+\medskip
+
+\section{Questions that depend on form answers:}
+
+\begin{itemize}
+  \item \textbf{First-page answers} (producer type, genres, experience, job, what they do): fill them into the opener (1–2). Still ask Q3: the form doesn’t cover it.
+  \item \textbf{“How do you usually start looking for a sample?”}
+\begin{itemize}
+  \item \textbf{Q5, 5a and 6:} skip if “I only sample songs I already like (or physically own on CD or vinyl)” is the only box they ticked.
+  \item \textbf{Q7:} ask only if they ticked “Typing keywords/titles in a search bar in a music app/website”.
+\end{itemize}
+  \item \textbf{“In the last 6 months, which sites/platforms did you use for finding samples?”}
+\begin{itemize}
+  \item \textbf{7a:} ask only if they ticked any platform besides Vinyl/CDs.
+\end{itemize}
+  \item \textbf{“Do you save songs or samples to use later?”}
+\begin{itemize}
+  \item \textbf{Block 5 (Q9, 9a):} ask only if they ticked playlists, online samplers or personal folders.
+  \item \textbf{9a, second part:} ask only if they save whole songs (playlists in the form, or they say so in Q9).
+  \item \textbf{10a, first part:} ask only if they save online (playlists or online samplers in the form).
+\end{itemize}
+\end{itemize}
+
+\section{Block 1: Warmup Questions(Background)}
+
+\textit{Fill in the brackets in 1–2 from their form answers before the call. Still ask 3: the form doesn’t cover it.}
+
+\textbf{1–2.} [BK] “You wrote that you make [genres] and [what they ticked, e.g. work on beats and singles]. What are you working on at the moment?”
+
+(though you can ask your own version)
+
+\textbf{3.} [Screening] “When making a track, how much do you rely on sampling existing recordings versus composing from scratch with virtual instruments (VSTs) or hardware? Roughly how many samples did you use on your last sampled track, and why did you choose them?”
+
+\section{Block 2: Where they get samples (H4)}
+
+\textbf{4.} [H4] “From experience, do you prefer taking ready-made samples from licensed libraries (like Splice, Tracklib or Looperman), or sampling directly from original full-length songs (on YouTube, Samplette, Tracklib, vinyl)?”
+
+\begin{itemize}
+  \item \textbf{4a.} [H4] “What makes you choose one over the other?” \cond{IF THEY’RE STUCK, READ THE OPTIONS:} “Is it convenience, cost, sound uniqueness/fatigue, or something else?”
+  \item \textbf{4b.} [H4] “Which free or paid tools/sites do you use most often to find samples? Has sample licensing/copyright ever been an issue for the music you make, or does it not affect your releases?”
+\end{itemize}
+
+\section{Block 3: Searching inside songs (H1)}
+
+\cond{IF THEY ONLY TICKED “I ONLY SAMPLE SONGS I ALREADY LIKE (OR PHYSICALLY OWN ON CD OR VINYL)”, SKIP 5, 5a AND 6 (6a AND 6b ARE ASKED EITHER WAY)}
+
+\textbf{5.} [H1, H6] “Think about the last specific time you searched for a sample inside full-length songs online. What kind of sound or musical part were you looking for, and how long did you spend searching before you felt you spent enough time?”
+
+\begin{itemize}
+  \item \textbf{5a.} [H1, H6] “Roughly how many tracks did you click through and preview before you found one you actually used?”
+\end{itemize}
+
+\textbf{6.} [H1] “When you click on an unfamiliar song on YouTube or Samplette, how do you actually scan through the track to find a part you’d use? Do you listen to the whole song, skip through different sections, or have your own method?”
+
+\begin{itemize}
+  \item \textbf{6a.} [H1] “Have you recently found a song where, even though you liked it, you couldn’t find any section usable as a sample?” \cond{IF YES:} “What ruined that section for you (e.g., vocals/drums overlapping, the song’s tempo or time signature, poor quality mixing, etc.)?”
+  \item \textbf{6b.} [H1] “Do you specifically hunt for sections in a song where only one type of instrument plays (like an intro, break, or solo), or do you use AI stem separation on the whole song? Why one over the other?”
+\end{itemize}
+
+\section{Block 4: Describing sounds and tags (H6, H2)}
+
+\cond{IF THEY TICKED “TYPING KEYWORDS/TITLES IN A SEARCH BAR IN A MUSIC APP/WEBSITE” (7a IS ASKED EITHER WAY)} \textbf{7.} [H6] “What was the last sound you searched for using text keywords or category filters, and how did you describe it? How often do you find a good sample from a single text search query?”
+
+\begin{itemize}
+  \item \textbf{7a.} [H2] \cond{IF THEY TICKED ANY PLATFORM BESIDES VINYL/CDS:} “When browsing platforms that use tags or filters (like Splice, Tracklib, Samplette, or RYM), which categories do you rely on the most (e.g., instruments, BPM, song sections), and which tags do you avoid or find confusing (e.g., mood or texture words)?”
+\end{itemize}
+
+\textbf{8.} [H6] “Have you ever used more than one sample in a song?” \cond{IF YES:} “Think of the last time you needed another sample to go with one you already had. How did you go about finding it? Did anything about the first sample guide how or where you looked?”
+
+\begin{itemize}
+  \item \textbf{8a.} [H2] “Have you ever picked a sample or a song because of the category you found it in: a mood, a genre, or an instrument?” \cond{IF YES:} “Did it match what you expected once you heard it, or was it totally different?”
+\end{itemize}
+
+\section{Block 5: Saving samples (H3)}
+
+\cond{IF THEY TICKED PLAYLISTS, ONLINE SAMPLERS OR FOLDERS}
+
+\textbf{9.} [H3] “Do you keep a personal library, playlist, or folder where you save songs or samples you discovered for future projects? Do you store them locally on your drive or online (e.g., YouTube playlists, bookmarks, sites like chop-stop / sampledigging)? Why there?”
+
+\begin{itemize}
+  \item \textbf{9a.} [H3] “How do you organize what you save? What categories do you use?” \cond{IF THEY SAVE WHOLE SONGS (PLAYLISTS IN THE FORM, OR Q9):} “For songs you saved specifically for sampling, did you remember which part you wanted to take from the song, or why you saved it? How did you find it?” \cond{IF THEY NEVER GO BACK TO SAVED SONGS:} “What stops you from going back to them?”
+\end{itemize}
+
+\section{Block 6: Sharing (H5)}
+
+\textbf{10.} [H5] “Have you ever shared your sample finds, digging playlists, or song sources with other producers, or do you prefer to keep your found songs private?”
+
+\begin{itemize}
+  \item \textbf{10a.} [H5] \cond{IF THEY SAVE ONLINE (PLAYLISTS OR ONLINE SAMPLERS IN THE FORM):} “If you save samples online, like in a YouTube playlist, is it public or private? Why?” \cond{IF IF Q10 DIDN’T ALREADY ANSWER IT:} “Have you shared a sample with someone?” \cond{IF YES:} “Did you want to be credited for finding the sample, or didn’t you think about it?”
+  \item \textbf{10b.} [H5] (Gatekeeping probe) “Has there ever been a time when you found a great, rare sample and deliberately kept the song title secret until your project was finished, to prevent others from flipping it first and to keep it original?”
+\end{itemize}
+
+\begin{otherlanguage}{romanian}\frenchspacing
+\chapter{Romanian version}
+
+\section{Blocul 1: Context și selecție}
+
+\textbf{1–2.} [BK] „Ai scris în chestionar că faci [genuri] și că [ce a bifat, de ex. lucrezi la beat-uri și single-uri]. La ce lucrezi în prezent?” (schimbabil)
+
+\textbf{3.} [Screening] „Când faci o piesă, cât te bazezi pe sample-uri din înregistrări existente și cât compui de la zero, cu instrumente virtuale (VST-uri) sau hardware? Cam câte sample-uri ai folosit în ultima piesă (cu sample-uri) și de ce le-ai ales pe acelea?”
+
+\section{Blocul 2: De unde își iau sample-urile (H4)}
+
+\textbf{4.} [H4] „Care preferi mai mult, din experiență: să iei sample-uri gata făcute din biblioteci licențiate (cum ar fi Splice, Tracklib sau Looperman), sau preferi să faci sample direct din piese originale, întregi (de pe YouTube, Samplette, Tracklib, vinil)?”
+
+\begin{itemize}
+  \item \textbf{4a.} [H4] „Ce te face să alegi una în locul celeilalte?” \cond{DACĂ SE BLOCHEAZĂ, CITEȘTE VARIANTELE:} „Din motiv de comoditate, de cost, de a găsi material mai original, de faptul că te-ai săturat de aceleași sunete sau de altceva?”
+  \item \textbf{4b.} [H4] „Ce unelte sau site-uri, gratuite ori plătite, folosești cel mai des ca să găsești sample-uri? Licențierea sample-urilor sau drepturile de autor au fost vreodată o problemă pentru muzica pe care o faci sau nu îți afectează lansările?”
+\end{itemize}
+
+\section{Blocul 3: Căutarea în interiorul pieselor (H1)}
+
+\cond{DACĂ A BIFAT DOAR CĂ FOLOSEȘTE NUMAI CÂNTECE CARE ÎI PLAC DEJA SAU PE CARE LE ARE PE CD ORI VINIL, SARI PESTE 5, 5a ȘI 6 (6a ȘI 6b SE PUN ORICUM)}
+
+\textbf{5.} [H1, H6] „Pornind de la ultima dată când ai căutat un sample pe internet în piese întregi, Ce fel de sunet sau ce parte muzicală căutai și cât timp ai stat să cauți până ai simțit că ajunge?”
+
+\begin{itemize}
+  \item \textbf{5a.} [H1, H6] „Prin câte piese ai dat click și le-ai ascultat până să găsești una pe care chiar ai folosit-o?”
+\end{itemize}
+
+\textbf{6.} [H1] „Când găsești o nouă piesă, pe YouTube sau Samplette, cum o asculți ca să găsești o parte care chiar ai folosi-o? Asculți tot cântecul, sari peste diferite secții, sau ai o metodă unică?”
+
+\begin{itemize}
+  \item \textbf{6a.} [H1] „Ai dat recent peste o piesă unde, chiar dacă ți-a plăcut cântecul, nu ai putut găsi nicio secție folositoare pentru sampling?” \cond{DACĂ DA:} „Ce a stricat secțiunea aceea pentru tine (de ex. vocea sau tobele se suprapuneau, tempoul sau măsura muzicală a cântecului, mixul la instrumente nu era de calitate bună etc.)?”
+  \item \textbf{6b.} [H1] „Cauți anume secțiuni unde cântă doar un tip de instrument dintr-o piesă (cum ar fi un intro, un break sau un solo) sau separi instrumentele cu AI pe întreaga piesă? De ce una și nu cealaltă?”
+\end{itemize}
+
+\section{Blocul 4: Descrierea sunetelor și tag-urile (H6, H2)}
+
+\cond{DACĂ A BIFAT CĂ SCRIE CUVINTE CHEIE SAU TITLURI ÎN BARA DE CĂUTARE (7a SE PUNE ORICUM)} \textbf{7.} [H6] „Care a fost ultimul sunet pe care l-ai căutat prin search folosind categorii specifice sau cuvinte-cheie? Cum l-ai descris? Cât de des găsești un sample bun dintr-un singur search?”
+
+\begin{itemize}
+  \item \textbf{7a.} [H2] \cond{DACĂ A BIFAT ȘI ALTE PLATFORME ÎN AFARĂ DE VINIL/CD-URI:} „Când cauți cu tag-uri sau filtre pe platforme speciale (cum ar fi Splice, Tracklib, Samplette sau RYM), pe care categorii te bazezi cel mai mult (de ex. instrumente, BPM, secțiuni din piesă) și ce tag-uri eviți sau care tag-uri îți par greu de înțeles (de ex. cuvinte despre atmosferă sau textură)?”
+\end{itemize}
+
+\textbf{8.} [H6] „Ai folosit vreodată mai mult de un singur sample pe cântec?” \cond{DACĂ DA:} „Ultima dată când ai avut deja un sample pregătit, dar ai vrut să mai adaugi unul în mix, cum ai procedat ca să-l găsești pe al doilea? Te-a ajutat ceva din primul sample să știi cum sau unde să îl cauți?”
+
+\begin{itemize}
+  \item \textbf{8a.} [H2] „Ai ales vreodată un sample sau o piesă din motivul unei categorii în care ai găsit-o? cum ar fi o atmosferă, un gen sau un instrument.” \cond{DACĂ DA:} „Când l-ai ascultat, era ceea la ce te așteptai sau era total diferit?”
+\end{itemize}
+
+\section{Blocul 5: Salvarea sample-urilor (H3)}
+
+\cond{DACĂ A BIFAT PLAYLISTURI, SAMPLERE ONLINE SAU FOLDERE}
+
+\textbf{9.} [H3] „Ai o bibliotecă personală, un playlist sau un folder unde salvezi piese sau sample-uri descoperite pentru proiecte viitoare? Le ții local, pe calculator, sau online (de ex. playlisturi pe YouTube, marcaje în browser, site-uri precum chop-stop / sampledigging)? De ce acolo și nu altundeva?”
+
+\begin{itemize}
+  \item \textbf{9a.} [H3] „Cum organizezi ceea ce salvezi? Ce categorii folosești?” \cond{DACĂ SALVEAZĂ PIESE ÎNTREGI (PLAYLISTURI ÎN CHESTIONAR, SAU DIN 9):} „În privința cântecelor salvate specific pentru sampling, îți aminteai ce parte voiai să o preiei din cântec sau de ce l-ai salvat? Cum ai găsit-o?” \cond{DACĂ NU SE ÎNTOARCE NICIODATĂ LA PIESELE SALVATE:} „Ce te oprește să te întorci la piesele salvate?”
+\end{itemize}
+
+\section{Blocul 6: Partajarea (H5)}
+
+\textbf{10.} [H5] „Ai împărtășit vreodată cu alți producători sample-urile găsite, fie prin piese individuale sau playlisturi întregi, ori preferi să păstrezi pentru tine sursele pe care le găsești?”
+
+\begin{itemize}
+  \item \textbf{10a.} [H5] \cond{DACĂ SALVEAZĂ ONLINE (PLAYLISTURI SAU SAMPLERE ONLINE ÎN CHESTIONAR):} „Dacă salvezi sample-uri online, de exemplu într-un playlist pe YouTube, e public sau privat? De ce?” \cond{DACĂ NU A RĂSPUNS DEJA LA 10:} „Ai împărtășit un sample cu cineva?” \cond{DACĂ DA:} „Ai vrut să primești credit pentru că tu l-ai găsit sau nu te-ai gândit la acest fapt?”
+  \item \textbf{10b.} [H5] (Întrebare despre gatekeeping) „Ți s-a întâmplat vreodată să găsești un sample rar și foarte bun și să ții intenționat secret titlul piesei până ți-ai terminat proiectul, ca să nu ți-l ia alții înainte și să rămână original?”
+\end{itemize}
+
+\end{otherlanguage}
+\end{document}
