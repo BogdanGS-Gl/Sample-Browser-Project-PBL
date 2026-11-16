@@ -178,7 +178,7 @@ Figure 2.1:
 Architectures.
 
 ![The Dual Bottlenecks of Sample Discovery in Streaming
-Architectures.](images/problem_bottlenecks.png)
+Architectures.](../report/images/problem_bottlenecks.png)
 
 This repetitive audition-and-scrub cycle induces scrubbing fatigue and
 destroys the producer’s creative flow state, a phenomenon analyzed by
@@ -388,7 +388,7 @@ bubbles through gesture-controlled queue flows and tag filters
 on Milanote.
 
 ![Early Research Evidence Map and Problem Brainstorming Canvas
-on Milanote.](images/milanote_map.png)
+on Milanote.](../report/images/milanote_map.png)
 
 During iterative critique and mentor evaluation, this initial vision was
 critically dismantled due to three systemic methodological flaws:
@@ -462,7 +462,7 @@ eliminate bandwidth and hosting costs:
 Interaction Pipeline.
 
 ![Sample Browser Pointer-Based Architecture and YouTube IFrame
-Interaction Pipeline.](images/architecture_overview.png)
+Interaction Pipeline.](../report/images/architecture_overview.png)
 
 #### 1. Interactive Timeline and Segmented Visualizer
 
@@ -578,7 +578,7 @@ A central architectural concern in human-curated systems is the bootstrapping an
 Browser Granular Discovery.
 
 ![Workflow Comparison: Traditional Manual Scrubbing vs. Sample
-Browser Granular Discovery.](images/before_after_workflow.png)
+Browser Granular Discovery.](../report/images/before_after_workflow.png)
 
 #### 4. Conceptual Interface Design
 
@@ -592,7 +592,7 @@ passage feed.
 Segmented Timeline, and Passage Curation Drawer.
 
 ![Sample Browser Interface Wireframe: Embedded Player,
-Segmented Timeline, and Passage Curation Drawer.](images/ui_concept_mockup.png)
+Segmented Timeline, and Passage Curation Drawer.](../report/images/ui_concept_mockup.png)
 
 ### The Internal Architecture Debate: Crowdsourcing vs. Automated MIR
 

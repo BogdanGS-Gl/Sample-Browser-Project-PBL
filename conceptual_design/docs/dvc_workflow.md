@@ -37,14 +37,14 @@ The first time you run `dvc push` or `dvc pull`, DVC will open your browser to a
 When you finish an interview recording (e.g. `2026-11-16-interview01-soundphace.mp4`):
 ```bash
 # 1. Place the recording into the data directory
-mv /path/to/recording.mp4 data/interviews/recordings/
+mv /path/to/recording.mp4 conceptual_design/data/interviews/recordings/
 
 # 2. Tell DVC to track the recordings directory (or individual file)
-dvc add data/interviews/recordings
+dvc add conceptual_design/data/interviews/recordings
 
-# 3. DVC generates 'data/interviews/recordings.dvc' (a small metadata text pointer)
+# 3. DVC generates 'conceptual_design/data/interviews/recordings.dvc' (a small metadata text pointer)
 # Stage the DVC pointer file in Git:
-git add data/interviews/recordings.dvc
+git add conceptual_design/data/interviews/recordings.dvc
 
 # 4. Push the actual large video bytes to Google Drive:
 dvc push

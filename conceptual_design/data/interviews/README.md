@@ -10,7 +10,7 @@ This directory houses the raw and processed materials collected from customer di
   > ⚠️ **DO NOT COMMIT MEDIA FILES TO GIT.**  
   > All video/audio files must be tracked via DVC:
   > ```bash
-  > dvc add data/interviews/recordings/
+  > dvc add conceptual_design/data/interviews/recordings/
   > dvc push
   > ```
 * **`transcripts/`**: Markdown text transcripts, coding cards, and notes.

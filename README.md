@@ -58,16 +58,13 @@ sample-browser/
 ├── README.md                      # Project overview, team onboarding, and architectural index
 ├── .gitignore                     # Clean ignore rules for LaTeX, Python, and OS artifacts
 ├── .dvc/                          # DVC configuration pointing to team Google Drive remote
-├── data/                          # Data directory for customer interviews and datasets
-│   ├── .gitignore                 # Binary media ignore rules (tracked via DVC pointers)
-│   ├── interviews/                # Interview video/audio recordings and transcripts
-│   └── datasets/                  # Audio samples and catalog metadata
 └── conceptual_design/
     ├── FAF.PCAS25.1_Team16_Report.pdf # Primary compiled PDF report (33 pages)
     │
     ├── docs/                          # CANONICAL DOCUMENTATION (Single Source of Truth)
     │   ├── validation_protocol.md     # Falsifiable hypotheses H1–H4, 10-Q Mom Test script, 4 channels
     │   ├── report_text.md             # Full markdown text of the academic report
+    │   ├── dvc_workflow.md            # DVC and Google Drive remote usage guide
     │   ├── guidelines/                # Course guidelines and rubrics from Prof. Elena Graur
     │   │   ├── PCAS_Project_PBL_Guideline.pdf
     │   │   └── PBL_GUIDELINE.md
@@ -80,6 +77,11 @@ sample-browser/
     │   ├── SB_Interview_Questions.pdf # Typeset 10-question interview script
     │   ├── SB_Interview_Questions.tex # LaTeX source for interview guide
     │   └── form_links.md              # Google Forms distribution links (EN, RO, RU)
+    │
+    ├── data/                          # Customer validation data (interviews) & datasets tracked by DVC
+    │   ├── .gitignore                 # Binary media ignore rules (tracked via DVC pointers)
+    │   ├── interviews/                # Video/audio recordings (.mp4) and Markdown transcripts
+    │   └── datasets/                  # Audio samples and catalog metadata
     │
     ├── meetings/                      # Official team minutes & decisions
     │   └── 2026-11-07_pivot_meeting_notes.md  # Architectural pivot notes (Bogdan & Leonid debate)
@@ -154,7 +156,7 @@ cp main.pdf presentation.pdf
 ```
 
 ### 4. Running Customer Interviews (Midterm 2 Protocol)
-* Review the interview script and rules in [`docs/validation_protocol.md`](docs/validation_protocol.md).
+* Review the interview script and rules in [`conceptual_design/docs/validation_protocol.md`](conceptual_design/docs/validation_protocol.md).
 * **Sample Target:** $N \approx 20$ recorded video interviews (~4 per team member) across 4 channels (University peers, Instagram DMs, Discord servers, and YouTube sample-flip creators).
 * **Language:** Any language (English, Romanian, Russian) as long as the respondent is an active music maker.
 * **Core Rule:** Strictly adhere to *The Mom Test* (ask about concrete past behavior in recent digging sessions; do not pitch future hypothetical features).
