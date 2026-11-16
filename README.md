@@ -25,12 +25,15 @@ Contemporary platforms (Spotify, YouTube) index audio strictly by **whole-track 
 ## 👥 Team 16 Members & Responsibilities
 
 * **Mentor:** Prof. Elena Graur (Technical University of Moldova, FCIM)
-* **Students:**
-  * **Bogdan Glavan** (`FAF-261`) — *Team Leader*: Domain research, technical solution boundaries, YouTube IFrame architecture, and Berrypicking UI design.
-  * **Leonid Tiscenco** (`FAF-263`) — *Methodology & Audit*: System architecture synthesis, hypothesis formulation (H1–H4), and Mom Test interview protocol audit.
-  * **Andrei Simon** (`FAF-261`) — *Validation & Field Testing*: Producer outreach, initial questionnaire drafting, and customer interview execution.
-  * **Nikita Creciun** (`FAF-263`) — *Problem Analysis*: Problem description refinement, competitive landscape, and SWOT benchmarking (Splice, Tracklib, Samplette).
-  * **Mihai-Constantin Sîrghii** (`FAF-262`) — *Target Audience*: User personas (Annie Lee & Alex Rivera), target creator segments, and workflow scenario mapping.
+* **Students (FAF-261 / FAF-262 / FAF-263):**
+  * **Bogdan Glavan** (`FAF-261`) — *Team Leader*: Project coordination, YouTube IFrame architecture boundaries, and Berrypicking UI concept design.
+  * **Leonid Tiscenco** (`FAF-263`) — *Methodology & Systems Architecture*: Architectural analysis, pivot synthesis, and validation hypothesis formulation ($H_1$–$H_4$).
+  * **Andrei Simon** (`FAF-261`) — *Field Validation & Customer Discovery*: Interview questionnaire drafting, producer outreach, and field interviews.
+  * **Nikita Creciun** (`FAF-263`) — *Domain Analysis & Competitive Research*: Problem analysis refinement, market landscape, and comparative SWOT benchmarking.
+  * **Mihai-Constantin Sîrghii** (`FAF-262`) — *User Research & Personas*: Target creator segmentation, user personas (Annie Lee & Alex Rivera), and workflow mapping.
+
+> [!NOTE]
+> Within the Problem-Based Learning (PBL) framework, team members collaboratively conduct customer validation interviews (~4 interviews per student, $N \approx 20$ total) and jointly author project specifications.
 
 ---
 
@@ -40,9 +43,11 @@ Contemporary platforms (Spotify, YouTube) index audio strictly by **whole-track 
 | :--- | :--- | :--- | :--- |
 | **Academic Project Report** | PDF | [`conceptual_design/FAF.PCAS25.1_Team16_Report.pdf`](conceptual_design/FAF.PCAS25.1_Team16_Report.pdf) | Canonical 33-page Midterm 1 & Midterm 2 engineering report. |
 | **Validation Protocol & Script** | Markdown | [`conceptual_design/docs/validation_protocol.md`](conceptual_design/docs/validation_protocol.md) | Single Source of Truth for $N \approx 20$ interviews and Google Forms survey. |
+| **Customer Interview Kit** | PDF / TeX / MD | [`conceptual_design/interview_files/`](conceptual_design/interview_files/) | 10-question Mom Test interview script and multi-language survey form links. |
 | **Pivot Meeting Notes** | Markdown | [`conceptual_design/meetings/2026-11-07_pivot_meeting_notes.md`](conceptual_design/meetings/2026-11-07_pivot_meeting_notes.md) | Architectural pivot consensus, debate resolution, and action items. |
-| **Beamer Presentation** | PDF / PPTX | [`conceptual_design/presentation/presentation.pdf`](conceptual_design/presentation/presentation.pdf) | Slide deck with interactive architecture and SWOT appendices. |
+| **Beamer Presentation** | PDF / PPTX | [`conceptual_design/presentation/presentation.pdf`](conceptual_design/presentation/presentation.pdf) | Midterm 1 slide deck with architecture and SWOT appendices. |
 | **Report Markdown Mirror** | Markdown | [`conceptual_design/docs/report_text.md`](conceptual_design/docs/report_text.md) | Full text mirror of the 33-page report for quick diffs and search. |
+| **DVC & Storage Guide** | Markdown | [`conceptual_design/docs/dvc_workflow.md`](conceptual_design/docs/dvc_workflow.md) | Google Drive remote storage setup and interview video tracking guide. |
 
 ---
 
@@ -52,6 +57,11 @@ Contemporary platforms (Spotify, YouTube) index audio strictly by **whole-track 
 sample-browser/
 ├── README.md                      # Project overview, team onboarding, and architectural index
 ├── .gitignore                     # Clean ignore rules for LaTeX, Python, and OS artifacts
+├── .dvc/                          # DVC configuration pointing to team Google Drive remote
+├── data/                          # Data directory for customer interviews and datasets
+│   ├── .gitignore                 # Binary media ignore rules (tracked via DVC pointers)
+│   ├── interviews/                # Interview video/audio recordings and transcripts
+│   └── datasets/                  # Audio samples and catalog metadata
 └── conceptual_design/
     ├── FAF.PCAS25.1_Team16_Report.pdf # Primary compiled PDF report (33 pages)
     │
@@ -65,6 +75,11 @@ sample-browser/
     │       ├── getting_started.md
     │       ├── latex_cheat_sheet.md
     │       └── presentation_template.docx
+    │
+    ├── interview_files/               # Customer validation assets & survey links
+    │   ├── SB_Interview_Questions.pdf # Typeset 10-question interview script
+    │   ├── SB_Interview_Questions.tex # LaTeX source for interview guide
+    │   └── form_links.md              # Google Forms distribution links (EN, RO, RU)
     │
     ├── meetings/                      # Official team minutes & decisions
     │   └── 2026-11-07_pivot_meeting_notes.md  # Architectural pivot notes (Bogdan & Leonid debate)
@@ -86,11 +101,12 @@ sample-browser/
     │       ├── ui_concept_mockup.png
     │       └── ...
     │
-    ├── presentation/                  # LaTeX Beamer presentation for Midterm 1
+    ├── presentation/                  # LaTeX Beamer presentation (Midterm 1 Defense)
+    │   ├── README.md                  # Context note regarding Midterm 1 vs. post-pivot architecture
     │   ├── main.tex                   # Master Beamer file
     │   ├── slide01_title.tex .. slide11_appendix_problem_table.tex
     │   ├── presentation_text.md       # Speaker notes & slide content
-    │   ├── CONTENT_CHANGELOG.md       # Slide version history
+    │   ├── CONTENT_CHANGELOG.md       # Slide version history and asset log
     │   ├── presentation.pdf           # Compiled presentation slides
     │   ├── output.pptx                # PowerPoint conversion
     │   └── images/                    # Slide graphics & photos
@@ -102,6 +118,7 @@ sample-browser/
         ├── README.md                  # Explanation of superseded concepts and project evolution
         ├── audits/                    # Independent audit reports (RU/EN) identifying initial gaps
         ├── early_drafts/              # Pre-pivot drafts (Oct 2026) with explicit [!WARNING] banners
+        │   └── interviews/            # Deprecated questionnaire versions (OLD_InterviewQ_update1/2)
         ├── milestone0_ideation/       # Milanote ideation maps and initial pitch attempts
         └── raw_logs/                  # Telegram team chat dumps
 ```

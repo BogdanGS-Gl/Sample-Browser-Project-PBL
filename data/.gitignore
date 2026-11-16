@@ -1,0 +1,21 @@
+# Ignore large binaries tracked by DVC
+*.mp4
+*.m4v
+*.mov
+*.webm
+*.wav
+*.mp3
+*.flac
+*.aiff
+*.zip
+*.tar.gz
+*.tar
+*.pt
+*.onnx
+*.bin
+
+# Always track DVC pointers and gitkeeps
+!.gitignore
+!*.dvc
+!*.gitkeep
+!README.md

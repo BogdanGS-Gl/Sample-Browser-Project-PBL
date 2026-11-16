@@ -1099,21 +1099,21 @@ architecture, the functional boundaries of Sample Browser comprise:
   users shall be able to bookmark timestamped passages into private
   cloud crates and propose tags for community catalog inclusion.
 
-### Non-Functional Requirements
+### Non-Functional Requirements (Target Engineering Specifications)
 
 - **NFR-01 (Platform API Compliance):** The architecture shall strictly
   adhere to Section III.E of the YouTube Developer Policies by operating
   purely through embedded client-side playback, with zero raw audio
   stream downloading, scraping, or server-side media caching.
 
-- **NFR-02 (Cue Seeking Latency):** Playhead positioning and buffer
-  initialization shall execute within $\le 1.5$ seconds under standard
-  broadband conditions, bounded by third-party iframe keyframe
-  alignment.
+- **NFR-02 (Target Cue Seeking Latency):** As a design benchmark for
+  prototype evaluation, playhead positioning and buffer initialization
+  aim to execute within $\le 1.5$ seconds under standard broadband
+  conditions, bounded by third-party iframe keyframe alignment.
 
-- **NFR-03 (Backend API Response Time):** Metadata query latency for
-  passage filtering and tag intersections shall not exceed $200$ ms for
-  $95\%$ of requests.
+- **NFR-03 (Target Backend API Response Time):** Metadata query latency for
+  passage filtering and tag intersections is targeted not to exceed $200$ ms
+  for $95\%$ of requests in the PostgreSQL prototype implementation.
 
 ## Structural and Behavioral UML Modeling
 

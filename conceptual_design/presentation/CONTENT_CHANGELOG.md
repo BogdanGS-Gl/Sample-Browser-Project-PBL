@@ -157,7 +157,7 @@ Documenting every file in `presentation_tex/images/`, indicating its role, integ
 | `splice_workflow.png` | Slide 3 | **Included** | Demonstrates the isolated sample library paradigm (Splice workflow). |
 | `samplette_work.jpg` | Slide 3 | **Included** | Demonstrates the whole-track random discovery paradigm (Samplette interface). |
 | `tracklib_search.jpg` | Slide 3 | **Included** | Demonstrates the pre-cleared catalog paradigm with in-browser looping tools (Tracklib). |
-| `how-you-use-splice-...webp` | — | **Excluded (Redundant)** | Alternative Splice screenshot; superseded by `splice_workflow.png` which has higher clarity. |
+| `splice_workflow_fl.webp` | — | **Excluded (Redundant)** | Alternative Splice screenshot; superseded by `splice_workflow.png` which has higher clarity. |
 | `sample_discovery_bootleneck.png` | — | **Recreated as Native TikZ** | The raster diagram was visually cramped; replaced on Slide 4 with a crisp, native TikZ vector timeline showing 4-minute tracks vs. 2–8 bar passages (`Break`, `Rhodes Chords`). |
 | `before_and_after.png` | — | **Recreated as Native TikZ** | Replaced on Slide 4 with native vector comparison cards contrasting manual scrubbing against direct passage audition. |
 | `persona_alex.jpg` | Slide 5 | **Included (Refined)** | Minimalist 2D editorial vector portrait of Alex Miller (22, bedroom producer with headphones on dark slate background `#1E293B`, clean lines, no photorealism or neon rim lighting). |
@@ -165,8 +165,8 @@ Documenting every file in `presentation_tex/images/`, indicating its role, integ
 | `target_group_segmentation.png` | — | **Recreated as Native Vector** | Replaced on Slide 5 with a compact vector market strip (`58% Aspiring`, `25% Hobbyist`, `10% Sync/Pro`) grounded in Tracklib 2024 data. |
 | `our_interface_beta_version.jpg` | Slide 6 | **Included (Enlarged ~1.55x)** | Centerpiece UI screenshot cropped to remove raw capture white borders, sized to width 8.0cm, snugly framed with 3 concise capability labels. |
 | `our_system_architecture.jpg` | Slide 7 | **Included** | Architectural diagram illustrating the multi-layer pipeline from client to YouTube and metadata stores. |
-| `Sample_Browser_vs_Market_concurents.png` | — | **Recreated as Native Table** | Converted into a high-contrast structured comparative list on Slide 8 and the full 6×6 feature matrix on Appendix Slide 11. |
-| `swat.jpg` | — | **Recreated as Native Vector** | Original raster image had poor contrast on dark slides; recreated as a crisp 2×2 grid of vector cards with colored borders on Appendix Slide 10. |
+| `market_competitors_comparison.png` | — | **Recreated as Native Table** | Converted into a high-contrast structured comparative list on Slide 8 and the full 6×6 feature matrix on Appendix Slide 11. (Formerly named `Sample_Browser_vs_Market_concurents.png`). |
+| `swot_analysis.jpg` | — | **Recreated as Native Vector** | Original raster image had poor contrast on dark slides; recreated as a crisp 2×2 grid of vector cards with colored borders on Appendix Slide 10. (Formerly named `swat.jpg`). |
 
 ---
 
