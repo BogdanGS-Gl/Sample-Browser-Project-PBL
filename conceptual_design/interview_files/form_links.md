@@ -17,8 +17,8 @@ This document aggregates the official Google Forms used to conduct quantitative 
 ---
 
 ## 3. Russian (RU)
-* **Respondent Link (Test / Distribution):** *(To be finalized / В процессе подготовки)*
-* **Editor Link (Admin):** *(To be finalized / В процессе подготовки)*
+* **Respondent Link (Test / Distribution):** https://docs.google.com/forms/d/e/1FAIpQLSfQvkuuwVqq8S2nt39_j59C8QqEEc7A_FrTTKsnrtWvuH9zkA/viewform?usp=header
+* **Editor Link (Admin):** https://docs.google.com/forms/d/1UIXGg7lxnW0pPvUYr5h67knXhlrcC1wUS8b_cLtX-cc/edit?ts=6afcc36f
 
 ---
 
