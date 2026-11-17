@@ -185,3 +185,48 @@ Documenting every file in `presentation_tex/images/`, indicating its role, integ
   - `slide01_title.tex` through `slide09_validation_roadmap.tex`: 9 core narrative slides.
   - `slide10_appendix_swot.tex` & `slide11_appendix_problem_table.tex`: 2 appendix slides.
   - `CONTENT_CHANGELOG.md`: Complete audit, asset decision log, and changelog.
+
+
+---
+
+## 6. Midterm 2 Architecture & Customer Discovery Revisions (November 2026)
+
+**Audit Date:** November 16–17, 2026  
+**Milestone:** Midterm 2 Architecture & Customer Discovery Defense  
+**Authoritative References:** Telegram meeting notes (Nov 7 team agreement), `conceptual_design/docs/report_text.md`, `conceptual_design/interview_files/`, and DVC infrastructure.
+
+### 6.1. Core Architectural & Strategic Changes
+1. **Strict Legal & Technical Compliance (YouTube TOS Section III.E):**
+   - *Previous Status (Midterm 1):* Planned server-side automated MIR feature extraction using Essentia timbral classifiers and audio downloading.
+   - *Pivot Decision (Nov 7):* Prohibited by YouTube TOS III.E (forbids downloading, scraping, or separating audio streams). All references to server-side Essentia MIR ingestion were removed from Slides 4, 7, 8, 9, 10 and speaker notes.
+   - *Post-Pivot Design:* 100% legal client-side pointer architecture. Audio is rendered purely client-side via Google's official YouTube IFrame player (`player.seekTo(start)`). The backend stores only lightweight relational pointers (`video_id`, `start_sec`, `end_sec`, tags, quality upvotes) in PostgreSQL. Zero audio hosting overhead, zero stream caching, and zero copyright infringement liability.
+2. **Resolution of the Vocabulary Gap (Two-Tier Taxonomy):**
+   - *Academic Critique:* Mentor Prof. Elena Graur and teammate Leonid Tiscenco highlighted the "Vocabulary Gap" (producers use incompatible subjective metaphors like "dusty", "warm", "fat").
+   - *Deck Implementation (Slide 4, 6, 10):* Implemented a structured Two-Tier Objective Preset Taxonomy:
+     - **Tier 1 (Functional Role):** `[Drum Break]`, `[Melodic Loop]`, `[Bassline]`, `[Vocal Hook]`
+     - **Tier 2 (Structural Acoustic Facts):** `[Solo Instrument]`, `[No Drums]`, `[Clean Break]`, `[Acapella]`
+     - Paired with 1-click audio preview, completely eliminating the need for subjective timbral adjectives.
+3. **Berrypicking Search Model (Slide 6):**
+   - Formally integrated Marcia Bates' Berrypicking information retrieval model: producers dynamically evolve their search criteria as they listen to successive audio cues, rather than executing rigid one-shot queries.
+4. **Empirical Customer Discovery ($N \approx 20$) & Gatekeeping Contingency ($H_4$):**
+   - *Methodology:* Replaced speculative business tier pricing (Free/Pro) on Slide 9 with a rigorous Customer Discovery plan ($N \approx 20$ semi-structured interviews) based on Rob Fitzpatrick's *The Mom Test* (past behavior analysis rather than hypothetical feature praise).
+   - *Validation Channels:* Targeted outreach across Reddit (`r/makinghiphop`, `r/edmproduction`), Discord producer servers, Soundbetter, and Telegram communities.
+   - *Contingency Pivot ($H_4$):* If interviews reveal that music creators gatekeep their sample finds (refuting $H_3$), the product architecture gracefully pivots from a public community repository into a *Personal Crate-Digging Workspace* (private Smart Crates, personal cue markers, and local library organization).
+
+### 6.2. Asset Updates
+- Added `conceptual_design/presentation/images/architecture_overview.png` representing the 3-Tier client-side pointer architecture.
+- Added `conceptual_design/presentation/images/ui_concept_mockup.png` illustrating the updated UI mockup with Two-Tier preset filters and cue player.
+
+### 6.3. Synchronization of All 11 Slides
+- `slide01_title.tex`: Updated to "Sample Browser (CrateTrack)", Midterm 2 Milestone, compliance-first theme.
+- `slide02_context.tex`: Clarified sampling definition and highlighted creator time scarcity (53% day jobs).
+- `slide03_domain.tex`: Sharpened comparison cards for Splice, Samplette, and Tracklib.
+- `slide04_problem.tex`: Added TikZ diagram with objective tags, dual bottlenecks (whole-track indexing + URL bookmark friction), and Nov 7 compliance pivot.
+- `slide05_persona.tex`: Refined Alex Miller and Annie Lee scenarios and time constraints.
+- `slide06_solution.tex`: Integrated `ui_concept_mockup.png`, Two-Tier taxonomy, Berrypicking feed, and direct cueing.
+- `slide07_architecture.tex`: Integrated `architecture_overview.png`, YouTube TOS III.E compliance details, and PostgreSQL relational schema.
+- `slide08_comparative_swot.tex`: Updated SWOT matrix with post-pivot realities (IFrame seek precision, third-party stream dependence).
+- `slide09_validation_roadmap.tex`: Replaced business tiers with Midterm 2 Customer Discovery roadmap ($N \approx 20$, $H_1$–$H_4$ hypotheses).
+- `slide10_appendix_swot.tex`: Fully synchronized detailed 4-quadrant SWOT matrix.
+- `slide11_appendix_problem_table.tex`: Updated formal problem statement verbatim from pivot agreement and comparative matrix.
+- `presentation_text.md`: Fully rewritten to match the revised 11 slides for a 7-minute oral defense.

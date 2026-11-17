@@ -1,40 +1,41 @@
 \begin{frame}[t]
-  \slideheader{05. SYSTEM ARCHITECTURE}{Interaction Pipeline \& Technical Scope}
+  \slideheader{05. SYSTEM ARCHITECTURE}{Pointer Architecture \& YouTube API Compliance}
 
   \begin{columns}[onlytextwidth, T]
     % Left Column: Architecture Diagram
     \begin{column}{0.54\textwidth}
       \begin{tcolorbox}[standardcard, top=3pt, bottom=3pt]
         \centering
-        \includegraphics[width=\linewidth, height=3.4cm, keepaspectratio]{images/our_system_architecture.jpg}\par\vspace{0.8mm}
-        {\tiny\textcolor{textdim}{\textbf{System Architecture:} Client UI, YouTube IFrame player, and PostgreSQL metadata backend.}}
+        \includegraphics[width=\linewidth, height=3.4cm, keepaspectratio]{images/architecture_overview.png}\par\vspace{0.8mm}
+        {\tiny\textcolor{textdim}{\textbf{System Architecture:} React UI, PostgreSQL metadata pointers, and YouTube IFrame API.}}
       \end{tcolorbox}
     \end{column}
 
-    % Right Column: Compact Pipeline & Technical Caveats
+    % Right Column: Compact Pipeline & Technical Scope
     \begin{column}{0.44\textwidth}
       % Interaction Pipeline
-      \begin{tcolorbox}[standardcard, top=3.5pt, bottom=3.5pt]
-        {\scriptsize\bfseries\textcolor{textwhite}{Interaction Pipeline}}\par\vspace{1.2mm}
+      \begin{tcolorbox}[standardcard, top=3pt, bottom=3pt]
+        {\scriptsize\bfseries\textcolor{textwhite}{Interaction Pipeline}}\par\vspace{1mm}
         \centering
-        {\tiny\textbf{\textcolor{textwhite}{Web UI}} \textcolor{textdim}{$\longrightarrow$} \textbf{\textcolor{textmuted}{Metadata}} \textcolor{textdim}{$\longrightarrow$} \textbf{\textcolor{textmuted}{Timestamp}} \textcolor{textdim}{$\longrightarrow$} \textbf{\textcolor{accentemerald}{YouTube Player}}}
+        {\tiny\textbf{\textcolor{textwhite}{Client UI}} \textcolor{textdim}{$\longleftrightarrow$} \textbf{\textcolor{textmuted}{PostgreSQL DB}} \textcolor{textdim}{$\longrightarrow$} \textbf{\textcolor{accentemerald}{YouTube IFrame}}}\par\vspace{0.4mm}
+        {\tiny\textcolor{textdim}{Pointers only: \texttt{video\_id}, \texttt{start\_time}, \texttt{end\_time}}}
       \end{tcolorbox}
 
       \vspace{1.5mm}
 
       % Implementation Scope
-      \begin{tcolorbox}[standardcard, top=3.5pt, bottom=3.5pt]
-        {\scriptsize\bfseries\textcolor{textwhite}{Implementation Status}}\par\vspace{1mm}
-        {\tiny\textbf{\textcolor{textwhite}{Current:}} Curated acoustic tagging and timestamp metadata.}\\[0.8mm]
-        {\tiny\textbf{\textcolor{accentemerald}{Planned (M2):}} Automated MIR indexing (Essentia classifiers).}\\[0.6mm]
-        {\tiny\textcolor{textdim}{*Note: MIR indexing is planned for evaluation, not implemented.}}
+      \begin{tcolorbox}[standardcard, top=3pt, bottom=3pt]
+        {\scriptsize\bfseries\textcolor{textwhite}{Architectural Boundaries}}\par\vspace{0.8mm}
+        {\tiny\textbullet{} \textbf{100\% TOS Compliant:} Zero server-side audio downloading, caching, or extraction (Section III.E).}\\[0.8mm]
+        {\tiny\textbullet{} \textbf{Client-Side Seeking:} Playhead positioning (\texttt{seekTo}) and boundary loop handled by official IFrame API.}\\[0.8mm]
+        {\tiny\textbullet{} \textbf{Zero Media Hosting:} Zero storage overhead for audio/video streams.}
       \end{tcolorbox}
 
       \vspace{1.5mm}
 
-      % Honest Disclosure Caveat
-      \begin{tcolorbox}[innercard, top=3pt, bottom=3pt]
-        {\tiny\textcolor{textmuted}{\textbf{Technical Caveat:} Compliant audio ingestion for server-side MIR remains unresolved. No original audio hosting; user clears sampling rights.}}
+      % Core Advantage
+      \begin{tcolorbox}[innercard, top=2.5pt, bottom=2.5pt]
+        {\tiny\textbf{\textcolor{accentemerald}{Key Architecture Benefit:}} \textcolor{textmuted}{Infinitely scalable sub-track index over public streaming without infringing platform terms or copyright.}}
       \end{tcolorbox}
     \end{column}
   \end{columns}

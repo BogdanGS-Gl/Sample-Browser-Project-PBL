@@ -4,8 +4,8 @@
   % Central Statement Headline
   \begin{tcolorbox}[standardcard, top=2.5pt, bottom=2.5pt]
     \centering
-    {\large\bfseries\textcolor{textwhite}{Producers lack an efficient way to find specific passages inside full recordings.}}\par\vspace{0.2mm}
-    {\tiny\textcolor{textdim}{Streaming catalogs index music as 4-minute monoliths; producers search by sound timbre for 2--8 bar passages.}}
+    {\large\bfseries\textcolor{textwhite}{The Dual Bottlenecks of Sample Discovery in Streaming Catalogs}}\par\vspace{0.2mm}
+    {\tiny\textcolor{textdim}{Platforms index undivided 4-min recordings; creators waste hours scrubbing for localized, unlayered passages.}}
   \end{tcolorbox}
 
   \vspace{1mm}
@@ -22,16 +22,16 @@
       \node[anchor=east, textdim, font=\tiny\bfseries] at (11.8, 0.375) {4:00 (Full Track Monolith)};
 
       % Sub-track passage 1: Break
-      \draw[fill=accentemerald!20, draw=accentemerald, line width=0.8pt, rounded corners=1.5pt] (3.0, 0.1) rectangle (4.6, 0.65);
-      \node[font=\tiny\bfseries, text=accentemerald] at (3.8, 0.375) {Break (8s)};
+      \draw[fill=accentemerald!20, draw=accentemerald, line width=0.8pt, rounded corners=1.5pt] (1.0, 0.1) rectangle (3.2, 0.65);
+      \node[font=\tiny\bfseries, text=accentemerald] at (2.1, 0.375) {Intro (12s)};
       
       % Sub-track passage 2: Rhodes
-      \draw[fill=accentemerald!20, draw=accentemerald, line width=0.8pt, rounded corners=1.5pt] (7.2, 0.1) rectangle (9.2, 0.65);
-      \node[font=\tiny\bfseries, text=accentemerald] at (8.2, 0.375) {Rhodes Chords (16s)};
+      \draw[fill=accentemerald!20, draw=accentemerald, line width=0.8pt, rounded corners=1.5pt] (6.5, 0.1) rectangle (8.8, 0.65);
+      \node[font=\tiny\bfseries, text=accentemerald] at (7.65, 0.375) {Drum Break (8s)};
 
-      % Acoustic vocabulary tags pointing
-      \node[anchor=south, font=\tiny\bfseries, text=textmuted] at (3.8, 0.75) {\texttt{[Dusty]} \textbullet{} \texttt{[Unlayered]}};
-      \node[anchor=south, font=\tiny\bfseries, text=textmuted] at (8.2, 0.75) {\texttt{[Warm]} \textbullet{} \texttt{[Tape Rhodes]}};
+      % Objective preset tags pointing
+      \node[anchor=south, font=\tiny\bfseries, text=accentemerald] at (2.1, 0.75) {\texttt{[Rhodes Solo]} \textbullet{} \texttt{[No Drums]}};
+      \node[anchor=south, font=\tiny\bfseries, text=accentemerald] at (7.65, 0.75) {\texttt{[Clean Break]} \textbullet{} \texttt{[No Vocals]}};
     \end{tikzpicture}
   \end{tcolorbox}
 
@@ -42,18 +42,18 @@
     % Current Workflow
     \begin{column}{0.485\textwidth}
       \begin{tcolorbox}[standardcard, top=2.5pt, bottom=2.5pt]
-        {\scriptsize\bfseries\textcolor{textdim}{Current Scrubbing Loop:}}\par\vspace{0.6mm}
+        {\scriptsize\bfseries\textcolor{textdim}{Current Scrubbing Friction:}}\par\vspace{0.6mm}
         \centering
-        {\tiny\textbf{\textcolor{textmuted}{Full Track}} \textcolor{textdim}{$\longrightarrow$} \textbf{\textcolor{textmuted}{Manual Scrub}} \textcolor{textdim}{$\longrightarrow$} \textbf{\textcolor{cardborder!40!textwhite}{Repeat / Flow Lost}}}
+        {\tiny\textbf{\textcolor{textmuted}{Full Track}} \textcolor{textdim}{$\longrightarrow$} \textbf{\textcolor{textmuted}{Blind Scrub}} \textcolor{textdim}{$\longrightarrow$} \textbf{\textcolor{cardborder!40!textwhite}{Lost Cue / Flow Broken}}}
       \end{tcolorbox}
     \end{column}
 
     % Proposed Workflow
     \begin{column}{0.485\textwidth}
       \begin{tcolorbox}[standardcard, top=2.5pt, bottom=2.5pt]
-        {\scriptsize\bfseries\textcolor{accentemerald}{Proposed Passage Workflow:}}\par\vspace{0.6mm}
+        {\scriptsize\bfseries\textcolor{accentemerald}{Sample Browser Workflow:}}\par\vspace{0.6mm}
         \centering
-        {\tiny\textbf{\textcolor{textwhite}{Describe Sound}} \textcolor{textdim}{$\longrightarrow$} \textbf{\textcolor{accentemerald}{Find Passage}} \textcolor{textdim}{$\longrightarrow$} \textbf{\textcolor{accentemerald}{Jump to Cue}}}
+        {\tiny\textbf{\textcolor{textwhite}{Objective Tag}} \textcolor{textdim}{$\longrightarrow$} \textbf{\textcolor{accentemerald}{Direct Cue + Loop}} \textcolor{textdim}{$\longrightarrow$} \textbf{\textcolor{accentemerald}{Cloud Crate Saved}}}
       \end{tcolorbox}
     \end{column}
   \end{columns}
@@ -64,6 +64,6 @@
   \begin{tcolorbox}[innercard, left=6pt, right=6pt, top=2pt, bottom=2pt]
     \centering
     {\tiny\bfseries\textcolor{textdim}{PBL Strategic Pivot:}} \quad
-    {\tiny\textcolor{textmuted}{Consumer streaming shell} \textcolor{textdim}{$\longrightarrow$} \textcolor{textmuted}{Spotify API locks (audio endpoints deprecated)} \textcolor{textdim}{$\longrightarrow$} \textbf{\textcolor{accentemerald}{Creator-focused passage search}}}
+    {\tiny\textcolor{textmuted}{Consumer clone} \textcolor{textdim}{$\longrightarrow$} \textcolor{textmuted}{Spotify API locks + Vocabulary Gap} \textcolor{textdim}{$\longrightarrow$} \textbf{\textcolor{accentemerald}{Sub-Track Indexing via YouTube IFrame + Objective Presets}}}
   \end{tcolorbox}
 \end{frame}
