@@ -5,9 +5,11 @@ This document aggregates the official Google Forms used to conduct quantitative 
 ---
 
 ## 1. English (EN)
-* **Respondent Link (Test / Distribution):** [https://forms.gle/XPc6U4ZMVrFJ9TEM8](https://forms.gle/XPc6U4ZMVrFJ9TEM8)
-* **Editor Link (Admin):** [https://docs.google.com/forms/d/1zyk3oNrfmXtO0h0jqua4fh89mudhjSafuOh-rcnXtdc/edit](https://docs.google.com/forms/d/1zyk3oNrfmXtO0h0jqua4fh89mudhjSafuOh-rcnXtdc/edit)
+* **Respondent Link (OLD):** [https://forms.gle/XPc6U4ZMVrFJ9TEM8](https://forms.gle/XPc6U4ZMVrFJ9TEM8)
+* **Editor Link (OLD):** [https://docs.google.com/forms/d/1zyk3oNrfmXtO0h0jqua4fh89mudhjSafuOh-rcnXtdc/edit](https://docs.google.com/forms/d/1zyk3oNrfmXtO0h0jqua4fh89mudhjSafuOh-rcnXtdc/edit)
 
+* **Respondent Link:** https://docs.google.com/forms/d/e/1FAIpQLSdvTrRPZ_SGx1HTGPcjeGD6O972pHDgE9CfhMhJ5pCkiBLZow/viewform?usp=header
+* **Editor Link:** https://docs.google.com/forms/d/1JirxInZh-GGArtj6halG8P_olGhwsbEizRzYEhugXVw/edit
 ---
 
 ## 2. Romanian (RO)
