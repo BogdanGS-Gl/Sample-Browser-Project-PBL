@@ -36,6 +36,36 @@ ehthumbs.db
 Thumbs.db
 desktop.ini
 
+# Media & Audio/Video Assets (Stored on Google Drive)
+*.mp4
+*.mp3
+*.wav
+*.flac
+*.m4a
+*.ogg
+*.webm
+*.mov
+*.avi
+*.mkv
+
+# Large Archives
+*.zip
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+
+# Telegram Chat Export Media (Stored on Google Drive; only result.json in git)
+conceptual_design/archive/raw_logs/**/files/
+conceptual_design/archive/raw_logs/**/photos/
+conceptual_design/archive/raw_logs/**/stickers/
+
+# Credentials & Keys
+*-credentials.json
+sample-browser-pbl-data-*.json
+*.pem
+*.key
+
 # Editors & IDEs
 .idea/
 .vscode/

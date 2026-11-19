@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CrateTrack — Audio Hardware Aesthetic (Variant 2)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    /* ==========================================================================
+       DESIGN PHILOSOPHY: STUDIO AUDIO HARDWARE / TEENAGE ENGINEERING
+       - Inspired by hardware grooveboxes, Ableton Push, synthesizers, and audio meters
+       - Palette: Deep chassis matte (#111317), module panel (#1A1D24), amber LED (#F59E0B)
+       - Strict technical parameter styling, crisp monospaced telemetry, zero AI fluff
+       ========================================================================== */
+
+    :root {
+      --chassis: #101216;
+      --panel: #181B22;
+      --panel-inner: #12141A;
+      --border: #282D37;
+      --border-bright: #3B4252;
+      --text-bright: #F3F4F6;
+      --text-muted: #9CA3AF;
+      --text-dim: #64748B;
+      --led-amber: #F59E0B;
+      --led-amber-dim: rgba(245, 158, 11, 0.15);
+      --led-teal: #14B8A6;
+      --led-teal-dim: rgba(20, 184, 166, 0.15);
+      --font-display: 'Space Grotesk', -apple-system, sans-serif;
+      --font-mono: 'JetBrains Mono', monospace;
+      --font-body: 'Inter', sans-serif;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background: #08090B;
+      font-family: var(--font-body);
+      color: var(--text-bright);
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      width: 100vw;
+    }
+
+    #presentation-stage {
+      position: relative;
+      width: 1920px;
+      height: 1080px;
+      background: var(--chassis);
+      border: 2px solid var(--border);
+      box-shadow: 0 30px 80px rgba(0, 0, 0, 0.8);
+      overflow: hidden;
+      transform-origin: center center;
+    }
+
+    .slide {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 1920px;
+      height: 1080px;
+      padding: 70px 90px;
+      display: none;
+      flex-direction: column;
+      justify-content: space-between;
+      opacity: 0;
+      transition: opacity 0.2s ease-in-out;
+    }
+
+    .slide.active {
+      display: flex;
+      opacity: 1;
+    }
+
+    /* Top Telemetry Header */
+    .telemetry-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 2px solid var(--border);
+      padding-bottom: 20px;
+    }
+
+    .telemetry-group {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+
+    .status-dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: var(--led-amber);
+      box-shadow: 0 0 10px var(--led-amber);
+    }
+
+    .telemetry-text {
+      font-family: var(--font-mono);
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--text-muted);
+      letter-spacing: 0.05em;
+    }
+
+    .telemetry-pill {
+      font-family: var(--font-mono);
+      font-size: 12px;
+      font-weight: 700;
+      color: var(--led-amber);
+      background: var(--led-amber-dim);
+      border: 1px solid var(--led-amber);
+      padding: 5px 12px;
+      border-radius: 3px;
+      letter-spacing: 0.06em;
+    }
+
+    /* SLIDE 1: Title Layout */
+    .hardware-hero {
+      margin-top: 40px;
+      margin-bottom: auto;
+    }
+
+    .hardware-tag {
+      font-family: var(--font-mono);
+      font-size: 14px;
+      color: var(--led-teal);
+      letter-spacing: 0.12em;
+      margin-bottom: 16px;
+      text-transform: uppercase;
+    }
+
+    .hardware-title {
+      font-family: var(--font-display);
+      font-size: 96px;
+      font-weight: 700;
+      line-height: 0.95;
+      letter-spacing: -0.04em;
+      color: var(--text-bright);
+      margin-bottom: 24px;
+    }
+
+    .hardware-title span {
+      color: var(--led-amber);
+    }
+
+    .hardware-desc {
+      font-size: 26px;
+      font-weight: 400;
+      line-height: 1.4;
+      color: var(--text-muted);
+      max-width: 1200px;
+      margin-bottom: 24px;
+    }
+
+    .spec-badges {
+      display: flex;
+      gap: 14px;
+    }
+
+    .spec-badge {
+      font-family: var(--font-mono);
+      font-size: 13px;
+      color: var(--text-bright);
+      background: var(--panel);
+      border: 1px solid var(--border-bright);
+      padding: 6px 14px;
+      border-radius: 4px;
+    }
+
+    /* Channel Strip Footer */
+    .channel-strip {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr) 1.2fr;
+      gap: 16px;
+      border-top: 2px solid var(--border);
+      padding-top: 28px;
+    }
+
+    .channel-module {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 16px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .channel-id {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      color: var(--led-amber);
+      letter-spacing: 0.08em;
+      margin-bottom: 6px;
+    }
+
+    .channel-name {
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--text-bright);
+    }
+
+    .channel-group {
+      font-family: var(--font-mono);
+      font-size: 12px;
+      color: var(--text-dim);
+      margin-top: 4px;
+    }
+
+    .supervisor-module {
+      background: var(--panel-inner);
+      border: 1px solid var(--border-bright);
+      border-radius: 6px;
+      padding: 16px;
+    }
+
+    /* SLIDE 2: Solution Layout */
+    .solution-headline {
+      font-family: var(--font-display);
+      font-size: 46px;
+      font-weight: 700;
+      line-height: 1.15;
+      color: var(--text-bright);
+      margin-top: 20px;
+      margin-bottom: 30px;
+      letter-spacing: -0.02em;
+    }
+
+    .solution-headline span {
+      color: var(--led-amber);
+    }
+
+    .solution-grid {
+      display: grid;
+      grid-template-columns: 1.25fr 0.95fr;
+      gap: 40px;
+      align-items: stretch;
+      flex: 1;
+    }
+
+    .ui-viewport-card {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 16px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .ui-viewport-card img {
+      width: 100%;
+      height: 470px;
+      object-fit: contain;
+      background: #000;
+      border-radius: 6px;
+      border: 1px solid var(--border);
+    }
+
+    .ui-bar-caption {
+      margin-top: 12px;
+      display: flex;
+      justify-content: space-between;
+      font-family: var(--font-mono);
+      font-size: 12px;
+      color: var(--text-muted);
+    }
+
+    .modules-stack {
+      display: flex;
+      flex-direction: column;
+      gap: 18px;
+      justify-content: space-between;
+    }
+
+    .parameter-card {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-left: 4px solid var(--led-amber);
+      border-radius: 6px;
+      padding: 24px;
+    }
+
+    .parameter-card:nth-child(2) {
+      border-left-color: var(--led-teal);
+    }
+
+    .parameter-card:nth-child(3) {
+      border-left-color: #A855F7;
+    }
+
+    .param-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+
+    .param-num {
+      font-family: var(--font-mono);
+      font-size: 12px;
+      font-weight: 700;
+      color: var(--led-amber);
+      letter-spacing: 0.08em;
+    }
+
+    .parameter-card:nth-child(2) .param-num {
+      color: var(--led-teal);
+    }
+
+    .parameter-card:nth-child(3) .param-num {
+      color: #A855F7;
+    }
+
+    .param-title {
+      font-family: var(--font-display);
+      font-size: 20px;
+      font-weight: 700;
+      color: var(--text-bright);
+    }
+
+    .param-body {
+      font-size: 15px;
+      line-height: 1.5;
+      color: var(--text-muted);
+    }
+
+    .param-tags {
+      display: flex;
+      gap: 8px;
+      margin-top: 10px;
+    }
+
+    .param-tag {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      background: var(--panel-inner);
+      border: 1px solid var(--border);
+      padding: 3px 8px;
+      border-radius: 3px;
+      color: var(--text-bright);
+    }
+
+    /* Bottom Navigation */
+    .deck-nav {
+      position: absolute;
+      bottom: 24px;
+      right: 32px;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      background: rgba(24, 27, 34, 0.95);
+      backdrop-filter: blur(8px);
+      border: 1px solid var(--border-bright);
+      border-radius: 4px;
+      padding: 6px 14px;
+      z-index: 100;
+    }
+
+    .nav-btn {
+      background: none;
+      border: none;
+      cursor: pointer;
+      font-family: var(--font-mono);
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--text-muted);
+      padding: 4px 8px;
+      border-radius: 3px;
+      transition: all 0.15s;
+    }
+
+    .nav-btn:hover {
+      background: var(--border);
+      color: var(--text-bright);
+    }
+
+    .slide-counter {
+      font-family: var(--font-mono);
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--led-amber);
+    }
+
+    @media print {
+      body {
+        background: none;
+        height: auto;
+        overflow: visible;
+      }
+      #presentation-stage {
+        box-shadow: none;
+        border: none;
+        transform: none !important;
+      }
+      .deck-nav {
+        display: none !important;
+      }
+      .slide {
+        display: flex !important;
+        opacity: 1 !important;
+        position: relative !important;
+        page-break-after: always;
+        break-after: page;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div id="presentation-stage">
+
+    <!-- SLIDE 1: HARDWARE TITLE -->
+    <section class="slide active" id="slide-1">
+      <header class="telemetry-header">
+        <div class="telemetry-group">
+          <div class="status-dot"></div>
+          <div class="telemetry-text">SYS_ID: UTM_FCIM // FAF.PCAS25.1 · DEPT_SOFTWARE_ENGINEERING</div>
+        </div>
+        <div class="telemetry-pill">MIDTERM 2 // ARCHITECTURE DEFENSE</div>
+      </header>
+
+      <div class="hardware-hero">
+        <div class="hardware-tag">// AUDIO PASSAGE RETRIEVAL & STREAM POINTER CONTROLLER</div>
+        <h1 class="hardware-title">SAMPLE BROWSER <span>[CRATETRACK]</span></h1>
+        <p class="hardware-desc">
+          A client-side passage discovery engine eliminating manual timeline scrubbing across public streaming catalogs via Two-Tier objective presets.
+        </p>
+        <div class="spec-badges">
+          <div class="spec-badge">COMPLIANCE: 100% YOUTUBE API III.E</div>
+          <div class="spec-badge">STORAGE: ZERO AUDIO HOSTING</div>
+          <div class="spec-badge">ACCURACY: SUB-TRACK TIMESTAMP CUEING</div>
+        </div>
+      </div>
+
+      <footer class="channel-strip">
+        <div class="channel-module">
+          <div class="channel-id">CH 01 // DEV</div>
+          <div class="channel-name">Bogdan Glavan</div>
+          <div class="channel-group">FAF-261</div>
+        </div>
+        <div class="channel-module">
+          <div class="channel-id">CH 02 // DEV</div>
+          <div class="channel-name">Andrei Simon</div>
+          <div class="channel-group">FAF-261</div>
+        </div>
+        <div class="channel-module">
+          <div class="channel-id">CH 03 // DEV</div>
+          <div class="channel-name">Nikita Creciun</div>
+          <div class="channel-group">FAF-263</div>
+        </div>
+        <div class="channel-module">
+          <div class="channel-id">CH 04 // DEV</div>
+          <div class="channel-name">Leonid Tiscenco</div>
+          <div class="channel-group">FAF-263</div>
+        </div>
+        <div class="channel-module">
+          <div class="channel-id">CH 05 // DEV</div>
+          <div class="channel-name">Mihai Sîrghii</div>
+          <div class="channel-group">FAF-262</div>
+        </div>
+        <div class="supervisor-module">
+          <div class="channel-id">SUPERVISOR // ADVISOR</div>
+          <div class="channel-name">Prof. Elena Graur</div>
+          <div class="channel-group">FCIM · Chișinău, 2026</div>
+        </div>
+      </footer>
+    </section>
+
+    <!-- SLIDE 2: HARDWARE SOLUTION -->
+    <section class="slide" id="slide-2">
+      <header class="telemetry-header">
+        <div class="telemetry-group">
+          <div class="telemetry-text">CRATETRACK ENGINE // 05. INTERACTION & INTERFACE ARCHITECTURE</div>
+        </div>
+        <div class="telemetry-pill">PROTOTYPE WIREFRAME</div>
+      </header>
+
+      <h2 class="solution-headline">
+        Granular Sub-Track Audition <span>Without Audio Scraping</span>
+      </h2>
+
+      <div class="solution-grid">
+        <!-- Centerpiece UI Viewport -->
+        <div class="ui-viewport-card">
+          <img src="../images/ui_concept_mockup.png" alt="CrateTrack UI Concept Viewport">
+          <div class="ui-bar-caption">
+            <span>FIGURE 01: SEGMENTED TIMELINE & TWO-TIER FILTER DECK</span>
+            <span>STATUS: CLIENT-SIDE IFRAME VERIFIED</span>
+          </div>
+        </div>
+
+        <!-- Right Side Parameter Stack -->
+        <div class="modules-stack">
+          <div class="parameter-card">
+            <div class="param-header">
+              <span class="param-num">MODULE 01</span>
+              <span class="param-title">Two-Tier Objective Taxonomy</span>
+            </div>
+            <p class="param-body">
+              Eliminates subjective adjective ambiguity ("warm", "dusty") by indexing verifiable musical facts verified via instant 1-click preview.
+            </p>
+            <div class="param-tags">
+              <span class="param-tag">[Solo Instrument]</span>
+              <span class="param-tag">[No Drums]</span>
+              <span class="param-tag">[Clean Break]</span>
+            </div>
+          </div>
+
+          <div class="parameter-card">
+            <div class="param-header">
+              <span class="param-num">MODULE 02</span>
+              <span class="param-title">Client-Side Direct Cueing</span>
+            </div>
+            <p class="param-body">
+              Instant playhead jump to exact timestamp via official YouTube IFrame API (<code style="color:var(--led-teal)">player.seekTo</code>). Zero server media bandwidth or legal liability.
+            </p>
+          </div>
+
+          <div class="parameter-card">
+            <div class="param-header">
+              <span class="param-num">MODULE 03</span>
+              <span class="param-title">Berrypicking & Smart Crates</span>
+            </div>
+            <p class="param-body">
+              Dynamic query refinement allows producers to discover adjacent acoustic gems and bookmark them into personal crates with zero lost bookmarks.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+  <!-- Navigation -->
+  <div class="deck-nav">
+    <button class="nav-btn" onclick="prevSlide()">← Prev</button>
+    <span class="slide-counter" id="counter">1 / 2</span>
+    <button class="nav-btn" onclick="nextSlide()">Next →</button>
+    <button class="nav-btn" onclick="toggleFullScreen()">⛶ Fullscreen</button>
+  </div>
+
+  <script>
+    let currentSlide = 0;
+    const slides = document.querySelectorAll('.slide');
+    const counter = document.getElementById('counter');
+    const stage = document.getElementById('presentation-stage');
+
+    function updateSlide() {
+      slides.forEach((s, idx) => {
+        s.classList.toggle('active', idx === currentSlide);
+      });
+      counter.textContent = `${currentSlide + 1} / ${slides.length}`;
+    }
+
+    function nextSlide() {
+      if (currentSlide < slides.length - 1) {
+        currentSlide++;
+        updateSlide();
+      }
+    }
+
+    function prevSlide() {
+      if (currentSlide > 0) {
+        currentSlide--;
+        updateSlide();
+      }
+    }
+
+    function toggleFullScreen() {
+      if (!document.fullscreenElement) {
+        document.documentElement.requestFullscreen();
+      } else {
+        if (document.exitFullscreen) {
+          document.exitFullscreen();
+        }
+      }
+    }
+
+    function scaleStage() {
+      const windowWidth = window.innerWidth;
+      const windowHeight = window.innerHeight;
+      const scale = Math.min(windowWidth / 1920, windowHeight / 1080);
+      stage.style.transform = `scale(${scale})`;
+    }
+
+    window.addEventListener('resize', scaleStage);
+    window.addEventListener('DOMContentLoaded', scaleStage);
+
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'ArrowRight' || e.key === ' ' || e.key === 'PageDown') {
+        nextSlide();
+      } else if (e.key === 'ArrowLeft' || e.key === 'PageUp' || e.key === 'Backspace') {
+        prevSlide();
+      } else if (e.key === 'f' || e.key === 'F') {
+        toggleFullScreen();
+      }
+    });
+  </script>
+</body>
+</html>

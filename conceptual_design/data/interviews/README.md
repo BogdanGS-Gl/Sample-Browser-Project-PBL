@@ -6,20 +6,30 @@ This directory houses the raw and processed materials collected from customer di
 
 ## 🗂️ Structure
 
-* **`recordings/`**: Video and audio recordings (.mp4, .webm, .m4a) from Zoom, Google Meet, Discord, or in-person sessions.
-  > ⚠️ **DO NOT COMMIT MEDIA FILES TO GIT.**  
-  > All video/audio files must be tracked via DVC:
-  > ```bash
-  > dvc add conceptual_design/data/interviews/recordings/
-  > dvc push
-  > ```
+* **`recordings/`**: Video and audio recordings (`.mp4`, `.mp3`) from Zoom, Google Meet, Discord, or in-person sessions.
+  > [!NOTE]
+  > Heavy media files are stored on Google Drive and indexed locally in [`recordings/README.md`](file:///home/thr/Desktop/faf/Sample-Browser-Project-PBL/conceptual_design/data/interviews/recordings/README.md).
+  > They are ignored by Git (`.gitignore`) to keep repository clones fast and avoid GitHub file size limits.
 * **`transcripts/`**: Markdown text transcripts, coding cards, and notes.
 
 ---
 
-## 🏷️ Standard Naming Protocol
+## 📋 Direct Access to Interview Recordings
 
-To ensure seamless traceability across the team:
+All current customer interviews are fully recorded, backed up, and accessible:
+
+| # | Date | Respondent / Role | Format | Size | Google Drive Direct Link | Status |
+|:---:|:---:|:---|:---:|:---:|:---:|:---:|
+| **01** | `2026-11-16` | **Soundphace** (Beatmaker / Hip-Hop) | `.mp4` (Video) | 95.4 MB | [🎬 Open Recording](https://drive.google.com/file/d/1X2AQtD0i-qKXBdQnDgibJEeCk_1NLyEQ/view) | Validated ($H_1, H_2$) |
+| **02** | `2026-11-17` | **Boris Iurcu** (Producer / Composer) | `.mp4` (Video) | 115.2 MB | [🎬 Open Recording](https://drive.google.com/file/d/1pSBxolZhf1TnSI19uGxhCAeRRKWQtmXa/view) | Validated ($H_1, H_2, H_3$) |
+| **03** | `2026-11-17` | **Mihai Macaru** (Musician / Producer) | `.mp3` (Audio) | 41.5 MB | [🎧 Open Recording](https://drive.google.com/file/d/1HIkr9ANY1fDOBgCuWkqKPifeOOeVKSHi/view) | Validated ($H_1, H_3$) |
+| **04** | `2026-11-17` | **Anonymous Producer 1** (FL Studio Beatmaker) | `.mp4` (Video) | 739.5 MB | [🎬 Open Recording](https://drive.google.com/file/d/1CBcoTTsOft7U4BGpEtTSHImn216fXf2M/view) | Validated ($H_1, H_2, H_4$) |
+
+Detailed catalog with guidelines for incoming interviews: [`recordings/README.md`](file:///home/thr/Desktop/faf/Sample-Browser-Project-PBL/conceptual_design/data/interviews/recordings/README.md).
+
+---
+
+## 🏷️ Standard Naming Protocol
 
 | Artifact | File Name Format | Example |
 | :--- | :--- | :--- |
@@ -29,6 +39,8 @@ To ensure seamless traceability across the team:
 
 ---
 
-## ☁️ Google Drive Remote
-* Recordings Folder ID on Drive: [`116C1g7NSWrzBwp-J8NU8g5M_O_ycymUk`](https://drive.google.com/drive/folders/116C1g7NSWrzBwp-J8NU8g5M_O_ycymUk)
-* DVC Storage Folder ID: [`1I5NWw52JejkocnxIXLhkj20QthEx2auu`](https://drive.google.com/drive/folders/1I5NWw52JejkocnxIXLhkj20QthEx2auu)
+## ☁️ Google Drive Shared Folders
+
+* 📁 **Interviews SB:** [`1DzVfMfZD6TnPMOT6AUwI4PvQOtT6N2nw`](https://drive.google.com/drive/folders/1DzVfMfZD6TnPMOT6AUwI4PvQOtT6N2nw)
+* 📁 **Root Project Data:** [`1Yok9241R2tXjZjan97RcAFVRuPVwLu39`](https://drive.google.com/drive/folders/1Yok9241R2tXjZjan97RcAFVRuPVwLu39)
+* 📁 **Recordings Subfolder:** [`116C1g7NSWrzBwp-J8NU8g5M_O_ycymUk`](https://drive.google.com/drive/folders/116C1g7NSWrzBwp-J8NU8g5M_O_ycymUk)

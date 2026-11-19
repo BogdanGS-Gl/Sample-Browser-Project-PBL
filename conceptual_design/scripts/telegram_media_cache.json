@@ -1,0 +1,672 @@
+{
+  "stickers/sticker.webp": {
+    "drive_id": "1eZz9GnmwkxXbdwovjaIcsJ3FNKcRcJzj",
+    "url": "https://drive.google.com/file/d/1eZz9GnmwkxXbdwovjaIcsJ3FNKcRcJzj/view?usp=drivesdk",
+    "filename": "sticker.webp"
+  },
+  "files/qfix.txt": {
+    "drive_id": "1xQWh-9Br9YKPJ016shBL4pbt4UQ1eBmi",
+    "url": "https://drive.google.com/file/d/1xQWh-9Br9YKPJ016shBL4pbt4UQ1eBmi/view?usp=drivesdk",
+    "filename": "qfix.txt"
+  },
+  "files/proposal.md": {
+    "drive_id": "1CiIxOoSkyFetd5W3-7VuHhYu2ReQKfwW",
+    "url": "https://drive.google.com/file/d/1CiIxOoSkyFetd5W3-7VuHhYu2ReQKfwW/view?usp=drivesdk",
+    "filename": "proposal.md"
+  },
+  "files/short_proposal.txt": {
+    "drive_id": "1X0W_vLedcUNirszoP_IfWLytz2VFRhll",
+    "url": "https://drive.google.com/file/d/1X0W_vLedcUNirszoP_IfWLytz2VFRhll/view?usp=drivesdk",
+    "filename": "short_proposal.txt"
+  },
+  "files/Finding Songs by What You Like.pptx": {
+    "drive_id": "1CT44a60R1K2OY7Q0SnQRyqwV95oPKOiz",
+    "url": "https://drive.google.com/file/d/1CT44a60R1K2OY7Q0SnQRyqwV95oPKOiz/view?usp=drivesdk",
+    "filename": "Finding Songs by What You Like.pptx"
+  },
+  "files/Music Discovery by Moments — PBL Project Report(1).md": {
+    "drive_id": "1-thn3i4QUKo2oGsHl9EJKz7KKAojC-Fg",
+    "url": "https://drive.google.com/file/d/1-thn3i4QUKo2oGsHl9EJKz7KKAojC-Fg/view?usp=drivesdk",
+    "filename": "Music Discovery by Moments — PBL Project Report(1).md"
+  },
+  "files/domain analysis remade by AI.md": {
+    "drive_id": "1njFS2LQ4YGZG41LKtnfiYYIOF7ZT6D2u",
+    "url": "https://drive.google.com/file/d/1njFS2LQ4YGZG41LKtnfiYYIOF7ZT6D2u/view?usp=drivesdk",
+    "filename": "domain analysis remade by AI.md"
+  },
+  "files/FAF (1).PCAS25.1_Team16_Report.pdf": {
+    "drive_id": "1R3ycqHS8p0u7hiQg6DUbi_hp3R44yFYZ",
+    "url": "https://drive.google.com/file/d/1R3ycqHS8p0u7hiQg6DUbi_hp3R44yFYZ/view?usp=drivesdk",
+    "filename": "FAF (1).PCAS25.1_Team16_Report.pdf"
+  },
+  "files/Music Discovery by Moments — PBL Project Report.md": {
+    "drive_id": "1dTqFkWYOXLEOXJCUCTOvMfTdFJIv8Cdn",
+    "url": "https://drive.google.com/file/d/1dTqFkWYOXLEOXJCUCTOvMfTdFJIv8Cdn/view?usp=drivesdk",
+    "filename": "Music Discovery by Moments — PBL Project Report.md"
+  },
+  "files/PCAIT_Project_Report_Template.zip": {
+    "drive_id": "1gunkH9BpB7ZW4IedY9m1gWxs5J-1ro-f",
+    "url": "https://drive.google.com/file/d/1gunkH9BpB7ZW4IedY9m1gWxs5J-1ro-f/view?usp=drivesdk",
+    "filename": "PCAIT_Project_Report_Template.zip"
+  },
+  "files/presentation.pdf": {
+    "drive_id": "1PrcyuGTKdrKa1k-brJ9JgfESzb2D13SZ",
+    "url": "https://drive.google.com/file/d/1PrcyuGTKdrKa1k-brJ9JgfESzb2D13SZ/view?usp=drivesdk",
+    "filename": "presentation.pdf"
+  },
+  "files/Discover rework.pdf": {
+    "drive_id": "1PBqjzJo5N2ot69YnpOL1kR1v3ZJPAhnq",
+    "url": "https://drive.google.com/file/d/1PBqjzJo5N2ot69YnpOL1kR1v3ZJPAhnq/view?usp=drivesdk",
+    "filename": "Discover rework.pdf"
+  },
+  "files/better_spotify_problem_and_domain_analysis(5).md": {
+    "drive_id": "1Gi5Krl8jWxJ6ZkWxhtNSAyfpTS8XGR-G",
+    "url": "https://drive.google.com/file/d/1Gi5Krl8jWxJ6ZkWxhtNSAyfpTS8XGR-G/view?usp=drivesdk",
+    "filename": "better_spotify_problem_and_domain_analysis(5).md"
+  },
+  "files/cross_platform_benchmark.json": {
+    "drive_id": "1W9z2qCSukGCzE0aNTKu4uoM-HAzEznKG",
+    "url": "https://drive.google.com/file/d/1W9z2qCSukGCzE0aNTKu4uoM-HAzEznKG/view?usp=drivesdk",
+    "filename": "cross_platform_benchmark.json"
+  },
+  "files/images.zip": {
+    "drive_id": "1b-sZfbhNZauQjJzLylYetPCOtP12N63l",
+    "url": "https://drive.google.com/file/d/1b-sZfbhNZauQjJzLylYetPCOtP12N63l/view?usp=drivesdk",
+    "filename": "images.zip"
+  },
+  "files/main (1).pdf": {
+    "drive_id": "10LCU0GVNeEvUjv_4Ch1ZyhdMUVfEyKl0",
+    "url": "https://drive.google.com/file/d/10LCU0GVNeEvUjv_4Ch1ZyhdMUVfEyKl0/view?usp=drivesdk",
+    "filename": "main (1).pdf"
+  },
+  "files/team_proposal_en.md": {
+    "drive_id": "1_OSpDiE_HdN9mLsXm9MQv3uGfSuSfqzp",
+    "url": "https://drive.google.com/file/d/1_OSpDiE_HdN9mLsXm9MQv3uGfSuSfqzp/view?usp=drivesdk",
+    "filename": "team_proposal_en.md"
+  },
+  "files/Concept_Art_Slideshow(1)(2).pptx": {
+    "drive_id": "1bTD7iaoZVtknrbgHlXH6TR9CFA0lM0tW",
+    "url": "https://drive.google.com/file/d/1bTD7iaoZVtknrbgHlXH6TR9CFA0lM0tW/view?usp=drivesdk",
+    "filename": "Concept_Art_Slideshow(1)(2).pptx"
+  },
+  "files/My domain analysis.md": {
+    "drive_id": "1SxsP495oBY-LH-NpDdgtGr_J0ZZrIP4T",
+    "url": "https://drive.google.com/file/d/1SxsP495oBY-LH-NpDdgtGr_J0ZZrIP4T/view?usp=drivesdk",
+    "filename": "My domain analysis.md"
+  },
+  "files/image.png_thumb.jpg": {
+    "drive_id": "1kr6jJ5D4R6T69rGHaPKYS9m-DJtHYKHh",
+    "url": "https://drive.google.com/file/d/1kr6jJ5D4R6T69rGHaPKYS9m-DJtHYKHh/view?usp=drivesdk",
+    "filename": "image.png_thumb.jpg"
+  },
+  "files/problem.md": {
+    "drive_id": "1BRpce0JZ24aosa5ap1rXXXmG1ru3qG13",
+    "url": "https://drive.google.com/file/d/1BRpce0JZ24aosa5ap1rXXXmG1ru3qG13/view?usp=drivesdk",
+    "filename": "problem.md"
+  },
+  "files/ps.md": {
+    "drive_id": "1J-klQvu3_WiA2fpWHbEnnSHtxIBO6LIf",
+    "url": "https://drive.google.com/file/d/1J-klQvu3_WiA2fpWHbEnnSHtxIBO6LIf/view?usp=drivesdk",
+    "filename": "ps.md"
+  },
+  "files/main (2).pdf": {
+    "drive_id": "1g8FoThiw22yHdX25nORlHZiVT08ot57N",
+    "url": "https://drive.google.com/file/d/1g8FoThiw22yHdX25nORlHZiVT08ot57N/view?usp=drivesdk",
+    "filename": "main (2).pdf"
+  },
+  "files/Version_Menu.pdf": {
+    "drive_id": "1pEUvp95GFDuNLfYAAWrkKgG5-xMPPgIM",
+    "url": "https://drive.google.com/file/d/1pEUvp95GFDuNLfYAAWrkKgG5-xMPPgIM/view?usp=drivesdk",
+    "filename": "Version_Menu.pdf"
+  },
+  "files/cross_platform_benchmark.md": {
+    "drive_id": "1w_BsrS1TYplVC9qyuxXS0GWPbMvz7Owi",
+    "url": "https://drive.google.com/file/d/1w_BsrS1TYplVC9qyuxXS0GWPbMvz7Owi/view?usp=drivesdk",
+    "filename": "cross_platform_benchmark.md"
+  },
+  "files/Interview_Questions_edit.md": {
+    "drive_id": "1TBeb02sA5-FF-pYOKMxtgxMQzbzEG8_-",
+    "url": "https://drive.google.com/file/d/1TBeb02sA5-FF-pYOKMxtgxMQzbzEG8_-/view?usp=drivesdk",
+    "filename": "Interview_Questions_edit.md"
+  },
+  "files/hyp_rep_en.md": {
+    "drive_id": "1njyIE47dMsDsaQXFxAjHTUSAjynU8cLY",
+    "url": "https://drive.google.com/file/d/1njyIE47dMsDsaQXFxAjHTUSAjynU8cLY/view?usp=drivesdk",
+    "filename": "hyp_rep_en.md"
+  },
+  "files/Random Shuffle.pdf": {
+    "drive_id": "1imwQWZQ6xlYA1oPugSQPGxereJD2af2w",
+    "url": "https://drive.google.com/file/d/1imwQWZQ6xlYA1oPugSQPGxereJD2af2w/view?usp=drivesdk",
+    "filename": "Random Shuffle.pdf"
+  },
+  "files/FAF.PCAS25.1_Team16_Report.pdf": {
+    "drive_id": "1ddEv2EwTkJFYWbK8vz3pW1eSIHWZLBx8",
+    "url": "https://drive.google.com/file/d/1ddEv2EwTkJFYWbK8vz3pW1eSIHWZLBx8/view?usp=drivesdk",
+    "filename": "FAF.PCAS25.1_Team16_Report.pdf"
+  },
+  "files/domain analysis remade by AI(1).md": {
+    "drive_id": "1739D-tkCNpMtqJg9pSKNScuNWXPpL0G8",
+    "url": "https://drive.google.com/file/d/1739D-tkCNpMtqJg9pSKNScuNWXPpL0G8/view?usp=drivesdk",
+    "filename": "domain analysis remade by AI(1).md"
+  },
+  "files/solution-description.md": {
+    "drive_id": "1jO6Nv1WmiXdrjjYSPNc8fxC4stnsf8z8",
+    "url": "https://drive.google.com/file/d/1jO6Nv1WmiXdrjjYSPNc8fxC4stnsf8z8/view?usp=drivesdk",
+    "filename": "solution-description.md"
+  },
+  "files/Project Proposal 2.pdf": {
+    "drive_id": "1P-1Fxm5ypPO6RkgY-Mzqy4qsEnPayKzR",
+    "url": "https://drive.google.com/file/d/1P-1Fxm5ypPO6RkgY-Mzqy4qsEnPayKzR/view?usp=drivesdk",
+    "filename": "Project Proposal 2.pdf"
+  },
+  "files/proposal_full_en.md": {
+    "drive_id": "1AnngzfK8KFY98LTRnjc7O7p6sHfX7utv",
+    "url": "https://drive.google.com/file/d/1AnngzfK8KFY98LTRnjc7O7p6sHfX7utv/view?usp=drivesdk",
+    "filename": "proposal_full_en.md"
+  },
+  "files/main.pdf": {
+    "drive_id": "14pdYT9IqEsfqLJGa9V37N9fZ7KAtKDJq",
+    "url": "https://drive.google.com/file/d/14pdYT9IqEsfqLJGa9V37N9fZ7KAtKDJq/view?usp=drivesdk",
+    "filename": "main.pdf"
+  },
+  "files/presentation (1).pdf": {
+    "drive_id": "1rIbg_Z2bK-imUwy2TCTUO2niWwizSBx2",
+    "url": "https://drive.google.com/file/d/1rIbg_Z2bK-imUwy2TCTUO2niWwizSBx2/view?usp=drivesdk",
+    "filename": "presentation (1).pdf"
+  },
+  "files/swot-an.md": {
+    "drive_id": "1fcUH1djau2hUHTcD-W66PKlDzJd-TcOp",
+    "url": "https://drive.google.com/file/d/1fcUH1djau2hUHTcD-W66PKlDzJd-TcOp/view?usp=drivesdk",
+    "filename": "swot-an.md"
+  },
+  "files/image.png": {
+    "drive_id": "1Vlm-yFLPbTaNtO4jZtaFWVxKMZFL4Eyh",
+    "url": "https://drive.google.com/file/d/1Vlm-yFLPbTaNtO4jZtaFWVxKMZFL4Eyh/view?usp=drivesdk",
+    "filename": "image.png"
+  },
+  "files/pp.md": {
+    "drive_id": "10al_TrRWo7SBF3AloNKgC2n_DeCupz9S",
+    "url": "https://drive.google.com/file/d/10al_TrRWo7SBF3AloNKgC2n_DeCupz9S/view?usp=drivesdk",
+    "filename": "pp.md"
+  },
+  "files/PD&PS.md": {
+    "drive_id": "1x_9Ww5Q_lWq2gE-EcO5TtWrDUluZNxaZ",
+    "url": "https://drive.google.com/file/d/1x_9Ww5Q_lWq2gE-EcO5TtWrDUluZNxaZ/view?usp=drivesdk",
+    "filename": "PD&PS.md"
+  },
+  "files/team_text.md": {
+    "drive_id": "1wLdLg08XenhPG87-FhhYhW3_AeB0CjOu",
+    "url": "https://drive.google.com/file/d/1wLdLg08XenhPG87-FhhYhW3_AeB0CjOu/view?usp=drivesdk",
+    "filename": "team_text.md"
+  },
+  "files/stage3_final_master.wav": {
+    "drive_id": "1ttQv3oepdHFGY94SYsO5E6bt2CiCd7i9",
+    "url": "https://drive.google.com/file/d/1ttQv3oepdHFGY94SYsO5E6bt2CiCd7i9/view?usp=drivesdk",
+    "filename": "stage3_final_master.wav"
+  },
+  "files/iconf2024-if-you-like-blank.pdf": {
+    "drive_id": "11ARxCpY87yEjoh6KRa9bVW2myRas8O1S",
+    "url": "https://drive.google.com/file/d/11ARxCpY87yEjoh6KRa9bVW2myRas8O1S/view?usp=drivesdk",
+    "filename": "iconf2024-if-you-like-blank.pdf"
+  },
+  "files/Sample_Browser_Revised_Framework_and_Interview_Protocol.md": {
+    "drive_id": "1yzaX2CHopIe1n_xcKgeJFFxeBPJMJtX0",
+    "url": "https://drive.google.com/file/d/1yzaX2CHopIe1n_xcKgeJFFxeBPJMJtX0/view?usp=drivesdk",
+    "filename": "Sample_Browser_Revised_Framework_and_Interview_Protocol.md"
+  },
+  "files/report_en.md": {
+    "drive_id": "1uLphAnvcTW0zWBi9JugmcXL0X490pV6n",
+    "url": "https://drive.google.com/file/d/1uLphAnvcTW0zWBi9JugmcXL0X490pV6n/view?usp=drivesdk",
+    "filename": "report_en.md"
+  },
+  "files/team_text (1).md": {
+    "drive_id": "1vURun79O0Lbv1CEIlFn6n-E5h0DjFmgm",
+    "url": "https://drive.google.com/file/d/1vURun79O0Lbv1CEIlFn6n-E5h0DjFmgm/view?usp=drivesdk",
+    "filename": "team_text (1).md"
+  },
+  "photos/photo_55@24-10-2026_00-01-25.jpg": {
+    "drive_id": "1QsmHQMyMPK9zBw5wCQjb8TM1rTXp5PJL",
+    "url": "https://drive.google.com/file/d/1QsmHQMyMPK9zBw5wCQjb8TM1rTXp5PJL/view?usp=drivesdk",
+    "filename": "photo_55@24-10-2026_00-01-25.jpg"
+  },
+  "files/everything.zip": {
+    "drive_id": "1QhT9Lo_fFxSME3NO7P1DN2uJjPWCpFC0",
+    "url": "https://drive.google.com/file/d/1QhT9Lo_fFxSME3NO7P1DN2uJjPWCpFC0/view?usp=drivesdk",
+    "filename": "everything.zip"
+  },
+  "photos/photo_22@19-10-2026_22-58-26.jpg": {
+    "drive_id": "1px0oiBDZYYAzjyenl78O0x_NFGHHKuLZ",
+    "url": "https://drive.google.com/file/d/1px0oiBDZYYAzjyenl78O0x_NFGHHKuLZ/view?usp=drivesdk",
+    "filename": "photo_22@19-10-2026_22-58-26.jpg"
+  },
+  "photos/photo_14@08-10-2026_22-33-38.jpg": {
+    "drive_id": "1HO_-PsjUNYh1hE23nu9DJv8y2KnQY48h",
+    "url": "https://drive.google.com/file/d/1HO_-PsjUNYh1hE23nu9DJv8y2KnQY48h/view?usp=drivesdk",
+    "filename": "photo_14@08-10-2026_22-33-38.jpg"
+  },
+  "photos/photo_43@23-10-2026_19-03-00.jpg": {
+    "drive_id": "1UfuKqJEmO1ahtPUgFizql23vmOnOKcJn",
+    "url": "https://drive.google.com/file/d/1UfuKqJEmO1ahtPUgFizql23vmOnOKcJn/view?usp=drivesdk",
+    "filename": "photo_43@23-10-2026_19-03-00.jpg"
+  },
+  "photos/photo_5@28-09-2026_15-42-18.jpg": {
+    "drive_id": "1v1ZKpnEPDpvp3WXYod1wZnGXcqb3xHp9",
+    "url": "https://drive.google.com/file/d/1v1ZKpnEPDpvp3WXYod1wZnGXcqb3xHp9/view?usp=drivesdk",
+    "filename": "photo_5@28-09-2026_15-42-18.jpg"
+  },
+  "photos/photo_12@08-10-2026_20-25-02.jpg": {
+    "drive_id": "1TliEWl9Y3mH0EqkHmWfKolWPS_9hNGp2",
+    "url": "https://drive.google.com/file/d/1TliEWl9Y3mH0EqkHmWfKolWPS_9hNGp2/view?usp=drivesdk",
+    "filename": "photo_12@08-10-2026_20-25-02.jpg"
+  },
+  "photos/photo_18@17-10-2026_16-24-43.jpg": {
+    "drive_id": "15JwydLWpWdXindVFpEJX9R6KcCiZVmAh",
+    "url": "https://drive.google.com/file/d/15JwydLWpWdXindVFpEJX9R6KcCiZVmAh/view?usp=drivesdk",
+    "filename": "photo_18@17-10-2026_16-24-43.jpg"
+  },
+  "photos/photo_33@22-10-2026_23-56-58.jpg": {
+    "drive_id": "1f1sX8MEBx8gSDRc7l1GZ9vaKjmO6pW-Z",
+    "url": "https://drive.google.com/file/d/1f1sX8MEBx8gSDRc7l1GZ9vaKjmO6pW-Z/view?usp=drivesdk",
+    "filename": "photo_33@22-10-2026_23-56-58.jpg"
+  },
+  "photos/photo_70@17-11-2026_17-11-07.jpg": {
+    "drive_id": "1Rs6_H7mM-bpI9LWYtgB-dLIzw7BgyFFs",
+    "url": "https://drive.google.com/file/d/1Rs6_H7mM-bpI9LWYtgB-dLIzw7BgyFFs/view?usp=drivesdk",
+    "filename": "photo_70@17-11-2026_17-11-07.jpg"
+  },
+  "photos/photo_46@23-10-2026_19-03-00.jpg": {
+    "drive_id": "1X3dB8qCtDyY0ReWelKWvrSOdLiTxwfs_",
+    "url": "https://drive.google.com/file/d/1X3dB8qCtDyY0ReWelKWvrSOdLiTxwfs_/view?usp=drivesdk",
+    "filename": "photo_46@23-10-2026_19-03-00.jpg"
+  },
+  "photos/photo_72@17-11-2026_22-14-47.jpg": {
+    "drive_id": "10-ecm00m2BzJ-DT1OKpkNOVwZF8sUbSC",
+    "url": "https://drive.google.com/file/d/10-ecm00m2BzJ-DT1OKpkNOVwZF8sUbSC/view?usp=drivesdk",
+    "filename": "photo_72@17-11-2026_22-14-47.jpg"
+  },
+  "photos/photo_10@08-10-2026_13-47-03.jpg": {
+    "drive_id": "1zAgvnAWklOkGdi3a2dztnsTGqUc1yBxI",
+    "url": "https://drive.google.com/file/d/1zAgvnAWklOkGdi3a2dztnsTGqUc1yBxI/view?usp=drivesdk",
+    "filename": "photo_10@08-10-2026_13-47-03.jpg"
+  },
+  "photos/photo_63@24-10-2026_17-56-28.jpg": {
+    "drive_id": "1VsqKLlOMnCHGZ59aNyi2T58c2ScezTFC",
+    "url": "https://drive.google.com/file/d/1VsqKLlOMnCHGZ59aNyi2T58c2ScezTFC/view?usp=drivesdk",
+    "filename": "photo_63@24-10-2026_17-56-28.jpg"
+  },
+  "photos/photo_45@23-10-2026_19-03-00.jpg": {
+    "drive_id": "14BVQmUHQqPQ8OYrwpG1C7A58PAgEeMsC",
+    "url": "https://drive.google.com/file/d/14BVQmUHQqPQ8OYrwpG1C7A58PAgEeMsC/view?usp=drivesdk",
+    "filename": "photo_45@23-10-2026_19-03-00.jpg"
+  },
+  "photos/photo_66@26-10-2026_19-28-31.jpg": {
+    "drive_id": "17HhR81XxM5ulS1yVfNzNUETlT7Co5Und",
+    "url": "https://drive.google.com/file/d/17HhR81XxM5ulS1yVfNzNUETlT7Co5Und/view?usp=drivesdk",
+    "filename": "photo_66@26-10-2026_19-28-31.jpg"
+  },
+  "photos/photo_57@24-10-2026_00-02-48.jpg": {
+    "drive_id": "1JUEzWb-VjSAjYF2efQ5YpttjUCSyGhfY",
+    "url": "https://drive.google.com/file/d/1JUEzWb-VjSAjYF2efQ5YpttjUCSyGhfY/view?usp=drivesdk",
+    "filename": "photo_57@24-10-2026_00-02-48.jpg"
+  },
+  "photos/photo_27@20-10-2026_22-18-01.jpg": {
+    "drive_id": "1_SddEU4cgyIzwjVavcg2HVTdjokLRUkT",
+    "url": "https://drive.google.com/file/d/1_SddEU4cgyIzwjVavcg2HVTdjokLRUkT/view?usp=drivesdk",
+    "filename": "photo_27@20-10-2026_22-18-01.jpg"
+  },
+  "photos/photo_71@17-11-2026_21-24-43.jpg": {
+    "drive_id": "1MO0vw0UKR3b3i6hSzsvz48lzJxorGmDi",
+    "url": "https://drive.google.com/file/d/1MO0vw0UKR3b3i6hSzsvz48lzJxorGmDi/view?usp=drivesdk",
+    "filename": "photo_71@17-11-2026_21-24-43.jpg"
+  },
+  "photos/photo_26@20-10-2026_22-02-18.jpg": {
+    "drive_id": "1cWUNem3qz4lvEbVkSYvG4Yf6G1moPM6x",
+    "url": "https://drive.google.com/file/d/1cWUNem3qz4lvEbVkSYvG4Yf6G1moPM6x/view?usp=drivesdk",
+    "filename": "photo_26@20-10-2026_22-02-18.jpg"
+  },
+  "photos/photo_36@23-10-2026_00-05-56.jpg": {
+    "drive_id": "1RrHAG89g7GzrirFt2gLOLRMbltw-fPxs",
+    "url": "https://drive.google.com/file/d/1RrHAG89g7GzrirFt2gLOLRMbltw-fPxs/view?usp=drivesdk",
+    "filename": "photo_36@23-10-2026_00-05-56.jpg"
+  },
+  "photos/photo_25@20-10-2026_19-49-24.jpg": {
+    "drive_id": "1yF8tMPR64U1_1K2xDyya86Dw_N5rIrdH",
+    "url": "https://drive.google.com/file/d/1yF8tMPR64U1_1K2xDyya86Dw_N5rIrdH/view?usp=drivesdk",
+    "filename": "photo_25@20-10-2026_19-49-24.jpg"
+  },
+  "photos/photo_65@26-10-2026_16-51-06.jpg": {
+    "drive_id": "14MOn8wBqAjDZzdiIIkYDDqvRMaHcS_OQ",
+    "url": "https://drive.google.com/file/d/14MOn8wBqAjDZzdiIIkYDDqvRMaHcS_OQ/view?usp=drivesdk",
+    "filename": "photo_65@26-10-2026_16-51-06.jpg"
+  },
+  "photos/photo_68@13-11-2026_14-42-46.jpg": {
+    "drive_id": "1OlU61APfBWfk5urPBpGnaYcJQmRNzG3c",
+    "url": "https://drive.google.com/file/d/1OlU61APfBWfk5urPBpGnaYcJQmRNzG3c/view?usp=drivesdk",
+    "filename": "photo_68@13-11-2026_14-42-46.jpg"
+  },
+  "photos/photo_74@17-11-2026_23-28-44.jpg": {
+    "drive_id": "18cbvmoBe7cOSPOznS_e8BKFpI0IGG29h",
+    "url": "https://drive.google.com/file/d/18cbvmoBe7cOSPOznS_e8BKFpI0IGG29h/view?usp=drivesdk",
+    "filename": "photo_74@17-11-2026_23-28-44.jpg"
+  },
+  "photos/photo_53@23-10-2026_23-34-52.jpg": {
+    "drive_id": "1O2nnOaglu8EyNPjMmv_leqJSeqz7dewM",
+    "url": "https://drive.google.com/file/d/1O2nnOaglu8EyNPjMmv_leqJSeqz7dewM/view?usp=drivesdk",
+    "filename": "photo_53@23-10-2026_23-34-52.jpg"
+  },
+  "photos/photo_52@23-10-2026_23-32-46.jpg": {
+    "drive_id": "1iR1n9qXtxGXQISX2HdzDj8xQqJxIfany",
+    "url": "https://drive.google.com/file/d/1iR1n9qXtxGXQISX2HdzDj8xQqJxIfany/view?usp=drivesdk",
+    "filename": "photo_52@23-10-2026_23-32-46.jpg"
+  },
+  "photos/photo_2@11-09-2026_20-19-16.jpg": {
+    "drive_id": "1Tdw7PTbJleBxmhX8ve8_lGrWVojP8bFU",
+    "url": "https://drive.google.com/file/d/1Tdw7PTbJleBxmhX8ve8_lGrWVojP8bFU/view?usp=drivesdk",
+    "filename": "photo_2@11-09-2026_20-19-16.jpg"
+  },
+  "photos/photo_73@17-11-2026_22-25-10.jpg": {
+    "drive_id": "1kYr668R7kFPTe_mnBXP20NmpcUTu98V6",
+    "url": "https://drive.google.com/file/d/1kYr668R7kFPTe_mnBXP20NmpcUTu98V6/view?usp=drivesdk",
+    "filename": "photo_73@17-11-2026_22-25-10.jpg"
+  },
+  "photos/photo_75@18-11-2026_22-22-46.jpg": {
+    "drive_id": "1P2LV00eYImL4x5gLPqAtR3ZUdPRZwrU1",
+    "url": "https://drive.google.com/file/d/1P2LV00eYImL4x5gLPqAtR3ZUdPRZwrU1/view?usp=drivesdk",
+    "filename": "photo_75@18-11-2026_22-22-46.jpg"
+  },
+  "photos/photo_11@08-10-2026_13-47-03.jpg": {
+    "drive_id": "1usEkrRRLawjKplWQXkm6MYn0fkTsak0A",
+    "url": "https://drive.google.com/file/d/1usEkrRRLawjKplWQXkm6MYn0fkTsak0A/view?usp=drivesdk",
+    "filename": "photo_11@08-10-2026_13-47-03.jpg"
+  },
+  "photos/photo_24@20-10-2026_00-12-46.jpg": {
+    "drive_id": "1O84i_EdbgClQE4bPwIXhjiavB4lB0heR",
+    "url": "https://drive.google.com/file/d/1O84i_EdbgClQE4bPwIXhjiavB4lB0heR/view?usp=drivesdk",
+    "filename": "photo_24@20-10-2026_00-12-46.jpg"
+  },
+  "photos/photo_38@23-10-2026_00-06-13.jpg": {
+    "drive_id": "1MzFtCiMXGEVly6tEWhYewNZMGiCj1glY",
+    "url": "https://drive.google.com/file/d/1MzFtCiMXGEVly6tEWhYewNZMGiCj1glY/view?usp=drivesdk",
+    "filename": "photo_38@23-10-2026_00-06-13.jpg"
+  },
+  "photos/photo_49@23-10-2026_22-44-08.jpg": {
+    "drive_id": "1CFMZ_-gmvn-DpBJbytwQD1XapSnlmlNV",
+    "url": "https://drive.google.com/file/d/1CFMZ_-gmvn-DpBJbytwQD1XapSnlmlNV/view?usp=drivesdk",
+    "filename": "photo_49@23-10-2026_22-44-08.jpg"
+  },
+  "photos/photo_42@23-10-2026_14-51-44.jpg": {
+    "drive_id": "1vXD8QWE8BBWf8ymrEIygtV4pov6efmzY",
+    "url": "https://drive.google.com/file/d/1vXD8QWE8BBWf8ymrEIygtV4pov6efmzY/view?usp=drivesdk",
+    "filename": "photo_42@23-10-2026_14-51-44.jpg"
+  },
+  "photos/photo_4@28-09-2026_15-34-06.jpg": {
+    "drive_id": "1s0_KnEm4oPHnucCQiZBF-E6nOAXWxUqV",
+    "url": "https://drive.google.com/file/d/1s0_KnEm4oPHnucCQiZBF-E6nOAXWxUqV/view?usp=drivesdk",
+    "filename": "photo_4@28-09-2026_15-34-06.jpg"
+  },
+  "photos/photo_39@23-10-2026_00-06-27.jpg": {
+    "drive_id": "1-wHwrEv32IN_zGTPkPIxp8njavsRW2sK",
+    "url": "https://drive.google.com/file/d/1-wHwrEv32IN_zGTPkPIxp8njavsRW2sK/view?usp=drivesdk",
+    "filename": "photo_39@23-10-2026_00-06-27.jpg"
+  },
+  "photos/photo_9@07-10-2026_17-21-01.jpg": {
+    "drive_id": "1NC_T1f5P9Zmxr5pJtazpXBlOJluZgAZF",
+    "url": "https://drive.google.com/file/d/1NC_T1f5P9Zmxr5pJtazpXBlOJluZgAZF/view?usp=drivesdk",
+    "filename": "photo_9@07-10-2026_17-21-01.jpg"
+  },
+  "photos/photo_62@24-10-2026_17-53-50.jpg": {
+    "drive_id": "1cQtO5NBIkIvskr4G5yBIrBh0qXhuD7mv",
+    "url": "https://drive.google.com/file/d/1cQtO5NBIkIvskr4G5yBIrBh0qXhuD7mv/view?usp=drivesdk",
+    "filename": "photo_62@24-10-2026_17-53-50.jpg"
+  },
+  "photos/photo_61@24-10-2026_11-27-07.jpg": {
+    "drive_id": "1CM7gaWKS5Y5dGmFETprRWsWWpf5tiSWD",
+    "url": "https://drive.google.com/file/d/1CM7gaWKS5Y5dGmFETprRWsWWpf5tiSWD/view?usp=drivesdk",
+    "filename": "photo_61@24-10-2026_11-27-07.jpg"
+  },
+  "photos/photo_47@23-10-2026_19-03-00.jpg": {
+    "drive_id": "15X9dmmBAlg9wTZikpVIqyX4SYVUO8_Y7",
+    "url": "https://drive.google.com/file/d/15X9dmmBAlg9wTZikpVIqyX4SYVUO8_Y7/view?usp=drivesdk",
+    "filename": "photo_47@23-10-2026_19-03-00.jpg"
+  },
+  "photos/photo_60@24-10-2026_11-24-27.jpg": {
+    "drive_id": "1J-rgAsWBhuHmC04xp8D5wYm8pfADBbFM",
+    "url": "https://drive.google.com/file/d/1J-rgAsWBhuHmC04xp8D5wYm8pfADBbFM/view?usp=drivesdk",
+    "filename": "photo_60@24-10-2026_11-24-27.jpg"
+  },
+  "photos/photo_37@23-10-2026_00-06-00.jpg": {
+    "drive_id": "14O1PBWBK5odlgdPdVY3c3EeRO4GTUZ0i",
+    "url": "https://drive.google.com/file/d/14O1PBWBK5odlgdPdVY3c3EeRO4GTUZ0i/view?usp=drivesdk",
+    "filename": "photo_37@23-10-2026_00-06-00.jpg"
+  },
+  "photos/photo_17@14-10-2026_20-04-42.jpg": {
+    "drive_id": "17D-j8DT-c7jaVgyzGQBh5190dv9d1UqH",
+    "url": "https://drive.google.com/file/d/17D-j8DT-c7jaVgyzGQBh5190dv9d1UqH/view?usp=drivesdk",
+    "filename": "photo_17@14-10-2026_20-04-42.jpg"
+  },
+  "photos/photo_64@24-10-2026_17-56-49.jpg": {
+    "drive_id": "12zlgznyXmW9goVqbGT4GOhyf4hw48C1H",
+    "url": "https://drive.google.com/file/d/12zlgznyXmW9goVqbGT4GOhyf4hw48C1H/view?usp=drivesdk",
+    "filename": "photo_64@24-10-2026_17-56-49.jpg"
+  },
+  "photos/photo_8@29-09-2026_00-55-29.jpg": {
+    "drive_id": "1iVpPymWlysX8lB32XjYWqRgfBO56Tjhx",
+    "url": "https://drive.google.com/file/d/1iVpPymWlysX8lB32XjYWqRgfBO56Tjhx/view?usp=drivesdk",
+    "filename": "photo_8@29-09-2026_00-55-29.jpg"
+  },
+  "photos/photo_13@08-10-2026_21-12-29.jpg": {
+    "drive_id": "1ByqfKbbSjr-RgwFch0eIMo7xDBZZSNx_",
+    "url": "https://drive.google.com/file/d/1ByqfKbbSjr-RgwFch0eIMo7xDBZZSNx_/view?usp=drivesdk",
+    "filename": "photo_13@08-10-2026_21-12-29.jpg"
+  },
+  "photos/photo_16@12-10-2026_19-36-15.jpg": {
+    "drive_id": "1Le0ORPs0T6_EO6Gj-D31wW3ClQJTrlZe",
+    "url": "https://drive.google.com/file/d/1Le0ORPs0T6_EO6Gj-D31wW3ClQJTrlZe/view?usp=drivesdk",
+    "filename": "photo_16@12-10-2026_19-36-15.jpg"
+  },
+  "photos/photo_6@29-09-2026_00-49-15.jpg": {
+    "drive_id": "124fhssRLbS5xOai-0tF-cmC2z477yfYT",
+    "url": "https://drive.google.com/file/d/124fhssRLbS5xOai-0tF-cmC2z477yfYT/view?usp=drivesdk",
+    "filename": "photo_6@29-09-2026_00-49-15.jpg"
+  },
+  "photos/photo_54@23-10-2026_23-40-37.jpg": {
+    "drive_id": "1WjP5wxUUJCX3pqfWajEtB-mZVQ0UeZXj",
+    "url": "https://drive.google.com/file/d/1WjP5wxUUJCX3pqfWajEtB-mZVQ0UeZXj/view?usp=drivesdk",
+    "filename": "photo_54@23-10-2026_23-40-37.jpg"
+  },
+  "photos/photo_21@19-10-2026_22-57-19.jpg": {
+    "drive_id": "1BJryiW90z-juPgjTaeaWQ2k4c59RR4tK",
+    "url": "https://drive.google.com/file/d/1BJryiW90z-juPgjTaeaWQ2k4c59RR4tK/view?usp=drivesdk",
+    "filename": "photo_21@19-10-2026_22-57-19.jpg"
+  },
+  "photos/photo_44@23-10-2026_19-03-00.jpg": {
+    "drive_id": "1N8BNWbaOuq0Qm5pp3e-khzR8lOTAUw99",
+    "url": "https://drive.google.com/file/d/1N8BNWbaOuq0Qm5pp3e-khzR8lOTAUw99/view?usp=drivesdk",
+    "filename": "photo_44@23-10-2026_19-03-00.jpg"
+  },
+  "photos/photo_23@19-10-2026_22-59-17.jpg": {
+    "drive_id": "1SSMORIIxYSY11QM13X9wqW9S_6UPlJnb",
+    "url": "https://drive.google.com/file/d/1SSMORIIxYSY11QM13X9wqW9S_6UPlJnb/view?usp=drivesdk",
+    "filename": "photo_23@19-10-2026_22-59-17.jpg"
+  },
+  "photos/photo_19@19-10-2026_13-42-12.jpg": {
+    "drive_id": "1cT0jAk0vbf65sABPmpPrq1kC6QkO6E_-",
+    "url": "https://drive.google.com/file/d/1cT0jAk0vbf65sABPmpPrq1kC6QkO6E_-/view?usp=drivesdk",
+    "filename": "photo_19@19-10-2026_13-42-12.jpg"
+  },
+  "photos/photo_51@23-10-2026_23-32-44.jpg": {
+    "drive_id": "1CgGh95U9Ofd54i0Wb7CXLio2bCSpiRZJ",
+    "url": "https://drive.google.com/file/d/1CgGh95U9Ofd54i0Wb7CXLio2bCSpiRZJ/view?usp=drivesdk",
+    "filename": "photo_51@23-10-2026_23-32-44.jpg"
+  },
+  "photos/photo_28@20-10-2026_22-18-01.jpg": {
+    "drive_id": "1Zu7LHzDqsfvzdfAPE0HzYzetegc_p0QZ",
+    "url": "https://drive.google.com/file/d/1Zu7LHzDqsfvzdfAPE0HzYzetegc_p0QZ/view?usp=drivesdk",
+    "filename": "photo_28@20-10-2026_22-18-01.jpg"
+  },
+  "photos/photo_67@01-11-2026_15-35-08.jpg": {
+    "drive_id": "16WwzIdLLNrtBrIPngPFqXah5vFff9F5r",
+    "url": "https://drive.google.com/file/d/16WwzIdLLNrtBrIPngPFqXah5vFff9F5r/view?usp=drivesdk",
+    "filename": "photo_67@01-11-2026_15-35-08.jpg"
+  },
+  "photos/photo_48@23-10-2026_19-53-13.jpg": {
+    "drive_id": "1YCAhJzNBG1h2XKWXMSuLybTbcvSC76ap",
+    "url": "https://drive.google.com/file/d/1YCAhJzNBG1h2XKWXMSuLybTbcvSC76ap/view?usp=drivesdk",
+    "filename": "photo_48@23-10-2026_19-53-13.jpg"
+  },
+  "photos/photo_50@23-10-2026_22-52-56.jpg": {
+    "drive_id": "1RVqjU2T3gB2o7vCawZSNB-4ujJh3_hnw",
+    "url": "https://drive.google.com/file/d/1RVqjU2T3gB2o7vCawZSNB-4ujJh3_hnw/view?usp=drivesdk",
+    "filename": "photo_50@23-10-2026_22-52-56.jpg"
+  },
+  "photos/photo_7@29-09-2026_00-52-47.jpg": {
+    "drive_id": "1u51jZ4HKn6l85_WeMFDDnPs8OhkaQoZP",
+    "url": "https://drive.google.com/file/d/1u51jZ4HKn6l85_WeMFDDnPs8OhkaQoZP/view?usp=drivesdk",
+    "filename": "photo_7@29-09-2026_00-52-47.jpg"
+  },
+  "photos/photo_1@07-09-2026_18-56-27.jpg": {
+    "drive_id": "1Uex-o9IaY0bDvYewT-I86Rgp-bJ5Utgh",
+    "url": "https://drive.google.com/file/d/1Uex-o9IaY0bDvYewT-I86Rgp-bJ5Utgh/view?usp=drivesdk",
+    "filename": "photo_1@07-09-2026_18-56-27.jpg"
+  },
+  "photos/photo_32@22-10-2026_22-18-19.jpg": {
+    "drive_id": "1dq5oIijFjU1KSi4syft00hL4M9XzXmU4",
+    "url": "https://drive.google.com/file/d/1dq5oIijFjU1KSi4syft00hL4M9XzXmU4/view?usp=drivesdk",
+    "filename": "photo_32@22-10-2026_22-18-19.jpg"
+  },
+  "photos/photo_30@22-10-2026_18-29-09.jpg": {
+    "drive_id": "1k1_A3RlUkEA4TAf39ud7HlLdKFQ2S2Q3",
+    "url": "https://drive.google.com/file/d/1k1_A3RlUkEA4TAf39ud7HlLdKFQ2S2Q3/view?usp=drivesdk",
+    "filename": "photo_30@22-10-2026_18-29-09.jpg"
+  },
+  "photos/photo_56@24-10-2026_00-01-25.jpg": {
+    "drive_id": "1Q9Q2ZuwpJp64zTaHs25H-yrvadAUU-um",
+    "url": "https://drive.google.com/file/d/1Q9Q2ZuwpJp64zTaHs25H-yrvadAUU-um/view?usp=drivesdk",
+    "filename": "photo_56@24-10-2026_00-01-25.jpg"
+  },
+  "photos/photo_58@24-10-2026_00-58-52.jpg": {
+    "drive_id": "18FdmtF1xiQNdZY5YSyx1nqPOCOvZUqtK",
+    "url": "https://drive.google.com/file/d/18FdmtF1xiQNdZY5YSyx1nqPOCOvZUqtK/view?usp=drivesdk",
+    "filename": "photo_58@24-10-2026_00-58-52.jpg"
+  },
+  "photos/photo_20@19-10-2026_21-10-13.jpg": {
+    "drive_id": "1nmKg78FOtrcujG7PKCQzHqRC3EoDRZhD",
+    "url": "https://drive.google.com/file/d/1nmKg78FOtrcujG7PKCQzHqRC3EoDRZhD/view?usp=drivesdk",
+    "filename": "photo_20@19-10-2026_21-10-13.jpg"
+  },
+  "photos/photo_40@23-10-2026_00-12-03.jpg": {
+    "drive_id": "1KShh9HHrH7BjNF3mq5quB0U4Tv_Rj_5G",
+    "url": "https://drive.google.com/file/d/1KShh9HHrH7BjNF3mq5quB0U4Tv_Rj_5G/view?usp=drivesdk",
+    "filename": "photo_40@23-10-2026_00-12-03.jpg"
+  },
+  "photos/photo_41@23-10-2026_14-51-41.jpg": {
+    "drive_id": "1_3Gp5zsEdEVkWIjlnSkmCOvaCz4iNKfP",
+    "url": "https://drive.google.com/file/d/1_3Gp5zsEdEVkWIjlnSkmCOvaCz4iNKfP/view?usp=drivesdk",
+    "filename": "photo_41@23-10-2026_14-51-41.jpg"
+  },
+  "photos/photo_69@14-11-2026_16-49-18.jpg": {
+    "drive_id": "1lfs3mcRwaUT_zKRYjqBEhrTGetOft5dM",
+    "url": "https://drive.google.com/file/d/1lfs3mcRwaUT_zKRYjqBEhrTGetOft5dM/view?usp=drivesdk",
+    "filename": "photo_69@14-11-2026_16-49-18.jpg"
+  },
+  "photos/photo_34@22-10-2026_23-58-58.jpg": {
+    "drive_id": "1mr0Tnefz_O3BcTMYG8bI8Oj7X5KJPZvP",
+    "url": "https://drive.google.com/file/d/1mr0Tnefz_O3BcTMYG8bI8Oj7X5KJPZvP/view?usp=drivesdk",
+    "filename": "photo_34@22-10-2026_23-58-58.jpg"
+  },
+  "photos/photo_15@11-10-2026_00-17-16.jpg": {
+    "drive_id": "10RHYWZCgDntp0Gty8u1lU3-ufzCQhOXo",
+    "url": "https://drive.google.com/file/d/10RHYWZCgDntp0Gty8u1lU3-ufzCQhOXo/view?usp=drivesdk",
+    "filename": "photo_15@11-10-2026_00-17-16.jpg"
+  },
+  "photos/photo_59@24-10-2026_00-59-25.jpg": {
+    "drive_id": "1oAIMOXv-j02an5gLnY61TK19tUJdxcmz",
+    "url": "https://drive.google.com/file/d/1oAIMOXv-j02an5gLnY61TK19tUJdxcmz/view?usp=drivesdk",
+    "filename": "photo_59@24-10-2026_00-59-25.jpg"
+  },
+  "photos/photo_29@22-10-2026_18-29-09.jpg": {
+    "drive_id": "1x53pdcQDyvDCr86im5IA32PvFjbdrM7e",
+    "url": "https://drive.google.com/file/d/1x53pdcQDyvDCr86im5IA32PvFjbdrM7e/view?usp=drivesdk",
+    "filename": "photo_29@22-10-2026_18-29-09.jpg"
+  },
+  "photos/photo_35@23-10-2026_00-02-51.jpg": {
+    "drive_id": "1nro3PKm-bmTcC9RzFmyINTf603-TuK-m",
+    "url": "https://drive.google.com/file/d/1nro3PKm-bmTcC9RzFmyINTf603-TuK-m/view?usp=drivesdk",
+    "filename": "photo_35@23-10-2026_00-02-51.jpg"
+  },
+  "photos/photo_31@22-10-2026_18-29-09.jpg": {
+    "drive_id": "1dswLqP7pWAPvc7DaHWz-Pi7G7ldUrvap",
+    "url": "https://drive.google.com/file/d/1dswLqP7pWAPvc7DaHWz-Pi7G7ldUrvap/view?usp=drivesdk",
+    "filename": "photo_31@22-10-2026_18-29-09.jpg"
+  },
+  "photos/photo_3@21-09-2026_17-19-24.jpg": {
+    "drive_id": "1jFgYsoum0HGI4dCtfRU027_gQcNgFQgG",
+    "url": "https://drive.google.com/file/d/1jFgYsoum0HGI4dCtfRU027_gQcNgFQgG/view?usp=drivesdk",
+    "filename": "photo_3@21-09-2026_17-19-24.jpg"
+  },
+  "stickers/sticker (2).webp": {
+    "drive_id": "1OmVePWxgQcawR6u1GJBqIvIuEM3Ad72S",
+    "url": "https://drive.google.com/file/d/1OmVePWxgQcawR6u1GJBqIvIuEM3Ad72S/view?usp=drivesdk",
+    "filename": "sticker (2).webp"
+  },
+  "stickers/sticker.webp_thumb.jpg": {
+    "drive_id": "1T6D7J0KqtxXa1HUi8VXRFYRk7Arl8Q89",
+    "url": "https://drive.google.com/file/d/1T6D7J0KqtxXa1HUi8VXRFYRk7Arl8Q89/view?usp=drivesdk",
+    "filename": "sticker.webp_thumb.jpg"
+  },
+  "stickers/sticker (6).webp_thumb.jpg": {
+    "drive_id": "1iKaKQS6098vH4g2JppBHEd13CvOzxLDj",
+    "url": "https://drive.google.com/file/d/1iKaKQS6098vH4g2JppBHEd13CvOzxLDj/view?usp=drivesdk",
+    "filename": "sticker (6).webp_thumb.jpg"
+  },
+  "stickers/sticker (1).webp": {
+    "drive_id": "1vEUNDQXoV-FiLW2KMzDTW-OsXOu2Tg5N",
+    "url": "https://drive.google.com/file/d/1vEUNDQXoV-FiLW2KMzDTW-OsXOu2Tg5N/view?usp=drivesdk",
+    "filename": "sticker (1).webp"
+  },
+  "stickers/sticker (5).webp_thumb.jpg": {
+    "drive_id": "1zmQeYRzm1a96RsAaNg4-E0HA4s_DHZ-Y",
+    "url": "https://drive.google.com/file/d/1zmQeYRzm1a96RsAaNg4-E0HA4s_DHZ-Y/view?usp=drivesdk",
+    "filename": "sticker (5).webp_thumb.jpg"
+  },
+  "stickers/sticker (2).webp_thumb.jpg": {
+    "drive_id": "1nLviXHh6GLQ5rx6vLTSsN7DY-uZvKQTP",
+    "url": "https://drive.google.com/file/d/1nLviXHh6GLQ5rx6vLTSsN7DY-uZvKQTP/view?usp=drivesdk",
+    "filename": "sticker (2).webp_thumb.jpg"
+  },
+  "stickers/sticker (4).webp_thumb.jpg": {
+    "drive_id": "1nWYsPO9Lx1KCKzFtvAjYw8ADbm4CPZpG",
+    "url": "https://drive.google.com/file/d/1nWYsPO9Lx1KCKzFtvAjYw8ADbm4CPZpG/view?usp=drivesdk",
+    "filename": "sticker (4).webp_thumb.jpg"
+  },
+  "stickers/sticker (4).webp": {
+    "drive_id": "1Vc6YAvSo6m-2x0kE17E7zMRxti56EUy0",
+    "url": "https://drive.google.com/file/d/1Vc6YAvSo6m-2x0kE17E7zMRxti56EUy0/view?usp=drivesdk",
+    "filename": "sticker (4).webp"
+  },
+  "stickers/sticker (3).webp_thumb.jpg": {
+    "drive_id": "16izT9Ez4FOMcs2y8g9ArYpHjrxG-hlnK",
+    "url": "https://drive.google.com/file/d/16izT9Ez4FOMcs2y8g9ArYpHjrxG-hlnK/view?usp=drivesdk",
+    "filename": "sticker (3).webp_thumb.jpg"
+  },
+  "stickers/sticker (5).webp": {
+    "drive_id": "17DUHjcSQ_mcguu2oNQtGfrBjqNg4Hhs4",
+    "url": "https://drive.google.com/file/d/17DUHjcSQ_mcguu2oNQtGfrBjqNg4Hhs4/view?usp=drivesdk",
+    "filename": "sticker (5).webp"
+  },
+  "stickers/sticker (1).webp_thumb.jpg": {
+    "drive_id": "1Ba2TaSFkDUX_QJ9rShcPpVuOsh3lO2U-",
+    "url": "https://drive.google.com/file/d/1Ba2TaSFkDUX_QJ9rShcPpVuOsh3lO2U-/view?usp=drivesdk",
+    "filename": "sticker (1).webp_thumb.jpg"
+  },
+  "stickers/sticker (3).webp": {
+    "drive_id": "1fEU557bRbMlU2UxyaDCLg3k70XIkylG2",
+    "url": "https://drive.google.com/file/d/1fEU557bRbMlU2UxyaDCLg3k70XIkylG2/view?usp=drivesdk",
+    "filename": "sticker (3).webp"
+  },
+  "stickers/sticker (6).webp": {
+    "drive_id": "19O3pk--2mftHOdBO-e9ak7KCvrH5TtI6",
+    "url": "https://drive.google.com/file/d/19O3pk--2mftHOdBO-e9ak7KCvrH5TtI6/view?usp=drivesdk",
+    "filename": "sticker (6).webp"
+  }
+}

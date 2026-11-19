@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CrateTrack — Swiss Editorial Style (Variant 1)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    /* ==========================================================================
+       DESIGN PHILOSOPHY: SWISS MINIMALIST EDITORIAL
+       - Palette: Off-white canvas (#F8F9FA), deep obsidian (#0F1115), cobalt blue (#1D4ED8)
+       - Strict typographic grid, high micro-contrast, generous white space
+       - Zero AI gradients, zero tacky glowing borders; authentic publication feel
+       ========================================================================== */
+
+    :root {
+      --bg: #F8F9FA;
+      --card-bg: #FFFFFF;
+      --border: #E5E7EB;
+      --border-dark: #D1D5DB;
+      --text-main: #0F1115;
+      --text-muted: #4B5563;
+      --text-dim: #9CA3AF;
+      --accent: #1D4ED8; /* Deep Swiss Ultramarine */
+      --accent-soft: #EFF6FF;
+      --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, monospace;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background: #E5E7EB;
+      font-family: var(--font-sans);
+      color: var(--text-main);
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      width: 100vw;
+    }
+
+    /* 16:9 Scaled Deck Container */
+    #presentation-stage {
+      position: relative;
+      width: 1920px;
+      height: 1080px;
+      background: var(--bg);
+      box-shadow: 0 25px 60px -15px rgba(0, 0, 0, 0.15);
+      overflow: hidden;
+      transform-origin: center center;
+    }
+
+    .slide {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 1920px;
+      height: 1080px;
+      padding: 80px 100px;
+      display: none;
+      flex-direction: column;
+      justify-content: space-between;
+      opacity: 0;
+      transition: opacity 0.25s ease-in-out;
+    }
+
+    .slide.active {
+      display: flex;
+      opacity: 1;
+    }
+
+    /* Top Metadata Header */
+    .top-bar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1.5px solid var(--border);
+      padding-bottom: 24px;
+    }
+
+    .top-bar-left {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .utm-badge {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .utm-logo {
+      height: 38px;
+      width: auto;
+      object-fit: contain;
+    }
+
+    .dept-meta {
+      font-size: 14px;
+      font-weight: 600;
+      letter-spacing: -0.01em;
+      color: var(--text-muted);
+      line-height: 1.3;
+    }
+
+    .dept-meta span {
+      color: var(--text-dim);
+      font-weight: 400;
+    }
+
+    .pill-milestone {
+      font-family: var(--font-mono);
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--accent);
+      background: var(--accent-soft);
+      border: 1px solid #BFDBFE;
+      padding: 6px 14px;
+      border-radius: 4px;
+      letter-spacing: 0.04em;
+    }
+
+    /* SLIDE 1: Title Layout */
+    .hero-title-area {
+      margin-top: 40px;
+      margin-bottom: auto;
+    }
+
+    .topic-tag {
+      font-family: var(--font-mono);
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--accent);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin-bottom: 16px;
+    }
+
+    .hero-h1 {
+      font-size: 88px;
+      font-weight: 800;
+      line-height: 1.0;
+      letter-spacing: -0.04em;
+      color: var(--text-main);
+      margin-bottom: 28px;
+    }
+
+    .hero-h1 span {
+      color: var(--accent);
+    }
+
+    .hero-subtitle {
+      font-size: 32px;
+      font-weight: 400;
+      line-height: 1.35;
+      color: var(--text-muted);
+      max-width: 1250px;
+      letter-spacing: -0.015em;
+    }
+
+    /* Team & Footer Meta */
+    .title-footer-grid {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      gap: 60px;
+      border-top: 1.5px solid var(--border);
+      padding-top: 36px;
+    }
+
+    .team-block-title {
+      font-family: var(--font-mono);
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--text-dim);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin-bottom: 14px;
+    }
+
+    .team-roster {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px 28px;
+    }
+
+    .member-item {
+      font-size: 16px;
+      font-weight: 600;
+      color: var(--text-main);
+    }
+
+    .member-item span {
+      font-family: var(--font-mono);
+      font-weight: 500;
+      font-size: 13px;
+      color: var(--text-dim);
+      margin-left: 4px;
+    }
+
+    .supervisor-item {
+      font-size: 16px;
+      font-weight: 500;
+      color: var(--text-muted);
+      line-height: 1.5;
+    }
+
+    .supervisor-item strong {
+      color: var(--text-main);
+      font-weight: 700;
+    }
+
+    /* SLIDE 2: Content Layout */
+    .slide-section-label {
+      font-family: var(--font-mono);
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--accent);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin-bottom: 8px;
+    }
+
+    .slide-headline {
+      font-size: 46px;
+      font-weight: 800;
+      letter-spacing: -0.03em;
+      line-height: 1.15;
+      color: var(--text-main);
+      margin-bottom: 40px;
+    }
+
+    .content-grid-2col {
+      display: grid;
+      grid-template-columns: 1.15fr 1fr;
+      gap: 50px;
+      align-items: stretch;
+      flex: 1;
+    }
+
+    .visual-frame {
+      background: var(--card-bg);
+      border: 1.5px solid var(--border);
+      border-radius: 10px;
+      padding: 16px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .visual-frame img {
+      width: 100%;
+      height: 480px;
+      object-fit: cover;
+      border-radius: 6px;
+    }
+
+    .visual-caption {
+      margin-top: 12px;
+      font-size: 14px;
+      color: var(--text-muted);
+      font-family: var(--font-mono);
+    }
+
+    .info-column {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+      justify-content: space-between;
+    }
+
+    .editorial-card {
+      background: var(--card-bg);
+      border: 1.5px solid var(--border);
+      border-radius: 10px;
+      padding: 32px;
+    }
+
+    .card-label {
+      font-family: var(--font-mono);
+      font-size: 12px;
+      font-weight: 700;
+      color: var(--accent);
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      margin-bottom: 12px;
+    }
+
+    .card-body-text {
+      font-size: 20px;
+      line-height: 1.5;
+      color: var(--text-main);
+      font-weight: 400;
+    }
+
+    .card-body-text strong {
+      font-weight: 700;
+    }
+
+    .metrics-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+    }
+
+    .metric-card {
+      background: var(--card-bg);
+      border: 1.5px solid var(--border);
+      border-radius: 10px;
+      padding: 28px;
+    }
+
+    .metric-number {
+      font-size: 58px;
+      font-weight: 800;
+      line-height: 1;
+      letter-spacing: -0.04em;
+      color: var(--accent);
+      margin-bottom: 8px;
+    }
+
+    .metric-label {
+      font-size: 15px;
+      line-height: 1.4;
+      color: var(--text-muted);
+      font-weight: 500;
+    }
+
+    /* Fixed Clean Bottom Navigation */
+    .deck-nav {
+      position: absolute;
+      bottom: 24px;
+      right: 32px;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      background: rgba(255, 255, 255, 0.95);
+      backdrop-filter: blur(8px);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 6px 14px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+      z-index: 100;
+    }
+
+    .nav-btn {
+      background: none;
+      border: none;
+      cursor: pointer;
+      font-family: var(--font-mono);
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--text-muted);
+      padding: 4px 8px;
+      border-radius: 4px;
+      transition: all 0.15s;
+    }
+
+    .nav-btn:hover {
+      background: var(--border);
+      color: var(--text-main);
+    }
+
+    .slide-counter {
+      font-family: var(--font-mono);
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--text-dim);
+    }
+
+    /* Print Styles for Flawless PDF Export */
+    @media print {
+      body {
+        background: none;
+        height: auto;
+        overflow: visible;
+      }
+      #presentation-stage {
+        box-shadow: none;
+        transform: none !important;
+      }
+      .deck-nav {
+        display: none !important;
+      }
+      .slide {
+        display: flex !important;
+        opacity: 1 !important;
+        position: relative !important;
+        page-break-after: always;
+        break-after: page;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div id="presentation-stage">
+
+    <!-- SLIDE 1: TITLE & OVERVIEW -->
+    <section class="slide active" id="slide-1">
+      <header class="top-bar">
+        <div class="top-bar-left">
+          <div class="utm-badge">
+            <img src="../images/UTM_Logo.png" alt="UTM Logo" class="utm-logo">
+            <div class="dept-meta">
+              Technical University of Moldova · FCIM<br>
+              <span>Software Engineering & Automatics · FAF.PCAS25.1</span>
+            </div>
+          </div>
+        </div>
+        <div class="pill-milestone">MIDTERM 2 DEFENSE · 7-MIN PITCH</div>
+      </header>
+
+      <div class="hero-title-area">
+        <div class="topic-tag">PBL Conceptual Design · Music Information Retrieval</div>
+        <h1 class="hero-h1">CrateTrack <span>//</span> Sample Browser</h1>
+        <p class="hero-subtitle">
+          Granular audio passage discovery and acoustic bookmarking for independent music producers over public streaming catalogs.
+        </p>
+      </div>
+
+      <footer class="title-footer-grid">
+        <div>
+          <div class="team-block-title">FAF Student Engineering Team 16</div>
+          <div class="team-roster">
+            <div class="member-item">Bogdan Glavan <span>(FAF-261)</span></div>
+            <div class="member-item">Andrei Simon <span>(FAF-261)</span></div>
+            <div class="member-item">Nikita Creciun <span>(FAF-263)</span></div>
+            <div class="member-item">Leonid Tiscenco <span>(FAF-263)</span></div>
+            <div class="member-item">Mihai-Constantin Sîrghii <span>(FAF-262)</span></div>
+          </div>
+        </div>
+        <div>
+          <div class="team-block-title">Academic Supervision</div>
+          <div class="supervisor-item">
+            Mentor: <strong>Prof. Elena Graur</strong><br>
+            Chișinău, November 2026
+          </div>
+        </div>
+      </footer>
+    </section>
+
+    <!-- SLIDE 2: CONTEXT & PROBLEM -->
+    <section class="slide" id="slide-2">
+      <header class="top-bar">
+        <div class="top-bar-left">
+          <div class="dept-meta">
+            CrateTrack · Sample Browser <span>// Section 01: Context & Core Friction</span>
+          </div>
+        </div>
+        <div class="pill-milestone">PBL PROBLEM DISCOVERY</div>
+      </header>
+
+      <div>
+        <div class="slide-section-label">01 / The Sampling Reality</div>
+        <h2 class="slide-headline">
+          Streaming catalogs index 4-minute songs.<br>
+          Beatmakers hunt for 4-second passages.
+        </h2>
+      </div>
+
+      <div class="content-grid-2col">
+        <!-- Left: Image & Caption -->
+        <div class="visual-frame">
+          <img src="../images/musician_cropped.png" alt="Bedroom Producer Workstation">
+          <div class="visual-caption">Figure 1. The bedroom creator workstation: limited weekly studio hours spent scrubbing waveforms.</div>
+        </div>
+
+        <!-- Right: Cards & Metrics -->
+        <div class="info-column">
+          <div class="editorial-card">
+            <div class="card-label">Core Creative Dilemma</div>
+            <p class="card-body-text">
+              Sampling is the art of reusing localized <strong>2–8 bar passages</strong> (clean drum breaks, isolated Rhodes chords). 
+              Yet 250M+ recordings on Spotify and YouTube offer <strong>zero sub-track indexing</strong>, forcing creators into tedious, manual timeline scrubbing that destroys creative momentum.
+            </p>
+          </div>
+
+          <div class="metrics-row">
+            <div class="metric-card">
+              <div class="metric-number">17%</div>
+              <div class="metric-label">Of Billboard Hot 100 hits rely on direct audio sampling (Tracklib 2024).</div>
+            </div>
+            <div class="metric-card">
+              <div class="metric-number">53%</div>
+              <div class="metric-label">Of creators hold outside day jobs, making lost studio scrubbing time critical.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+  <!-- Bottom Navigation Controls -->
+  <div class="deck-nav">
+    <button class="nav-btn" onclick="prevSlide()">← Prev</button>
+    <span class="slide-counter" id="counter">1 / 2</span>
+    <button class="nav-btn" onclick="nextSlide()">Next →</button>
+    <button class="nav-btn" onclick="toggleFullScreen()">⛶ Fullscreen</button>
+  </div>
+
+  <script>
+    let currentSlide = 0;
+    const slides = document.querySelectorAll('.slide');
+    const counter = document.getElementById('counter');
+    const stage = document.getElementById('presentation-stage');
+
+    function updateSlide() {
+      slides.forEach((s, idx) => {
+        s.classList.toggle('active', idx === currentSlide);
+      });
+      counter.textContent = `${currentSlide + 1} / ${slides.length}`;
+    }
+
+    function nextSlide() {
+      if (currentSlide < slides.length - 1) {
+        currentSlide++;
+        updateSlide();
+      }
+    }
+
+    function prevSlide() {
+      if (currentSlide > 0) {
+        currentSlide--;
+        updateSlide();
+      }
+    }
+
+    function toggleFullScreen() {
+      if (!document.fullscreenElement) {
+        document.documentElement.requestFullscreen();
+      } else {
+        if (document.exitFullscreen) {
+          document.exitFullscreen();
+        }
+      }
+    }
+
+    // Auto-fit 1920x1080 stage to viewport
+    function scaleStage() {
+      const windowWidth = window.innerWidth;
+      const windowHeight = window.innerHeight;
+      const scale = Math.min(windowWidth / 1920, windowHeight / 1080);
+      stage.style.transform = `scale(${scale})`;
+    }
+
+    window.addEventListener('resize', scaleStage);
+    window.addEventListener('DOMContentLoaded', scaleStage);
+
+    // Keyboard controls
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'ArrowRight' || e.key === ' ' || e.key === 'PageDown') {
+        nextSlide();
+      } else if (e.key === 'ArrowLeft' || e.key === 'PageUp' || e.key === 'Backspace') {
+        prevSlide();
+      } else if (e.key === 'f' || e.key === 'F') {
+        toggleFullScreen();
+      }
+    });
+  </script>
+</body>
+</html>

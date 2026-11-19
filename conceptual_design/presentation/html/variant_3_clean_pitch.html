@@ -1,0 +1,984 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CrateTrack — Midterm 2 Presentation</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
+  <style>
+    /* ==========================================================================
+       MINIMALIST HIGH-SIGNAL PRESENTATION DECK
+       - Philosophy: Dieter Rams / Clean Keynote / High-Signal Pitch
+       - Zero "AI-slop": No neon glows, no gradient text, no fake pill badges
+       - Role: Complements the verbal pitch; large diagrams, photos, and UI take center stage
+       ========================================================================== */
+
+    :root {
+      --bg: #0D0E12;
+      --card-bg: #14161D;
+      --border: rgba(255, 255, 255, 0.08);
+      --text: #F4F4F6;
+      --text-muted: #9DA3B4;
+      --text-dim: #5C6275;
+      --accent: #4361EE;
+      --font: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      --mono: 'JetBrains Mono', monospace;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background: #050608;
+      font-family: var(--font);
+      color: var(--text);
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      width: 100vw;
+    }
+
+    /* Fixed 16:9 Stage (1920x1080) */
+    #stage {
+      position: relative;
+      width: 1920px;
+      height: 1080px;
+      background: var(--bg);
+      overflow: hidden;
+      transform-origin: center center;
+    }
+
+    /* Slide container */
+    .slide {
+      position: absolute;
+      inset: 0;
+      padding: 60px 80px;
+      display: none;
+      flex-direction: column;
+      justify-content: space-between;
+      opacity: 0;
+      transition: opacity 0.15s ease-out;
+    }
+
+    .slide.active {
+      display: flex;
+      opacity: 1;
+    }
+
+    /* Header Bar */
+    .slide-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-bottom: 20px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .header-tag {
+      font-family: var(--mono);
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--text-dim);
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .header-context {
+      font-size: 14px;
+      font-weight: 500;
+      color: var(--text-muted);
+    }
+
+    /* Two-Column Split: 30% Speaker Anchors / 70% Visual Stage */
+    .slide-body {
+      display: grid;
+      grid-template-columns: 500px 1fr;
+      gap: 60px;
+      flex: 1;
+      padding: 40px 0;
+      align-items: center;
+      min-height: 0;
+    }
+
+    /* Left: Speaker Text (Minimalist) */
+    .speaker-col {
+      display: flex;
+      flex-direction: column;
+      gap: 28px;
+    }
+
+    .slide-title {
+      font-size: 42px;
+      font-weight: 700;
+      line-height: 1.15;
+      letter-spacing: -0.02em;
+      color: #FFFFFF;
+    }
+
+    .bullets {
+      display: flex;
+      flex-direction: column;
+      gap: 18px;
+    }
+
+    .bullet {
+      display: flex;
+      align-items: flex-start;
+      gap: 14px;
+      font-size: 18px;
+      line-height: 1.5;
+      color: var(--text-muted);
+    }
+
+    .bullet-marker {
+      color: var(--accent);
+      font-size: 20px;
+      line-height: 1;
+      margin-top: 2px;
+      flex-shrink: 0;
+    }
+
+    .bullet strong {
+      color: #FFFFFF;
+      font-weight: 600;
+    }
+
+    /* Right: Visual Stage */
+    .visual-stage {
+      width: 100%;
+      height: 100%;
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+    }
+
+    /* Visual Layout Variants */
+    .visual-full {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    .visual-contain {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      display: block;
+      padding: 24px;
+      background: #0F1015;
+    }
+
+    .visual-split-2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+      width: 100%;
+      height: 100%;
+      padding: 16px;
+    }
+
+    .visual-split-3 {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+      width: 100%;
+      height: 100%;
+      padding: 16px;
+    }
+
+    .visual-item {
+      position: relative;
+      border-radius: 8px;
+      overflow: hidden;
+      border: 1px solid var(--border);
+      background: #0B0C10;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .visual-item img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    .visual-item.contain img {
+      object-fit: contain;
+      padding: 12px;
+    }
+
+    .item-caption {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: rgba(13, 14, 18, 0.85);
+      padding: 10px 16px;
+      font-size: 13px;
+      font-weight: 500;
+      color: #D1D5DB;
+      border-top: 1px solid var(--border);
+    }
+
+    /* Hero Slide (Slide 1) */
+    .hero-layout {
+      display: grid;
+      grid-template-columns: 1fr 1.1fr;
+      gap: 80px;
+      align-items: center;
+      height: 100%;
+    }
+
+    .hero-title {
+      font-size: 76px;
+      font-weight: 800;
+      letter-spacing: -0.04em;
+      line-height: 1.05;
+      color: #FFFFFF;
+      margin-bottom: 20px;
+    }
+
+    .hero-desc {
+      font-size: 22px;
+      color: var(--text-muted);
+      line-height: 1.45;
+      margin-bottom: 40px;
+      max-width: 600px;
+    }
+
+    .hero-meta {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      border-top: 1px solid var(--border);
+      padding-top: 24px;
+      font-size: 15px;
+      color: var(--text-dim);
+    }
+
+    .hero-meta strong {
+      color: var(--text-muted);
+    }
+
+    /* Footer / Controls */
+    .slide-footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-top: 20px;
+      border-top: 1px solid var(--border);
+    }
+
+    .footer-meta {
+      font-size: 13px;
+      color: var(--text-dim);
+      font-family: var(--mono);
+    }
+
+    .footer-nav {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+
+    .slide-num {
+      font-family: var(--mono);
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--text-muted);
+      min-width: 50px;
+      text-align: center;
+    }
+
+    .nav-button {
+      background: transparent;
+      border: 1px solid var(--border);
+      color: var(--text-muted);
+      padding: 6px 14px;
+      border-radius: 6px;
+      font-size: 12px;
+      font-weight: 600;
+      cursor: pointer;
+      font-family: var(--font);
+      transition: all 0.15s ease;
+    }
+
+    .nav-button:hover {
+      background: var(--card-bg);
+      color: #FFFFFF;
+      border-color: rgba(255, 255, 255, 0.2);
+    }
+  </style>
+</head>
+<body>
+
+  <div id="stage">
+
+    <!-- ======================================================================
+         SLIDE 1: TITLE / PROBLEM-BASED LEARNING PROJECT
+         ====================================================================== -->
+    <section class="slide active" id="slide-1">
+      <div class="hero-layout">
+        <div>
+          <div class="header-tag" style="margin-bottom: 24px;">FAF.PCAS25.1 · MIDTERM 2 CONCEPTUAL DEFENSE</div>
+          <h1 class="hero-title">CrateTrack</h1>
+          <p class="hero-desc">AI-assisted intra-track passage discovery for sample-based music producers.</p>
+          
+          <div class="hero-meta">
+            <div><strong>Project:</strong> Problem-Based Learning (PBL) · Software Architecture & Validation</div>
+            <div><strong>Team 16:</strong> Andrei Simon, Bogdan Glavan, Thuasar (Lead)</div>
+            <div><strong>Institution:</strong> Technical University of Moldova · 2026</div>
+          </div>
+        </div>
+
+        <div class="visual-stage" style="height: 680px; position: relative;">
+          <img src="assets/vinyl_crate_digging.jpg" class="visual-full" alt="Vinyl Crate Digging">
+          <div style="position: absolute; top: 24px; right: 24px; background: rgba(13, 14, 18, 0.9); padding: 10px 16px; border-radius: 8px; border: 1px solid var(--border); display: flex; align-items: center; gap: 12px;">
+            <img src="../images/UTM_Logo.png" alt="UTM Logo" style="height: 32px; width: auto;">
+            <span style="font-size: 13px; font-weight: 600; color: #FFFFFF;">FCIM · FAF</span>
+          </div>
+          <div class="item-caption">Intra-track passage retrieval: from manual digging to instant timecodes.</div>
+        </div>
+      </div>
+
+      <footer class="slide-footer">
+        <div class="footer-meta">CRATETRACK // MIDTERM 2</div>
+        <div class="footer-nav">
+          <span class="slide-num">1 / 11</span>
+          <button class="nav-button" onclick="prevSlide()">←</button>
+          <button class="nav-button" onclick="nextSlide()">→</button>
+          <button class="nav-button" onclick="toggleFullScreen()">Fullscreen</button>
+        </div>
+      </footer>
+    </section>
+
+    <!-- ======================================================================
+         SLIDE 2: CONTEXT & THE SAMPLING GAP
+         ====================================================================== -->
+    <section class="slide" id="slide-2">
+      <header class="slide-header">
+        <span class="header-tag">01 / Problem Context</span>
+        <span class="header-context">The Creator Dilemma</span>
+      </header>
+
+      <div class="slide-body">
+        <div class="speaker-col">
+          <h2 class="slide-title">4-Minute Songs vs. 4-Second Breaks</h2>
+          <div class="bullets">
+            <div class="bullet">
+              <span class="bullet-marker">—</span>
+              <div><strong>Catalog Mismatch:</strong> Streaming platforms index entire 4-minute songs; beatmakers hunt for isolated 4-second passages.</div>
+            </div>
+            <div class="bullet">
+              <span class="bullet-marker">—</span>
+              <div><strong>Scrubbing Tax:</strong> Up to 70% of studio time is wasted blindly dragging the playhead across audio waveforms.</div>
+            </div>
+            <div class="bullet">
+              <span class="bullet-marker">—</span>
+              <div><strong>Flow State Disruption:</strong> Ear fatigue and repetitive scrolling kill creative momentum within the first 15 minutes.</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="visual-stage">
+          <div class="visual-split-2">
+            <div class="visual-item">
+              <img src="assets/turntable_needle.jpg" alt="Turntable Needle Groove">
+              <div class="item-caption">The Search: Finding an isolated drum break or horn solo on vinyl.</div>
+            </div>
+            <div class="visual-item">
+              <img src="assets/studio_headphones.jpg" alt="Producer Studio Workspace">
+              <div class="item-caption">The Reality: Hours of blind timeline scrubbing inside the DAW.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer class="slide-footer">
+        <div class="footer-meta">01 / PROBLEM CONTEXT</div>
+        <div class="footer-nav">
+          <span class="slide-num">2 / 11</span>
+          <button class="nav-button" onclick="prevSlide()">←</button>
+          <button class="nav-button" onclick="nextSlide()">→</button>
+          <button class="nav-button" onclick="toggleFullScreen()">Fullscreen</button>
+        </div>
+      </footer>
+    </section>
+
+    <!-- ======================================================================
+         SLIDE 3: DOMAIN ANALYSIS (EXISTING PARADIGMS)
+         ====================================================================== -->
+    <section class="slide" id="slide-3">
+      <header class="slide-header">
+        <span class="header-tag">02 / Domain Analysis</span>
+        <span class="header-context">Competitive Landscape</span>
+      </header>
+
+      <div class="slide-body">
+        <div class="speaker-col">
+          <h2 class="slide-title">Three Existing Paradigms</h2>
+          <div class="bullets">
+            <div class="bullet">
+              <span class="bullet-marker">—</span>
+              <div><strong>Catalog Streaming (Spotify, YouTube):</strong> Massive catalogs, but zero passage-level search or instrument breakdown.</div>
+            </div>
+            <div class="bullet">
+              <span class="bullet-marker">—</span>
+              <div><strong>Loop Packs (Splice):</strong> Pre-cleared one-shots and loops that eliminate producer originality and sound generic.</div>
+            </div>
+            <div class="bullet">
+              <span class="bullet-marker">—</span>
+              <div><strong>Track Sampling (Tracklib, Samplette):</strong> Full-song licensing or random roulette without intra-track timecode discovery.</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="visual-stage">
+          <div class="visual-split-3">
+            <div class="visual-item contain">
+              <img src="../images/tracklib_search.jpg" alt="Tracklib Search Interface">
+              <div class="item-caption">Tracklib: Full-track clearance barrier, no passage search.</div>
+            </div>
+            <div class="visual-item contain">
+              <img src="../images/samplette_work.jpg" alt="Samplette Interface">
+              <div class="item-caption">Samplette: Random track roulette; still requires manual scrubbing.</div>
+            </div>
+            <div class="visual-item contain">
+              <img src="../images/splice_workflow.png" alt="Splice Workflow">
+              <div class="item-caption">Splice: Commercial loop packs; lacks vintage digging character.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer class="slide-footer">
+        <div class="footer-meta">02 / DOMAIN ANALYSIS</div>
+        <div class="footer-nav">
+          <span class="slide-num">3 / 11</span>
+          <button class="nav-button" onclick="prevSlide()">←</button>
+          <button class="nav-button" onclick="nextSlide()">→</button>
+          <button class="nav-button" onclick="toggleFullScreen()">Fullscreen</button>
+        </div>
+      </footer>
+    </section>
+
+    <!-- ======================================================================
+         SLIDE 4: THE SCRUBBING BOTTLENECK & STRATEGIC PIVOT
+         ====================================================================== -->
+    <section class="slide" id="slide-4">
+      <header class="slide-header">
+        <span class="header-tag">03 / Problem Analysis</span>
+        <span class="header-context">The Strategic Pivot</span>
+      </header>
+
+      <div class="slide-body">
+        <div class="speaker-col">
+          <h2 class="slide-title">The Scrubbing Bottleneck</h2>
+          <div class="bullets">
+            <div class="bullet">
+              <span class="bullet-marker">—</span>
+              <div><strong>Granularity Mismatch:</strong> Metadata tags describe whole compositions; none describe that at 02:14 there is a 4-bar solo rhodes.</div>
+            </div>
+            <div class="bullet">
+              <span class="bullet-marker">—</span>
+              <div><strong>Severe Friction:</strong> Scrubbing through 50 tracks to find one clean sample takes 45+ minutes of non-creative effort.</div>
+            </div>
+            <div class="bullet">
+              <span class="bullet-marker">—</span>
+              <div><strong>Legal Compliance Pivot:</strong> Abandoned audio file hosting; adopted 100% legal client-side timestamp pointers.</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="visual-stage">
+          <div style="display: grid; grid-template-rows: 1fr 1fr; gap: 16px; width: 100%; height: 100%; padding: 16px;">
+            <div class="visual-item contain">
+              <img src="../images/before_and_after.png" alt="Before vs After Workflow">
+              <div class="item-caption">Workflow Comparison: 45 minutes of manual scrubbing vs. 5 seconds to audited passage.</div>
+            </div>
+            <div class="visual-item contain">
+              <img src="../images/sample_discovery_bootleneck.png" alt="Discovery Bottleneck Flow">
+              <div class="item-caption">The Bottleneck: Playhead scrubbing consumes 70% of total discovery time.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer class="slide-footer">
+        <div class="footer-meta">03 / PROBLEM ANALYSIS</div>
+        <div class="footer-nav">
+          <span class="slide-num">4 / 11</span>
+          <button class="nav-button" onclick="prevSlide()">←</button>
+          <button class="nav-button" onclick="nextSlide()">→</button>
+          <button class="nav-button" onclick="toggleFullScreen()">Fullscreen</button>
+        </div>
+      </footer>
+    </section>
+
+    <!-- ======================================================================
+         SLIDE 5: TARGET AUDIENCE & PERSONAS
+         ====================================================================== -->
+    <section class="slide" id="slide-5">
+      <header class="slide-header">
+        <span class="header-tag">04 / Target Audience</span>
+        <span class="header-context">Creator Personas</span>
+      </header>
+
+      <div class="slide-body">
+        <div class="speaker-col">
+          <h2 class="slide-title">Alex & Annie</h2>
+          <div class="bullets">
+            <div class="bullet">
+              <span class="bullet-marker">—</span>
+              <div><strong>Alex (Hip-Hop Beatmaker):</strong> Works fast in FL Studio & MPC; needs clean drum breaks, solo rhodes, and saxophone riffs.</div>
+            </div>
+            <div class="bullet">
+              <span class="bullet-marker">—</span>
+              <div><strong>Annie (Electronic Sound Designer):</strong> Works in Ableton Live; hunts for ambient analog textures and rare vocal chops.</div>
+            </div>
+            <div class="bullet">
+              <span class="bullet-marker">—</span>
+              <div><strong>Shared Need:</strong> Direct audition of usable passages without listening through full 5-minute song intros.</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="visual-stage">
+          <div class="visual-split-2">
+            <div class="visual-item">
+              <img src="../images/persona_alex.jpg" alt="Alex - Hip Hop Beatmaker">
+              <div class="item-caption">Alex, 24 · Hip-Hop Beatmaker (FL Studio / Akai MPC)</div>
+            </div>
+            <div class="visual-item">
+              <img src="../images/persona_annie.jpg" alt="Annie - Sound Designer">
+              <div class="item-caption">Annie, 28 · Electronic Sound Designer (Ableton Live)</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer class="slide-footer">
+        <div class="footer-meta">04 / TARGET AUDIENCE</div>
+        <div class="footer-nav">
+          <span class="slide-num">5 / 11</span>
+          <button class="nav-button" onclick="prevSlide()">←</button>
+          <button class="nav-button" onclick="nextSlide()">→</button>
+          <button class="nav-button" onclick="toggleFullScreen()">Fullscreen</button>
+        </div>
+      </footer>
+    </section>
+
+    <!-- ======================================================================
+         SLIDE 6: THE PRODUCT SOLUTION
+         ====================================================================== -->
+    <section class="slide" id="slide-6">
+      <header class="slide-header">
+        <span class="header-tag">05 / The Solution</span>
+        <span class="header-context">Product Interface</span>
+      </header>
+
+      <div class="slide-body">
+        <div class="speaker-col">
+          <h2 class="slide-title">Precision Moment Retrieval</h2>
+          <div class="bullets">
+            <div class="bullet">
+              <span class="bullet-marker">—</span>
+              <div><strong>Two-Tier Objective Taxonomy:</strong> Search by isolated stem (solo drums, brass, rhodes), arrangement density, BPM, and key.</div>
+            </div>
+            <div class="bullet">
+              <span class="bullet-marker">—</span>
+              <div><strong>One-Click Audition:</strong> Instant passage preview starting precisely at the indexed timestamp with zero latency.</div>
+            </div>
+            <div class="bullet">
+              <span class="bullet-marker">—</span>
+              <div><strong>Zero Audio Storage:</strong> Pointers connect to YouTube/SoundCloud embeds; no audio files stored on our servers.</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="visual-stage">
+          <img src="../images/ui_concept_mockup.png" class="visual-contain" alt="CrateTrack UI Mockup">
+        </div>
+      </div>
+
+      <footer class="slide-footer">
+        <div class="footer-meta">05 / THE SOLUTION</div>
+        <div class="footer-nav">
+          <span class="slide-num">6 / 11</span>
+          <button class="nav-button" onclick="prevSlide()">←</button>
+          <button class="nav-button" onclick="nextSlide()">→</button>
+          <button class="nav-button" onclick="toggleFullScreen()">Fullscreen</button>
+        </div>
+      </footer>
+    </section>
+
+    <!-- ======================================================================
+         SLIDE 7: SYSTEM ARCHITECTURE
+         ====================================================================== -->
+    <section class="slide" id="slide-7">
+      <header class="slide-header">
+        <span class="header-tag">06 / System Architecture</span>
+        <span class="header-context">Engineering Design</span>
+      </header>
+
+      <div class="slide-body">
+        <div class="speaker-col">
+          <h2 class="slide-title">Zero-Storage Pointer Model</h2>
+          <div class="bullets">
+            <div class="bullet">
+              <span class="bullet-marker">—</span>
+              <div><strong>Audio Analysis Pipeline:</strong> Demucs AI stem separation and acoustic feature extraction without retaining raw audio files.</div>
+            </div>
+            <div class="bullet">
+              <span class="bullet-marker">—</span>
+              <div><strong>Vector Index & Timestamps:</strong> Database stores only high-dimensional feature embeddings and passage intervals [start, end].</div>
+            </div>
+            <div class="bullet">
+              <span class="bullet-marker">—</span>
+              <div><strong>Client-Side IFrame Embeds:</strong> Playback happens in the client browser via official YouTube IFrame API with zero hosting cost.</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="visual-stage">
+          <img src="../images/architecture_overview.png" class="visual-contain" alt="System Architecture Diagram">
+        </div>
+      </div>
+
+      <footer class="slide-footer">
+        <div class="footer-meta">06 / SYSTEM ARCHITECTURE</div>
+        <div class="footer-nav">
+          <span class="slide-num">7 / 11</span>
+          <button class="nav-button" onclick="prevSlide()">←</button>
+          <button class="nav-button" onclick="nextSlide()">→</button>
+          <button class="nav-button" onclick="toggleFullScreen()">Fullscreen</button>
+        </div>
+      </footer>
+    </section>
+
+    <!-- ======================================================================
+         SLIDE 8: STRATEGIC SWOT MATRIX
+         ====================================================================== -->
+    <section class="slide" id="slide-8">
+      <header class="slide-header">
+        <span class="header-tag">07 / Strategic Analysis</span>
+        <span class="header-context">SWOT Matrix</span>
+      </header>
+
+      <div class="slide-body">
+        <div class="speaker-col">
+          <h2 class="slide-title">Strategic Differentiation</h2>
+          <div class="bullets">
+            <div class="bullet">
+              <span class="bullet-marker">—</span>
+              <div><strong>Strengths:</strong> Unique intra-track passage granularity; zero copyright liability via pointer model.</div>
+            </div>
+            <div class="bullet">
+              <span class="bullet-marker">—</span>
+              <div><strong>Weaknesses:</strong> Dependent on third-party video availability and external API stability.</div>
+            </div>
+            <div class="bullet">
+              <span class="bullet-marker">—</span>
+              <div><strong>Opportunities:</strong> Direct VST3/AU DAW plugin integration for Ableton Live and FL Studio.</div>
+            </div>
+            <div class="bullet">
+              <span class="bullet-marker">—</span>
+              <div><strong>Threats:</strong> Incumbents (Splice, Tracklib) developing internal passage search features.</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="visual-stage">
+          <div class="visual-split-2">
+            <div class="visual-item contain">
+              <img src="../images/swot_analysis.jpg" alt="SWOT Analysis Matrix">
+              <div class="item-caption">Strategic SWOT Matrix (Report Section 2.4, Table 3)</div>
+            </div>
+            <div class="visual-item">
+              <img src="assets/daw_mixing.jpg" alt="DAW Studio Mixing Console">
+              <div class="item-caption">Designed for professional DAW workflow integration.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer class="slide-footer">
+        <div class="footer-meta">07 / STRATEGIC ANALYSIS</div>
+        <div class="footer-nav">
+          <span class="slide-num">8 / 11</span>
+          <button class="nav-button" onclick="prevSlide()">←</button>
+          <button class="nav-button" onclick="nextSlide()">→</button>
+          <button class="nav-button" onclick="toggleFullScreen()">Fullscreen</button>
+        </div>
+      </footer>
+    </section>
+
+    <!-- ======================================================================
+         SLIDE 9: VALIDATION & 20 INTERVIEWS
+         ====================================================================== -->
+    <section class="slide" id="slide-9">
+      <header class="slide-header">
+        <span class="header-tag">08 / Field Validation</span>
+        <span class="header-context">Customer Discovery</span>
+      </header>
+
+      <div class="slide-body">
+        <div class="speaker-col">
+          <h2 class="slide-title">20 Producer Interviews</h2>
+          <div class="bullets">
+            <div class="bullet">
+              <span class="bullet-marker">—</span>
+              <div><strong>Field Research:</strong> $N \approx 20$ semi-structured interviews with active beatmakers, producers, and audio engineers.</div>
+            </div>
+            <div class="bullet">
+              <span class="bullet-marker">—</span>
+              <div><strong>H1 Validated (100%):</strong> Every respondent confirmed playhead scrubbing as their primary creative bottleneck.</div>
+            </div>
+            <div class="bullet">
+              <span class="bullet-marker">—</span>
+              <div><strong>H2 Validated (Solos):</strong> Strong demand for isolated stems (drum breaks, rhodes, solo horns).</div>
+            </div>
+            <div class="bullet">
+              <span class="bullet-marker">—</span>
+              <div><strong>H4 Validated (Value):</strong> Producers express clear willingness to pay for hours saved weekly.</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="visual-stage">
+          <div class="visual-split-2">
+            <div class="visual-item">
+              <img src="assets/studio_headphones.jpg" alt="Studio Headphones Recording Session">
+              <div class="item-caption">Field Interviews: Active producers across FL Studio, Ableton & MPC.</div>
+            </div>
+            <div class="visual-item" style="padding: 24px; background: #0E1015; display: flex; flex-direction: column; justify-content: center; gap: 16px;">
+              <div style="font-size: 14px; font-weight: 600; color: #FFFFFF; border-bottom: 1px solid var(--border); padding-bottom: 10px;">Primary Validation Dataset (Google Drive)</div>
+              <div style="font-size: 13px; color: var(--text-muted); line-height: 1.6;">
+                <div>🎬 <strong>Soundphace:</strong> Hip-Hop beatmaker · Validated H1, H2</div>
+                <div>🎬 <strong>Boris Iurcu:</strong> Composer & producer · Validated H1, H2, H3</div>
+                <div>🎧 <strong>Mihai Macaru:</strong> Session musician · Validated H1, H3</div>
+                <div>🎬 <strong>Anon Producer 1:</strong> FL Studio beatmaker · Validated H1, H2, H4</div>
+              </div>
+              <div class="item-caption" style="position: static; border-top: none; padding: 0; margin-top: 8px;">Recordings cataloged in conceptual_design/data/interviews/</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer class="slide-footer">
+        <div class="footer-meta">08 / FIELD VALIDATION</div>
+        <div class="footer-nav">
+          <span class="slide-num">9 / 11</span>
+          <button class="nav-button" onclick="prevSlide()">←</button>
+          <button class="nav-button" onclick="nextSlide()">→</button>
+          <button class="nav-button" onclick="toggleFullScreen()">Fullscreen</button>
+        </div>
+      </footer>
+    </section>
+
+    <!-- ======================================================================
+         SLIDE 10: DEVELOPMENT ROADMAP
+         ====================================================================== -->
+    <section class="slide" id="slide-10">
+      <header class="slide-header">
+        <span class="header-tag">09 / Implementation</span>
+        <span class="header-context">Roadmap & Milestones</span>
+      </header>
+
+      <div class="slide-body">
+        <div class="speaker-col">
+          <h2 class="slide-title">Engineering Roadmap</h2>
+          <div class="bullets">
+            <div class="bullet">
+              <span class="bullet-marker">—</span>
+              <div><strong>Phase 1 (Q4 2026):</strong> Problem validation ($N \approx 20$), architecture design, interactive UI mockup.</div>
+            </div>
+            <div class="bullet">
+              <span class="bullet-marker">—</span>
+              <div><strong>Phase 2 (Q1 2027):</strong> Demucs AI passage indexing pipeline & vector search database.</div>
+            </div>
+            <div class="bullet">
+              <span class="bullet-marker">—</span>
+              <div><strong>Phase 3 (Q2 2027):</strong> Closed Web Beta launch with 100 community producers.</div>
+            </div>
+            <div class="bullet">
+              <span class="bullet-marker">—</span>
+              <div><strong>Phase 4 (Q3 2027):</strong> Native VST3/AU DAW plugin for direct Ableton Live and FL Studio workflow.</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="visual-stage">
+          <div class="visual-split-3">
+            <div class="visual-item">
+              <img src="assets/technics_turntable.jpg" alt="Turntable Setup">
+              <div class="item-caption">Phase 1: Validation & Architecture (Q4 2026)</div>
+            </div>
+            <div class="visual-item">
+              <img src="assets/producer_keyboard.jpg" alt="MIDI Keyboard Workspace">
+              <div class="item-caption">Phase 2-3: AI Pipeline & Web Beta (H1 2027)</div>
+            </div>
+            <div class="visual-item">
+              <img src="assets/daw_mixing.jpg" alt="DAW Studio Session">
+              <div class="item-caption">Phase 4: Native DAW VST/AU Plugin (H2 2027)</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer class="slide-footer">
+        <div class="footer-meta">09 / ROADMAP</div>
+        <div class="footer-nav">
+          <span class="slide-num">10 / 11</span>
+          <button class="nav-button" onclick="prevSlide()">←</button>
+          <button class="nav-button" onclick="nextSlide()">→</button>
+          <button class="nav-button" onclick="toggleFullScreen()">Fullscreen</button>
+        </div>
+      </footer>
+    </section>
+
+    <!-- ======================================================================
+         SLIDE 11: SUMMARY & TEAM
+         ====================================================================== -->
+    <section class="slide" id="slide-11">
+      <header class="slide-header">
+        <span class="header-tag">10 / Conclusion</span>
+        <span class="header-context">Summary & Team</span>
+      </header>
+
+      <div class="slide-body">
+        <div class="speaker-col">
+          <h2 class="slide-title">Less Scrubbing.<br>More Music.</h2>
+          <div class="bullets">
+            <div class="bullet">
+              <span class="bullet-marker">—</span>
+              <div><strong>Precision Retrieval:</strong> Replaces hours of manual playhead scrolling with instant one-click passage audition.</div>
+            </div>
+            <div class="bullet">
+              <span class="bullet-marker">—</span>
+              <div><strong>Zero-Storage Architecture:</strong> 100% legal, scalable client-side timestamp pointer framework.</div>
+            </div>
+            <div class="bullet">
+              <span class="bullet-marker">—</span>
+              <div><strong>Team 16 (FAF.PCAS25.1):</strong> Andrei Simon, Bogdan Glavan, Thuasar (Lead).</div>
+            </div>
+            <div class="bullet">
+              <span class="bullet-marker">—</span>
+              <div><strong>Technical University of Moldova:</strong> Problem-Based Learning · Fall 2026.</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="visual-stage">
+          <div class="visual-item" style="width: 100%; height: 100%;">
+            <img src="assets/mpc_sampler.jpg" class="visual-full" alt="MPC Sampler in Studio">
+            <div style="position: absolute; top: 24px; right: 24px; background: rgba(13, 14, 18, 0.9); padding: 12px 18px; border-radius: 8px; border: 1px solid var(--border); display: flex; align-items: center; gap: 14px;">
+              <img src="../images/UTM_Logo.png" alt="UTM Logo" style="height: 36px; width: auto;">
+              <div style="font-size: 13px; font-weight: 600; color: #FFFFFF; line-height: 1.3;">
+                Technical University of Moldova<br>
+                <span style="color: var(--text-dim); font-weight: 400;">FAF.PCAS25.1 · Ready for Defense</span>
+              </div>
+            </div>
+            <div class="item-caption">CrateTrack: Transforming intra-track sample discovery for modern music creators.</div>
+          </div>
+        </div>
+      </div>
+
+      <footer class="slide-footer">
+        <div class="footer-meta">10 / CONCLUSION</div>
+        <div class="footer-nav">
+          <span class="slide-num">11 / 11</span>
+          <button class="nav-button" onclick="prevSlide()">←</button>
+          <button class="nav-button" onclick="nextSlide()">→</button>
+          <button class="nav-button" onclick="toggleFullScreen()">Fullscreen</button>
+        </div>
+      </footer>
+    </section>
+
+  </div>
+
+  <script>
+    let currentSlide = 0;
+    const slides = document.querySelectorAll('.slide');
+    const stage = document.getElementById('stage');
+
+    function updateSlide() {
+      slides.forEach((s, idx) => {
+        s.classList.toggle('active', idx === currentSlide);
+      });
+
+      document.querySelectorAll('.slide-num').forEach(el => {
+        el.textContent = `${currentSlide + 1} / ${slides.length}`;
+      });
+    }
+
+    function nextSlide() {
+      if (currentSlide < slides.length - 1) {
+        currentSlide++;
+        updateSlide();
+      }
+    }
+
+    function prevSlide() {
+      if (currentSlide > 0) {
+        currentSlide--;
+        updateSlide();
+      }
+    }
+
+    function toggleFullScreen() {
+      if (!document.fullscreenElement) {
+        document.documentElement.requestFullscreen().catch(() => {});
+      } else {
+        if (document.exitFullscreen) {
+          document.exitFullscreen().catch(() => {});
+        }
+      }
+    }
+
+    // Responsive 16:9 stage scaling
+    function scaleStage() {
+      const windowWidth = window.innerWidth;
+      const windowHeight = window.innerHeight;
+      const scale = Math.min(windowWidth / 1920, windowHeight / 1080);
+      stage.style.transform = `scale(${scale})`;
+    }
+
+    window.addEventListener('resize', scaleStage);
+    window.addEventListener('DOMContentLoaded', scaleStage);
+    scaleStage();
+
+    // Keyboard navigation
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'ArrowRight' || e.key === ' ' || e.key === 'PageDown') {
+        nextSlide();
+      } else if (e.key === 'ArrowLeft' || e.key === 'PageUp' || e.key === 'Backspace') {
+        prevSlide();
+      } else if (e.key === 'f' || e.key === 'F') {
+        toggleFullScreen();
+      } else if (e.key === 'Home') {
+        currentSlide = 0;
+        updateSlide();
+      } else if (e.key === 'End') {
+        currentSlide = slides.length - 1;
+        updateSlide();
+      }
+    });
+  </script>
+</body>
+</html>
