@@ -1583,6 +1583,57 @@
       "speaker": "SPEAKER_01"
     },
     {
+      "start": 266.251,
+      "end": 281.519,
+      "text": "Vedeți așa funcția să arate ecranul?",
+      "words": [
+        {
+          "word": "Vedeți",
+          "start": 266.251,
+          "end": 276.096,
+          "score": 0.633,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "așa",
+          "start": 276.116,
+          "end": 276.256,
+          "score": 0.475,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "funcția",
+          "start": 276.396,
+          "end": 278.697,
+          "score": 0.722,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "să",
+          "start": 278.737,
+          "end": 278.837,
+          "score": 0.458,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "arate",
+          "start": 278.857,
+          "end": 279.138,
+          "score": 0.577,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "ecranul?",
+          "start": 279.158,
+          "end": 281.519,
+          "score": 0.47,
+          "speaker": "SPEAKER_00"
+        }
+      ],
+      "avg_logprob": -0.2842371319146717,
+      "speaker": "SPEAKER_00"
+    },
+    {
       "start": 276.6,
       "end": 282.202,
       "text": "Da, așa.",
@@ -1631,7 +1682,7 @@
     {
       "start": 283.822,
       "end": 289.224,
-      "text": "La mine se vede, dar aici văd un micșer.",
+      "text": "La mine se vede, dar aici văd un mixer.",
       "words": [
         {
           "word": "La",
@@ -1690,7 +1741,7 @@
           "speaker": "SPEAKER_01"
         },
         {
-          "word": "micșer.",
+          "word": "mixer.",
           "start": 287.844,
           "end": 289.224,
           "score": 0.781,
@@ -1703,10 +1754,10 @@
     {
       "start": 289.284,
       "end": 291.005,
-      "text": "Micșer, da.",
+      "text": "Mixer, da.",
       "words": [
         {
-          "word": "Micșer,",
+          "word": "Mixer,",
           "start": 289.284,
           "end": 289.724,
           "score": 0.576,
@@ -1726,7 +1777,7 @@
     {
       "start": 291.065,
       "end": 293.785,
-      "text": "Cunoașteți care-i micșerul?",
+      "text": "Cunoașteți care-i mixerul?",
       "words": [
         {
           "word": "Cunoașteți",
@@ -1743,7 +1794,7 @@
           "speaker": "SPEAKER_00"
         },
         {
-          "word": "micșerul?",
+          "word": "mixerul?",
           "start": 291.765,
           "end": 293.785,
           "score": 0.372,
@@ -31763,6 +31814,48 @@
       "speaker": "SPEAKER_01"
     },
     {
+      "word": "Vedeți",
+      "start": 266.251,
+      "end": 276.096,
+      "score": 0.633,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "așa",
+      "start": 276.116,
+      "end": 276.256,
+      "score": 0.475,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "funcția",
+      "start": 276.396,
+      "end": 278.697,
+      "score": 0.722,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "să",
+      "start": 278.737,
+      "end": 278.837,
+      "score": 0.458,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "arate",
+      "start": 278.857,
+      "end": 279.138,
+      "score": 0.577,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "ecranul?",
+      "start": 279.158,
+      "end": 281.519,
+      "score": 0.47,
+      "speaker": "SPEAKER_00"
+    },
+    {
       "word": "Da,",
       "start": 276.6,
       "end": 278.681,
@@ -31847,14 +31940,14 @@
       "speaker": "SPEAKER_01"
     },
     {
-      "word": "micșer.",
+      "word": "mixer.",
       "start": 287.844,
       "end": 289.224,
       "score": 0.781,
       "speaker": "SPEAKER_01"
     },
     {
-      "word": "Micșer,",
+      "word": "Mixer,",
       "start": 289.284,
       "end": 289.724,
       "score": 0.576,
@@ -31882,7 +31975,7 @@
       "speaker": "SPEAKER_00"
     },
     {
-      "word": "micșerul?",
+      "word": "mixerul?",
       "start": 291.765,
       "end": 293.785,
       "score": 0.372,

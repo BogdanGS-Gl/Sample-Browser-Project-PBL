@@ -3991,6 +3991,183 @@
       "speaker": "SPEAKER_00"
     },
     {
+      "start": 294.314,
+      "end": 302.838,
+      "text": "Iată chiar tot, pe intermediul long stress-ului ăsta începe cauta sunete.",
+      "words": [
+        {
+          "word": "Iată",
+          "start": 294.314,
+          "end": 294.635,
+          "score": 0.231,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "chiar",
+          "start": 294.695,
+          "end": 295.215,
+          "score": 0.324,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "tot,",
+          "start": 295.235,
+          "end": 295.375,
+          "score": 0.292,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "pe",
+          "start": 295.415,
+          "end": 295.515,
+          "score": 0.375,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "intermediul",
+          "start": 295.535,
+          "end": 297.276,
+          "score": 0.36,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "long",
+          "start": 297.296,
+          "end": 297.936,
+          "score": 0.578,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "stress-ului",
+          "start": 297.976,
+          "end": 298.976,
+          "score": 0.553,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "ăsta",
+          "start": 298.996,
+          "end": 300.037,
+          "score": 0.696,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "începe",
+          "start": 300.177,
+          "end": 301.297,
+          "score": 0.711,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "cauta",
+          "start": 301.378,
+          "end": 302.038,
+          "score": 0.57,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "sunete.",
+          "start": 302.078,
+          "end": 302.838,
+          "score": 0.375,
+          "speaker": "SPEAKER_00"
+        }
+      ],
+      "avg_logprob": -0.3320312366953918,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 302.918,
+      "end": 307.5,
+      "text": "Dar, în principiu, marea majoritate a asumptelor la mine sunt grupate de așa.",
+      "words": [
+        {
+          "word": "Dar,",
+          "start": 302.918,
+          "end": 303.098,
+          "score": 0.353
+        },
+        {
+          "word": "în",
+          "start": 303.118,
+          "end": 303.158,
+          "score": 0.0
+        },
+        {
+          "word": "principiu,",
+          "start": 303.178,
+          "end": 303.398,
+          "score": 0.05
+        },
+        {
+          "word": "marea",
+          "start": 303.418,
+          "end": 303.558,
+          "score": 0.134
+        },
+        {
+          "word": "majoritate",
+          "start": 303.578,
+          "end": 304.359,
+          "score": 0.344,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "a",
+          "start": 304.839,
+          "end": 304.939,
+          "score": 0.799,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "asumptelor",
+          "start": 305.639,
+          "end": 306.88,
+          "score": 0.663,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "la",
+          "start": 306.9,
+          "end": 306.94,
+          "score": 0.002
+        },
+        {
+          "word": "mine",
+          "start": 306.96,
+          "end": 307.06,
+          "score": 0.126
+        },
+        {
+          "word": "sunt",
+          "start": 307.08,
+          "end": 307.16,
+          "score": 0.001
+        },
+        {
+          "word": "grupate",
+          "start": 307.18,
+          "end": 307.32,
+          "score": 0.006
+        },
+        {
+          "word": "de",
+          "start": 307.34,
+          "end": 307.38,
+          "score": 0.01
+        },
+        {
+          "word": "așa.",
+          "start": 307.4,
+          "end": 307.5,
+          "score": 0.381,
+          "speaker": "SPEAKER_01"
+        }
+      ],
+      "avg_logprob": -0.3320312366953918,
+      "speaker": "SPEAKER_00"
+    },
+    {
       "start": 307.46,
       "end": 319.565,
       "text": "Adică ele vin din lupuri preluate, unde au mai multe dramuri în același, sau cum?",
@@ -10673,6 +10850,369 @@
       ],
       "avg_logprob": -0.22167968528810889,
       "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 792.836,
+      "end": 801.102,
+      "text": "Și tot așa, iarăși începi cu basurile, tot așa.",
+      "words": [
+        {
+          "word": "Și",
+          "start": 792.836,
+          "end": 793.436,
+          "score": 0.906,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "tot",
+          "start": 793.656,
+          "end": 794.277,
+          "score": 0.769,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "așa,",
+          "start": 794.337,
+          "end": 795.177,
+          "score": 0.822,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "iarăși",
+          "start": 795.518,
+          "end": 797.279,
+          "score": 0.642,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "începi",
+          "start": 797.299,
+          "end": 798.4,
+          "score": 0.805,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "cu",
+          "start": 798.6,
+          "end": 799.46,
+          "score": 0.818,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "basurile,",
+          "start": 800.461,
+          "end": 800.801,
+          "score": 0.227
+        },
+        {
+          "word": "tot",
+          "start": 800.821,
+          "end": 800.982,
+          "score": 0.431
+        },
+        {
+          "word": "așa.",
+          "start": 801.002,
+          "end": 801.102,
+          "score": 0.126
+        }
+      ],
+      "avg_logprob": -0.32384257934711597,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 801.122,
+      "end": 810.408,
+      "text": "Și după ce ai mers cu basurile, de acum începi cu toate, cu head-urile astea, cu metalul ăsta, tot ce este, crash-urile.",
+      "words": [
+        {
+          "word": "Și",
+          "start": 801.122,
+          "end": 801.162,
+          "score": 0.0,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "după",
+          "start": 801.242,
+          "end": 802.022,
+          "score": 0.719,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "ce",
+          "start": 802.463,
+          "end": 802.863,
+          "score": 0.474,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "ai",
+          "start": 802.943,
+          "end": 802.983,
+          "score": 0.004,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "mers",
+          "start": 803.003,
+          "end": 803.083,
+          "score": 0.002,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "cu",
+          "start": 803.103,
+          "end": 803.143,
+          "score": 0.002,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "basurile,",
+          "start": 803.163,
+          "end": 803.924,
+          "score": 0.265,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "de",
+          "start": 803.944,
+          "end": 804.004,
+          "score": 0.249
+        },
+        {
+          "word": "acum",
+          "start": 804.024,
+          "end": 804.104,
+          "score": 0.001
+        },
+        {
+          "word": "începi",
+          "start": 804.124,
+          "end": 804.244,
+          "score": 0.0,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "cu",
+          "start": 804.264,
+          "end": 804.324,
+          "score": 0.248,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "toate,",
+          "start": 804.344,
+          "end": 804.784,
+          "score": 0.158,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "cu",
+          "start": 805.184,
+          "end": 805.225,
+          "score": 0.0,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "head-urile",
+          "start": 805.345,
+          "end": 806.065,
+          "score": 0.186,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "astea,",
+          "start": 806.085,
+          "end": 807.326,
+          "score": 0.303,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "cu",
+          "start": 807.346,
+          "end": 807.386,
+          "score": 0.0,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "metalul",
+          "start": 807.406,
+          "end": 807.586,
+          "score": 0.096,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "ăsta,",
+          "start": 807.946,
+          "end": 808.447,
+          "score": 0.515,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "tot",
+          "start": 808.607,
+          "end": 809.107,
+          "score": 0.61,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "ce",
+          "start": 809.347,
+          "end": 809.808,
+          "score": 0.886,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "este,",
+          "start": 809.848,
+          "end": 809.988,
+          "score": 0.133,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "crash-urile.",
+          "start": 810.168,
+          "end": 810.408,
+          "score": 0.001,
+          "speaker": "SPEAKER_00"
+        }
+      ],
+      "avg_logprob": -0.32384257934711597,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 810.428,
+      "end": 812.97,
+      "text": "Mă rog, și oba mică sau un clap, contează ce gen de muzică faci.",
+      "words": [
+        {
+          "word": "Mă",
+          "start": 810.428,
+          "end": 810.488,
+          "score": 0.25
+        },
+        {
+          "word": "rog,",
+          "start": 810.508,
+          "end": 810.588,
+          "score": 0.002
+        },
+        {
+          "word": "și",
+          "start": 810.608,
+          "end": 810.648,
+          "score": 0.002
+        },
+        {
+          "word": "oba",
+          "start": 810.668,
+          "end": 810.728,
+          "score": 0.004
+        },
+        {
+          "word": "mică",
+          "start": 810.748,
+          "end": 810.828,
+          "score": 0.002,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "sau",
+          "start": 810.848,
+          "end": 810.909,
+          "score": 0.003,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "un",
+          "start": 810.929,
+          "end": 811.009,
+          "score": 0.323,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "clap,",
+          "start": 811.029,
+          "end": 811.129,
+          "score": 0.022,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "contează",
+          "start": 811.149,
+          "end": 811.549,
+          "score": 0.182,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "ce",
+          "start": 812.109,
+          "end": 812.169,
+          "score": 0.248
+        },
+        {
+          "word": "gen",
+          "start": 812.189,
+          "end": 812.35,
+          "score": 0.43
+        },
+        {
+          "word": "de",
+          "start": 812.39,
+          "end": 812.43,
+          "score": 0.0
+        },
+        {
+          "word": "muzică",
+          "start": 812.45,
+          "end": 812.81,
+          "score": 0.354
+        },
+        {
+          "word": "faci.",
+          "start": 812.87,
+          "end": 812.97,
+          "score": 0.004
+        }
+      ],
+      "avg_logprob": -0.32384257934711597,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 812.99,
+      "end": 813.811,
+      "text": "Tot așa mai departe.",
+      "words": [
+        {
+          "word": "Tot",
+          "start": 812.99,
+          "end": 813.05,
+          "score": 0.001
+        },
+        {
+          "word": "așa",
+          "start": 813.07,
+          "end": 813.13,
+          "score": 0.025
+        },
+        {
+          "word": "mai",
+          "start": 813.23,
+          "end": 813.51,
+          "score": 0.523,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "departe.",
+          "start": 813.65,
+          "end": 813.811,
+          "score": 0.173,
+          "speaker": "SPEAKER_01"
+        }
+      ],
+      "avg_logprob": -0.32384257934711597,
+      "speaker": "SPEAKER_01"
     },
     {
       "start": 813.87,
@@ -42384,61 +42924,158 @@
       "speaker": "SPEAKER_00"
     },
     {
-      "start": 2796.743,
-      "end": 2799.084,
-      "text": "Asta e Ansonic QS10, pare că, da.",
+      "start": 2795.902,
+      "end": 2797.703,
+      "text": "Întroduceai microfonul întrins așa.",
+      "words": [
+        {
+          "word": "Întroduceai",
+          "start": 2795.902,
+          "end": 2796.583,
+          "score": 0.477,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "microfonul",
+          "start": 2796.603,
+          "end": 2796.963,
+          "score": 0.204,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "întrins",
+          "start": 2796.983,
+          "end": 2797.403,
+          "score": 0.485,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "așa.",
+          "start": 2797.423,
+          "end": 2797.703,
+          "score": 0.572,
+          "speaker": "SPEAKER_00"
+        }
+      ],
+      "avg_logprob": -0.4501879842657792,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 2798.023,
+      "end": 2800.745,
+      "text": "În principiu primul sampling.",
+      "words": [
+        {
+          "word": "În",
+          "start": 2798.023,
+          "end": 2798.363,
+          "score": 0.754,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "principiu",
+          "start": 2798.444,
+          "end": 2799.704,
+          "score": 0.624,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "primul",
+          "start": 2799.744,
+          "end": 2800.044,
+          "score": 0.302,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "sampling.",
+          "start": 2800.064,
+          "end": 2800.745,
+          "score": 0.414,
+          "speaker": "SPEAKER_00"
+        }
+      ],
+      "avg_logprob": -0.4501879842657792,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 2800.785,
+      "end": 2801.505,
+      "text": "Care l-am făcut eu.",
+      "words": [
+        {
+          "word": "Care",
+          "start": 2800.785,
+          "end": 2800.905,
+          "score": 0.248,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "l-am",
+          "start": 2800.925,
+          "end": 2801.065,
+          "score": 0.364,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "făcut",
+          "start": 2801.105,
+          "end": 2801.405,
+          "score": 0.425,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "eu.",
+          "start": 2801.445,
+          "end": 2801.505,
+          "score": 0.135,
+          "speaker": "SPEAKER_00"
+        }
+      ],
+      "avg_logprob": -0.4501879842657792,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 2801.525,
+      "end": 2802.606,
+      "text": "Asta e în Sonic QS10.",
       "words": [
         {
           "word": "Asta",
-          "start": 2796.743,
-          "end": 2796.963,
-          "score": 0.481,
+          "start": 2801.525,
+          "end": 2801.725,
+          "score": 0.328,
           "speaker": "SPEAKER_00"
         },
         {
           "word": "e",
-          "start": 2797.023,
-          "end": 2797.083,
-          "score": 0.55,
+          "start": 2801.745,
+          "end": 2801.785,
+          "score": 0.426,
           "speaker": "SPEAKER_00"
         },
         {
-          "word": "Ansonic",
-          "start": 2797.223,
-          "end": 2797.503,
-          "score": 0.276,
+          "word": "în",
+          "start": 2801.805,
+          "end": 2802.005,
+          "score": 0.663,
           "speaker": "SPEAKER_00"
         },
         {
-          "word": "QS10,",
-          "start": 2797.523,
-          "end": 2797.723,
-          "score": 0.381,
+          "word": "Sonic",
+          "start": 2802.045,
+          "end": 2802.426,
+          "score": 0.539,
           "speaker": "SPEAKER_00"
         },
         {
-          "word": "pare",
-          "start": 2797.783,
-          "end": 2798.624,
-          "score": 0.766,
-          "speaker": "SPEAKER_00"
-        },
-        {
-          "word": "că,",
-          "start": 2798.824,
-          "end": 2798.924,
-          "score": 0.355,
-          "speaker": "SPEAKER_00"
-        },
-        {
-          "word": "da.",
-          "start": 2798.964,
-          "end": 2799.084,
-          "score": 0.482,
+          "word": "QS10.",
+          "start": 2802.506,
+          "end": 2802.606,
+          "score": 0.059,
           "speaker": "SPEAKER_00"
         }
       ],
-      "avg_logprob": -0.31339285799435207,
+      "avg_logprob": -0.4501879842657792,
       "speaker": "SPEAKER_00"
     },
     {
@@ -60689,6 +61326,165 @@
       "speaker": "SPEAKER_00"
     },
     {
+      "word": "Iată",
+      "start": 294.314,
+      "end": 294.635,
+      "score": 0.231,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "chiar",
+      "start": 294.695,
+      "end": 295.215,
+      "score": 0.324,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "tot,",
+      "start": 295.235,
+      "end": 295.375,
+      "score": 0.292,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "pe",
+      "start": 295.415,
+      "end": 295.515,
+      "score": 0.375,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "intermediul",
+      "start": 295.535,
+      "end": 297.276,
+      "score": 0.36,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "long",
+      "start": 297.296,
+      "end": 297.936,
+      "score": 0.578,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "stress-ului",
+      "start": 297.976,
+      "end": 298.976,
+      "score": 0.553,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "ăsta",
+      "start": 298.996,
+      "end": 300.037,
+      "score": 0.696,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "începe",
+      "start": 300.177,
+      "end": 301.297,
+      "score": 0.711,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "cauta",
+      "start": 301.378,
+      "end": 302.038,
+      "score": 0.57,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "sunete.",
+      "start": 302.078,
+      "end": 302.838,
+      "score": 0.375,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "Dar,",
+      "start": 302.918,
+      "end": 303.098,
+      "score": 0.353
+    },
+    {
+      "word": "în",
+      "start": 303.118,
+      "end": 303.158,
+      "score": 0.0
+    },
+    {
+      "word": "principiu,",
+      "start": 303.178,
+      "end": 303.398,
+      "score": 0.05
+    },
+    {
+      "word": "marea",
+      "start": 303.418,
+      "end": 303.558,
+      "score": 0.134
+    },
+    {
+      "word": "majoritate",
+      "start": 303.578,
+      "end": 304.359,
+      "score": 0.344,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "a",
+      "start": 304.839,
+      "end": 304.939,
+      "score": 0.799,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "asumptelor",
+      "start": 305.639,
+      "end": 306.88,
+      "score": 0.663,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "la",
+      "start": 306.9,
+      "end": 306.94,
+      "score": 0.002
+    },
+    {
+      "word": "mine",
+      "start": 306.96,
+      "end": 307.06,
+      "score": 0.126
+    },
+    {
+      "word": "sunt",
+      "start": 307.08,
+      "end": 307.16,
+      "score": 0.001
+    },
+    {
+      "word": "grupate",
+      "start": 307.18,
+      "end": 307.32,
+      "score": 0.006
+    },
+    {
+      "word": "de",
+      "start": 307.34,
+      "end": 307.38,
+      "score": 0.01
+    },
+    {
+      "word": "așa.",
+      "start": 307.4,
+      "end": 307.5,
+      "score": 0.381,
+      "speaker": "SPEAKER_01"
+    },
+    {
       "word": "Adică",
       "start": 307.46,
       "end": 307.8,
@@ -66813,6 +67609,333 @@
       "end": 790.878,
       "score": 0.999,
       "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "Și",
+      "start": 792.836,
+      "end": 793.436,
+      "score": 0.906,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "tot",
+      "start": 793.656,
+      "end": 794.277,
+      "score": 0.769,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "așa,",
+      "start": 794.337,
+      "end": 795.177,
+      "score": 0.822,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "iarăși",
+      "start": 795.518,
+      "end": 797.279,
+      "score": 0.642,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "începi",
+      "start": 797.299,
+      "end": 798.4,
+      "score": 0.805,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "cu",
+      "start": 798.6,
+      "end": 799.46,
+      "score": 0.818,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "basurile,",
+      "start": 800.461,
+      "end": 800.801,
+      "score": 0.227
+    },
+    {
+      "word": "tot",
+      "start": 800.821,
+      "end": 800.982,
+      "score": 0.431
+    },
+    {
+      "word": "așa.",
+      "start": 801.002,
+      "end": 801.102,
+      "score": 0.126
+    },
+    {
+      "word": "Și",
+      "start": 801.122,
+      "end": 801.162,
+      "score": 0.0,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "după",
+      "start": 801.242,
+      "end": 802.022,
+      "score": 0.719,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "ce",
+      "start": 802.463,
+      "end": 802.863,
+      "score": 0.474,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "ai",
+      "start": 802.943,
+      "end": 802.983,
+      "score": 0.004,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "mers",
+      "start": 803.003,
+      "end": 803.083,
+      "score": 0.002,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "cu",
+      "start": 803.103,
+      "end": 803.143,
+      "score": 0.002,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "basurile,",
+      "start": 803.163,
+      "end": 803.924,
+      "score": 0.265,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "de",
+      "start": 803.944,
+      "end": 804.004,
+      "score": 0.249
+    },
+    {
+      "word": "acum",
+      "start": 804.024,
+      "end": 804.104,
+      "score": 0.001
+    },
+    {
+      "word": "începi",
+      "start": 804.124,
+      "end": 804.244,
+      "score": 0.0,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "cu",
+      "start": 804.264,
+      "end": 804.324,
+      "score": 0.248,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "toate,",
+      "start": 804.344,
+      "end": 804.784,
+      "score": 0.158,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "cu",
+      "start": 805.184,
+      "end": 805.225,
+      "score": 0.0,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "head-urile",
+      "start": 805.345,
+      "end": 806.065,
+      "score": 0.186,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "astea,",
+      "start": 806.085,
+      "end": 807.326,
+      "score": 0.303,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "cu",
+      "start": 807.346,
+      "end": 807.386,
+      "score": 0.0,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "metalul",
+      "start": 807.406,
+      "end": 807.586,
+      "score": 0.096,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "ăsta,",
+      "start": 807.946,
+      "end": 808.447,
+      "score": 0.515,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "tot",
+      "start": 808.607,
+      "end": 809.107,
+      "score": 0.61,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "ce",
+      "start": 809.347,
+      "end": 809.808,
+      "score": 0.886,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "este,",
+      "start": 809.848,
+      "end": 809.988,
+      "score": 0.133,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "crash-urile.",
+      "start": 810.168,
+      "end": 810.408,
+      "score": 0.001,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "Mă",
+      "start": 810.428,
+      "end": 810.488,
+      "score": 0.25
+    },
+    {
+      "word": "rog,",
+      "start": 810.508,
+      "end": 810.588,
+      "score": 0.002
+    },
+    {
+      "word": "și",
+      "start": 810.608,
+      "end": 810.648,
+      "score": 0.002
+    },
+    {
+      "word": "oba",
+      "start": 810.668,
+      "end": 810.728,
+      "score": 0.004
+    },
+    {
+      "word": "mică",
+      "start": 810.748,
+      "end": 810.828,
+      "score": 0.002,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "sau",
+      "start": 810.848,
+      "end": 810.909,
+      "score": 0.003,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "un",
+      "start": 810.929,
+      "end": 811.009,
+      "score": 0.323,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "clap,",
+      "start": 811.029,
+      "end": 811.129,
+      "score": 0.022,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "contează",
+      "start": 811.149,
+      "end": 811.549,
+      "score": 0.182,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "ce",
+      "start": 812.109,
+      "end": 812.169,
+      "score": 0.248
+    },
+    {
+      "word": "gen",
+      "start": 812.189,
+      "end": 812.35,
+      "score": 0.43
+    },
+    {
+      "word": "de",
+      "start": 812.39,
+      "end": 812.43,
+      "score": 0.0
+    },
+    {
+      "word": "muzică",
+      "start": 812.45,
+      "end": 812.81,
+      "score": 0.354
+    },
+    {
+      "word": "faci.",
+      "start": 812.87,
+      "end": 812.97,
+      "score": 0.004
+    },
+    {
+      "word": "Tot",
+      "start": 812.99,
+      "end": 813.05,
+      "score": 0.001
+    },
+    {
+      "word": "așa",
+      "start": 813.07,
+      "end": 813.13,
+      "score": 0.025
+    },
+    {
+      "word": "mai",
+      "start": 813.23,
+      "end": 813.51,
+      "score": 0.523,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "departe.",
+      "start": 813.65,
+      "end": 813.811,
+      "score": 0.173,
+      "speaker": "SPEAKER_01"
     },
     {
       "word": "Când",
@@ -95410,52 +96533,122 @@
       "speaker": "SPEAKER_00"
     },
     {
-      "word": "Asta",
-      "start": 2796.743,
+      "word": "Întroduceai",
+      "start": 2795.902,
+      "end": 2796.583,
+      "score": 0.477,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "microfonul",
+      "start": 2796.603,
       "end": 2796.963,
-      "score": 0.481,
+      "score": 0.204,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "întrins",
+      "start": 2796.983,
+      "end": 2797.403,
+      "score": 0.485,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "așa.",
+      "start": 2797.423,
+      "end": 2797.703,
+      "score": 0.572,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "În",
+      "start": 2798.023,
+      "end": 2798.363,
+      "score": 0.754,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "principiu",
+      "start": 2798.444,
+      "end": 2799.704,
+      "score": 0.624,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "primul",
+      "start": 2799.744,
+      "end": 2800.044,
+      "score": 0.302,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "sampling.",
+      "start": 2800.064,
+      "end": 2800.745,
+      "score": 0.414,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "Care",
+      "start": 2800.785,
+      "end": 2800.905,
+      "score": 0.248,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "l-am",
+      "start": 2800.925,
+      "end": 2801.065,
+      "score": 0.364,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "făcut",
+      "start": 2801.105,
+      "end": 2801.405,
+      "score": 0.425,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "eu.",
+      "start": 2801.445,
+      "end": 2801.505,
+      "score": 0.135,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "Asta",
+      "start": 2801.525,
+      "end": 2801.725,
+      "score": 0.328,
       "speaker": "SPEAKER_00"
     },
     {
       "word": "e",
-      "start": 2797.023,
-      "end": 2797.083,
-      "score": 0.55,
+      "start": 2801.745,
+      "end": 2801.785,
+      "score": 0.426,
       "speaker": "SPEAKER_00"
     },
     {
-      "word": "Ansonic",
-      "start": 2797.223,
-      "end": 2797.503,
-      "score": 0.276,
+      "word": "în",
+      "start": 2801.805,
+      "end": 2802.005,
+      "score": 0.663,
       "speaker": "SPEAKER_00"
     },
     {
-      "word": "QS10,",
-      "start": 2797.523,
-      "end": 2797.723,
-      "score": 0.381,
+      "word": "Sonic",
+      "start": 2802.045,
+      "end": 2802.426,
+      "score": 0.539,
       "speaker": "SPEAKER_00"
     },
     {
-      "word": "pare",
-      "start": 2797.783,
-      "end": 2798.624,
-      "score": 0.766,
-      "speaker": "SPEAKER_00"
-    },
-    {
-      "word": "că,",
-      "start": 2798.824,
-      "end": 2798.924,
-      "score": 0.355,
-      "speaker": "SPEAKER_00"
-    },
-    {
-      "word": "da.",
-      "start": 2798.964,
-      "end": 2799.084,
-      "score": 0.482,
+      "word": "QS10.",
+      "start": 2802.506,
+      "end": 2802.606,
+      "score": 0.059,
       "speaker": "SPEAKER_00"
     },
     {
